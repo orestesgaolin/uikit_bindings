@@ -33,6 +33,10 @@ void main() {
         packageRoot.resolve("Headers/UISwitch.h"),
         packageRoot.resolve("Headers/UIResponder.h"),
         packageRoot.resolve("Headers/UIView.h"),
+        packageRoot.resolve("Headers/UITabBar.h"),
+        packageRoot.resolve("Headers/UITabBarItem.h"),
+        packageRoot.resolve("Headers/UITabBarAppearance.h"),
+        packageRoot.resolve("Headers/UITabBarController.h"),
         packageRoot.resolve("Headers/UIViewController.h"),
         packageRoot.resolve("Headers/UIWindow.h"),
       ],
@@ -62,19 +66,23 @@ void main() {
             "UISearchTextField",
             "UISwitch",
             "UITitlebar",
+            "UITabBar",
+            "UITabBarItem",
+            "UITabBarAppearance",
+            "UITabBarController",
             "UIViewController",
             "UIScreen",
             "UIWindow",
           ].contains(decl.originalName);
         },
-        renameMember: (declaration, member) {
-          // Manually handle duplicate method names.
-          if (member == 'initWithFrame:primaryAction:') {
-            print('Renaming ${declaration.originalName}.$member');
-            return 'initWithFramePrimaryAction';
-          }
-          return member;
-        },
+        // renameMember: (declaration, member) {
+        //   // Manually handle duplicate method names.
+        //   if (member == 'initWithFrame:primaryAction:') {
+        //     print('Renaming ${declaration.originalName}.$member');
+        //     return 'initWithFramePrimaryAction';
+        //   }
+        //   return member;
+        // },
       ),
     ),
     output: Output(

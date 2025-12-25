@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:objective_c/objective_c.dart' as objc;
 import 'package:uikit_bindings/uikit.dart';
@@ -5,12 +6,16 @@ import 'package:uikit_bindings/uikit.dart';
 void showAutoLayoutViewController() {
   try {
     final completion = ObjCBlock_ffiVoid.listener(() {
-      print('Auto layout view controller presented');
+      if (kDebugMode) {
+        print('Auto layout view controller presented');
+      }
     });
 
     // Create the main view controller
     final viewController = UIViewController();
-    print('viewController.viewLoaded: ${viewController.viewLoaded}');
+    if (kDebugMode) {
+      print('viewController.viewLoaded: ${viewController.isViewLoaded}');
+    }
     final mainView = viewController.view;
 
     // Set background color using available methods
@@ -46,7 +51,9 @@ void showAutoLayoutViewController() {
     titleLabel.translatesAutoresizingMaskIntoConstraints = false;
     subtitleLabel.translatesAutoresizingMaskIntoConstraints = false;
     containerView.translatesAutoresizingMaskIntoConstraints = false;
-    print('viewController.viewLoaded after loadView: ${viewController.viewLoaded}');
+    if (kDebugMode) {
+      print('viewController.viewLoaded after loadView: ${viewController.isViewLoaded}');
+    }
 
     // Setup layout using frame-based positioning and constraints
     _createConstraintExamples(
@@ -68,8 +75,10 @@ void showAutoLayoutViewController() {
       completion: completion,
     );
   } catch (e, s) {
-    print('Error presenting auto layout view controller: $e');
-    print(s);
+    if (kDebugMode) {
+      print('Error presenting auto layout view controller: $e');
+      print(s);
+    }
   }
 }
 
@@ -184,8 +193,12 @@ void _createConstraintExamples({
     mainView.addConstraint(containerWidth);
     mainView.addConstraint(containerHeight);
 
-    print('Successfully added constraint examples');
+    if (kDebugMode) {
+      print('Successfully added constraint examples');
+    }
   } catch (e) {
-    print('Constraint creation example (expected to have limited functionality): $e');
+    if (kDebugMode) {
+      print('Constraint creation example (expected to have limited functionality): $e');
+    }
   }
 }

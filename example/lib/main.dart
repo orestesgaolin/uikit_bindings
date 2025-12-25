@@ -1,9 +1,10 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:objective_c/objective_c.dart';
 
 import 'package:uikit_bindings/uikit.dart';
 import 'package:uikit_example/auto_layout_page.dart';
+import 'package:uikit_example/ui_tab_bar.dart';
 
 void main() {
   runApp(MaterialApp(home: const MyApp()));
@@ -17,13 +18,19 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  UITabBar? uiTabBar;
+
   void showAlert() {
     try {
       final handler = ObjCBlock_ffiVoid_UIAlertAction.listener((action) {
-        print('done: ${action.title?.toDartString()}');
+        if (kDebugMode) {
+          print('done: ${action.title?.toDartString()}');
+        }
       });
       final completion = ObjCBlock_ffiVoid.listener(() {
-        print('completed');
+        if (kDebugMode) {
+          print('completed');
+        }
       });
       final controller = UIAlertController.alertControllerWithTitle(
         'Title'.toNSString(),
@@ -53,15 +60,19 @@ class _MyAppState extends State<MyApp> {
         completion: completion,
       );
     } catch (e, s) {
-      print(e);
-      print(s);
+      if (kDebugMode) {
+        print(e);
+        print(s);
+      }
     }
   }
 
   void showViewController() {
     try {
       final completion = ObjCBlock_ffiVoid.listener(() {
-        print('completed');
+        if (kDebugMode) {
+          print('completed');
+        }
       });
 
       final newViewController = UIViewController();
@@ -74,7 +85,7 @@ class _MyAppState extends State<MyApp> {
       label.textAlignment = NSTextAlignment.NSTextAlignmentCenter;
       final labelWidth = label.intrinsicContentSize.width;
 
-      UIViewGeometry(label).frame = createCGRect(
+      UIViewGeometry(label).frame$1 = createCGRect(
         screenWidth / 2 - labelWidth / 2,
         100,
         labelWidth,
@@ -89,8 +100,42 @@ class _MyAppState extends State<MyApp> {
         completion: completion,
       );
     } catch (e, s) {
-      print(e);
-      print(s);
+      if (kDebugMode) {
+        print(e);
+        print(s);
+      }
+    }
+  }
+
+  void addTabBar() {
+    uiTabBar = addUiTabBar([
+      TabBarItem(
+        title: 'Home',
+        iconName: SfSymbols.folder,
+        onTap: () {
+          if (kDebugMode) {
+            print('Home tapped');
+          }
+        },
+      ),
+      TabBarItem(
+        title: 'Settings',
+        iconName: SfSymbols.gear,
+        onTap: () {
+          if (kDebugMode) {
+            print('Settings tapped');
+          }
+        },
+      ),
+    ]);
+    setState(() {});
+  }
+
+  void removeTabBar() {
+    if (uiTabBar != null) {
+      uiTabBar?.removeFromSuperview();
+      uiTabBar = null;
+      setState(() {});
     }
   }
 
@@ -117,6 +162,19 @@ class _MyAppState extends State<MyApp> {
                   showAutoLayoutViewController();
                 },
                 child: const Text('Show Auto Layout Example'),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  ElevatedButton(
+                    onPressed: addTabBar,
+                    child: const Text('Add Tab Bar'),
+                  ),
+                  ElevatedButton(
+                    onPressed: removeTabBar,
+                    child: const Text('Remove Tab Bar'),
+                  ),
+                ],
               ),
             ],
           ),

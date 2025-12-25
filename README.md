@@ -5,6 +5,7 @@ This plugin allows you to use native UIKit components in your Flutter app using 
 Bindings are generated from UIKit Headers using ffigen.
 
 ![](https://raw.githubusercontent.com/orestesgaolin/uikit_bindings/refs/heads/main/doc/screenshot.png)
+![](https://raw.githubusercontent.com/orestesgaolin/uikit_bindings/refs/heads/main/doc/screenshot.gif)
 
 This is experimental plugin and currently only limited number of components are supported.
 

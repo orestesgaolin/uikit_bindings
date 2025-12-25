@@ -10,9 +10,9 @@ void main() {
   final generator = FfiGenerator(
     headers: Headers(
       entryPoints: [
-        packageRoot.resolve("Headers/NSToolbar+UIKitAdditions.h"),
-        packageRoot.resolve("Headers/NSLayoutConstraint.h"),
         packageRoot.resolve("Headers/NSLayoutAnchor.h"),
+        packageRoot.resolve("Headers/NSLayoutConstraint.h"),
+        packageRoot.resolve("Headers/NSToolbar+UIKitAdditions.h"),
         packageRoot.resolve("Headers/UIAlertController.h"),
         packageRoot.resolve("Headers/UIApplication.h"),
         packageRoot.resolve("Headers/UIBarButtonItem.h"),
@@ -22,21 +22,22 @@ void main() {
         packageRoot.resolve("Headers/UICommand.h"),
         packageRoot.resolve("Headers/UIFont.h"),
         packageRoot.resolve("Headers/UIGeometry.h"),
+        packageRoot.resolve("Headers/UIImage.h"),
         packageRoot.resolve("Headers/UIInterface.h"),
         packageRoot.resolve("Headers/UIKitDefines.h"),
         packageRoot.resolve("Headers/UILabel.h"),
         packageRoot.resolve("Headers/UIMenu.h"),
         packageRoot.resolve("Headers/UINavigationController.h"),
         packageRoot.resolve("Headers/UINavigationItem.h"),
+        packageRoot.resolve("Headers/UIResponder.h"),
         packageRoot.resolve("Headers/UIScrollView.h"),
         packageRoot.resolve("Headers/UISpringLoadedInteractionSupporting.h"),
         packageRoot.resolve("Headers/UISwitch.h"),
-        packageRoot.resolve("Headers/UIResponder.h"),
-        packageRoot.resolve("Headers/UIView.h"),
         packageRoot.resolve("Headers/UITabBar.h"),
-        packageRoot.resolve("Headers/UITabBarItem.h"),
         packageRoot.resolve("Headers/UITabBarAppearance.h"),
         packageRoot.resolve("Headers/UITabBarController.h"),
+        packageRoot.resolve("Headers/UITabBarItem.h"),
+        packageRoot.resolve("Headers/UIView.h"),
         packageRoot.resolve("Headers/UIViewController.h"),
         packageRoot.resolve("Headers/UIWindow.h"),
       ],
@@ -62,16 +63,16 @@ void main() {
             "UINavigationBarAppearance",
             "UINavigationController",
             "UINavigationItem",
+            "UIScreen",
             "UIScrollView",
             "UISearchTextField",
             "UISwitch",
-            "UITitlebar",
             "UITabBar",
-            "UITabBarItem",
             "UITabBarAppearance",
             "UITabBarController",
+            "UITabBarItem",
+            "UITitlebar",
             "UIViewController",
-            "UIScreen",
             "UIWindow",
           ].contains(decl.originalName);
         },
@@ -107,6 +108,6 @@ void main() {
     RegExp(r'#import "(.*\.h)"\n'),
     (match) => '',
   );
-  content = '#import <UIKit/UIKit.h>\n' + content;
+  content = '#import <UIKit/UIKit.h>\n$content';
   File(objcFile.toFilePath()).writeAsStringSync(content);
 }

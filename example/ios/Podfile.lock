@@ -1,27 +1,21 @@
 PODS:
   - Flutter (1.0.0)
-  - objective_c (0.0.1):
-    - Flutter
   - uikit_bindings (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
-  - objective_c (from `.symlinks/plugins/objective_c/ios`)
   - uikit_bindings (from `.symlinks/plugins/uikit_bindings/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
-  objective_c:
-    :path: ".symlinks/plugins/objective_c/ios"
   uikit_bindings:
     :path: ".symlinks/plugins/uikit_bindings/ios"
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  objective_c: 89e720c30d716b036faf9c9684022048eee1eee2
-  uikit_bindings: 044a940a2003d267df0e956b864cf9820ae2d79f
+  uikit_bindings: b355bbce3a4cdf865ef5cc61a4660323b4d28372
 
 PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
 

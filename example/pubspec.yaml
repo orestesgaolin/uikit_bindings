@@ -6,7 +6,7 @@ publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.9.2
+  sdk: ^3.10.4
 
 dependencies:
   flutter:
@@ -16,7 +16,7 @@ dependencies:
     path: ../
 
   cupertino_icons: ^1.0.8
-  objective_c: ^9.0.0-dev.0
+  objective_c: ^9.2.2
 
 dev_dependencies:
   flutter_test:

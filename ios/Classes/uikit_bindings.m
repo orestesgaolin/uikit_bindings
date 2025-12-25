@@ -49,18 +49,10 @@ id objc_retainBlock(id);
   };
 
 
-Protocol* _NativeLibrary_NSExtensionRequestHandling(void) { return @protocol(NSExtensionRequestHandling); }
-
-typedef id  (^_ProtocolTrampoline)(void * sel, id arg1);
-__attribute__((visibility("default"))) __attribute__((used))
-id  _NativeLibrary_protocolTrampoline_xr62hr(id target, void * sel, id arg1) {
-  return ((_ProtocolTrampoline)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
-}
-
-typedef BOOL  (^_ProtocolTrampoline_1)(void * sel);
+typedef BOOL  (^_ProtocolTrampoline)(void * sel);
 __attribute__((visibility("default"))) __attribute__((used))
 BOOL  _NativeLibrary_protocolTrampoline_e3qsqz(id target, void * sel) {
-  return ((_ProtocolTrampoline_1)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+  return ((_ProtocolTrampoline)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
 }
 
 typedef void  (^_ListenerTrampoline)(void * arg0, id arg1);
@@ -86,39 +78,57 @@ _ListenerTrampoline _NativeLibrary_wrapBlockingBlock_18v1jvf(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_2)(void * sel, id arg1);
+typedef void  (^_ProtocolTrampoline_1)(void * sel, id arg1);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_18v1jvf(id target, void * sel, id arg1) {
+  return ((_ProtocolTrampoline_1)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+}
+
+typedef id  (^_ProtocolTrampoline_2)(void * sel, id arg1);
+__attribute__((visibility("default"))) __attribute__((used))
+id  _NativeLibrary_protocolTrampoline_xr62hr(id target, void * sel, id arg1) {
   return ((_ProtocolTrampoline_2)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
 }
 
-Protocol* _NativeLibrary_UIUserActivityRestoring(void) { return @protocol(UIUserActivityRestoring); }
-
-Protocol* _NativeLibrary_UIResponderStandardEditActions(void) { return @protocol(UIResponderStandardEditActions); }
-
-Protocol* _NativeLibrary_UIMenuBuilder(void) { return @protocol(UIMenuBuilder); }
-
-typedef void  (^_ListenerTrampoline_1)();
+typedef id  (^_ProtocolTrampoline_3)(void * sel);
 __attribute__((visibility("default"))) __attribute__((used))
-_ListenerTrampoline_1 _NativeLibrary_wrapListenerBlock_1pl9qdv(_ListenerTrampoline_1 block) NS_RETURNS_RETAINED {
-  return ^void() {
+id  _NativeLibrary_protocolTrampoline_1mbt9g9(id target, void * sel) {
+  return ((_ProtocolTrampoline_3)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+}
+
+typedef NSItemProviderRepresentationVisibility  (^_ProtocolTrampoline_4)(void * sel, id arg1);
+__attribute__((visibility("default"))) __attribute__((used))
+NSItemProviderRepresentationVisibility  _NativeLibrary_protocolTrampoline_1ldqghh(id target, void * sel, id arg1) {
+  return ((_ProtocolTrampoline_4)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+}
+
+typedef void  (^_ListenerTrampoline_1)(id arg0, id arg1);
+__attribute__((visibility("default"))) __attribute__((used))
+_ListenerTrampoline_1 _NativeLibrary_wrapListenerBlock_pfv6jd(_ListenerTrampoline_1 block) NS_RETURNS_RETAINED {
+  return ^void(id arg0, id arg1) {
     objc_retainBlock(block);
-    block();
+    block((__bridge id)(__bridge_retained void*)(arg0), (__bridge id)(__bridge_retained void*)(arg1));
   };
 }
 
-typedef void  (^_BlockingTrampoline_1)(void * waiter);
+typedef void  (^_BlockingTrampoline_1)(void * waiter, id arg0, id arg1);
 __attribute__((visibility("default"))) __attribute__((used))
-_ListenerTrampoline_1 _NativeLibrary_wrapBlockingBlock_1pl9qdv(
+_ListenerTrampoline_1 _NativeLibrary_wrapBlockingBlock_pfv6jd(
     _BlockingTrampoline_1 block, _BlockingTrampoline_1 listenerBlock,
     DOBJC_Context* ctx) NS_RETURNS_RETAINED {
-  BLOCKING_BLOCK_IMPL(ctx, ^void(), {
+  BLOCKING_BLOCK_IMPL(ctx, ^void(id arg0, id arg1), {
     objc_retainBlock(block);
-    block(nil);
+    block(nil, (__bridge id)(__bridge_retained void*)(arg0), (__bridge id)(__bridge_retained void*)(arg1));
   }, {
     objc_retainBlock(listenerBlock);
-    listenerBlock(waiter);
+    listenerBlock(waiter, (__bridge id)(__bridge_retained void*)(arg0), (__bridge id)(__bridge_retained void*)(arg1));
   });
+}
+
+typedef id  (^_ProtocolTrampoline_5)(void * sel, id arg1, id arg2);
+__attribute__((visibility("default"))) __attribute__((used))
+id  _NativeLibrary_protocolTrampoline_1q0i84(id target, void * sel, id arg1, id arg2) {
+  return ((_ProtocolTrampoline_5)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
 }
 
 typedef void  (^_ListenerTrampoline_2)(void * arg0, id arg1);
@@ -144,30 +154,22 @@ _ListenerTrampoline_2 _NativeLibrary_wrapBlockingBlock_1l4hxwm(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_3)(void * sel, id arg1);
+typedef void  (^_ProtocolTrampoline_6)(void * sel, id arg1);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_1l4hxwm(id target, void * sel, id arg1) {
-  return ((_ProtocolTrampoline_3)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+  return ((_ProtocolTrampoline_6)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
 }
 
-typedef id  (^_ProtocolTrampoline_4)(void * sel);
-__attribute__((visibility("default"))) __attribute__((used))
-id  _NativeLibrary_protocolTrampoline_1mbt9g9(id target, void * sel) {
-  return ((_ProtocolTrampoline_4)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
-}
-
-Protocol* _NativeLibrary_UIAppearanceContainer(void) { return @protocol(UIAppearanceContainer); }
-
-typedef id  (^_ProtocolTrampoline_5)(void * sel, id arg1, id arg2);
+typedef id  (^_ProtocolTrampoline_7)(void * sel, id arg1, id arg2);
 __attribute__((visibility("default"))) __attribute__((used))
 id  _NativeLibrary_protocolTrampoline_zi5eed(id target, void * sel, id arg1, id arg2) {
-  return ((_ProtocolTrampoline_5)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
+  return ((_ProtocolTrampoline_7)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
 }
 
-typedef struct CGPoint  (^_ProtocolTrampoline_6)(void * sel);
+typedef struct CGPoint  (^_ProtocolTrampoline_8)(void * sel);
 __attribute__((visibility("default"))) __attribute__((used))
 struct CGPoint  _NativeLibrary_protocolTrampoline_7ohnx8(id target, void * sel) {
-  return ((_ProtocolTrampoline_6)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+  return ((_ProtocolTrampoline_8)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
 }
 
 typedef void  (^_ListenerTrampoline_3)(void * arg0, struct CGPoint arg1);
@@ -193,22 +195,22 @@ _ListenerTrampoline_3 _NativeLibrary_wrapBlockingBlock_1bktu2(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_7)(void * sel, struct CGPoint arg1);
+typedef void  (^_ProtocolTrampoline_9)(void * sel, struct CGPoint arg1);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_1bktu2(id target, void * sel, struct CGPoint arg1) {
-  return ((_ProtocolTrampoline_7)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+  return ((_ProtocolTrampoline_9)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
 }
 
-typedef struct CGRect  (^_ProtocolTrampoline_8)(void * sel);
+typedef struct CGRect  (^_ProtocolTrampoline_10)(void * sel);
 __attribute__((visibility("default"))) __attribute__((used))
 struct CGRect  _NativeLibrary_protocolTrampoline_1c3uc0w(id target, void * sel) {
-  return ((_ProtocolTrampoline_8)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+  return ((_ProtocolTrampoline_10)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
 }
 
-typedef struct CGAffineTransform  (^_ProtocolTrampoline_9)(void * sel);
+typedef struct CGAffineTransform  (^_ProtocolTrampoline_11)(void * sel);
 __attribute__((visibility("default"))) __attribute__((used))
 struct CGAffineTransform  _NativeLibrary_protocolTrampoline_8o6he9(id target, void * sel) {
-  return ((_ProtocolTrampoline_9)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+  return ((_ProtocolTrampoline_11)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
 }
 
 typedef void  (^_ListenerTrampoline_4)(void * arg0, struct CGAffineTransform arg1);
@@ -234,35 +236,29 @@ _ListenerTrampoline_4 _NativeLibrary_wrapBlockingBlock_1lznlw3(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_10)(void * sel, struct CGAffineTransform arg1);
+typedef void  (^_ProtocolTrampoline_12)(void * sel, struct CGAffineTransform arg1);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_1lznlw3(id target, void * sel, struct CGAffineTransform arg1) {
-  return ((_ProtocolTrampoline_10)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+  return ((_ProtocolTrampoline_12)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
 }
 
-typedef UIDynamicItemCollisionBoundsType  (^_ProtocolTrampoline_11)(void * sel);
+typedef UIDynamicItemCollisionBoundsType  (^_ProtocolTrampoline_13)(void * sel);
 __attribute__((visibility("default"))) __attribute__((used))
 UIDynamicItemCollisionBoundsType  _NativeLibrary_protocolTrampoline_ku69ws(id target, void * sel) {
-  return ((_ProtocolTrampoline_11)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+  return ((_ProtocolTrampoline_13)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
 }
 
-Protocol* _NativeLibrary_UICoordinateSpace(void) { return @protocol(UICoordinateSpace); }
-
-typedef struct CGPoint  (^_ProtocolTrampoline_12)(void * sel, struct CGPoint arg1, id arg2);
+typedef struct CGPoint  (^_ProtocolTrampoline_14)(void * sel, struct CGPoint arg1, id arg2);
 __attribute__((visibility("default"))) __attribute__((used))
 struct CGPoint  _NativeLibrary_protocolTrampoline_17ipln5(id target, void * sel, struct CGPoint arg1, id arg2) {
-  return ((_ProtocolTrampoline_12)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
+  return ((_ProtocolTrampoline_14)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
 }
 
-typedef struct CGRect  (^_ProtocolTrampoline_13)(void * sel, struct CGRect arg1, id arg2);
+typedef struct CGRect  (^_ProtocolTrampoline_15)(void * sel, struct CGRect arg1, id arg2);
 __attribute__((visibility("default"))) __attribute__((used))
 struct CGRect  _NativeLibrary_protocolTrampoline_1sh7l9z(id target, void * sel, struct CGRect arg1, id arg2) {
-  return ((_ProtocolTrampoline_13)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
+  return ((_ProtocolTrampoline_15)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
 }
-
-Protocol* _NativeLibrary_UIFocusEnvironment(void) { return @protocol(UIFocusEnvironment); }
-
-Protocol* _NativeLibrary_UIFocusItemContainer(void) { return @protocol(UIFocusItemContainer); }
 
 typedef void  (^_ListenerTrampoline_5)(void * arg0);
 __attribute__((visibility("default"))) __attribute__((used))
@@ -287,16 +283,16 @@ _ListenerTrampoline_5 _NativeLibrary_wrapBlockingBlock_ovsamd(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_14)(void * sel);
+typedef void  (^_ProtocolTrampoline_16)(void * sel);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_ovsamd(id target, void * sel) {
-  return ((_ProtocolTrampoline_14)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+  return ((_ProtocolTrampoline_16)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
 }
 
-typedef BOOL  (^_ProtocolTrampoline_15)(void * sel, id arg1);
+typedef BOOL  (^_ProtocolTrampoline_17)(void * sel, id arg1);
 __attribute__((visibility("default"))) __attribute__((used))
 BOOL  _NativeLibrary_protocolTrampoline_3su7tt(id target, void * sel, id arg1) {
-  return ((_ProtocolTrampoline_15)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+  return ((_ProtocolTrampoline_17)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
 }
 
 typedef void  (^_ListenerTrampoline_6)(void * arg0, id arg1, id arg2);
@@ -322,16 +318,16 @@ _ListenerTrampoline_6 _NativeLibrary_wrapBlockingBlock_fjrv01(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_16)(void * sel, id arg1, id arg2);
+typedef void  (^_ProtocolTrampoline_18)(void * sel, id arg1, id arg2);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_fjrv01(id target, void * sel, id arg1, id arg2) {
-  return ((_ProtocolTrampoline_16)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
+  return ((_ProtocolTrampoline_18)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
 }
 
-typedef id  (^_ProtocolTrampoline_17)(void * sel, struct CGRect arg1);
+typedef id  (^_ProtocolTrampoline_19)(void * sel, struct CGRect arg1);
 __attribute__((visibility("default"))) __attribute__((used))
 id  _NativeLibrary_protocolTrampoline_12thpau(id target, void * sel, struct CGRect arg1) {
-  return ((_ProtocolTrampoline_17)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+  return ((_ProtocolTrampoline_19)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
 }
 
 typedef void  (^_ListenerTrampoline_7)(void * arg0, id arg1, struct CGContext * arg2);
@@ -357,47 +353,60 @@ _ListenerTrampoline_7 _NativeLibrary_wrapBlockingBlock_qvcerx(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_18)(void * sel, id arg1, struct CGContext * arg2);
+typedef void  (^_ProtocolTrampoline_20)(void * sel, id arg1, struct CGContext * arg2);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_qvcerx(id target, void * sel, id arg1, struct CGContext * arg2) {
-  return ((_ProtocolTrampoline_18)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
-}
-
-Protocol* _NativeLibrary_CAAction(void) { return @protocol(CAAction); }
-
-typedef struct CGSize  (^_ProtocolTrampoline_19)(void * sel);
-__attribute__((visibility("default"))) __attribute__((used))
-struct CGSize  _NativeLibrary_protocolTrampoline_1j20mp(id target, void * sel) {
-  return ((_ProtocolTrampoline_19)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
-}
-
-Protocol* _NativeLibrary_UIScrollViewDelegate(void) { return @protocol(UIScrollViewDelegate); }
-
-Protocol* _NativeLibrary_UIFocusItemScrollableContainer(void) { return @protocol(UIFocusItemScrollableContainer); }
-
-Protocol* _NativeLibrary_UIContentContainer(void) { return @protocol(UIContentContainer); }
-
-typedef struct CGSize  (^_ProtocolTrampoline_20)(void * sel, id arg1, struct CGSize arg2);
-__attribute__((visibility("default"))) __attribute__((used))
-struct CGSize  _NativeLibrary_protocolTrampoline_gnbb7x(id target, void * sel, id arg1, struct CGSize arg2) {
   return ((_ProtocolTrampoline_20)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
 }
 
-Protocol* _NativeLibrary_UIViewControllerTransitionCoordinator(void) { return @protocol(UIViewControllerTransitionCoordinator); }
-
-typedef void  (^_ListenerTrampoline_8)(void * arg0, struct CGSize arg1, id arg2);
+typedef void  (^_ListenerTrampoline_8)(void);
 __attribute__((visibility("default"))) __attribute__((used))
-_ListenerTrampoline_8 _NativeLibrary_wrapListenerBlock_1rn6eap(_ListenerTrampoline_8 block) NS_RETURNS_RETAINED {
+_ListenerTrampoline_8 _NativeLibrary_wrapListenerBlock_1pl9qdv(_ListenerTrampoline_8 block) NS_RETURNS_RETAINED {
+  return ^void() {
+    objc_retainBlock(block);
+    block();
+  };
+}
+
+typedef void  (^_BlockingTrampoline_8)(void * waiter);
+__attribute__((visibility("default"))) __attribute__((used))
+_ListenerTrampoline_8 _NativeLibrary_wrapBlockingBlock_1pl9qdv(
+    _BlockingTrampoline_8 block, _BlockingTrampoline_8 listenerBlock,
+    DOBJC_Context* ctx) NS_RETURNS_RETAINED {
+  BLOCKING_BLOCK_IMPL(ctx, ^void(), {
+    objc_retainBlock(block);
+    block(nil);
+  }, {
+    objc_retainBlock(listenerBlock);
+    listenerBlock(waiter);
+  });
+}
+
+typedef struct CGSize  (^_ProtocolTrampoline_21)(void * sel);
+__attribute__((visibility("default"))) __attribute__((used))
+struct CGSize  _NativeLibrary_protocolTrampoline_1j20mp(id target, void * sel) {
+  return ((_ProtocolTrampoline_21)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel);
+}
+
+typedef struct CGSize  (^_ProtocolTrampoline_22)(void * sel, id arg1, struct CGSize arg2);
+__attribute__((visibility("default"))) __attribute__((used))
+struct CGSize  _NativeLibrary_protocolTrampoline_gnbb7x(id target, void * sel, id arg1, struct CGSize arg2) {
+  return ((_ProtocolTrampoline_22)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
+}
+
+typedef void  (^_ListenerTrampoline_9)(void * arg0, struct CGSize arg1, id arg2);
+__attribute__((visibility("default"))) __attribute__((used))
+_ListenerTrampoline_9 _NativeLibrary_wrapListenerBlock_1rn6eap(_ListenerTrampoline_9 block) NS_RETURNS_RETAINED {
   return ^void(void * arg0, struct CGSize arg1, id arg2) {
     objc_retainBlock(block);
     block(arg0, arg1, (__bridge id)(__bridge_retained void*)(arg2));
   };
 }
 
-typedef void  (^_BlockingTrampoline_8)(void * waiter, void * arg0, struct CGSize arg1, id arg2);
+typedef void  (^_BlockingTrampoline_9)(void * waiter, void * arg0, struct CGSize arg1, id arg2);
 __attribute__((visibility("default"))) __attribute__((used))
-_ListenerTrampoline_8 _NativeLibrary_wrapBlockingBlock_1rn6eap(
-    _BlockingTrampoline_8 block, _BlockingTrampoline_8 listenerBlock,
+_ListenerTrampoline_9 _NativeLibrary_wrapBlockingBlock_1rn6eap(
+    _BlockingTrampoline_9 block, _BlockingTrampoline_9 listenerBlock,
     DOBJC_Context* ctx) NS_RETURNS_RETAINED {
   BLOCKING_BLOCK_IMPL(ctx, ^void(void * arg0, struct CGSize arg1, id arg2), {
     objc_retainBlock(block);
@@ -408,53 +417,10 @@ _ListenerTrampoline_8 _NativeLibrary_wrapBlockingBlock_1rn6eap(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_21)(void * sel, struct CGSize arg1, id arg2);
+typedef void  (^_ProtocolTrampoline_23)(void * sel, struct CGSize arg1, id arg2);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_1rn6eap(id target, void * sel, struct CGSize arg1, id arg2) {
-  return ((_ProtocolTrampoline_21)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
-}
-
-Protocol* _NativeLibrary_UIAppearance(void) { return @protocol(UIAppearance); }
-
-typedef id  (^_ProtocolTrampoline_22)(void * sel, id arg1, id arg2, id * arg3);
-__attribute__((visibility("default"))) __attribute__((used))
-id  _NativeLibrary_protocolTrampoline_10z9f5k(id target, void * sel, id arg1, id arg2, id * arg3) {
-  return ((_ProtocolTrampoline_22)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2, arg3);
-}
-
-typedef NSItemProviderRepresentationVisibility  (^_ProtocolTrampoline_23)(void * sel, id arg1);
-__attribute__((visibility("default"))) __attribute__((used))
-NSItemProviderRepresentationVisibility  _NativeLibrary_protocolTrampoline_1ldqghh(id target, void * sel, id arg1) {
-  return ((_ProtocolTrampoline_23)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
-}
-
-typedef void  (^_ListenerTrampoline_9)(id arg0, id arg1);
-__attribute__((visibility("default"))) __attribute__((used))
-_ListenerTrampoline_9 _NativeLibrary_wrapListenerBlock_pfv6jd(_ListenerTrampoline_9 block) NS_RETURNS_RETAINED {
-  return ^void(id arg0, id arg1) {
-    objc_retainBlock(block);
-    block((__bridge id)(__bridge_retained void*)(arg0), (__bridge id)(__bridge_retained void*)(arg1));
-  };
-}
-
-typedef void  (^_BlockingTrampoline_9)(void * waiter, id arg0, id arg1);
-__attribute__((visibility("default"))) __attribute__((used))
-_ListenerTrampoline_9 _NativeLibrary_wrapBlockingBlock_pfv6jd(
-    _BlockingTrampoline_9 block, _BlockingTrampoline_9 listenerBlock,
-    DOBJC_Context* ctx) NS_RETURNS_RETAINED {
-  BLOCKING_BLOCK_IMPL(ctx, ^void(id arg0, id arg1), {
-    objc_retainBlock(block);
-    block(nil, (__bridge id)(__bridge_retained void*)(arg0), (__bridge id)(__bridge_retained void*)(arg1));
-  }, {
-    objc_retainBlock(listenerBlock);
-    listenerBlock(waiter, (__bridge id)(__bridge_retained void*)(arg0), (__bridge id)(__bridge_retained void*)(arg1));
-  });
-}
-
-typedef id  (^_ProtocolTrampoline_24)(void * sel, id arg1, id arg2);
-__attribute__((visibility("default"))) __attribute__((used))
-id  _NativeLibrary_protocolTrampoline_1q0i84(id target, void * sel, id arg1, id arg2) {
-  return ((_ProtocolTrampoline_24)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
+  return ((_ProtocolTrampoline_23)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2);
 }
 
 typedef void  (^_ListenerTrampoline_10)(BOOL arg0);
@@ -480,24 +446,6 @@ _ListenerTrampoline_10 _NativeLibrary_wrapBlockingBlock_1s56lr9(
   });
 }
 
-Protocol* _NativeLibrary_UIViewControllerRestoration(void) { return @protocol(UIViewControllerRestoration); }
-
-Protocol* _NativeLibrary_UIStateRestoring(void) { return @protocol(UIStateRestoring); }
-
-Protocol* _NativeLibrary_UIViewControllerTransitioningDelegate(void) { return @protocol(UIViewControllerTransitioningDelegate); }
-
-Protocol* _NativeLibrary_UILayoutSupport(void) { return @protocol(UILayoutSupport); }
-
-Protocol* _NativeLibrary_UIViewControllerPreviewing(void) { return @protocol(UIViewControllerPreviewing); }
-
-Protocol* _NativeLibrary_UIViewControllerPreviewingDelegate(void) { return @protocol(UIViewControllerPreviewingDelegate); }
-
-Protocol* _NativeLibrary_UINavigationControllerDelegate(void) { return @protocol(UINavigationControllerDelegate); }
-
-Protocol* _NativeLibrary_UITabBarDelegate(void) { return @protocol(UITabBarDelegate); }
-
-Protocol* _NativeLibrary_UITabBarControllerDelegate(void) { return @protocol(UITabBarControllerDelegate); }
-
 typedef void  (^_ListenerTrampoline_11)(void * arg0, id arg1, id arg2, BOOL arg3);
 __attribute__((visibility("default"))) __attribute__((used))
 _ListenerTrampoline_11 _NativeLibrary_wrapListenerBlock_8acz2h(_ListenerTrampoline_11 block) NS_RETURNS_RETAINED {
@@ -521,23 +469,11 @@ _ListenerTrampoline_11 _NativeLibrary_wrapBlockingBlock_8acz2h(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_25)(void * sel, id arg1, id arg2, BOOL arg3);
+typedef void  (^_ProtocolTrampoline_24)(void * sel, id arg1, id arg2, BOOL arg3);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_8acz2h(id target, void * sel, id arg1, id arg2, BOOL arg3) {
-  return ((_ProtocolTrampoline_25)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2, arg3);
+  return ((_ProtocolTrampoline_24)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1, arg2, arg3);
 }
-
-Protocol* _NativeLibrary_UITraitEnvironment(void) { return @protocol(UITraitEnvironment); }
-
-Protocol* _NativeLibrary_UIInteraction(void) { return @protocol(UIInteraction); }
-
-Protocol* _NativeLibrary_UIDynamicItem(void) { return @protocol(UIDynamicItem); }
-
-Protocol* _NativeLibrary_UIFocusItem(void) { return @protocol(UIFocusItem); }
-
-Protocol* _NativeLibrary_CALayerDelegate(void) { return @protocol(CALayerDelegate); }
-
-Protocol* _NativeLibrary_CAMediaTiming(void) { return @protocol(CAMediaTiming); }
 
 typedef void  (^_ListenerTrampoline_12)(id arg0, id arg1, struct objc_selector * arg2, UIControlEvents arg3, BOOL * arg4);
 __attribute__((visibility("default"))) __attribute__((used))
@@ -561,16 +497,6 @@ _ListenerTrampoline_12 _NativeLibrary_wrapBlockingBlock_1cxqo1i(
     listenerBlock(waiter, (__bridge id)(__bridge_retained void*)(arg0), (__bridge id)(__bridge_retained void*)(arg1), arg2, arg3, arg4);
   });
 }
-
-Protocol* _NativeLibrary_UITextInputTraits(void) { return @protocol(UITextInputTraits); }
-
-Protocol* _NativeLibrary_UIKeyInput(void) { return @protocol(UIKeyInput); }
-
-Protocol* _NativeLibrary_UITextInput(void) { return @protocol(UITextInput); }
-
-Protocol* _NativeLibrary_UIContentSizeCategoryAdjusting(void) { return @protocol(UIContentSizeCategoryAdjusting); }
-
-Protocol* _NativeLibrary_UIApplicationDelegate(void) { return @protocol(UIApplicationDelegate); }
 
 typedef void  (^_ListenerTrampoline_13)(id arg0);
 __attribute__((visibility("default"))) __attribute__((used))
@@ -618,10 +544,10 @@ _ListenerTrampoline_14 _NativeLibrary_wrapBlockingBlock_10lndml(
   });
 }
 
-typedef void  (^_ProtocolTrampoline_26)(void * sel, BOOL arg1);
+typedef void  (^_ProtocolTrampoline_25)(void * sel, BOOL arg1);
 __attribute__((visibility("default"))) __attribute__((used))
 void  _NativeLibrary_protocolTrampoline_10lndml(id target, void * sel, BOOL arg1) {
-  return ((_ProtocolTrampoline_26)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
+  return ((_ProtocolTrampoline_25)((id (*)(id, SEL, SEL))objc_msgSend)(target, @selector(getDOBJCDartProtocolMethodForSelector:), sel))(sel, arg1);
 }
 #undef BLOCKING_BLOCK_IMPL
 

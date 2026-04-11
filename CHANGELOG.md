@@ -1,3 +1,8 @@
+## 0.0.2
+
+- Updated dependencies
+- Migrated example app to UIScene
+
 ## 0.0.1
 
 - Initial release of the uikit_bindings package

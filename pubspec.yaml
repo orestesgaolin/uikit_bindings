@@ -20,10 +20,10 @@ environment:
   flutter: ">=3.3.0"
 
 dependencies:
-  ffi: ^2.1.4
+  ffi: ^2.2.0
   flutter:
     sdk: flutter
-  objective_c: ^9.2.2
+  objective_c: ^9.3.0
 
 dev_dependencies:
   ffigen: ^20.1.1

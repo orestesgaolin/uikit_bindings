@@ -108,6 +108,7 @@ void main() {
     RegExp(r'#import "(.*\.h)"\n'),
     (match) => '',
   );
+  content = content.replaceAll(RegExp(r'[ \t]+$', multiLine: true), '');
   content = '#import <UIKit/UIKit.h>\n$content';
   File(objcFile.toFilePath()).writeAsStringSync(content);
 }

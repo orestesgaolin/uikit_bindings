@@ -1,3 +1,9 @@
+## 0.0.3
+
+- Updated FFIgen to 21.0.0 and regenerated the UIKit bindings.
+- Updated the compatible Objective-C dependencies.
+- Made generated Objective-C output deterministic by removing trailing whitespace.
+
 ## 0.0.2
 
 - Updated dependencies

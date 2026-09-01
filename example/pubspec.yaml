@@ -16,7 +16,7 @@ dependencies:
     path: ../
 
   cupertino_icons: ^1.0.9
-  objective_c: ^9.3.0
+  objective_c: ^9.6.0
 
 dev_dependencies:
   flutter_test:

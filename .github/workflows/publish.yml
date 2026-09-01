@@ -1,0 +1,69 @@
+name: Publish to pub.dev
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate release
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          channel: stable
+          cache: true
+
+      - name: Check release version
+        shell: bash
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          package_version="$(sed -n 's/^version: //p' pubspec.yaml)"
+
+          if [[ "$package_version" != "$version" ]]; then
+            echo "Tag version:     $version"
+            echo "Package version: $package_version"
+            exit 1
+          fi
+
+          if ! grep -q "^## $version$" CHANGELOG.md; then
+            echo "CHANGELOG.md does not contain a section for $version"
+            exit 1
+          fi
+
+      - name: Check tag commit is on main
+        run: git merge-base --is-ancestor "$GITHUB_SHA" origin/main
+
+      - name: Resolve dependencies
+        run: flutter pub get
+
+      - name: Analyze package
+        run: dart analyze lib tool
+
+      - name: Analyze example
+        run: flutter analyze --no-fatal-infos
+
+      - name: Check package
+        run: dart pub publish --dry-run
+
+      - name: Build example for iOS Simulator
+        working-directory: example
+        run: flutter build ios --simulator --no-codesign
+
+  publish:
+    name: Approve and publish
+    needs: validate
+    permissions:
+      contents: read
+      id-token: write
+    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1.8.1
+    with:
+      environment: pub.dev

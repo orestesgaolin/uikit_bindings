@@ -1,6 +1,6 @@
 name: uikit_bindings
 description: "Bindings of UIKit components for Flutter using FFI."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/orestesgaolin/uikit_bindings
 repository: https://github.com/orestesgaolin/uikit_bindings
 issue_tracker: https://github.com/orestesgaolin/uikit_bindings/issues
@@ -23,10 +23,10 @@ dependencies:
   ffi: ^2.2.0
   flutter:
     sdk: flutter
-  objective_c: ^9.3.0
+  objective_c: ^9.5.0
 
 dev_dependencies:
-  ffigen: ^20.1.1
+  ffigen: ^21.0.0
 
   flutter_test:
     sdk: flutter

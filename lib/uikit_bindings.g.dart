@@ -16,7 +16,7 @@ const _$objcVersionCheck = objc.ObjCVersionCheck(9, 5);
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_1cxqo1i(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1cxqo1i(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -29,7 +29,7 @@ external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_1cxqo1i(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_1pl9qdv(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1pl9qdv(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -42,7 +42,7 @@ external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_1pl9qdv(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_1s56lr9(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1s56lr9(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -55,7 +55,7 @@ external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_1s56lr9(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_pfv6jd(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_pfv6jd(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -68,38 +68,38 @@ external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_pfv6jd(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapBlockingBlock_xtuoz7(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_xtuoz7(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapListenerBlock_1cxqo1i(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_1cxqo1i(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapListenerBlock_1pl9qdv(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_1pl9qdv(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapListenerBlock_1s56lr9(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_1s56lr9(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapListenerBlock_pfv6jd(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_pfv6jd(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _1prk8yq_wrapListenerBlock_xtuoz7(
+external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_xtuoz7(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
@@ -1345,6 +1345,22 @@ extension type NSUserActivity._(objc.ObjCObject object$) implements objc.ObjCObj
   }
 }
 
+enum NSWritingDirection {
+  NSWritingDirectionNatural(-1),
+  NSWritingDirectionLeftToRight(0),
+  NSWritingDirectionRightToLeft(1);
+
+  final int value;
+  const NSWritingDirection(this.value);
+
+  static NSWritingDirection fromValue(int value) => switch (value) {
+    -1 => NSWritingDirectionNatural,
+    0 => NSWritingDirectionLeftToRight,
+    1 => NSWritingDirectionRightToLeft,
+    _ => throw ArgumentError('Unknown value for NSWritingDirection: $value'),
+  };
+}
+
 /// Construction methods for `objc.ObjCBlock<objc.NSDictionary Function(objc.NSDictionary)>`.
 abstract final class ObjCBlock_NSDictionary_NSDictionary {
   /// Returns a block that wraps the given raw block pointer.
@@ -1526,6 +1542,180 @@ extension ObjCBlock_UIColor_UITraitCollection$CallExtension on objc.ObjCBlock<UI
   }
 }
 
+/// Construction methods for `objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)>`.
+abstract final class ObjCBlock_UIPointerStyle_UIButton_UIPointerEffect_UIPointerShape {
+  /// Returns a block that wraps the given raw block pointer.
+  static objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)> fromPointer(
+    ffi.Pointer<objc.ObjCBlockImpl> pointer, {
+    bool retain = false,
+    bool release = false,
+  }) => objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)>(
+    pointer,
+    retain: retain,
+    release: release,
+  );
+
+  /// Creates a block from a C function pointer.
+  ///
+  /// This block must be invoked by native code running on the same thread as
+  /// the isolate that registered it. Invoking the block on the wrong thread
+  /// will result in a crash.
+  static objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)> fromFunctionPointer(
+    ffi.Pointer<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl> arg0,
+          ffi.Pointer<objc.ObjCObjectImpl> arg1,
+          ffi.Pointer<objc.ObjCObjectImpl> arg2,
+        )
+      >
+    >
+    ptr,
+  ) => objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)>(
+    objc.newPointerBlock(_fnPtrCallable, ptr.cast()),
+    retain: false,
+    release: true,
+  );
+
+  /// Creates a block from a Dart function.
+  ///
+  /// This block must be invoked by native code running on the same thread as
+  /// the isolate that registered it. Invoking the block on the wrong thread
+  /// will result in a crash.
+  ///
+  /// If `keepIsolateAlive` is true, this block will keep this isolate alive
+  /// until it is garbage collected by both Dart and ObjC.
+  static objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)> fromFunction(
+    UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape) fn, {
+    bool keepIsolateAlive = true,
+  }) => objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)>(
+    objc.newClosureBlock(_closureCallable, (
+      ffi.Pointer<objc.ObjCObjectImpl> arg0,
+      ffi.Pointer<objc.ObjCObjectImpl> arg1,
+      ffi.Pointer<objc.ObjCObjectImpl> arg2,
+    ) {
+      final _$$ref = fn(
+        UIButton.fromPointer(arg0, retain: true, release: true),
+        UIPointerEffect.fromPointer(arg1, retain: true, release: true),
+        UIPointerShape.fromPointer(arg2, retain: true, release: true),
+      )?.ref;
+      return _$$ref?.retainAndAutorelease() ?? ffi.nullptr;
+    }, keepIsolateAlive),
+    retain: false,
+    release: true,
+  );
+
+  static ffi.Pointer<objc.ObjCObjectImpl> _fnPtrTrampoline(
+    ffi.Pointer<objc.ObjCBlockImpl> block,
+    ffi.Pointer<objc.ObjCObjectImpl> arg0,
+    ffi.Pointer<objc.ObjCObjectImpl> arg1,
+    ffi.Pointer<objc.ObjCObjectImpl> arg2,
+  ) => block.ref.target
+      .cast<
+        ffi.NativeFunction<
+          ffi.Pointer<objc.ObjCObjectImpl> Function(
+            ffi.Pointer<objc.ObjCObjectImpl> arg0,
+            ffi.Pointer<objc.ObjCObjectImpl> arg1,
+            ffi.Pointer<objc.ObjCObjectImpl> arg2,
+          )
+        >
+      >()
+      .asFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >()(arg0, arg1, arg2);
+  static ffi.Pointer<ffi.Void> _fnPtrCallable =
+      ffi.Pointer.fromFunction<
+            ffi.Pointer<objc.ObjCObjectImpl> Function(
+              ffi.Pointer<objc.ObjCBlockImpl>,
+              ffi.Pointer<objc.ObjCObjectImpl>,
+              ffi.Pointer<objc.ObjCObjectImpl>,
+              ffi.Pointer<objc.ObjCObjectImpl>,
+            )
+          >(_fnPtrTrampoline)
+          .cast();
+  static ffi.Pointer<objc.ObjCObjectImpl> _closureTrampoline(
+    ffi.Pointer<objc.ObjCBlockImpl> block,
+    ffi.Pointer<objc.ObjCObjectImpl> arg0,
+    ffi.Pointer<objc.ObjCObjectImpl> arg1,
+    ffi.Pointer<objc.ObjCObjectImpl> arg2,
+  ) =>
+      (objc.getBlockClosure(block)
+          as ffi.Pointer<objc.ObjCObjectImpl> Function(
+            ffi.Pointer<objc.ObjCObjectImpl>,
+            ffi.Pointer<objc.ObjCObjectImpl>,
+            ffi.Pointer<objc.ObjCObjectImpl>,
+          ))(arg0, arg1, arg2);
+  static ffi.Pointer<ffi.Void> _closureCallable =
+      ffi.Pointer.fromFunction<
+            ffi.Pointer<objc.ObjCObjectImpl> Function(
+              ffi.Pointer<objc.ObjCBlockImpl>,
+              ffi.Pointer<objc.ObjCObjectImpl>,
+              ffi.Pointer<objc.ObjCObjectImpl>,
+              ffi.Pointer<objc.ObjCObjectImpl>,
+            )
+          >(_closureTrampoline)
+          .cast();
+}
+
+/// Call operator for `objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)>`.
+extension ObjCBlock_UIPointerStyle_UIButton_UIPointerEffect_UIPointerShape$CallExtension
+    on objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)> {
+  UIPointerStyle? call(UIButton arg0, UIPointerEffect arg1, UIPointerShape arg2) {
+    final _$$ref$1 = arg0.ref;
+    final _$$ref$2 = arg1.ref;
+    final _$$ref$3 = arg2.ref;
+    return ref.pointer.ref.invoke
+                .cast<
+                  ffi.NativeFunction<
+                    ffi.Pointer<objc.ObjCObjectImpl> Function(
+                      ffi.Pointer<objc.ObjCBlockImpl> block,
+                      ffi.Pointer<objc.ObjCObjectImpl> arg0,
+                      ffi.Pointer<objc.ObjCObjectImpl> arg1,
+                      ffi.Pointer<objc.ObjCObjectImpl> arg2,
+                    )
+                  >
+                >()
+                .asFunction<
+                  ffi.Pointer<objc.ObjCObjectImpl> Function(
+                    ffi.Pointer<objc.ObjCBlockImpl>,
+                    ffi.Pointer<objc.ObjCObjectImpl>,
+                    ffi.Pointer<objc.ObjCObjectImpl>,
+                    ffi.Pointer<objc.ObjCObjectImpl>,
+                  )
+                >()(ref.pointer, _$$ref$1.pointer, _$$ref$2.pointer, _$$ref$3.pointer)
+                .address ==
+            0
+        ? null
+        : UIPointerStyle.fromPointer(
+            ref.pointer.ref.invoke
+                .cast<
+                  ffi.NativeFunction<
+                    ffi.Pointer<objc.ObjCObjectImpl> Function(
+                      ffi.Pointer<objc.ObjCBlockImpl> block,
+                      ffi.Pointer<objc.ObjCObjectImpl> arg0,
+                      ffi.Pointer<objc.ObjCObjectImpl> arg1,
+                      ffi.Pointer<objc.ObjCObjectImpl> arg2,
+                    )
+                  >
+                >()
+                .asFunction<
+                  ffi.Pointer<objc.ObjCObjectImpl> Function(
+                    ffi.Pointer<objc.ObjCBlockImpl>,
+                    ffi.Pointer<objc.ObjCObjectImpl>,
+                    ffi.Pointer<objc.ObjCObjectImpl>,
+                    ffi.Pointer<objc.ObjCObjectImpl>,
+                  )
+                >()(ref.pointer, _$$ref$1.pointer, _$$ref$2.pointer, _$$ref$3.pointer),
+            retain: true,
+            release: true,
+          );
+  }
+}
+
 /// Construction methods for `objc.ObjCBlock<ffi.Void Function()>`.
 abstract final class ObjCBlock_ffiVoid {
   /// Returns a block that wraps the given raw block pointer.
@@ -1576,7 +1766,7 @@ abstract final class ObjCBlock_ffiVoid {
   static objc.ObjCBlock<ffi.Void Function()> listener(void Function() fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function()>(
       objc.newBlockPort(
-        _1prk8yq_wrapListenerBlock_1pl9qdv,
+        _nmrybb_wrapListenerBlock_1pl9qdv,
         (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) => fn(),
         keepIsolateAlive,
       ),
@@ -1598,7 +1788,7 @@ abstract final class ObjCBlock_ffiVoid {
   static objc.ObjCBlock<ffi.Void Function()> blocking(void Function() fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function()>(
       objc.newBlockingBlockPort(
-        _1prk8yq_wrapBlockingBlock_1pl9qdv,
+        _nmrybb_wrapBlockingBlock_1pl9qdv,
         (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) => fn(),
         keepIsolateAlive,
       ),
@@ -1695,7 +1885,7 @@ abstract final class ObjCBlock_ffiVoid_NSData_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSData?, objc.NSError?)>(
-      objc.newBlockPort(_1prk8yq_wrapListenerBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_x5cg0.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1);
@@ -1720,7 +1910,7 @@ abstract final class ObjCBlock_ffiVoid_NSData_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSData?, objc.NSError?)>(
-      objc.newBlockingBlockPort(_1prk8yq_wrapBlockingBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_x5cg0.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1);
@@ -1848,7 +2038,7 @@ abstract final class ObjCBlock_ffiVoid_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError)>(
-      objc.newBlockPort(_1prk8yq_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_b9s2kt.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -1873,7 +2063,7 @@ abstract final class ObjCBlock_ffiVoid_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError)>(
-      objc.newBlockingBlockPort(_1prk8yq_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_b9s2kt.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -1971,7 +2161,7 @@ abstract final class ObjCBlock_ffiVoid_NSError$1 {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError?)>(
-      objc.newBlockPort(_1prk8yq_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_117e0ww.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -1996,7 +2186,7 @@ abstract final class ObjCBlock_ffiVoid_NSError$1 {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError?)>(
-      objc.newBlockingBlockPort(_1prk8yq_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_117e0ww.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2036,6 +2226,129 @@ extension ObjCBlock_ffiVoid_NSError$1$CallExtension on objc.ObjCBlock<ffi.Void F
         .asFunction<void Function(ffi.Pointer<objc.ObjCBlockImpl>, ffi.Pointer<objc.ObjCObjectImpl>)>()(
       ref.pointer,
       _$$ref?.pointer ?? ffi.nullptr,
+    );
+  }
+}
+
+/// Construction methods for `objc.ObjCBlock<ffi.Void Function(UIAction)>`.
+abstract final class ObjCBlock_ffiVoid_UIAction {
+  /// Returns a block that wraps the given raw block pointer.
+  static objc.ObjCBlock<ffi.Void Function(UIAction)> fromPointer(
+    ffi.Pointer<objc.ObjCBlockImpl> pointer, {
+    bool retain = false,
+    bool release = false,
+  }) => objc.ObjCBlock<ffi.Void Function(UIAction)>(pointer, retain: retain, release: release);
+
+  /// Creates a block from a C function pointer.
+  ///
+  /// This block must be invoked by native code running on the same thread as
+  /// the isolate that registered it. Invoking the block on the wrong thread
+  /// will result in a crash.
+  static objc.ObjCBlock<ffi.Void Function(UIAction)> fromFunctionPointer(
+    ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> arg0)>> ptr,
+  ) => objc.ObjCBlock<ffi.Void Function(UIAction)>(
+    objc.newPointerBlock(_fnPtrCallable, ptr.cast()),
+    retain: false,
+    release: true,
+  );
+
+  /// Creates a block from a Dart function.
+  ///
+  /// This block must be invoked by native code running on the same thread as
+  /// the isolate that registered it. Invoking the block on the wrong thread
+  /// will result in a crash.
+  ///
+  /// If `keepIsolateAlive` is true, this block will keep this isolate alive
+  /// until it is garbage collected by both Dart and ObjC.
+  static objc.ObjCBlock<ffi.Void Function(UIAction)> fromFunction(
+    void Function(UIAction) fn, {
+    bool keepIsolateAlive = true,
+  }) => objc.ObjCBlock<ffi.Void Function(UIAction)>(
+    objc.newClosureBlock(_closureCallable, (ffi.Pointer<objc.ObjCObjectImpl> arg0) {
+      return fn(UIAction.fromPointer(arg0, retain: true, release: true));
+    }, keepIsolateAlive),
+    retain: false,
+    release: true,
+  );
+
+  /// Creates a listener block from a Dart function.
+  ///
+  /// This block can be invoked from any thread, but only supports void
+  /// functions, and is not run synchronously. Async functions (ie returning
+  /// Future<void>) are not supported.
+  ///
+  /// If `keepIsolateAlive` is true, this block will keep this isolate alive
+  /// until it is garbage collected by both Dart and ObjC.
+  static objc.ObjCBlock<ffi.Void Function(UIAction)> listener(
+    void Function(UIAction) fn, {
+    bool keepIsolateAlive = true,
+  }) {
+    return objc.ObjCBlock<ffi.Void Function(UIAction)>(
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+        final args = _BlockArgs_yr7fp0.fromPointer(rawArgs, retain: false, release: false);
+
+        fn(args.arg0);
+      }, keepIsolateAlive),
+      retain: false,
+      release: true,
+    );
+  }
+
+  /// Creates a blocking block from a Dart function.
+  ///
+  /// This callback can be invoked from any native thread, and will block the
+  /// caller until the callback is handled by the Dart isolate that created
+  /// the block. Async functions (ie returning Future<void>) are not supported.
+  ///
+  /// If `keepIsolateAlive` is true, this block will keep this isolate alive
+  /// until it is garbage collected by both Dart and ObjC. If the owner isolate
+  /// has shut down, and the block is invoked by native code, it may block
+  /// indefinitely, or have other undefined behavior.
+  static objc.ObjCBlock<ffi.Void Function(UIAction)> blocking(
+    void Function(UIAction) fn, {
+    bool keepIsolateAlive = true,
+  }) {
+    return objc.ObjCBlock<ffi.Void Function(UIAction)>(
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+        final args = _BlockArgs_yr7fp0.fromPointer(rawArgs, retain: false, release: false);
+
+        fn(args.arg0);
+      }, keepIsolateAlive),
+      retain: false,
+      release: true,
+    );
+  }
+
+  static void _fnPtrTrampoline(ffi.Pointer<objc.ObjCBlockImpl> block, ffi.Pointer<objc.ObjCObjectImpl> arg0) => block
+      .ref
+      .target
+      .cast<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> arg0)>>()
+      .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>)>()(arg0);
+  static ffi.Pointer<ffi.Void> _fnPtrCallable =
+      ffi.Pointer.fromFunction<ffi.Void Function(ffi.Pointer<objc.ObjCBlockImpl>, ffi.Pointer<objc.ObjCObjectImpl>)>(
+        _fnPtrTrampoline,
+      ).cast();
+  static void _closureTrampoline(ffi.Pointer<objc.ObjCBlockImpl> block, ffi.Pointer<objc.ObjCObjectImpl> arg0) =>
+      (objc.getBlockClosure(block) as void Function(ffi.Pointer<objc.ObjCObjectImpl>))(arg0);
+  static ffi.Pointer<ffi.Void> _closureCallable =
+      ffi.Pointer.fromFunction<ffi.Void Function(ffi.Pointer<objc.ObjCBlockImpl>, ffi.Pointer<objc.ObjCObjectImpl>)>(
+        _closureTrampoline,
+      ).cast();
+}
+
+/// Call operator for `objc.ObjCBlock<ffi.Void Function(UIAction)>`.
+extension ObjCBlock_ffiVoid_UIAction$CallExtension on objc.ObjCBlock<ffi.Void Function(UIAction)> {
+  void call(UIAction arg0) {
+    final _$$ref = arg0.ref;
+    return ref.pointer.ref.invoke
+        .cast<
+          ffi.NativeFunction<
+            ffi.Void Function(ffi.Pointer<objc.ObjCBlockImpl> block, ffi.Pointer<objc.ObjCObjectImpl> arg0)
+          >
+        >()
+        .asFunction<void Function(ffi.Pointer<objc.ObjCBlockImpl>, ffi.Pointer<objc.ObjCObjectImpl>)>()(
+      ref.pointer,
+      _$$ref.pointer,
     );
   }
 }
@@ -2180,7 +2493,7 @@ abstract final class ObjCBlock_ffiVoid_UIAction_objcObjCObjectImpl_objcObjCSelec
         ffi.Pointer<ffi.Bool>,
       )
     >(
-      objc.newBlockPort(_1prk8yq_wrapListenerBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_owfgvk.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1, args.arg2, args.arg3, args.arg4);
@@ -2222,7 +2535,7 @@ abstract final class ObjCBlock_ffiVoid_UIAction_objcObjCObjectImpl_objcObjCSelec
         ffi.Pointer<ffi.Bool>,
       )
     >(
-      objc.newBlockingBlockPort(_1prk8yq_wrapBlockingBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_owfgvk.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1, args.arg2, args.arg3, args.arg4);
@@ -2403,7 +2716,7 @@ abstract final class ObjCBlock_ffiVoid_UIAlertAction {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIAlertAction)>(
-      objc.newBlockPort(_1prk8yq_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_7bsu1e.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2428,7 +2741,7 @@ abstract final class ObjCBlock_ffiVoid_UIAlertAction {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIAlertAction)>(
-      objc.newBlockingBlockPort(_1prk8yq_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_7bsu1e.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2458,6 +2771,129 @@ abstract final class ObjCBlock_ffiVoid_UIAlertAction {
 /// Call operator for `objc.ObjCBlock<ffi.Void Function(UIAlertAction)>`.
 extension ObjCBlock_ffiVoid_UIAlertAction$CallExtension on objc.ObjCBlock<ffi.Void Function(UIAlertAction)> {
   void call(UIAlertAction arg0) {
+    final _$$ref = arg0.ref;
+    return ref.pointer.ref.invoke
+        .cast<
+          ffi.NativeFunction<
+            ffi.Void Function(ffi.Pointer<objc.ObjCBlockImpl> block, ffi.Pointer<objc.ObjCObjectImpl> arg0)
+          >
+        >()
+        .asFunction<void Function(ffi.Pointer<objc.ObjCBlockImpl>, ffi.Pointer<objc.ObjCObjectImpl>)>()(
+      ref.pointer,
+      _$$ref.pointer,
+    );
+  }
+}
+
+/// Construction methods for `objc.ObjCBlock<ffi.Void Function(UIButton)>`.
+abstract final class ObjCBlock_ffiVoid_UIButton {
+  /// Returns a block that wraps the given raw block pointer.
+  static objc.ObjCBlock<ffi.Void Function(UIButton)> fromPointer(
+    ffi.Pointer<objc.ObjCBlockImpl> pointer, {
+    bool retain = false,
+    bool release = false,
+  }) => objc.ObjCBlock<ffi.Void Function(UIButton)>(pointer, retain: retain, release: release);
+
+  /// Creates a block from a C function pointer.
+  ///
+  /// This block must be invoked by native code running on the same thread as
+  /// the isolate that registered it. Invoking the block on the wrong thread
+  /// will result in a crash.
+  static objc.ObjCBlock<ffi.Void Function(UIButton)> fromFunctionPointer(
+    ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> arg0)>> ptr,
+  ) => objc.ObjCBlock<ffi.Void Function(UIButton)>(
+    objc.newPointerBlock(_fnPtrCallable, ptr.cast()),
+    retain: false,
+    release: true,
+  );
+
+  /// Creates a block from a Dart function.
+  ///
+  /// This block must be invoked by native code running on the same thread as
+  /// the isolate that registered it. Invoking the block on the wrong thread
+  /// will result in a crash.
+  ///
+  /// If `keepIsolateAlive` is true, this block will keep this isolate alive
+  /// until it is garbage collected by both Dart and ObjC.
+  static objc.ObjCBlock<ffi.Void Function(UIButton)> fromFunction(
+    void Function(UIButton) fn, {
+    bool keepIsolateAlive = true,
+  }) => objc.ObjCBlock<ffi.Void Function(UIButton)>(
+    objc.newClosureBlock(_closureCallable, (ffi.Pointer<objc.ObjCObjectImpl> arg0) {
+      return fn(UIButton.fromPointer(arg0, retain: true, release: true));
+    }, keepIsolateAlive),
+    retain: false,
+    release: true,
+  );
+
+  /// Creates a listener block from a Dart function.
+  ///
+  /// This block can be invoked from any thread, but only supports void
+  /// functions, and is not run synchronously. Async functions (ie returning
+  /// Future<void>) are not supported.
+  ///
+  /// If `keepIsolateAlive` is true, this block will keep this isolate alive
+  /// until it is garbage collected by both Dart and ObjC.
+  static objc.ObjCBlock<ffi.Void Function(UIButton)> listener(
+    void Function(UIButton) fn, {
+    bool keepIsolateAlive = true,
+  }) {
+    return objc.ObjCBlock<ffi.Void Function(UIButton)>(
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+        final args = _BlockArgs_8ceibm.fromPointer(rawArgs, retain: false, release: false);
+
+        fn(args.arg0);
+      }, keepIsolateAlive),
+      retain: false,
+      release: true,
+    );
+  }
+
+  /// Creates a blocking block from a Dart function.
+  ///
+  /// This callback can be invoked from any native thread, and will block the
+  /// caller until the callback is handled by the Dart isolate that created
+  /// the block. Async functions (ie returning Future<void>) are not supported.
+  ///
+  /// If `keepIsolateAlive` is true, this block will keep this isolate alive
+  /// until it is garbage collected by both Dart and ObjC. If the owner isolate
+  /// has shut down, and the block is invoked by native code, it may block
+  /// indefinitely, or have other undefined behavior.
+  static objc.ObjCBlock<ffi.Void Function(UIButton)> blocking(
+    void Function(UIButton) fn, {
+    bool keepIsolateAlive = true,
+  }) {
+    return objc.ObjCBlock<ffi.Void Function(UIButton)>(
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+        final args = _BlockArgs_8ceibm.fromPointer(rawArgs, retain: false, release: false);
+
+        fn(args.arg0);
+      }, keepIsolateAlive),
+      retain: false,
+      release: true,
+    );
+  }
+
+  static void _fnPtrTrampoline(ffi.Pointer<objc.ObjCBlockImpl> block, ffi.Pointer<objc.ObjCObjectImpl> arg0) => block
+      .ref
+      .target
+      .cast<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> arg0)>>()
+      .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>)>()(arg0);
+  static ffi.Pointer<ffi.Void> _fnPtrCallable =
+      ffi.Pointer.fromFunction<ffi.Void Function(ffi.Pointer<objc.ObjCBlockImpl>, ffi.Pointer<objc.ObjCObjectImpl>)>(
+        _fnPtrTrampoline,
+      ).cast();
+  static void _closureTrampoline(ffi.Pointer<objc.ObjCBlockImpl> block, ffi.Pointer<objc.ObjCObjectImpl> arg0) =>
+      (objc.getBlockClosure(block) as void Function(ffi.Pointer<objc.ObjCObjectImpl>))(arg0);
+  static ffi.Pointer<ffi.Void> _closureCallable =
+      ffi.Pointer.fromFunction<ffi.Void Function(ffi.Pointer<objc.ObjCBlockImpl>, ffi.Pointer<objc.ObjCObjectImpl>)>(
+        _closureTrampoline,
+      ).cast();
+}
+
+/// Call operator for `objc.ObjCBlock<ffi.Void Function(UIButton)>`.
+extension ObjCBlock_ffiVoid_UIButton$CallExtension on objc.ObjCBlock<ffi.Void Function(UIButton)> {
+  void call(UIButton arg0) {
     final _$$ref = arg0.ref;
     return ref.pointer.ref.invoke
         .cast<
@@ -2526,7 +2962,7 @@ abstract final class ObjCBlock_ffiVoid_UITextField {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UITextField)>(
-      objc.newBlockPort(_1prk8yq_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_y40f0l.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2551,7 +2987,7 @@ abstract final class ObjCBlock_ffiVoid_UITextField {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UITextField)>(
-      objc.newBlockingBlockPort(_1prk8yq_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_y40f0l.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2646,7 +3082,7 @@ abstract final class ObjCBlock_ffiVoid_bool {
   /// until it is garbage collected by both Dart and ObjC.
   static objc.ObjCBlock<ffi.Void Function(ffi.Bool)> listener(void Function(bool) fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function(ffi.Bool)>(
-      objc.newBlockPort(_1prk8yq_wrapListenerBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_nmrybb_wrapListenerBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_k4je64.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2668,7 +3104,7 @@ abstract final class ObjCBlock_ffiVoid_bool {
   /// indefinitely, or have other undefined behavior.
   static objc.ObjCBlock<ffi.Void Function(ffi.Bool)> blocking(void Function(bool) fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function(ffi.Bool)>(
-      objc.newBlockingBlockPort(_1prk8yq_wrapBlockingBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_k4je64.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2736,21 +3172,513 @@ extension PreconfiguredSystemImages on UIImage {
   }
 }
 
-/// WARNING: UIAction is a stub. To generate bindings for this class, include
-/// UIAction in your config's objc-interfaces list.
-///
 /// UIAction
 extension type UIAction._(objc.ObjCObject object$) implements objc.ObjCObject, UIMenuElement {
   /// Constructs a [UIAction] that points to the same underlying object as [other].
   UIAction.as(objc.ObjCObject other) : object$ = other {
     objc.checkOsVersionInternal('UIAction', iOS: (false, (13, 0, 0)));
+    assert(isA(object$));
   }
 
   /// Constructs a [UIAction] that wraps the given raw object pointer.
   UIAction.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {
     objc.checkOsVersionInternal('UIAction', iOS: (false, (13, 0, 0)));
+    assert(isA(object$));
   }
+
+  /// Returns whether [obj] is an instance of [UIAction].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIAction);
+
+  /// !
+  /// @abstract Creates a UIAction with an empty title, nil image, and automatically generated identifier
+  ///
+  /// @param handler  Handler block. Called when the user selects the action.
+  ///
+  /// @return A new UIAction.
+  static UIAction actionWithHandler(objc.ObjCBlock<ffi.Void Function(UIAction)> handler) {
+    final _$$ref = handler.ref;
+    objc.checkOsVersionInternal('UIAction.actionWithHandler:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_nnxkei(_class_UIAction, _sel_actionWithHandler_, _$$ref.pointer);
+    return UIAction.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// !
+  /// @abstract Creates a UIAction with the given arguments.
+  ///
+  /// @param title    The action's title.
+  /// @param image    Image that can appear next to this action, if needed.
+  /// @param identifier  The action's identifier. Pass nil to use an auto-generated identifier.
+  /// @param handler  Handler block. Called when the user selects the action.
+  ///
+  /// @return A new UIAction.
+  static UIAction actionWithTitle(
+    objc.NSString title, {
+    UIImage? image,
+    objc.NSString? identifier,
+    required objc.ObjCBlock<ffi.Void Function(UIAction)> handler,
+  }) {
+    final _$$ref = title.ref;
+    final _$$ref$1 = image?.ref;
+    final _$$ref$2 = identifier?.ref;
+    final _$$ref$3 = handler.ref;
+    final $ret = _objc_msgSend_bpwlds(
+      _class_UIAction,
+      _sel_actionWithTitle_image_identifier_handler_,
+      _$$ref.pointer,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      _$$ref$2?.pointer ?? ffi.nullptr,
+      _$$ref$3.pointer,
+    );
+    return UIAction.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// alloc
+  static UIAction alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIAction, _sel_alloc);
+    return UIAction.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIAction allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIAction, _sel_allocWithZone_, zone);
+    return UIAction.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// !
+  /// @abstract Creates a new UIAction for the captureTextFromCamera: standard edit action.
+  ///
+  /// @param responder The UIKeyInput responder to send captureTextFromCamera: to.
+  /// @param identifier  The action's identifier. Pass nil to use an auto-generated identifier.
+  ///
+  /// @return A new UIAction.
+  static UIAction captureTextFromCameraActionForResponder(UIResponder responder, {objc.NSString? identifier}) {
+    final _$$ref = responder.ref;
+    final _$$ref$1 = identifier?.ref;
+    objc.checkOsVersionInternal(
+      'UIAction.captureTextFromCameraActionForResponder:identifier:',
+      iOS: (false, (15, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIAction,
+      _sel_captureTextFromCameraActionForResponder_identifier_,
+      _$$ref.pointer,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+    );
+    return UIAction.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// supportsSecureCoding
+  static bool getSupportsSecureCoding() {
+    return _objc_msgSend_91o635(_class_UIAction, _sel_supportsSecureCoding);
+  }
+}
+
+extension UIAction$Methods on UIAction {
+  /// This action's style.
+  int get attributes {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.attributes', iOS: (false, (13, 0, 0)));
+    return _objc_msgSend_kzdfm1(_$$ref.pointer, _sel_attributes);
+  }
+
+  /// Elaborated title, if any.
+  objc.NSString? get discoverabilityTitle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.discoverabilityTitle', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_discoverabilityTitle);
+    return $ret.address == 0 ? null : objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// This action's identifier.
+  objc.NSString get identifier {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.identifier', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_identifier);
+    return objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// Image that can appear next to this action.
+  UIImage? get image {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.image', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_image);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// initWithCoder:
+  UIAction? initWithCoder(objc.NSCoder coder) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$1.pointer);
+    return $ret.address == 0 ? null : UIAction.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// If available, the object on behalf of which the actionHandler is called.
+  objc.ObjCObject? get sender {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.sender', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_sender);
+    return $ret.address == 0 ? null : objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// This action's style.
+  set attributes(int value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.setAttributes:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_18kcki9(_$$ref.pointer, _sel_setAttributes_, value);
+  }
+
+  /// Elaborated title, if any.
+  set discoverabilityTitle(objc.NSString? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIAction.setDiscoverabilityTitle:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setDiscoverabilityTitle_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// Image that can appear next to this action.
+  set image$1(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIAction.setImage:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// State that can appear next to this action.
+  set state(UIMenuElementState value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.setState:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_1qgnjih(_$$ref.pointer, _sel_setState_, value.value);
+  }
+
+  /// Short display title.
+  set title$1(objc.NSString value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIAction.setTitle:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTitle_, _$$ref$1.pointer);
+  }
+
+  /// State that can appear next to this action.
+  UIMenuElementState get state {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.state', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_13oxpc5(_$$ref.pointer, _sel_state);
+    return UIMenuElementState.fromValue($ret);
+  }
+
+  /// Short display title.
+  objc.NSString get title {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIAction.title', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_title);
+    return objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+}
+
+/// UIActivityIndicatorView
+extension type UIActivityIndicatorView._(objc.ObjCObject object$) implements objc.ObjCObject, UIView, objc.NSCoding {
+  /// Constructs a [UIActivityIndicatorView] that points to the same underlying object as [other].
+  UIActivityIndicatorView.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UIActivityIndicatorView', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Constructs a [UIActivityIndicatorView] that wraps the given raw object pointer.
+  UIActivityIndicatorView.fromPointer(
+    ffi.Pointer<objc.ObjCObjectImpl> other, {
+    bool retain = false,
+    bool release = false,
+  }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UIActivityIndicatorView', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UIActivityIndicatorView].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIActivityIndicatorView);
+
+  /// alloc
+  static UIActivityIndicatorView alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIActivityIndicatorView, _sel_alloc);
+    return UIActivityIndicatorView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIActivityIndicatorView allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIActivityIndicatorView, _sel_allocWithZone_, zone);
+    return UIActivityIndicatorView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UIActivityIndicatorView appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UIActivityIndicatorView, _sel_appearance);
+    return UIActivityIndicatorView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UIActivityIndicatorView appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref = trait.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIActivityIndicatorView,
+      _sel_appearanceForTraitCollection_,
+      _$$ref.pointer,
+    );
+    return UIActivityIndicatorView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UIActivityIndicatorView appearanceForTraitCollection$1(
+    UITraitCollection trait, {
+    UIAppearanceContainer? whenContainedIn,
+  }) {
+    final _$$ref = trait.ref;
+    final _$$ref$1 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal(
+      'UIActivityIndicatorView.appearanceForTraitCollection:whenContainedIn:',
+      iOS: (false, (8, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIActivityIndicatorView,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref.pointer,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+    );
+    return UIActivityIndicatorView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UIActivityIndicatorView appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref = trait.ref;
+    final _$$ref$1 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UIActivityIndicatorView.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIActivityIndicatorView,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref.pointer,
+      _$$ref$1.pointer,
+    );
+    return UIActivityIndicatorView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UIActivityIndicatorView appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIActivityIndicatorView,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref?.pointer ?? ffi.nullptr,
+    );
+    return UIActivityIndicatorView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UIActivityIndicatorView appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref = containerTypes.ref;
+    objc.checkOsVersionInternal(
+      'UIActivityIndicatorView.appearanceWhenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIActivityIndicatorView,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref.pointer,
+    );
+    return UIActivityIndicatorView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UIActivityIndicatorView.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UIActivityIndicatorView, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UIActivityIndicatorView new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UIActivityIndicatorView, _sel_new);
+    return UIActivityIndicatorView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UIActivityIndicatorView.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UIActivityIndicatorView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UIActivityIndicatorView.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UIActivityIndicatorView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UIActivityIndicatorView constructed with the default `new` method.
+  UIActivityIndicatorView() : this.as(new$().object$);
+}
+
+extension UIActivityIndicatorView$Methods on UIActivityIndicatorView {
+  /// activityIndicatorViewStyle
+  UIActivityIndicatorViewStyle get activityIndicatorViewStyle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.activityIndicatorViewStyle', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1bq77wb(_$$ref.pointer, _sel_activityIndicatorViewStyle);
+    return UIActivityIndicatorViewStyle.fromValue($ret);
+  }
+
+  /// color
+  UIColor get color {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.color', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_color);
+    return UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// encodeWithCoder:
+  void encodeWithCoder(objc.NSCoder coder) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_encodeWithCoder_, _$$ref$1.pointer);
+  }
+
+  /// hidesWhenStopped
+  bool get hidesWhenStopped {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.hidesWhenStopped', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_hidesWhenStopped);
+  }
+
+  /// init
+  UIActivityIndicatorView init() {
+    final _$$ref$1 = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$1.retainAndReturnPointer(), _sel_init);
+    return UIActivityIndicatorView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithActivityIndicatorStyle:
+  UIActivityIndicatorView initWithActivityIndicatorStyle(UIActivityIndicatorViewStyle style) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.initWithActivityIndicatorStyle:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1cvrsvj(
+      _$$ref.retainAndReturnPointer(),
+      _sel_initWithActivityIndicatorStyle_,
+      style.value,
+    );
+    return UIActivityIndicatorView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UIActivityIndicatorView? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$2 = object$.ref;
+    final _$$ref$3 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$2.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$3.pointer);
+    return $ret.address == 0 ? null : UIActivityIndicatorView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UIActivityIndicatorView initWithFrame(objc.CGRect frame) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UIActivityIndicatorView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// isAnimating
+  bool get isAnimating {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.isAnimating', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isAnimating);
+  }
+
+  /// setActivityIndicatorViewStyle:
+  set activityIndicatorViewStyle(UIActivityIndicatorViewStyle value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.setActivityIndicatorViewStyle:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1cz3vdv(_$$ref.pointer, _sel_setActivityIndicatorViewStyle_, value.value);
+  }
+
+  /// setColor:
+  set color(UIColor value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.setColor:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setColor_, _$$ref$1.pointer);
+  }
+
+  /// setHidesWhenStopped:
+  set hidesWhenStopped(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.setHidesWhenStopped:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setHidesWhenStopped_, value);
+  }
+
+  /// startAnimating
+  void startAnimating() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.startAnimating', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_startAnimating);
+  }
+
+  /// stopAnimating
+  void stopAnimating() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIActivityIndicatorView.stopAnimating', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_stopAnimating);
+  }
+}
+
+enum UIActivityIndicatorViewStyle {
+  UIActivityIndicatorViewStyleMedium(100),
+  UIActivityIndicatorViewStyleLarge(101),
+  UIActivityIndicatorViewStyleWhiteLarge(0),
+  UIActivityIndicatorViewStyleWhite(1),
+  UIActivityIndicatorViewStyleGray(2);
+
+  final int value;
+  const UIActivityIndicatorViewStyle(this.value);
+
+  static UIActivityIndicatorViewStyle fromValue(int value) => switch (value) {
+    100 => UIActivityIndicatorViewStyleMedium,
+    101 => UIActivityIndicatorViewStyleLarge,
+    0 => UIActivityIndicatorViewStyleWhiteLarge,
+    1 => UIActivityIndicatorViewStyleWhite,
+    2 => UIActivityIndicatorViewStyleGray,
+    _ => throw ArgumentError('Unknown value for UIActivityIndicatorViewStyle: $value'),
+  };
 }
 
 /// UIAlertAction
@@ -2816,9 +3744,9 @@ extension type UIAlertAction._(objc.ObjCObject object$) implements objc.ObjCObje
 extension UIAlertAction$Methods on UIAlertAction {
   /// init
   UIAlertAction init() {
-    final _$$ref$1 = object$.ref;
+    final _$$ref$2 = object$.ref;
     objc.checkOsVersionInternal('UIAlertAction.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$1.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$2.retainAndReturnPointer(), _sel_init);
     return UIAlertAction.fromPointer($ret, retain: false, release: true);
   }
 
@@ -2959,17 +3887,17 @@ extension UIAlertController$Methods on UIAlertController {
 
   /// init
   UIAlertController init() {
-    final _$$ref$2 = object$.ref;
+    final _$$ref$3 = object$.ref;
     objc.checkOsVersionInternal('UIAlertController.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$2.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$3.retainAndReturnPointer(), _sel_init);
     return UIAlertController.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIAlertController? initWithCoder(objc.NSCoder coder) {
-    final _$$ref = object$.ref;
-    final _$$ref$1 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$1.pointer);
+    final _$$ref$4 = object$.ref;
+    final _$$ref$5 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$4.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$5.pointer);
     return $ret.address == 0 ? null : UIAlertController.fromPointer($ret, retain: false, release: true);
   }
 
@@ -3295,9 +4223,9 @@ extension UIApplication$Methods on UIApplication {
 
   /// init
   UIApplication init() {
-    final _$$ref$3 = object$.ref;
+    final _$$ref$4 = object$.ref;
     objc.checkOsVersionInternal('UIApplication.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$3.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$4.retainAndReturnPointer(), _sel_init);
     return UIApplication.fromPointer($ret, retain: false, release: true);
   }
 
@@ -3894,9 +4822,9 @@ extension UIBarAppearance$Methods on UIBarAppearance {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref = object$.ref;
-    final _$$ref$1 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_encodeWithCoder_, _$$ref$1.pointer);
+    final _$$ref$2 = object$.ref;
+    final _$$ref$3 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$2.pointer, _sel_encodeWithCoder_, _$$ref$3.pointer);
   }
 
   /// The idiom that this appearance object targets.
@@ -3909,9 +4837,9 @@ extension UIBarAppearance$Methods on UIBarAppearance {
 
   /// init
   UIBarAppearance init() {
-    final _$$ref$4 = object$.ref;
+    final _$$ref$5 = object$.ref;
     objc.checkOsVersionInternal('UIBarAppearance.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$4.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$5.retainAndReturnPointer(), _sel_init);
     return UIBarAppearance.fromPointer($ret, retain: false, release: true);
   }
 
@@ -3926,9 +4854,9 @@ extension UIBarAppearance$Methods on UIBarAppearance {
 
   /// initWithCoder:
   UIBarAppearance? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$2 = object$.ref;
-    final _$$ref$3 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$2.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$3.pointer);
+    final _$$ref$6 = object$.ref;
+    final _$$ref$7 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$6.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$7.pointer);
     return $ret.address == 0 ? null : UIBarAppearance.fromPointer($ret, retain: false, release: true);
   }
 
@@ -4041,9 +4969,9 @@ extension type UIBarButtonItem._(objc.ObjCObject object$) implements objc.ObjCOb
 
   /// appearanceForTraitCollection:
   static UIBarButtonItem appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref = trait.ref;
+    final _$$ref$1 = trait.ref;
     objc.checkOsVersionInternal('UIBarButtonItem.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UIBarButtonItem, _sel_appearanceForTraitCollection_, _$$ref.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UIBarButtonItem, _sel_appearanceForTraitCollection_, _$$ref$1.pointer);
     return UIBarButtonItem.fromPointer($ret, retain: true, release: true);
   }
 
@@ -4053,8 +4981,8 @@ extension type UIBarButtonItem._(objc.ObjCObject object$) implements objc.ObjCOb
     UITraitCollection trait, {
     UIAppearanceContainer? whenContainedIn,
   }) {
-    final _$$ref = trait.ref;
-    final _$$ref$1 = whenContainedIn?.ref;
+    final _$$ref$2 = trait.ref;
+    final _$$ref$3 = whenContainedIn?.ref;
     objc.checkOsVersionInternal(
       'UIBarButtonItem.appearanceForTraitCollection:whenContainedIn:',
       iOS: (false, (8, 0, 0)),
@@ -4062,8 +4990,8 @@ extension type UIBarButtonItem._(objc.ObjCObject object$) implements objc.ObjCOb
     final $ret = _objc_msgSend_15qeuct(
       _class_UIBarButtonItem,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref.pointer,
-      _$$ref$1?.pointer ?? ffi.nullptr,
+      _$$ref$2.pointer,
+      _$$ref$3?.pointer ?? ffi.nullptr,
     );
     return UIBarButtonItem.fromPointer($ret, retain: true, release: true);
   }
@@ -4073,8 +5001,8 @@ extension type UIBarButtonItem._(objc.ObjCObject object$) implements objc.ObjCOb
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref = trait.ref;
-    final _$$ref$1 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$2 = trait.ref;
+    final _$$ref$3 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UIBarButtonItem.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -4082,8 +5010,8 @@ extension type UIBarButtonItem._(objc.ObjCObject object$) implements objc.ObjCOb
     final $ret = _objc_msgSend_15qeuct(
       _class_UIBarButtonItem,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref.pointer,
-      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+      _$$ref$3.pointer,
     );
     return UIBarButtonItem.fromPointer($ret, retain: true, release: true);
   }
@@ -4091,19 +5019,19 @@ extension type UIBarButtonItem._(objc.ObjCObject object$) implements objc.ObjCOb
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UIBarButtonItem appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref = ContainerClass?.ref;
+    final _$$ref$1 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UIBarButtonItem.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIBarButtonItem,
       _sel_appearanceWhenContainedIn_,
-      _$$ref?.pointer ?? ffi.nullptr,
+      _$$ref$1?.pointer ?? ffi.nullptr,
     );
     return UIBarButtonItem.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UIBarButtonItem appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref = containerTypes.ref;
+    final _$$ref$1 = containerTypes.ref;
     objc.checkOsVersionInternal(
       'UIBarButtonItem.appearanceWhenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -4111,7 +5039,7 @@ extension type UIBarButtonItem._(objc.ObjCObject object$) implements objc.ObjCOb
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIBarButtonItem,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref.pointer,
+      _$$ref$1.pointer,
     );
     return UIBarButtonItem.fromPointer($ret, retain: true, release: true);
   }
@@ -4281,16 +5209,16 @@ extension UIBarButtonItem$Methods on UIBarButtonItem {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$2 = object$.ref;
-    final _$$ref$3 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$2.pointer, _sel_encodeWithCoder_, _$$ref$3.pointer);
+    final _$$ref$4 = object$.ref;
+    final _$$ref$5 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$4.pointer, _sel_encodeWithCoder_, _$$ref$5.pointer);
   }
 
   /// init
   UIBarButtonItem init() {
-    final _$$ref$5 = object$.ref;
+    final _$$ref$6 = object$.ref;
     objc.checkOsVersionInternal('UIBarButtonItem.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$5.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$6.retainAndReturnPointer(), _sel_init);
     return UIBarButtonItem.fromPointer($ret, retain: false, release: true);
   }
 
@@ -4343,9 +5271,9 @@ extension UIBarButtonItem$Methods on UIBarButtonItem {
 
   /// initWithCoder:
   UIBarButtonItem? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$4 = object$.ref;
-    final _$$ref$5 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$4.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$5.pointer);
+    final _$$ref$8 = object$.ref;
+    final _$$ref$9 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$8.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$9.pointer);
     return $ret.address == 0 ? null : UIBarButtonItem.fromPointer($ret, retain: false, release: true);
   }
 
@@ -4830,9 +5758,9 @@ extension UIBarButtonItemAppearance$Methods on UIBarButtonItemAppearance {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$4 = object$.ref;
-    final _$$ref$5 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$4.pointer, _sel_encodeWithCoder_, _$$ref$5.pointer);
+    final _$$ref$6 = object$.ref;
+    final _$$ref$7 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$6.pointer, _sel_encodeWithCoder_, _$$ref$7.pointer);
   }
 
   /// The appearance when the bar button item is in the focused control state. If unspecified, then synthesized from the highlighted state.
@@ -4853,17 +5781,17 @@ extension UIBarButtonItemAppearance$Methods on UIBarButtonItemAppearance {
 
   /// init
   UIBarButtonItemAppearance init() {
-    final _$$ref$6 = object$.ref;
+    final _$$ref$7 = object$.ref;
     objc.checkOsVersionInternal('UIBarButtonItemAppearance.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$6.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$7.retainAndReturnPointer(), _sel_init);
     return UIBarButtonItemAppearance.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIBarButtonItemAppearance? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$6 = object$.ref;
-    final _$$ref$7 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$6.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$7.pointer);
+    final _$$ref$10 = object$.ref;
+    final _$$ref$11 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$10.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$11.pointer);
     return $ret.address == 0 ? null : UIBarButtonItemAppearance.fromPointer($ret, retain: false, release: true);
   }
 
@@ -4951,16 +5879,16 @@ extension UIBarButtonItemGroup$1$Methods on UIBarButtonItemGroup$1 {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$6 = object$.ref;
-    final _$$ref$7 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$6.pointer, _sel_encodeWithCoder_, _$$ref$7.pointer);
+    final _$$ref$8 = object$.ref;
+    final _$$ref$9 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$8.pointer, _sel_encodeWithCoder_, _$$ref$9.pointer);
   }
 
   /// init
   UIBarButtonItemGroup$1 init() {
-    final _$$ref$7 = object$.ref;
+    final _$$ref$8 = object$.ref;
     objc.checkOsVersionInternal('UIBarButtonItemGroup.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$7.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$8.retainAndReturnPointer(), _sel_init);
     return UIBarButtonItemGroup$1.fromPointer($ret, retain: false, release: true);
   }
 
@@ -4984,9 +5912,9 @@ extension UIBarButtonItemGroup$1$Methods on UIBarButtonItemGroup$1 {
 
   /// initWithCoder:
   UIBarButtonItemGroup$1? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$8 = object$.ref;
-    final _$$ref$9 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$8.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$9.pointer);
+    final _$$ref$12 = object$.ref;
+    final _$$ref$13 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$12.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$13.pointer);
     return $ret.address == 0 ? null : UIBarButtonItemGroup$1.fromPointer($ret, retain: false, release: true);
   }
 
@@ -5164,23 +6092,23 @@ extension type UIBarItem._(objc.ObjCObject object$)
 
   /// appearanceForTraitCollection:
   static UIBarItem appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$1 = trait.ref;
+    final _$$ref$2 = trait.ref;
     objc.checkOsVersionInternal('UIBarItem.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UIBarItem, _sel_appearanceForTraitCollection_, _$$ref$1.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UIBarItem, _sel_appearanceForTraitCollection_, _$$ref$2.pointer);
     return UIBarItem.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceForTraitCollection:whenContainedIn:
   @Deprecated('Deprecated')
   static UIBarItem appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
-    final _$$ref$2 = trait.ref;
-    final _$$ref$3 = whenContainedIn?.ref;
+    final _$$ref$4 = trait.ref;
+    final _$$ref$5 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UIBarItem.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UIBarItem,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$2.pointer,
-      _$$ref$3?.pointer ?? ffi.nullptr,
+      _$$ref$4.pointer,
+      _$$ref$5?.pointer ?? ffi.nullptr,
     );
     return UIBarItem.fromPointer($ret, retain: true, release: true);
   }
@@ -5190,8 +6118,8 @@ extension type UIBarItem._(objc.ObjCObject object$)
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$2 = trait.ref;
-    final _$$ref$3 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$4 = trait.ref;
+    final _$$ref$5 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UIBarItem.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -5199,8 +6127,8 @@ extension type UIBarItem._(objc.ObjCObject object$)
     final $ret = _objc_msgSend_15qeuct(
       _class_UIBarItem,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$2.pointer,
-      _$$ref$3.pointer,
+      _$$ref$4.pointer,
+      _$$ref$5.pointer,
     );
     return UIBarItem.fromPointer($ret, retain: true, release: true);
   }
@@ -5208,24 +6136,24 @@ extension type UIBarItem._(objc.ObjCObject object$)
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UIBarItem appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$1 = ContainerClass?.ref;
+    final _$$ref$2 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UIBarItem.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIBarItem,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$1?.pointer ?? ffi.nullptr,
+      _$$ref$2?.pointer ?? ffi.nullptr,
     );
     return UIBarItem.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UIBarItem appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$1 = containerTypes.ref;
+    final _$$ref$2 = containerTypes.ref;
     objc.checkOsVersionInternal('UIBarItem.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIBarItem,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$1.pointer,
+      _$$ref$2.pointer,
     );
     return UIBarItem.fromPointer($ret, retain: true, release: true);
   }
@@ -5243,9 +6171,9 @@ extension type UIBarItem._(objc.ObjCObject object$)
 extension UIBarItem$Methods on UIBarItem {
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$8 = object$.ref;
-    final _$$ref$9 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$8.pointer, _sel_encodeWithCoder_, _$$ref$9.pointer);
+    final _$$ref$10 = object$.ref;
+    final _$$ref$11 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$10.pointer, _sel_encodeWithCoder_, _$$ref$11.pointer);
   }
 
   /// image
@@ -5273,17 +6201,17 @@ extension UIBarItem$Methods on UIBarItem {
 
   /// init
   UIBarItem init() {
-    final _$$ref$8 = object$.ref;
+    final _$$ref$9 = object$.ref;
     objc.checkOsVersionInternal('UIBarItem.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$8.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$9.retainAndReturnPointer(), _sel_init);
     return UIBarItem.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIBarItem? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$10 = object$.ref;
-    final _$$ref$11 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$10.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$11.pointer);
+    final _$$ref$14 = object$.ref;
+    final _$$ref$15 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$14.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$15.pointer);
     return $ret.address == 0 ? null : UIBarItem.fromPointer($ret, retain: false, release: true);
   }
 
@@ -5539,6 +6467,1008 @@ extension type UIBlurEffect._(objc.ObjCObject object$) implements objc.ObjCObjec
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
 }
 
+/// UIButton
+extension type UIButton._(objc.ObjCObject object$) implements objc.ObjCObject, UIControl, objc.NSCoding {
+  /// Constructs a [UIButton] that points to the same underlying object as [other].
+  UIButton.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UIButton', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Constructs a [UIButton] that wraps the given raw object pointer.
+  UIButton.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UIButton', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UIButton].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIButton);
+
+  /// alloc
+  static UIButton alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIButton, _sel_alloc);
+    return UIButton.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIButton allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIButton, _sel_allocWithZone_, zone);
+    return UIButton.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UIButton appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UIButton, _sel_appearance);
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UIButton appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref$3 = trait.ref;
+    objc.checkOsVersionInternal('UIButton.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_class_UIButton, _sel_appearanceForTraitCollection_, _$$ref$3.pointer);
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UIButton appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
+    final _$$ref$6 = trait.ref;
+    final _$$ref$7 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal('UIButton.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIButton,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref$6.pointer,
+      _$$ref$7?.pointer ?? ffi.nullptr,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UIButton appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref$6 = trait.ref;
+    final _$$ref$7 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UIButton.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIButton,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref$6.pointer,
+      _$$ref$7.pointer,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UIButton appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref$3 = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UIButton.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIButton,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref$3?.pointer ?? ffi.nullptr,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UIButton appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref$3 = containerTypes.ref;
+    objc.checkOsVersionInternal('UIButton.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIButton,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref$3.pointer,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// Construct a new UIButton. `configuration` will be installed on the created button, and `primaryAction` added to handle the .primaryActionTriggered control event. If `primaryAction` has a title or image, they will be copied to `configuration`
+  static UIButton buttonWithConfiguration(UIButtonConfiguration configuration, {UIAction? primaryAction}) {
+    final _$$ref = configuration.ref;
+    final _$$ref$1 = primaryAction?.ref;
+    objc.checkOsVersionInternal('UIButton.buttonWithConfiguration:primaryAction:', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIButton,
+      _sel_buttonWithConfiguration_primaryAction_,
+      _$$ref.pointer,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// buttonWithType:
+  static UIButton buttonWithType(UIButtonType buttonType) {
+    objc.checkOsVersionInternal('UIButton.buttonWithType:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_905zir(_class_UIButton, _sel_buttonWithType_, buttonType.value);
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// Creates a button of the given type, registers primaryAction for the UIControlEventPrimaryActionTriggered control event, and if appropriate uses primaryAction's title & image as the button's title & image.
+  static UIButton buttonWithType$1(UIButtonType buttonType, {UIAction? primaryAction}) {
+    final _$$ref = primaryAction?.ref;
+    objc.checkOsVersionInternal('UIButton.buttonWithType:primaryAction:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_5qxa61(
+      _class_UIButton,
+      _sel_buttonWithType_primaryAction_,
+      buttonType.value,
+      _$$ref?.pointer ?? ffi.nullptr,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UIButton.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UIButton, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UIButton new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UIButton, _sel_new);
+    return UIButton.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// systemButtonWithImage:target:action:
+  static UIButton systemButtonWithImage(
+    UIImage image, {
+    objc.ObjCObject? target,
+    required ffi.Pointer<objc.ObjCSelector> action,
+  }) {
+    final _$$ref = image.ref;
+    final _$$ref$1 = target?.ref;
+    objc.checkOsVersionInternal('UIButton.systemButtonWithImage:target:action:', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_15l7zzi(
+      _class_UIButton,
+      _sel_systemButtonWithImage_target_action_,
+      _$$ref.pointer,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      action,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// Creates a system button, registers primaryAction for the UIControlEventPrimaryActionTriggered control event, and uses primaryAction's title & image as the button's title & image.
+  static UIButton systemButtonWithPrimaryAction(UIAction? primaryAction) {
+    final _$$ref = primaryAction?.ref;
+    objc.checkOsVersionInternal('UIButton.systemButtonWithPrimaryAction:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIButton,
+      _sel_systemButtonWithPrimaryAction_,
+      _$$ref?.pointer ?? ffi.nullptr,
+    );
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UIButton.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UIButton,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UIButton.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UIButton,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UIButton constructed with the default `new` method.
+  UIButton() : this.as(new$().object$);
+}
+
+extension UIButton$Methods on UIButton {
+  /// adjustsImageWhenDisabled
+  @Deprecated(
+    'This property is ignored when using UIButtonConfiguration, you may customize to replicate this behavior via a configurationUpdateHandler',
+  )
+  bool get adjustsImageWhenDisabled {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.adjustsImageWhenDisabled', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_adjustsImageWhenDisabled);
+  }
+
+  /// adjustsImageWhenHighlighted
+  @Deprecated(
+    'This property is ignored when using UIButtonConfiguration, you may customize to replicate this behavior via a configurationUpdateHandler',
+  )
+  bool get adjustsImageWhenHighlighted {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.adjustsImageWhenHighlighted', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_adjustsImageWhenHighlighted);
+  }
+
+  /// attributedTitleForState:
+  objc.NSAttributedString? attributedTitleForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.attributedTitleForState:', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_attributedTitleForState_, state);
+    return $ret.address == 0 ? null : objc.NSAttributedString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// When YES, the button will automatically call -updatedConfigurationForButton: on its `configuration ` when the button's state changes, and apply the updated configuration to the button. The default value is YES.
+  bool get automaticallyUpdatesConfiguration {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.automaticallyUpdatesConfiguration', iOS: (false, (15, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_automaticallyUpdatesConfiguration);
+  }
+
+  /// backgroundImageForState:
+  UIImage? backgroundImageForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.backgroundImageForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_backgroundImageForState_, state);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// backgroundRectForBounds:
+  @Deprecated('Override layoutSubviews, call super, and position views as you desire.')
+  objc.CGRect backgroundRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.backgroundRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_backgroundRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_backgroundRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// buttonType
+  UIButtonType get buttonType {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.buttonType', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_3xs6mv(_$$ref.pointer, _sel_buttonType);
+    return UIButtonType.fromValue($ret);
+  }
+
+  /// Indicates if the button changes selection as its primary action.
+  /// This shows the menu as options for selection if a menu is populated and showsMenuAsPrimaryAction is enabled.
+  /// If no menu is provided or it is not the primary action, UIControlStateSelected is toggled on and off for the primary action.
+  bool get changesSelectionAsPrimaryAction {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.changesSelectionAsPrimaryAction', iOS: (false, (15, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_changesSelectionAsPrimaryAction);
+  }
+
+  /// Setting a non-nil value for `configuration` will opt into configuration-based behavior on UIButton, update the button in a platform specific manner, and enable/disable some API.
+  UIButtonConfiguration? get configuration {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.configuration', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_configuration);
+    return $ret.address == 0 ? null : UIButtonConfiguration.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// Block-based equivalent to overriding -updateConfiguration in a subclass. Setting this handler will force the button into configuration-based behavior (see the `configuration` property). This block is called after `-updateConfiguration`
+  objc.ObjCBlock<ffi.Void Function(UIButton)>? get configurationUpdateHandler {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.configurationUpdateHandler', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_uwvaik(_$$ref.pointer, _sel_configurationUpdateHandler);
+    return $ret.address == 0 ? null : ObjCBlock_ffiVoid_UIButton.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// contentEdgeInsets
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  UIEdgeInsets get contentEdgeInsets {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.contentEdgeInsets', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<UIEdgeInsets>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_ct4cu5Stret($ptr, _$$ref.pointer, _sel_contentEdgeInsets)
+        : $ptr.ref = _objc_msgSend_ct4cu5(_$$ref.pointer, _sel_contentEdgeInsets);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<UIEdgeInsets>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<UIEdgeInsets>($finalizable);
+  }
+
+  /// contentRectForBounds:
+  @Deprecated('Override layoutSubviews, call super, and position views as you desire.')
+  objc.CGRect contentRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.contentRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_contentRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_contentRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// currentAttributedTitle
+  objc.NSAttributedString? get currentAttributedTitle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.currentAttributedTitle', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentAttributedTitle);
+    return $ret.address == 0 ? null : objc.NSAttributedString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentBackgroundImage
+  UIImage? get currentBackgroundImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.currentBackgroundImage', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentBackgroundImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentImage
+  UIImage? get currentImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.currentImage', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentPreferredSymbolConfiguration
+  UIImageSymbolConfiguration? get currentPreferredSymbolConfiguration {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.currentPreferredSymbolConfiguration', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentPreferredSymbolConfiguration);
+    return $ret.address == 0 ? null : UIImageSymbolConfiguration.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentTitle
+  objc.NSString? get currentTitle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.currentTitle', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentTitle);
+    return $ret.address == 0 ? null : objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentTitleColor
+  UIColor get currentTitleColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.currentTitleColor', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentTitleColor);
+    return UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentTitleShadowColor
+  UIColor? get currentTitleShadowColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.currentTitleShadowColor', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentTitleShadowColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// encodeWithCoder:
+  void encodeWithCoder(objc.NSCoder coder) {
+    final _$$ref$12 = object$.ref;
+    final _$$ref$13 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$12.pointer, _sel_encodeWithCoder_, _$$ref$13.pointer);
+  }
+
+  /// font
+  @Deprecated('Specify an attributed title with a custom font')
+  UIFont get font {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.font', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_font);
+    return UIFont.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// imageEdgeInsets
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  UIEdgeInsets get imageEdgeInsets {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.imageEdgeInsets', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<UIEdgeInsets>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_ct4cu5Stret($ptr, _$$ref.pointer, _sel_imageEdgeInsets)
+        : $ptr.ref = _objc_msgSend_ct4cu5(_$$ref.pointer, _sel_imageEdgeInsets);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<UIEdgeInsets>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<UIEdgeInsets>($finalizable);
+  }
+
+  /// imageForState:
+  UIImage? imageForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.imageForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_imageForState_, state);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// imageRectForContentRect:
+  @Deprecated('Override layoutSubviews, call super, and position views as you desire.')
+  objc.CGRect imageRectForContentRect(objc.CGRect contentRect) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.imageRectForContentRect:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_imageRectForContentRect_, contentRect)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_imageRectForContentRect_, contentRect);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// imageView
+  UIImageView? get imageView {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.imageView', iOS: (false, (3, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_imageView);
+    return $ret.address == 0 ? null : UIImageView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// init
+  UIButton init() {
+    final _$$ref$10 = object$.ref;
+    objc.checkOsVersionInternal('UIButton.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$10.retainAndReturnPointer(), _sel_init);
+    return UIButton.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UIButton? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$16 = object$.ref;
+    final _$$ref$17 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$16.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$17.pointer);
+    return $ret.address == 0 ? null : UIButton.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UIButton initWithFrame(objc.CGRect frame) {
+    final _$$ref$1 = object$.ref;
+    objc.checkOsVersionInternal('UIButton.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$1.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UIButton.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// Initializes the control and adds primaryAction for the UIControlEventPrimaryActionTriggered control event. Subclasses of UIControl may alter or add behaviors around the usage of primaryAction, see subclass documentation of this initializer for additional information.
+  UIButton initWithFrame$1(objc.CGRect frame, {UIAction? primaryAction}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = primaryAction?.ref;
+    objc.checkOsVersionInternal('UIButton.initWithFrame:primaryAction:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_gxusyk(
+      _$$ref.retainAndReturnPointer(),
+      _sel_initWithFrame_primaryAction_,
+      frame,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+    );
+    return UIButton.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// Returns true while the button is presenting a menu.
+  bool get isHeld {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.isHeld', iOS: (false, (15, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isHeld);
+  }
+
+  /// If pointer effects are enabled for the button, this will return true when an effect is active.
+  bool get isHovered {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.isHovered', iOS: (false, (15, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isHovered);
+  }
+
+  /// Enables this button's built-in pointer interaction.
+  bool get isPointerInteractionEnabled {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.isPointerInteractionEnabled', iOS: (false, (13, 4, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isPointerInteractionEnabled);
+  }
+
+  /// lineBreakMode
+  @Deprecated('Specify an attributed title with a customized paragraph style')
+  NSLineBreakMode get lineBreakMode {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.lineBreakMode', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_ybsdio(_$$ref.pointer, _sel_lineBreakMode);
+    return NSLineBreakMode.fromValue($ret);
+  }
+
+  /// An optional menu for the button to display. The button will automatically enable or disable its contextMenuInteraction when a non-nil or nil menu is set. Defaults to nil.
+  UIMenu? get menu {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.menu', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_menu);
+    return $ret.address == 0 ? null : UIMenu.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// !
+  /// @abstract Called when the system pointer hovers over this button if its pointer interaction is enabled. The
+  /// system calls this block with a proposed UIPointerEffect and UIPointerShape. You may use them to construct
+  /// a customized version of the system provided style or return an entirely custom one.
+  /// Setting this property automatically enables the button's pointer interaction and sets @c pointerInteractionEnabled to true.
+  objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)>? get pointerStyleProvider {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.pointerStyleProvider', iOS: (false, (13, 4, 0)));
+    final $ret = _objc_msgSend_uwvaik(_$$ref.pointer, _sel_pointerStyleProvider);
+    return $ret.address == 0
+        ? null
+        : ObjCBlock_UIPointerStyle_UIButton_UIPointerEffect_UIPointerShape.fromPointer(
+            $ret,
+            retain: true,
+            release: true,
+          );
+  }
+
+  /// preferredSymbolConfigurationForImageInState:
+  UIImageSymbolConfiguration? preferredSymbolConfigurationForImageInState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.preferredSymbolConfigurationForImageInState:', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_preferredSymbolConfigurationForImageInState_, state);
+    return $ret.address == 0 ? null : UIImageSymbolConfiguration.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// reversesTitleShadowWhenHighlighted
+  @Deprecated(
+    'This property is ignored when using UIButtonConfiguration, you may customize to replicate this behavior via a configurationUpdateHandler',
+  )
+  bool get reversesTitleShadowWhenHighlighted {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.reversesTitleShadowWhenHighlighted', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_reversesTitleShadowWhenHighlighted);
+  }
+
+  /// role
+  UIButtonRole get role {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.role', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_r1iyqz(_$$ref.pointer, _sel_role);
+    return UIButtonRole.fromValue($ret);
+  }
+
+  /// setAdjustsImageWhenDisabled:
+  @Deprecated(
+    'This property is ignored when using UIButtonConfiguration, you may customize to replicate this behavior via a configurationUpdateHandler',
+  )
+  set adjustsImageWhenDisabled(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setAdjustsImageWhenDisabled:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setAdjustsImageWhenDisabled_, value);
+  }
+
+  /// setAdjustsImageWhenHighlighted:
+  @Deprecated(
+    'This property is ignored when using UIButtonConfiguration, you may customize to replicate this behavior via a configurationUpdateHandler',
+  )
+  set adjustsImageWhenHighlighted(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setAdjustsImageWhenHighlighted:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setAdjustsImageWhenHighlighted_, value);
+  }
+
+  /// setAttributedTitle:forState:
+  void setAttributedTitle(objc.NSAttributedString? title, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = title?.ref;
+    objc.checkOsVersionInternal('UIButton.setAttributedTitle:forState:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_dldayz(_$$ref.pointer, _sel_setAttributedTitle_forState_, _$$ref$1?.pointer ?? ffi.nullptr, forState);
+  }
+
+  /// When YES, the button will automatically call -updatedConfigurationForButton: on its `configuration ` when the button's state changes, and apply the updated configuration to the button. The default value is YES.
+  set automaticallyUpdatesConfiguration(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setAutomaticallyUpdatesConfiguration:', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setAutomaticallyUpdatesConfiguration_, value);
+  }
+
+  /// setBackgroundImage:forState:
+  void setBackgroundImage(UIImage? image, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    objc.checkOsVersionInternal('UIButton.setBackgroundImage:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(_$$ref.pointer, _sel_setBackgroundImage_forState_, _$$ref$1?.pointer ?? ffi.nullptr, forState);
+  }
+
+  /// Indicates if the button changes selection as its primary action.
+  /// This shows the menu as options for selection if a menu is populated and showsMenuAsPrimaryAction is enabled.
+  /// If no menu is provided or it is not the primary action, UIControlStateSelected is toggled on and off for the primary action.
+  set changesSelectionAsPrimaryAction(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setChangesSelectionAsPrimaryAction:', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setChangesSelectionAsPrimaryAction_, value);
+  }
+
+  /// Setting a non-nil value for `configuration` will opt into configuration-based behavior on UIButton, update the button in a platform specific manner, and enable/disable some API.
+  set configuration(UIButtonConfiguration? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIButton.setConfiguration:', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setConfiguration_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// Block-based equivalent to overriding -updateConfiguration in a subclass. Setting this handler will force the button into configuration-based behavior (see the `configuration` property). This block is called after `-updateConfiguration`
+  set configurationUpdateHandler(objc.ObjCBlock<ffi.Void Function(UIButton)>? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIButton.setConfigurationUpdateHandler:', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_f167m6(_$$ref.pointer, _sel_setConfigurationUpdateHandler_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setContentEdgeInsets:
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  set contentEdgeInsets(UIEdgeInsets value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setContentEdgeInsets:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1g8fos5(_$$ref.pointer, _sel_setContentEdgeInsets_, value);
+  }
+
+  /// setFont:
+  @Deprecated('Specify an attributed title with a custom font')
+  set font(UIFont value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIButton.setFont:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setFont_, _$$ref$1.pointer);
+  }
+
+  /// setImage:forState:
+  void setImage(UIImage? image, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    objc.checkOsVersionInternal('UIButton.setImage:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(_$$ref.pointer, _sel_setImage_forState_, _$$ref$1?.pointer ?? ffi.nullptr, forState);
+  }
+
+  /// setImageEdgeInsets:
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  set imageEdgeInsets(UIEdgeInsets value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setImageEdgeInsets:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1g8fos5(_$$ref.pointer, _sel_setImageEdgeInsets_, value);
+  }
+
+  /// setLineBreakMode:
+  @Deprecated('Specify an attributed title with a customized paragraph style')
+  set lineBreakMode(NSLineBreakMode value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setLineBreakMode:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1kdet46(_$$ref.pointer, _sel_setLineBreakMode_, value.value);
+  }
+
+  /// An optional menu for the button to display. The button will automatically enable or disable its contextMenuInteraction when a non-nil or nil menu is set. Defaults to nil.
+  set menu(UIMenu? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIButton.setMenu:', iOS: (false, (14, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setMenu_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// Requests the view update its configuration for its current state. This method is called automatically when the button's state may have changed, as well as in other circumstances where an update may be required. Multiple requests may be coalesced into a single update at the appropriate time.
+  void setNeedsUpdateConfiguration() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setNeedsUpdateConfiguration', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_setNeedsUpdateConfiguration);
+  }
+
+  /// Enables this button's built-in pointer interaction.
+  set isPointerInteractionEnabled(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setPointerInteractionEnabled:', iOS: (false, (13, 4, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setPointerInteractionEnabled_, value);
+  }
+
+  /// !
+  /// @abstract Called when the system pointer hovers over this button if its pointer interaction is enabled. The
+  /// system calls this block with a proposed UIPointerEffect and UIPointerShape. You may use them to construct
+  /// a customized version of the system provided style or return an entirely custom one.
+  /// Setting this property automatically enables the button's pointer interaction and sets @c pointerInteractionEnabled to true.
+  set pointerStyleProvider(objc.ObjCBlock<UIPointerStyle? Function(UIButton, UIPointerEffect, UIPointerShape)>? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIButton.setPointerStyleProvider:', iOS: (false, (13, 4, 0)));
+    _objc_msgSend_f167m6(_$$ref.pointer, _sel_setPointerStyleProvider_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setPreferredSymbolConfiguration:forImageInState:
+  void setPreferredSymbolConfiguration(UIImageSymbolConfiguration? configuration, {required int forImageInState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = configuration?.ref;
+    objc.checkOsVersionInternal('UIButton.setPreferredSymbolConfiguration:forImageInState:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_dldayz(
+      _$$ref.pointer,
+      _sel_setPreferredSymbolConfiguration_forImageInState_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      forImageInState,
+    );
+  }
+
+  /// setReversesTitleShadowWhenHighlighted:
+  @Deprecated(
+    'This property is ignored when using UIButtonConfiguration, you may customize to replicate this behavior via a configurationUpdateHandler',
+  )
+  set reversesTitleShadowWhenHighlighted(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setReversesTitleShadowWhenHighlighted:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setReversesTitleShadowWhenHighlighted_, value);
+  }
+
+  /// setRole:
+  set role(UIButtonRole value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setRole:', iOS: (false, (14, 0, 0)));
+    _objc_msgSend_7jvzkb(_$$ref.pointer, _sel_setRole_, value.value);
+  }
+
+  /// setShowsTouchWhenHighlighted:
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  set showsTouchWhenHighlighted(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setShowsTouchWhenHighlighted:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setShowsTouchWhenHighlighted_, value);
+  }
+
+  /// setTintColor:
+  set tintColor(UIColor value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIButton.setTintColor:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTintColor_, _$$ref$1.pointer);
+  }
+
+  /// setTitle:forState:
+  void setTitle(objc.NSString? title, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = title?.ref;
+    objc.checkOsVersionInternal('UIButton.setTitle:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(_$$ref.pointer, _sel_setTitle_forState_, _$$ref$1?.pointer ?? ffi.nullptr, forState);
+  }
+
+  /// setTitleColor:forState:
+  void setTitleColor(UIColor? color, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = color?.ref;
+    objc.checkOsVersionInternal('UIButton.setTitleColor:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(_$$ref.pointer, _sel_setTitleColor_forState_, _$$ref$1?.pointer ?? ffi.nullptr, forState);
+  }
+
+  /// setTitleEdgeInsets:
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  set titleEdgeInsets(UIEdgeInsets value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setTitleEdgeInsets:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1g8fos5(_$$ref.pointer, _sel_setTitleEdgeInsets_, value);
+  }
+
+  /// setTitleShadowColor:forState:
+  void setTitleShadowColor(UIColor? color, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = color?.ref;
+    objc.checkOsVersionInternal('UIButton.setTitleShadowColor:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(
+      _$$ref.pointer,
+      _sel_setTitleShadowColor_forState_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      forState,
+    );
+  }
+
+  /// setTitleShadowOffset:
+  @Deprecated('Specify an attributed title with a customized shadow style')
+  set titleShadowOffset(objc.CGSize value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.setTitleShadowOffset:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_13lgpwz(_$$ref.pointer, _sel_setTitleShadowOffset_, value);
+  }
+
+  /// showsTouchWhenHighlighted
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  bool get showsTouchWhenHighlighted {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.showsTouchWhenHighlighted', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_showsTouchWhenHighlighted);
+  }
+
+  /// The label used to display the subtitle, when present.
+  UILabel? get subtitleLabel {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.subtitleLabel', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_subtitleLabel);
+    return $ret.address == 0 ? null : UILabel.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// tintColor
+  UIColor get tintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.tintColor', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_tintColor);
+    return UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// titleColorForState:
+  UIColor? titleColorForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.titleColorForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_titleColorForState_, state);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// titleEdgeInsets
+  @Deprecated('This property is ignored when using UIButtonConfiguration')
+  UIEdgeInsets get titleEdgeInsets {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.titleEdgeInsets', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<UIEdgeInsets>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_ct4cu5Stret($ptr, _$$ref.pointer, _sel_titleEdgeInsets)
+        : $ptr.ref = _objc_msgSend_ct4cu5(_$$ref.pointer, _sel_titleEdgeInsets);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<UIEdgeInsets>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<UIEdgeInsets>($finalizable);
+  }
+
+  /// titleForState:
+  objc.NSString? titleForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.titleForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_titleForState_, state);
+    return $ret.address == 0 ? null : objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// titleLabel
+  UILabel? get titleLabel {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.titleLabel', iOS: (false, (3, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_titleLabel);
+    return $ret.address == 0 ? null : UILabel.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// titleRectForContentRect:
+  @Deprecated('Override layoutSubviews, call super, and position views as you desire.')
+  objc.CGRect titleRectForContentRect(objc.CGRect contentRect) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.titleRectForContentRect:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_titleRectForContentRect_, contentRect)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_titleRectForContentRect_, contentRect);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// titleShadowColorForState:
+  UIColor? titleShadowColorForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.titleShadowColorForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_titleShadowColorForState_, state);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// titleShadowOffset
+  @Deprecated('Specify an attributed title with a customized shadow style')
+  objc.CGSize get titleShadowOffset {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.titleShadowOffset', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGSize>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1vdfkenStret($ptr, _$$ref.pointer, _sel_titleShadowOffset)
+        : $ptr.ref = _objc_msgSend_1vdfken(_$$ref.pointer, _sel_titleShadowOffset);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGSize>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGSize>($finalizable);
+  }
+
+  /// Subclasses should override this method and update the button's `configuration`. This method should not be called directly, use `setNeedsUpdateConfiguration` to request an update.
+  void updateConfiguration() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIButton.updateConfiguration', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_updateConfiguration);
+  }
+}
+
+/// WARNING: UIButtonConfiguration is a stub. To generate bindings for this class, include
+/// UIButtonConfiguration in your config's objc-interfaces list.
+///
+/// UIButtonConfiguration
+extension type UIButtonConfiguration._(objc.ObjCObject object$)
+    implements objc.ObjCObject, objc.NSObject, objc.NSCopying, objc.NSSecureCoding {
+  /// Constructs a [UIButtonConfiguration] that points to the same underlying object as [other].
+  UIButtonConfiguration.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UIButtonConfiguration', iOS: (false, (15, 0, 0)));
+  }
+
+  /// Constructs a [UIButtonConfiguration] that wraps the given raw object pointer.
+  UIButtonConfiguration.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UIButtonConfiguration', iOS: (false, (15, 0, 0)));
+  }
+}
+
+enum UIButtonRole {
+  UIButtonRoleNormal(0),
+  UIButtonRolePrimary(1),
+  UIButtonRoleCancel(2),
+  UIButtonRoleDestructive(3);
+
+  final int value;
+  const UIButtonRole(this.value);
+
+  static UIButtonRole fromValue(int value) => switch (value) {
+    0 => UIButtonRoleNormal,
+    1 => UIButtonRolePrimary,
+    2 => UIButtonRoleCancel,
+    3 => UIButtonRoleDestructive,
+    _ => throw ArgumentError('Unknown value for UIButtonRole: $value'),
+  };
+}
+
+enum UIButtonType {
+  UIButtonTypeCustom(0),
+  UIButtonTypeSystem(1),
+  UIButtonTypeDetailDisclosure(2),
+  UIButtonTypeInfoLight(3),
+  UIButtonTypeInfoDark(4),
+  UIButtonTypeContactAdd(5),
+  UIButtonTypePlain(6),
+  UIButtonTypeClose(7);
+
+  static const UIButtonTypeRoundedRect = UIButtonTypeSystem;
+
+  final int value;
+  const UIButtonType(this.value);
+
+  static UIButtonType fromValue(int value) => switch (value) {
+    0 => UIButtonTypeCustom,
+    1 => UIButtonTypeSystem,
+    2 => UIButtonTypeDetailDisclosure,
+    3 => UIButtonTypeInfoLight,
+    4 => UIButtonTypeInfoDark,
+    5 => UIButtonTypeContactAdd,
+    6 => UIButtonTypePlain,
+    7 => UIButtonTypeClose,
+    _ => throw ArgumentError('Unknown value for UIButtonType: $value'),
+  };
+
+  @override
+  String toString() {
+    if (this == UIButtonTypeSystem) return "UIButtonType.UIButtonTypeSystem, UIButtonType.UIButtonTypeRoundedRect";
+    return super.toString();
+  }
+}
+
 /// UICaptureTextFromCameraSupporting
 extension UICaptureTextFromCameraSupporting on UIResponder {
   /// captureTextFromCamera:
@@ -5549,6 +7479,9 @@ extension UICaptureTextFromCameraSupporting on UIResponder {
     _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_captureTextFromCamera_, _$$ref$1?.pointer ?? ffi.nullptr);
   }
 }
+
+/// UICaptureTextFromCameraSupporting
+extension UICaptureTextFromCameraSupporting$1 on UIAction {}
 
 /// UIColor
 extension type UIColor._(objc.ObjCObject object$)
@@ -5803,9 +7736,9 @@ extension UIColor$Methods on UIColor {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$10 = object$.ref;
-    final _$$ref$11 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$10.pointer, _sel_encodeWithCoder_, _$$ref$11.pointer);
+    final _$$ref$14 = object$.ref;
+    final _$$ref$15 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$14.pointer, _sel_encodeWithCoder_, _$$ref$15.pointer);
   }
 
   /// getHue:saturation:brightness:alpha:
@@ -5848,9 +7781,9 @@ extension UIColor$Methods on UIColor {
 
   /// init
   UIColor init() {
-    final _$$ref$9 = object$.ref;
+    final _$$ref$11 = object$.ref;
     objc.checkOsVersionInternal('UIColor.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$9.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$11.retainAndReturnPointer(), _sel_init);
     return UIColor.fromPointer($ret, retain: false, release: true);
   }
 
@@ -5873,9 +7806,9 @@ extension UIColor$Methods on UIColor {
 
   /// initWithCoder:
   UIColor? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$12 = object$.ref;
-    final _$$ref$13 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$12.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$13.pointer);
+    final _$$ref$18 = object$.ref;
+    final _$$ref$19 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$18.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$19.pointer);
     return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: false, release: true);
   }
 
@@ -6998,23 +8931,23 @@ extension type UIControl._(objc.ObjCObject object$) implements objc.ObjCObject, 
 
   /// appearanceForTraitCollection:
   static UIControl appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$2 = trait.ref;
+    final _$$ref$4 = trait.ref;
     objc.checkOsVersionInternal('UIControl.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UIControl, _sel_appearanceForTraitCollection_, _$$ref$2.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UIControl, _sel_appearanceForTraitCollection_, _$$ref$4.pointer);
     return UIControl.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceForTraitCollection:whenContainedIn:
   @Deprecated('Deprecated')
   static UIControl appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
-    final _$$ref$4 = trait.ref;
-    final _$$ref$5 = whenContainedIn?.ref;
+    final _$$ref$8 = trait.ref;
+    final _$$ref$9 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UIControl.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UIControl,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$4.pointer,
-      _$$ref$5?.pointer ?? ffi.nullptr,
+      _$$ref$8.pointer,
+      _$$ref$9?.pointer ?? ffi.nullptr,
     );
     return UIControl.fromPointer($ret, retain: true, release: true);
   }
@@ -7024,8 +8957,8 @@ extension type UIControl._(objc.ObjCObject object$) implements objc.ObjCObject, 
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$4 = trait.ref;
-    final _$$ref$5 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$8 = trait.ref;
+    final _$$ref$9 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UIControl.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -7033,8 +8966,8 @@ extension type UIControl._(objc.ObjCObject object$) implements objc.ObjCObject, 
     final $ret = _objc_msgSend_15qeuct(
       _class_UIControl,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$4.pointer,
-      _$$ref$5.pointer,
+      _$$ref$8.pointer,
+      _$$ref$9.pointer,
     );
     return UIControl.fromPointer($ret, retain: true, release: true);
   }
@@ -7042,24 +8975,24 @@ extension type UIControl._(objc.ObjCObject object$) implements objc.ObjCObject, 
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UIControl appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$2 = ContainerClass?.ref;
+    final _$$ref$4 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UIControl.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIControl,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$2?.pointer ?? ffi.nullptr,
+      _$$ref$4?.pointer ?? ffi.nullptr,
     );
     return UIControl.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UIControl appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$2 = containerTypes.ref;
+    final _$$ref$4 = containerTypes.ref;
     objc.checkOsVersionInternal('UIControl.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIControl,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$2.pointer,
+      _$$ref$4.pointer,
     );
     return UIControl.fromPointer($ret, retain: true, release: true);
   }
@@ -7274,38 +9207,38 @@ extension UIControl$Methods on UIControl {
 
   /// init
   UIControl init() {
-    final _$$ref$10 = object$.ref;
+    final _$$ref$12 = object$.ref;
     objc.checkOsVersionInternal('UIControl.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$10.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$12.retainAndReturnPointer(), _sel_init);
     return UIControl.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIControl? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$14 = object$.ref;
-    final _$$ref$15 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$14.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$15.pointer);
+    final _$$ref$20 = object$.ref;
+    final _$$ref$21 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$20.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$21.pointer);
     return $ret.address == 0 ? null : UIControl.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithFrame:
   UIControl initWithFrame(objc.CGRect frame) {
-    final _$$ref = object$.ref;
+    final _$$ref$2 = object$.ref;
     objc.checkOsVersionInternal('UIControl.initWithFrame:', iOS: (false, (2, 0, 0)));
-    final $ret = _objc_msgSend_15yz4e6(_$$ref.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$2.retainAndReturnPointer(), _sel_initWithFrame_, frame);
     return UIControl.fromPointer($ret, retain: false, release: true);
   }
 
   /// Initializes the control and adds primaryAction for the UIControlEventPrimaryActionTriggered control event. Subclasses of UIControl may alter or add behaviors around the usage of primaryAction, see subclass documentation of this initializer for additional information.
   UIControl initWithFrame$1(objc.CGRect frame, {UIAction? primaryAction}) {
-    final _$$ref = object$.ref;
-    final _$$ref$1 = primaryAction?.ref;
+    final _$$ref$2 = object$.ref;
+    final _$$ref$3 = primaryAction?.ref;
     objc.checkOsVersionInternal('UIControl.initWithFrame:primaryAction:', iOS: (false, (14, 0, 0)));
     final $ret = _objc_msgSend_gxusyk(
-      _$$ref.retainAndReturnPointer(),
+      _$$ref$2.retainAndReturnPointer(),
       _sel_initWithFrame_primaryAction_,
       frame,
-      _$$ref$1?.pointer ?? ffi.nullptr,
+      _$$ref$3?.pointer ?? ffi.nullptr,
     );
     return UIControl.fromPointer($ret, retain: false, release: true);
   }
@@ -8028,9 +9961,9 @@ extension UIFont$Methods on UIFont {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$12 = object$.ref;
-    final _$$ref$13 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$12.pointer, _sel_encodeWithCoder_, _$$ref$13.pointer);
+    final _$$ref$16 = object$.ref;
+    final _$$ref$17 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$16.pointer, _sel_encodeWithCoder_, _$$ref$17.pointer);
   }
 
   /// familyName
@@ -8067,17 +10000,17 @@ extension UIFont$Methods on UIFont {
 
   /// init
   UIFont init() {
-    final _$$ref$11 = object$.ref;
+    final _$$ref$13 = object$.ref;
     objc.checkOsVersionInternal('UIFont.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$11.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$13.retainAndReturnPointer(), _sel_init);
     return UIFont.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIFont? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$16 = object$.ref;
-    final _$$ref$17 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$16.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$17.pointer);
+    final _$$ref$22 = object$.ref;
+    final _$$ref$23 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$22.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$23.pointer);
     return $ret.address == 0 ? null : UIFont.fromPointer($ret, retain: false, release: true);
   }
 
@@ -8550,9 +10483,9 @@ extension UIImage$Methods on UIImage {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$14 = object$.ref;
-    final _$$ref$15 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$14.pointer, _sel_encodeWithCoder_, _$$ref$15.pointer);
+    final _$$ref$18 = object$.ref;
+    final _$$ref$19 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$18.pointer, _sel_encodeWithCoder_, _$$ref$19.pointer);
   }
 
   /// flipsForRightToLeftLayoutDirection
@@ -8676,9 +10609,9 @@ extension UIImage$Methods on UIImage {
 
   /// init
   UIImage init() {
-    final _$$ref$12 = object$.ref;
+    final _$$ref$14 = object$.ref;
     objc.checkOsVersionInternal('UIImage.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$12.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$14.retainAndReturnPointer(), _sel_init);
     return UIImage.fromPointer($ret, retain: false, release: true);
   }
 
@@ -8734,9 +10667,9 @@ extension UIImage$Methods on UIImage {
 
   /// initWithCoder:
   UIImage? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$18 = object$.ref;
-    final _$$ref$19 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$18.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$19.pointer);
+    final _$$ref$24 = object$.ref;
+    final _$$ref$25 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$24.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$25.pointer);
     return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: false, release: true);
   }
 
@@ -8961,6 +10894,433 @@ extension type UIImageSymbolConfiguration._(objc.ObjCObject object$) implements 
   }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
 }
 
+/// UIImageView
+extension type UIImageView._(objc.ObjCObject object$) implements objc.ObjCObject, UIView {
+  /// Constructs a [UIImageView] that points to the same underlying object as [other].
+  UIImageView.as(objc.ObjCObject other) : object$ = other {
+    assert(isA(object$));
+  }
+
+  /// Constructs a [UIImageView] that wraps the given raw object pointer.
+  UIImageView.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UIImageView].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIImageView);
+
+  /// alloc
+  static UIImageView alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIImageView, _sel_alloc);
+    return UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIImageView allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIImageView, _sel_allocWithZone_, zone);
+    return UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UIImageView appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UIImageView, _sel_appearance);
+    return UIImageView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UIImageView appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref$5 = trait.ref;
+    objc.checkOsVersionInternal('UIImageView.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_class_UIImageView, _sel_appearanceForTraitCollection_, _$$ref$5.pointer);
+    return UIImageView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UIImageView appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
+    final _$$ref$10 = trait.ref;
+    final _$$ref$11 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal('UIImageView.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIImageView,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref$10.pointer,
+      _$$ref$11?.pointer ?? ffi.nullptr,
+    );
+    return UIImageView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UIImageView appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref$10 = trait.ref;
+    final _$$ref$11 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UIImageView.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIImageView,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref$10.pointer,
+      _$$ref$11.pointer,
+    );
+    return UIImageView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UIImageView appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref$5 = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UIImageView.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIImageView,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref$5?.pointer ?? ffi.nullptr,
+    );
+    return UIImageView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UIImageView appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref$5 = containerTypes.ref;
+    objc.checkOsVersionInternal('UIImageView.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIImageView,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref$5.pointer,
+    );
+    return UIImageView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UIImageView.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UIImageView, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UIImageView new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UIImageView, _sel_new);
+    return UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UIImageView.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UIImageView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UIImageView.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UIImageView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UIImageView constructed with the default `new` method.
+  UIImageView() : this.as(new$().object$);
+}
+
+extension UIImageView$Methods on UIImageView {
+  /// adjustsImageWhenAncestorFocused
+  bool get adjustsImageWhenAncestorFocused {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.adjustsImageWhenAncestorFocused', iOS: (true, null));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_adjustsImageWhenAncestorFocused);
+  }
+
+  /// animationDuration
+  double get animationDuration {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.animationDuration', iOS: (false, (2, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_1ukqyt8Fpret(_$$ref.pointer, _sel_animationDuration)
+        : _objc_msgSend_1ukqyt8(_$$ref.pointer, _sel_animationDuration);
+  }
+
+  /// animationImages
+  objc.NSArray? get animationImages {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.animationImages', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_animationImages);
+    return $ret.address == 0 ? null : objc.NSArray.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// animationRepeatCount
+  int get animationRepeatCount {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.animationRepeatCount', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_1hz7y9r(_$$ref.pointer, _sel_animationRepeatCount);
+  }
+
+  /// focusedFrameGuide
+  UILayoutGuide get focusedFrameGuide {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.focusedFrameGuide', iOS: (true, null));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_focusedFrameGuide);
+    return UILayoutGuide.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// highlightedAnimationImages
+  objc.NSArray? get highlightedAnimationImages {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.highlightedAnimationImages', iOS: (false, (3, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_highlightedAnimationImages);
+    return $ret.address == 0 ? null : objc.NSArray.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// highlightedImage
+  UIImage? get highlightedImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.highlightedImage', iOS: (false, (3, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_highlightedImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// image
+  UIImage? get image {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.image', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_image);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// init
+  UIImageView init() {
+    final _$$ref$15 = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$15.retainAndReturnPointer(), _sel_init);
+    return UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UIImageView? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$26 = object$.ref;
+    final _$$ref$27 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$26.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$27.pointer);
+    return $ret.address == 0 ? null : UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UIImageView initWithFrame(objc.CGRect frame) {
+    final _$$ref$3 = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$3.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithImage:
+  UIImageView initWithImage(UIImage? image) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    objc.checkOsVersionInternal('UIImageView.initWithImage:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _$$ref.retainAndReturnPointer(),
+      _sel_initWithImage_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+    );
+    return UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithImage:highlightedImage:
+  UIImageView initWithImage$1(UIImage? image, {UIImage? highlightedImage}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    final _$$ref$2 = highlightedImage?.ref;
+    objc.checkOsVersionInternal('UIImageView.initWithImage:highlightedImage:', iOS: (false, (3, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _$$ref.retainAndReturnPointer(),
+      _sel_initWithImage_highlightedImage_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      _$$ref$2?.pointer ?? ffi.nullptr,
+    );
+    return UIImageView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// isAnimating
+  bool get isAnimating {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.isAnimating', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isAnimating);
+  }
+
+  /// isHighlighted
+  bool get isHighlighted {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.isHighlighted', iOS: (false, (3, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isHighlighted);
+  }
+
+  /// isUserInteractionEnabled
+  bool get isUserInteractionEnabled {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.isUserInteractionEnabled', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isUserInteractionEnabled);
+  }
+
+  /// masksFocusEffectToContents
+  bool get masksFocusEffectToContents {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.masksFocusEffectToContents', iOS: (true, null));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_masksFocusEffectToContents);
+  }
+
+  /// overlayContentView
+  UIView get overlayContentView {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.overlayContentView', iOS: (true, null));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_overlayContentView);
+    return UIView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// preferredSymbolConfiguration
+  UIImageSymbolConfiguration? get preferredSymbolConfiguration {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.preferredSymbolConfiguration', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_preferredSymbolConfiguration);
+    return $ret.address == 0 ? null : UIImageSymbolConfiguration.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// setAdjustsImageWhenAncestorFocused:
+  set adjustsImageWhenAncestorFocused(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.setAdjustsImageWhenAncestorFocused:', iOS: (true, null));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setAdjustsImageWhenAncestorFocused_, value);
+  }
+
+  /// setAnimationDuration:
+  set animationDuration(double value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.setAnimationDuration:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_hwm8nu(_$$ref.pointer, _sel_setAnimationDuration_, value);
+  }
+
+  /// setAnimationImages:
+  set animationImages(objc.NSArray? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIImageView.setAnimationImages:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setAnimationImages_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setAnimationRepeatCount:
+  set animationRepeatCount(int value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.setAnimationRepeatCount:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_4sp4xj(_$$ref.pointer, _sel_setAnimationRepeatCount_, value);
+  }
+
+  /// setHighlighted:
+  set isHighlighted(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.setHighlighted:', iOS: (false, (3, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setHighlighted_, value);
+  }
+
+  /// setHighlightedAnimationImages:
+  set highlightedAnimationImages(objc.NSArray? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIImageView.setHighlightedAnimationImages:', iOS: (false, (3, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setHighlightedAnimationImages_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setHighlightedImage:
+  set highlightedImage(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIImageView.setHighlightedImage:', iOS: (false, (3, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setHighlightedImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setImage:
+  set image(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIImageView.setImage:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setMasksFocusEffectToContents:
+  set masksFocusEffectToContents(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.setMasksFocusEffectToContents:', iOS: (true, null));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setMasksFocusEffectToContents_, value);
+  }
+
+  /// setPreferredSymbolConfiguration:
+  set preferredSymbolConfiguration(UIImageSymbolConfiguration? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIImageView.setPreferredSymbolConfiguration:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setPreferredSymbolConfiguration_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setTintColor:
+  set tintColor(UIColor value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIImageView.setTintColor:', iOS: (false, (7, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTintColor_, _$$ref$1.pointer);
+  }
+
+  /// setUserInteractionEnabled:
+  set isUserInteractionEnabled(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.setUserInteractionEnabled:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setUserInteractionEnabled_, value);
+  }
+
+  /// startAnimating
+  void startAnimating() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.startAnimating', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_startAnimating);
+  }
+
+  /// stopAnimating
+  void stopAnimating() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.stopAnimating', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_stopAnimating);
+  }
+
+  /// tintColor
+  UIColor get tintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIImageView.tintColor', iOS: (false, (7, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_tintColor);
+    return UIColor.fromPointer($ret, retain: true, release: true);
+  }
+}
+
 /// WARNING: UIInputViewController is a stub. To generate bindings for this class, include
 /// UIInputViewController in your config's objc-interfaces list.
 ///
@@ -8985,6 +11345,25 @@ extension type UIInteraction._(objc.ObjCProtocol object$) implements objc.ObjCPr
   /// Constructs a [UIInteraction] that wraps the given raw object pointer.
   UIInteraction.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
+}
+
+/// UIInteractionStateRestorable
+extension UIInteractionStateRestorable on UITextField {
+  /// interactionState
+  objc.ObjCObject get interactionState {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.interactionState', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_interactionState);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// setInteractionState:
+  set interactionState(objc.ObjCObject value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UITextField.setInteractionState:', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setInteractionState_, _$$ref$1.pointer);
+  }
 }
 
 enum UIInterfaceOrientation {
@@ -9066,6 +11445,31 @@ extension type UIKeyInput._(objc.ObjCProtocol object$) implements objc.ObjCProto
     : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
 }
 
+enum UIKeyboardAppearance {
+  UIKeyboardAppearanceDefault(0),
+  UIKeyboardAppearanceDark(1),
+  UIKeyboardAppearanceLight(2);
+
+  static const UIKeyboardAppearanceAlert = UIKeyboardAppearanceDark;
+
+  final int value;
+  const UIKeyboardAppearance(this.value);
+
+  static UIKeyboardAppearance fromValue(int value) => switch (value) {
+    0 => UIKeyboardAppearanceDefault,
+    1 => UIKeyboardAppearanceDark,
+    2 => UIKeyboardAppearanceLight,
+    _ => throw ArgumentError('Unknown value for UIKeyboardAppearance: $value'),
+  };
+
+  @override
+  String toString() {
+    if (this == UIKeyboardAppearanceDark)
+      return "UIKeyboardAppearance.UIKeyboardAppearanceDark, UIKeyboardAppearance.UIKeyboardAppearanceAlert";
+    return super.toString();
+  }
+}
+
 /// WARNING: UIKeyboardLayoutGuide is a stub. To generate bindings for this class, include
 /// UIKeyboardLayoutGuide in your config's objc-interfaces list.
 ///
@@ -9079,19 +11483,60 @@ extension type UIKeyboardLayoutGuide._(objc.ObjCObject object$) implements objc.
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
 }
 
+enum UIKeyboardType {
+  UIKeyboardTypeDefault(0),
+  UIKeyboardTypeASCIICapable(1),
+  UIKeyboardTypeNumbersAndPunctuation(2),
+  UIKeyboardTypeURL(3),
+  UIKeyboardTypeNumberPad(4),
+  UIKeyboardTypePhonePad(5),
+  UIKeyboardTypeNamePhonePad(6),
+  UIKeyboardTypeEmailAddress(7),
+  UIKeyboardTypeDecimalPad(8),
+  UIKeyboardTypeTwitter(9),
+  UIKeyboardTypeWebSearch(10),
+  UIKeyboardTypeASCIICapableNumberPad(11);
+
+  static const UIKeyboardTypeAlphabet = UIKeyboardTypeASCIICapable;
+
+  final int value;
+  const UIKeyboardType(this.value);
+
+  static UIKeyboardType fromValue(int value) => switch (value) {
+    0 => UIKeyboardTypeDefault,
+    1 => UIKeyboardTypeASCIICapable,
+    2 => UIKeyboardTypeNumbersAndPunctuation,
+    3 => UIKeyboardTypeURL,
+    4 => UIKeyboardTypeNumberPad,
+    5 => UIKeyboardTypePhonePad,
+    6 => UIKeyboardTypeNamePhonePad,
+    7 => UIKeyboardTypeEmailAddress,
+    8 => UIKeyboardTypeDecimalPad,
+    9 => UIKeyboardTypeTwitter,
+    10 => UIKeyboardTypeWebSearch,
+    11 => UIKeyboardTypeASCIICapableNumberPad,
+    _ => throw ArgumentError('Unknown value for UIKeyboardType: $value'),
+  };
+
+  @override
+  String toString() {
+    if (this == UIKeyboardTypeASCIICapable)
+      return "UIKeyboardType.UIKeyboardTypeASCIICapable, UIKeyboardType.UIKeyboardTypeAlphabet";
+    return super.toString();
+  }
+}
+
 /// UILabel
 extension type UILabel._(objc.ObjCObject object$)
     implements objc.ObjCObject, UIView, objc.NSCoding, UIContentSizeCategoryAdjusting {
   /// Constructs a [UILabel] that points to the same underlying object as [other].
   UILabel.as(objc.ObjCObject other) : object$ = other {
-    objc.checkOsVersionInternal('UILabel', iOS: (false, (2, 0, 0)));
     assert(isA(object$));
   }
 
   /// Constructs a [UILabel] that wraps the given raw object pointer.
   UILabel.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {
-    objc.checkOsVersionInternal('UILabel', iOS: (false, (2, 0, 0)));
     assert(isA(object$));
   }
 
@@ -9119,23 +11564,23 @@ extension type UILabel._(objc.ObjCObject object$)
 
   /// appearanceForTraitCollection:
   static UILabel appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$3 = trait.ref;
+    final _$$ref$6 = trait.ref;
     objc.checkOsVersionInternal('UILabel.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UILabel, _sel_appearanceForTraitCollection_, _$$ref$3.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UILabel, _sel_appearanceForTraitCollection_, _$$ref$6.pointer);
     return UILabel.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceForTraitCollection:whenContainedIn:
   @Deprecated('Deprecated')
   static UILabel appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
-    final _$$ref$6 = trait.ref;
-    final _$$ref$7 = whenContainedIn?.ref;
+    final _$$ref$12 = trait.ref;
+    final _$$ref$13 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UILabel.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UILabel,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$6.pointer,
-      _$$ref$7?.pointer ?? ffi.nullptr,
+      _$$ref$12.pointer,
+      _$$ref$13?.pointer ?? ffi.nullptr,
     );
     return UILabel.fromPointer($ret, retain: true, release: true);
   }
@@ -9145,8 +11590,8 @@ extension type UILabel._(objc.ObjCObject object$)
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$6 = trait.ref;
-    final _$$ref$7 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$12 = trait.ref;
+    final _$$ref$13 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UILabel.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -9154,8 +11599,8 @@ extension type UILabel._(objc.ObjCObject object$)
     final $ret = _objc_msgSend_15qeuct(
       _class_UILabel,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$6.pointer,
-      _$$ref$7.pointer,
+      _$$ref$12.pointer,
+      _$$ref$13.pointer,
     );
     return UILabel.fromPointer($ret, retain: true, release: true);
   }
@@ -9163,24 +11608,24 @@ extension type UILabel._(objc.ObjCObject object$)
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UILabel appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$3 = ContainerClass?.ref;
+    final _$$ref$6 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UILabel.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UILabel,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$3?.pointer ?? ffi.nullptr,
+      _$$ref$6?.pointer ?? ffi.nullptr,
     );
     return UILabel.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UILabel appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$3 = containerTypes.ref;
+    final _$$ref$6 = containerTypes.ref;
     objc.checkOsVersionInternal('UILabel.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UILabel,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$3.pointer,
+      _$$ref$6.pointer,
     );
     return UILabel.fromPointer($ret, retain: true, release: true);
   }
@@ -9298,9 +11743,9 @@ extension UILabel$Methods on UILabel {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$16 = object$.ref;
-    final _$$ref$17 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$16.pointer, _sel_encodeWithCoder_, _$$ref$17.pointer);
+    final _$$ref$20 = object$.ref;
+    final _$$ref$21 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$20.pointer, _sel_encodeWithCoder_, _$$ref$21.pointer);
   }
 
   /// font
@@ -9321,25 +11766,25 @@ extension UILabel$Methods on UILabel {
 
   /// init
   UILabel init() {
-    final _$$ref$13 = object$.ref;
+    final _$$ref$16 = object$.ref;
     objc.checkOsVersionInternal('UILabel.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$13.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$16.retainAndReturnPointer(), _sel_init);
     return UILabel.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UILabel? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$20 = object$.ref;
-    final _$$ref$21 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$20.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$21.pointer);
+    final _$$ref$28 = object$.ref;
+    final _$$ref$29 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$28.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$29.pointer);
     return $ret.address == 0 ? null : UILabel.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithFrame:
   UILabel initWithFrame(objc.CGRect frame) {
-    final _$$ref$1 = object$.ref;
+    final _$$ref$4 = object$.ref;
     objc.checkOsVersionInternal('UILabel.initWithFrame:', iOS: (false, (2, 0, 0)));
-    final $ret = _objc_msgSend_15yz4e6(_$$ref$1.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$4.retainAndReturnPointer(), _sel_initWithFrame_, frame);
     return UILabel.fromPointer($ret, retain: false, release: true);
   }
 
@@ -10024,9 +12469,9 @@ extension UIMenu$Methods on UIMenu {
 
   /// initWithCoder:
   UIMenu? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$22 = object$.ref;
-    final _$$ref$23 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$22.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$23.pointer);
+    final _$$ref$30 = object$.ref;
+    final _$$ref$31 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$30.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$31.pointer);
     return $ret.address == 0 ? null : UIMenu.fromPointer($ret, retain: false, release: true);
   }
 
@@ -10114,9 +12559,9 @@ extension type UIMenuElement._(objc.ObjCObject object$)
 extension UIMenuElement$Methods on UIMenuElement {
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$18 = object$.ref;
-    final _$$ref$19 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$18.pointer, _sel_encodeWithCoder_, _$$ref$19.pointer);
+    final _$$ref$22 = object$.ref;
+    final _$$ref$23 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$22.pointer, _sel_encodeWithCoder_, _$$ref$23.pointer);
   }
 
   /// Image to be displayed alongside the element's title.
@@ -10129,9 +12574,9 @@ extension UIMenuElement$Methods on UIMenuElement {
 
   /// initWithCoder:
   UIMenuElement? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$24 = object$.ref;
-    final _$$ref$25 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$24.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$25.pointer);
+    final _$$ref$32 = object$.ref;
+    final _$$ref$33 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$32.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$33.pointer);
     return $ret.address == 0 ? null : UIMenuElement.fromPointer($ret, retain: false, release: true);
   }
 
@@ -10158,6 +12603,28 @@ extension UIMenuElement$Methods on UIMenuElement {
     final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_title);
     return objc.NSString.fromPointer($ret, retain: true, release: true);
   }
+}
+
+sealed class UIMenuElementAttributes {
+  static const UIMenuElementAttributesDisabled = 1;
+  static const UIMenuElementAttributesDestructive = 2;
+  static const UIMenuElementAttributesHidden = 4;
+}
+
+enum UIMenuElementState {
+  UIMenuElementStateOff(0),
+  UIMenuElementStateOn(1),
+  UIMenuElementStateMixed(2);
+
+  final int value;
+  const UIMenuElementState(this.value);
+
+  static UIMenuElementState fromValue(int value) => switch (value) {
+    0 => UIMenuElementStateOff,
+    1 => UIMenuElementStateOn,
+    2 => UIMenuElementStateMixed,
+    _ => throw ArgumentError('Unknown value for UIMenuElementState: $value'),
+  };
 }
 
 sealed class UIMenuOptions {
@@ -10481,17 +12948,17 @@ extension UINavigationController$Methods on UINavigationController {
 
   /// init
   UINavigationController init() {
-    final _$$ref$14 = object$.ref;
+    final _$$ref$17 = object$.ref;
     objc.checkOsVersionInternal('UINavigationController.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$14.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$17.retainAndReturnPointer(), _sel_init);
     return UINavigationController.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UINavigationController? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$26 = object$.ref;
-    final _$$ref$27 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$26.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$27.pointer);
+    final _$$ref$34 = object$.ref;
+    final _$$ref$35 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$34.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$35.pointer);
     return $ret.address == 0 ? null : UINavigationController.fromPointer($ret, retain: false, release: true);
   }
 
@@ -10890,9 +13357,9 @@ extension UINavigationItem$Methods on UINavigationItem {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$20 = object$.ref;
-    final _$$ref$21 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$20.pointer, _sel_encodeWithCoder_, _$$ref$21.pointer);
+    final _$$ref$24 = object$.ref;
+    final _$$ref$25 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$24.pointer, _sel_encodeWithCoder_, _$$ref$25.pointer);
   }
 
   /// If YES, this navigation item will hide the back button when it's on top of the stack.
@@ -10910,17 +13377,17 @@ extension UINavigationItem$Methods on UINavigationItem {
 
   /// init
   UINavigationItem init() {
-    final _$$ref$15 = object$.ref;
+    final _$$ref$18 = object$.ref;
     objc.checkOsVersionInternal('UINavigationItem.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$15.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$18.retainAndReturnPointer(), _sel_init);
     return UINavigationItem.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UINavigationItem? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$28 = object$.ref;
-    final _$$ref$29 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$28.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$29.pointer);
+    final _$$ref$36 = object$.ref;
+    final _$$ref$37 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$36.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$37.pointer);
     return $ret.address == 0 ? null : UINavigationItem.fromPointer($ret, retain: false, release: true);
   }
 
@@ -11300,6 +13767,434 @@ final class UIOffset extends ffi.Struct {
     ..ref.vertical = vertical;
 }
 
+/// UIPageControl
+extension type UIPageControl._(objc.ObjCObject object$) implements objc.ObjCObject, UIControl {
+  /// Constructs a [UIPageControl] that points to the same underlying object as [other].
+  UIPageControl.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UIPageControl', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Constructs a [UIPageControl] that wraps the given raw object pointer.
+  UIPageControl.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UIPageControl', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UIPageControl].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIPageControl);
+
+  /// alloc
+  static UIPageControl alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIPageControl, _sel_alloc);
+    return UIPageControl.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIPageControl allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIPageControl, _sel_allocWithZone_, zone);
+    return UIPageControl.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UIPageControl appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UIPageControl, _sel_appearance);
+    return UIPageControl.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UIPageControl appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref$7 = trait.ref;
+    objc.checkOsVersionInternal('UIPageControl.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_class_UIPageControl, _sel_appearanceForTraitCollection_, _$$ref$7.pointer);
+    return UIPageControl.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UIPageControl appearanceForTraitCollection$1(
+    UITraitCollection trait, {
+    UIAppearanceContainer? whenContainedIn,
+  }) {
+    final _$$ref$14 = trait.ref;
+    final _$$ref$15 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal('UIPageControl.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIPageControl,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref$14.pointer,
+      _$$ref$15?.pointer ?? ffi.nullptr,
+    );
+    return UIPageControl.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UIPageControl appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref$14 = trait.ref;
+    final _$$ref$15 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UIPageControl.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIPageControl,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref$14.pointer,
+      _$$ref$15.pointer,
+    );
+    return UIPageControl.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UIPageControl appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref$7 = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UIPageControl.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIPageControl,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref$7?.pointer ?? ffi.nullptr,
+    );
+    return UIPageControl.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UIPageControl appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref$7 = containerTypes.ref;
+    objc.checkOsVersionInternal('UIPageControl.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIPageControl,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref$7.pointer,
+    );
+    return UIPageControl.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UIPageControl.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UIPageControl, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UIPageControl new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UIPageControl, _sel_new);
+    return UIPageControl.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UIPageControl.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UIPageControl,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UIPageControl.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UIPageControl,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UIPageControl constructed with the default `new` method.
+  UIPageControl() : this.as(new$().object$);
+}
+
+extension UIPageControl$Methods on UIPageControl {
+  /// Returns YES if the continuous interaction is enabled, NO otherwise. Default is YES.
+  bool get allowsContinuousInteraction {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.allowsContinuousInteraction', iOS: (false, (14, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_allowsContinuousInteraction);
+  }
+
+  /// The preferred background style. Default is UIPageControlBackgroundStyleAutomatic on iOS, and UIPageControlBackgroundStyleProminent on tvOS.
+  UIPageControlBackgroundStyle get backgroundStyle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.backgroundStyle', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_10enjte(_$$ref.pointer, _sel_backgroundStyle);
+    return UIPageControlBackgroundStyle.fromValue($ret);
+  }
+
+  /// default is 0. Value is pinned to 0..numberOfPages-1
+  int get currentPage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.currentPage', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_1hz7y9r(_$$ref.pointer, _sel_currentPage);
+  }
+
+  /// The tint color for the currently-selected indicators. Default is nil.
+  UIColor? get currentPageIndicatorTintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.currentPageIndicatorTintColor', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentPageIndicatorTintColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// if set, tapping to a new page won't update the currently displayed page until -updateCurrentPageDisplay is called. default is NO
+  @Deprecated('defersCurrentPageDisplay no longer does anything reasonable with the new interaction mode.')
+  bool get defersCurrentPageDisplay {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.defersCurrentPageDisplay', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_defersCurrentPageDisplay);
+  }
+
+  /// hides the indicator if there is only one page, default is NO
+  bool get hidesForSinglePage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.hidesForSinglePage', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_hidesForSinglePage);
+  }
+
+  /// !
+  /// @abstract Returns the override indicator image for the specific page, nil if no override image was set.
+  /// @param page Must be in the range of 0..numberOfPages
+  UIImage? indicatorImageForPage(int page) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.indicatorImageForPage:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_qugqlf(_$$ref.pointer, _sel_indicatorImageForPage_, page);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// init
+  UIPageControl init() {
+    final _$$ref$19 = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$19.retainAndReturnPointer(), _sel_init);
+    return UIPageControl.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UIPageControl? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$38 = object$.ref;
+    final _$$ref$39 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$38.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$39.pointer);
+    return $ret.address == 0 ? null : UIPageControl.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UIPageControl initWithFrame(objc.CGRect frame) {
+    final _$$ref$5 = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$5.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UIPageControl.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// Initializes the control and adds primaryAction for the UIControlEventPrimaryActionTriggered control event. Subclasses of UIControl may alter or add behaviors around the usage of primaryAction, see subclass documentation of this initializer for additional information.
+  UIPageControl initWithFrame$1(objc.CGRect frame, {UIAction? primaryAction}) {
+    final _$$ref$4 = object$.ref;
+    final _$$ref$5 = primaryAction?.ref;
+    objc.checkOsVersionInternal('UIPageControl.initWithFrame:primaryAction:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_gxusyk(
+      _$$ref$4.retainAndReturnPointer(),
+      _sel_initWithFrame_primaryAction_,
+      frame,
+      _$$ref$5?.pointer ?? ffi.nullptr,
+    );
+    return UIPageControl.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// The current interaction state for when the current page changes. Default is UIPageControlInteractionStateNone
+  UIPageControlInteractionState get interactionState {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.interactionState', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_b4nw88(_$$ref.pointer, _sel_interactionState);
+    return UIPageControlInteractionState.fromValue($ret);
+  }
+
+  /// default is 0
+  int get numberOfPages {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.numberOfPages', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_1hz7y9r(_$$ref.pointer, _sel_numberOfPages);
+  }
+
+  /// The tint color for non-selected indicators. Default is nil.
+  UIColor? get pageIndicatorTintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.pageIndicatorTintColor', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_pageIndicatorTintColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// The preferred image for indicators. Symbol images are recommended. Default is nil.
+  UIImage? get preferredIndicatorImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.preferredIndicatorImage', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_preferredIndicatorImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// Returns YES if the continuous interaction is enabled, NO otherwise. Default is YES.
+  set allowsContinuousInteraction(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.setAllowsContinuousInteraction:', iOS: (false, (14, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setAllowsContinuousInteraction_, value);
+  }
+
+  /// The preferred background style. Default is UIPageControlBackgroundStyleAutomatic on iOS, and UIPageControlBackgroundStyleProminent on tvOS.
+  set backgroundStyle(UIPageControlBackgroundStyle value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.setBackgroundStyle:', iOS: (false, (14, 0, 0)));
+    _objc_msgSend_nurrlg(_$$ref.pointer, _sel_setBackgroundStyle_, value.value);
+  }
+
+  /// default is 0. Value is pinned to 0..numberOfPages-1
+  set currentPage(int value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.setCurrentPage:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_4sp4xj(_$$ref.pointer, _sel_setCurrentPage_, value);
+  }
+
+  /// The tint color for the currently-selected indicators. Default is nil.
+  set currentPageIndicatorTintColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIPageControl.setCurrentPageIndicatorTintColor:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setCurrentPageIndicatorTintColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// if set, tapping to a new page won't update the currently displayed page until -updateCurrentPageDisplay is called. default is NO
+  @Deprecated('defersCurrentPageDisplay no longer does anything reasonable with the new interaction mode.')
+  set defersCurrentPageDisplay(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.setDefersCurrentPageDisplay:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setDefersCurrentPageDisplay_, value);
+  }
+
+  /// hides the indicator if there is only one page, default is NO
+  set hidesForSinglePage(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.setHidesForSinglePage:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setHidesForSinglePage_, value);
+  }
+
+  /// !
+  /// @abstract Override the indicator image for a specific page. Symbol images are recommended.
+  /// @param image    The image for the indicator. Resets to the default if image is nil.
+  /// @param page      Must be in the range of 0..numberOfPages
+  void setIndicatorImage(UIImage? image, {required int forPage}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    objc.checkOsVersionInternal('UIPageControl.setIndicatorImage:forPage:', iOS: (false, (14, 0, 0)));
+    _objc_msgSend_1nvl641(_$$ref.pointer, _sel_setIndicatorImage_forPage_, _$$ref$1?.pointer ?? ffi.nullptr, forPage);
+  }
+
+  /// default is 0
+  set numberOfPages(int value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.setNumberOfPages:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_4sp4xj(_$$ref.pointer, _sel_setNumberOfPages_, value);
+  }
+
+  /// The tint color for non-selected indicators. Default is nil.
+  set pageIndicatorTintColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIPageControl.setPageIndicatorTintColor:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setPageIndicatorTintColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// The preferred image for indicators. Symbol images are recommended. Default is nil.
+  set preferredIndicatorImage(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIPageControl.setPreferredIndicatorImage:', iOS: (false, (14, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setPreferredIndicatorImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// Returns the minimum size required to display indicators for the given page count. Can be used to size the control if the page count could change.
+  objc.CGSize sizeForNumberOfPages(int pageCount) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.sizeForNumberOfPages:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGSize>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_17w0i2jStret($ptr, _$$ref.pointer, _sel_sizeForNumberOfPages_, pageCount)
+        : $ptr.ref = _objc_msgSend_17w0i2j(_$$ref.pointer, _sel_sizeForNumberOfPages_, pageCount);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGSize>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGSize>($finalizable);
+  }
+
+  /// update page display to match the currentPage. ignored if defersCurrentPageDisplay is NO. setting the page value directly will update immediately
+  @Deprecated('updateCurrentPageDisplay no longer does anything reasonable with the new interaction mode.')
+  void updateCurrentPageDisplay() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIPageControl.updateCurrentPageDisplay', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_updateCurrentPageDisplay);
+  }
+}
+
+enum UIPageControlBackgroundStyle {
+  /// The default background style that adapts based on the current interaction state.
+  UIPageControlBackgroundStyleAutomatic(0),
+
+  /// The background style that shows a full background regardless of the interaction
+  UIPageControlBackgroundStyleProminent(1),
+
+  /// The background style that shows a minimal background regardless of the interaction
+  UIPageControlBackgroundStyleMinimal(2);
+
+  final int value;
+  const UIPageControlBackgroundStyle(this.value);
+
+  static UIPageControlBackgroundStyle fromValue(int value) => switch (value) {
+    0 => UIPageControlBackgroundStyleAutomatic,
+    1 => UIPageControlBackgroundStyleProminent,
+    2 => UIPageControlBackgroundStyleMinimal,
+    _ => throw ArgumentError('Unknown value for UIPageControlBackgroundStyle: $value'),
+  };
+}
+
+enum UIPageControlInteractionState {
+  /// The default interaction state, where no interaction has occurred.
+  UIPageControlInteractionStateNone(0),
+
+  /// The interaction state for which the page was changed via a single, discrete interaction.
+  UIPageControlInteractionStateDiscrete(1),
+
+  /// The interaction state for which the page was changed via a continuous interaction.
+  UIPageControlInteractionStateContinuous(2);
+
+  final int value;
+  const UIPageControlInteractionState(this.value);
+
+  static UIPageControlInteractionState fromValue(int value) => switch (value) {
+    0 => UIPageControlInteractionStateNone,
+    1 => UIPageControlInteractionStateDiscrete,
+    2 => UIPageControlInteractionStateContinuous,
+    _ => throw ArgumentError('Unknown value for UIPageControlInteractionState: $value'),
+  };
+}
+
 /// WARNING: UIPanGestureRecognizer is a stub. To generate bindings for this class, include
 /// UIPanGestureRecognizer in your config's objc-interfaces list.
 ///
@@ -11348,6 +14243,19 @@ extension type UIPinchGestureRecognizer._(objc.ObjCObject object$) implements ob
   }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
 }
 
+/// WARNING: UIPointerEffect is a stub. To generate bindings for this class, include
+/// UIPointerEffect in your config's objc-interfaces list.
+///
+/// UIPointerEffect
+extension type UIPointerEffect._(objc.ObjCObject object$) implements objc.ObjCObject {
+  /// Constructs a [UIPointerEffect] that points to the same underlying object as [other].
+  UIPointerEffect.as(objc.ObjCObject other) : object$ = other {}
+
+  /// Constructs a [UIPointerEffect] that wraps the given raw object pointer.
+  UIPointerEffect.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
+}
+
 /// UIPointerLockSupport
 extension UIPointerLockSupport on UIViewController {
   /// childViewControllerForPointerLock
@@ -11371,6 +14279,32 @@ extension UIPointerLockSupport on UIViewController {
     objc.checkOsVersionInternal('UIViewController.setNeedsUpdateOfPrefersPointerLocked', iOS: (false, (14, 0, 0)));
     _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_setNeedsUpdateOfPrefersPointerLocked);
   }
+}
+
+/// WARNING: UIPointerShape is a stub. To generate bindings for this class, include
+/// UIPointerShape in your config's objc-interfaces list.
+///
+/// UIPointerShape
+extension type UIPointerShape._(objc.ObjCObject object$) implements objc.ObjCObject {
+  /// Constructs a [UIPointerShape] that points to the same underlying object as [other].
+  UIPointerShape.as(objc.ObjCObject other) : object$ = other {}
+
+  /// Constructs a [UIPointerShape] that wraps the given raw object pointer.
+  UIPointerShape.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
+}
+
+/// WARNING: UIPointerStyle is a stub. To generate bindings for this class, include
+/// UIPointerStyle in your config's objc-interfaces list.
+///
+/// UIPointerStyle
+extension type UIPointerStyle._(objc.ObjCObject object$) implements objc.ObjCObject {
+  /// Constructs a [UIPointerStyle] that points to the same underlying object as [other].
+  UIPointerStyle.as(objc.ObjCObject other) : object$ = other {}
+
+  /// Constructs a [UIPointerStyle] that wraps the given raw object pointer.
+  UIPointerStyle.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
 }
 
 /// WARNING: UIPopoverPresentationController is a stub. To generate bindings for this class, include
@@ -11457,6 +14391,341 @@ extension type UIPressesEvent._(objc.ObjCObject object$) implements objc.ObjCObj
   /// Constructs a [UIPressesEvent] that wraps the given raw object pointer.
   UIPressesEvent.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
+}
+
+/// UIProgressView
+extension type UIProgressView._(objc.ObjCObject object$) implements objc.ObjCObject, UIView, objc.NSCoding {
+  /// Constructs a [UIProgressView] that points to the same underlying object as [other].
+  UIProgressView.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UIProgressView', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Constructs a [UIProgressView] that wraps the given raw object pointer.
+  UIProgressView.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UIProgressView', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UIProgressView].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIProgressView);
+
+  /// alloc
+  static UIProgressView alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIProgressView, _sel_alloc);
+    return UIProgressView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIProgressView allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIProgressView, _sel_allocWithZone_, zone);
+    return UIProgressView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UIProgressView appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UIProgressView, _sel_appearance);
+    return UIProgressView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UIProgressView appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref$8 = trait.ref;
+    objc.checkOsVersionInternal('UIProgressView.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_class_UIProgressView, _sel_appearanceForTraitCollection_, _$$ref$8.pointer);
+    return UIProgressView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UIProgressView appearanceForTraitCollection$1(
+    UITraitCollection trait, {
+    UIAppearanceContainer? whenContainedIn,
+  }) {
+    final _$$ref$16 = trait.ref;
+    final _$$ref$17 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal(
+      'UIProgressView.appearanceForTraitCollection:whenContainedIn:',
+      iOS: (false, (8, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIProgressView,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref$16.pointer,
+      _$$ref$17?.pointer ?? ffi.nullptr,
+    );
+    return UIProgressView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UIProgressView appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref$16 = trait.ref;
+    final _$$ref$17 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UIProgressView.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIProgressView,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref$16.pointer,
+      _$$ref$17.pointer,
+    );
+    return UIProgressView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UIProgressView appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref$8 = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UIProgressView.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIProgressView,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref$8?.pointer ?? ffi.nullptr,
+    );
+    return UIProgressView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UIProgressView appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref$8 = containerTypes.ref;
+    objc.checkOsVersionInternal('UIProgressView.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIProgressView,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref$8.pointer,
+    );
+    return UIProgressView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UIProgressView.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UIProgressView, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UIProgressView new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UIProgressView, _sel_new);
+    return UIProgressView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UIProgressView.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UIProgressView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UIProgressView.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UIProgressView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UIProgressView constructed with the default `new` method.
+  UIProgressView() : this.as(new$().object$);
+}
+
+extension UIProgressView$Methods on UIProgressView {
+  /// encodeWithCoder:
+  void encodeWithCoder(objc.NSCoder coder) {
+    final _$$ref$26 = object$.ref;
+    final _$$ref$27 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$26.pointer, _sel_encodeWithCoder_, _$$ref$27.pointer);
+  }
+
+  /// init
+  UIProgressView init() {
+    final _$$ref$20 = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$20.retainAndReturnPointer(), _sel_init);
+    return UIProgressView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UIProgressView? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$40 = object$.ref;
+    final _$$ref$41 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$40.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$41.pointer);
+    return $ret.address == 0 ? null : UIProgressView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UIProgressView initWithFrame(objc.CGRect frame) {
+    final _$$ref$6 = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$6.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UIProgressView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithProgressViewStyle:
+  UIProgressView initWithProgressViewStyle(UIProgressViewStyle style) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.initWithProgressViewStyle:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_199pueo(_$$ref.retainAndReturnPointer(), _sel_initWithProgressViewStyle_, style.value);
+    return UIProgressView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// observedProgress
+  objc.NSProgress? get observedProgress {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.observedProgress', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_observedProgress);
+    return $ret.address == 0 ? null : objc.NSProgress.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// progress
+  double get progress {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.progress', iOS: (false, (2, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_2cgrxlFpret(_$$ref.pointer, _sel_progress)
+        : _objc_msgSend_2cgrxl(_$$ref.pointer, _sel_progress);
+  }
+
+  /// progressImage
+  UIImage? get progressImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.progressImage', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_progressImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// progressTintColor
+  UIColor? get progressTintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.progressTintColor', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_progressTintColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// progressViewStyle
+  UIProgressViewStyle get progressViewStyle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.progressViewStyle', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1tyzyde(_$$ref.pointer, _sel_progressViewStyle);
+    return UIProgressViewStyle.fromValue($ret);
+  }
+
+  /// setObservedProgress:
+  set observedProgress(objc.NSProgress? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIProgressView.setObservedProgress:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setObservedProgress_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setProgress:
+  set progress(double value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.setProgress:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_v5hmet(_$$ref.pointer, _sel_setProgress_, value);
+  }
+
+  /// setProgress:animated:
+  void setProgress(double progress, {required bool animated}) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.setProgress:animated:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_erqo6l(_$$ref.pointer, _sel_setProgress_animated_, progress, animated);
+  }
+
+  /// setProgressImage:
+  set progressImage(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIProgressView.setProgressImage:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setProgressImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setProgressTintColor:
+  set progressTintColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIProgressView.setProgressTintColor:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setProgressTintColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setProgressViewStyle:
+  set progressViewStyle(UIProgressViewStyle value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.setProgressViewStyle:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1pkp524(_$$ref.pointer, _sel_setProgressViewStyle_, value.value);
+  }
+
+  /// setTrackImage:
+  set trackImage(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIProgressView.setTrackImage:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTrackImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setTrackTintColor:
+  set trackTintColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIProgressView.setTrackTintColor:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTrackTintColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// trackImage
+  UIImage? get trackImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.trackImage', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_trackImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// trackTintColor
+  UIColor? get trackTintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIProgressView.trackTintColor', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_trackTintColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+}
+
+enum UIProgressViewStyle {
+  UIProgressViewStyleDefault(0),
+  UIProgressViewStyleBar(1);
+
+  final int value;
+  const UIProgressViewStyle(this.value);
+
+  static UIProgressViewStyle fromValue(int value) => switch (value) {
+    0 => UIProgressViewStyleDefault,
+    1 => UIProgressViewStyleBar,
+    _ => throw ArgumentError('Unknown value for UIProgressViewStyle: $value'),
+  };
 }
 
 sealed class UIRectEdge {
@@ -11707,9 +14976,9 @@ extension UIResponder$Methods on UIResponder {
 
   /// init
   UIResponder init() {
-    final _$$ref$16 = object$.ref;
+    final _$$ref$21 = object$.ref;
     objc.checkOsVersionInternal('UIResponder.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$16.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$21.retainAndReturnPointer(), _sel_init);
     return UIResponder.fromPointer($ret, retain: false, release: true);
   }
 
@@ -12172,6 +15441,40 @@ extension type UIResponderStandardEditActions._(objc.ObjCProtocol object$)
   }) : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
 }
 
+enum UIReturnKeyType {
+  UIReturnKeyDefault(0),
+  UIReturnKeyGo(1),
+  UIReturnKeyGoogle(2),
+  UIReturnKeyJoin(3),
+  UIReturnKeyNext(4),
+  UIReturnKeyRoute(5),
+  UIReturnKeySearch(6),
+  UIReturnKeySend(7),
+  UIReturnKeyYahoo(8),
+  UIReturnKeyDone(9),
+  UIReturnKeyEmergencyCall(10),
+  UIReturnKeyContinue(11);
+
+  final int value;
+  const UIReturnKeyType(this.value);
+
+  static UIReturnKeyType fromValue(int value) => switch (value) {
+    0 => UIReturnKeyDefault,
+    1 => UIReturnKeyGo,
+    2 => UIReturnKeyGoogle,
+    3 => UIReturnKeyJoin,
+    4 => UIReturnKeyNext,
+    5 => UIReturnKeyRoute,
+    6 => UIReturnKeySearch,
+    7 => UIReturnKeySend,
+    8 => UIReturnKeyYahoo,
+    9 => UIReturnKeyDone,
+    10 => UIReturnKeyEmergencyCall,
+    11 => UIReturnKeyContinue,
+    _ => throw ArgumentError('Unknown value for UIReturnKeyType: $value'),
+  };
+}
+
 /// WARNING: UIScene is a stub. To generate bindings for this class, include
 /// UIScene in your config's objc-interfaces list.
 ///
@@ -12334,9 +15637,9 @@ extension type UIScrollView._(objc.ObjCObject object$)
 
   /// appearanceForTraitCollection:
   static UIScrollView appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$4 = trait.ref;
+    final _$$ref$9 = trait.ref;
     objc.checkOsVersionInternal('UIScrollView.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UIScrollView, _sel_appearanceForTraitCollection_, _$$ref$4.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UIScrollView, _sel_appearanceForTraitCollection_, _$$ref$9.pointer);
     return UIScrollView.fromPointer($ret, retain: true, release: true);
   }
 
@@ -12346,14 +15649,14 @@ extension type UIScrollView._(objc.ObjCObject object$)
     UITraitCollection trait, {
     UIAppearanceContainer? whenContainedIn,
   }) {
-    final _$$ref$8 = trait.ref;
-    final _$$ref$9 = whenContainedIn?.ref;
+    final _$$ref$18 = trait.ref;
+    final _$$ref$19 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UIScrollView.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UIScrollView,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$8.pointer,
-      _$$ref$9?.pointer ?? ffi.nullptr,
+      _$$ref$18.pointer,
+      _$$ref$19?.pointer ?? ffi.nullptr,
     );
     return UIScrollView.fromPointer($ret, retain: true, release: true);
   }
@@ -12363,8 +15666,8 @@ extension type UIScrollView._(objc.ObjCObject object$)
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$8 = trait.ref;
-    final _$$ref$9 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$18 = trait.ref;
+    final _$$ref$19 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UIScrollView.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -12372,8 +15675,8 @@ extension type UIScrollView._(objc.ObjCObject object$)
     final $ret = _objc_msgSend_15qeuct(
       _class_UIScrollView,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$8.pointer,
-      _$$ref$9.pointer,
+      _$$ref$18.pointer,
+      _$$ref$19.pointer,
     );
     return UIScrollView.fromPointer($ret, retain: true, release: true);
   }
@@ -12381,24 +15684,24 @@ extension type UIScrollView._(objc.ObjCObject object$)
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UIScrollView appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$4 = ContainerClass?.ref;
+    final _$$ref$9 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UIScrollView.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIScrollView,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$4?.pointer ?? ffi.nullptr,
+      _$$ref$9?.pointer ?? ffi.nullptr,
     );
     return UIScrollView.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UIScrollView appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$4 = containerTypes.ref;
+    final _$$ref$9 = containerTypes.ref;
     objc.checkOsVersionInternal('UIScrollView.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIScrollView,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$4.pointer,
+      _$$ref$9.pointer,
     );
     return UIScrollView.fromPointer($ret, retain: true, release: true);
   }
@@ -12625,9 +15928,9 @@ extension UIScrollView$Methods on UIScrollView {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$22 = object$.ref;
-    final _$$ref$23 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$22.pointer, _sel_encodeWithCoder_, _$$ref$23.pointer);
+    final _$$ref$28 = object$.ref;
+    final _$$ref$29 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$28.pointer, _sel_encodeWithCoder_, _$$ref$29.pointer);
   }
 
   /// flashScrollIndicators
@@ -12685,25 +15988,25 @@ extension UIScrollView$Methods on UIScrollView {
 
   /// init
   UIScrollView init() {
-    final _$$ref$17 = object$.ref;
+    final _$$ref$22 = object$.ref;
     objc.checkOsVersionInternal('UIScrollView.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$17.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$22.retainAndReturnPointer(), _sel_init);
     return UIScrollView.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIScrollView? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$30 = object$.ref;
-    final _$$ref$31 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$30.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$31.pointer);
+    final _$$ref$42 = object$.ref;
+    final _$$ref$43 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$42.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$43.pointer);
     return $ret.address == 0 ? null : UIScrollView.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithFrame:
   UIScrollView initWithFrame(objc.CGRect frame) {
-    final _$$ref$2 = object$.ref;
+    final _$$ref$7 = object$.ref;
     objc.checkOsVersionInternal('UIScrollView.initWithFrame:', iOS: (false, (2, 0, 0)));
-    final $ret = _objc_msgSend_15yz4e6(_$$ref$2.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$7.retainAndReturnPointer(), _sel_initWithFrame_, frame);
     return UIScrollView.fromPointer($ret, retain: false, release: true);
   }
 
@@ -13314,6 +16617,513 @@ extension UIShortcutItems on UIApplication {
   }
 }
 
+/// UISlider
+extension type UISlider._(objc.ObjCObject object$) implements objc.ObjCObject, UIControl, objc.NSCoding {
+  /// Constructs a [UISlider] that points to the same underlying object as [other].
+  UISlider.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UISlider', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Constructs a [UISlider] that wraps the given raw object pointer.
+  UISlider.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UISlider', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UISlider].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UISlider);
+
+  /// alloc
+  static UISlider alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UISlider, _sel_alloc);
+    return UISlider.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UISlider allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UISlider, _sel_allocWithZone_, zone);
+    return UISlider.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UISlider appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UISlider, _sel_appearance);
+    return UISlider.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UISlider appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref$10 = trait.ref;
+    objc.checkOsVersionInternal('UISlider.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_class_UISlider, _sel_appearanceForTraitCollection_, _$$ref$10.pointer);
+    return UISlider.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UISlider appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
+    final _$$ref$20 = trait.ref;
+    final _$$ref$21 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal('UISlider.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UISlider,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref$20.pointer,
+      _$$ref$21?.pointer ?? ffi.nullptr,
+    );
+    return UISlider.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UISlider appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref$20 = trait.ref;
+    final _$$ref$21 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UISlider.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UISlider,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref$20.pointer,
+      _$$ref$21.pointer,
+    );
+    return UISlider.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UISlider appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref$10 = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UISlider.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UISlider,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref$10?.pointer ?? ffi.nullptr,
+    );
+    return UISlider.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UISlider appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref$10 = containerTypes.ref;
+    objc.checkOsVersionInternal('UISlider.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UISlider,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref$10.pointer,
+    );
+    return UISlider.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UISlider.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UISlider, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UISlider new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UISlider, _sel_new);
+    return UISlider.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UISlider.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UISlider,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UISlider.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UISlider,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UISlider constructed with the default `new` method.
+  UISlider() : this.as(new$().object$);
+}
+
+extension UISlider$Methods on UISlider {
+  /// currentMaximumTrackImage
+  UIImage? get currentMaximumTrackImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.currentMaximumTrackImage', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentMaximumTrackImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentMinimumTrackImage
+  UIImage? get currentMinimumTrackImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.currentMinimumTrackImage', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentMinimumTrackImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// currentThumbImage
+  UIImage? get currentThumbImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.currentThumbImage', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_currentThumbImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// encodeWithCoder:
+  void encodeWithCoder(objc.NSCoder coder) {
+    final _$$ref$30 = object$.ref;
+    final _$$ref$31 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$30.pointer, _sel_encodeWithCoder_, _$$ref$31.pointer);
+  }
+
+  /// init
+  UISlider init() {
+    final _$$ref$23 = object$.ref;
+    objc.checkOsVersionInternal('UISlider.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$23.retainAndReturnPointer(), _sel_init);
+    return UISlider.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UISlider? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$44 = object$.ref;
+    final _$$ref$45 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$44.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$45.pointer);
+    return $ret.address == 0 ? null : UISlider.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UISlider initWithFrame(objc.CGRect frame) {
+    final _$$ref$8 = object$.ref;
+    objc.checkOsVersionInternal('UISlider.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$8.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UISlider.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// Initializes the control and adds primaryAction for the UIControlEventPrimaryActionTriggered control event. Subclasses of UIControl may alter or add behaviors around the usage of primaryAction, see subclass documentation of this initializer for additional information.
+  UISlider initWithFrame$1(objc.CGRect frame, {UIAction? primaryAction}) {
+    final _$$ref$6 = object$.ref;
+    final _$$ref$7 = primaryAction?.ref;
+    objc.checkOsVersionInternal('UISlider.initWithFrame:primaryAction:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_gxusyk(
+      _$$ref$6.retainAndReturnPointer(),
+      _sel_initWithFrame_primaryAction_,
+      frame,
+      _$$ref$7?.pointer ?? ffi.nullptr,
+    );
+    return UISlider.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// isContinuous
+  bool get isContinuous {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.isContinuous', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isContinuous);
+  }
+
+  /// maximumTrackImageForState:
+  UIImage? maximumTrackImageForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.maximumTrackImageForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_maximumTrackImageForState_, state);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// maximumTrackTintColor
+  UIColor? get maximumTrackTintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.maximumTrackTintColor', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_maximumTrackTintColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// maximumValue
+  double get maximumValue {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.maximumValue', iOS: (false, (2, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_2cgrxlFpret(_$$ref.pointer, _sel_maximumValue)
+        : _objc_msgSend_2cgrxl(_$$ref.pointer, _sel_maximumValue);
+  }
+
+  /// maximumValueImage
+  UIImage? get maximumValueImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.maximumValueImage', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_maximumValueImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// maximumValueImageRectForBounds:
+  objc.CGRect maximumValueImageRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.maximumValueImageRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_maximumValueImageRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_maximumValueImageRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// minimumTrackImageForState:
+  UIImage? minimumTrackImageForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.minimumTrackImageForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_minimumTrackImageForState_, state);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// minimumTrackTintColor
+  UIColor? get minimumTrackTintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.minimumTrackTintColor', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_minimumTrackTintColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// minimumValue
+  double get minimumValue {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.minimumValue', iOS: (false, (2, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_2cgrxlFpret(_$$ref.pointer, _sel_minimumValue)
+        : _objc_msgSend_2cgrxl(_$$ref.pointer, _sel_minimumValue);
+  }
+
+  /// minimumValueImage
+  UIImage? get minimumValueImage {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.minimumValueImage', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_minimumValueImage);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// minimumValueImageRectForBounds:
+  objc.CGRect minimumValueImageRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.minimumValueImageRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_minimumValueImageRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_minimumValueImageRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// setContinuous:
+  set isContinuous(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.setContinuous:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setContinuous_, value);
+  }
+
+  /// setMaximumTrackImage:forState:
+  void setMaximumTrackImage(UIImage? image, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    objc.checkOsVersionInternal('UISlider.setMaximumTrackImage:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(
+      _$$ref.pointer,
+      _sel_setMaximumTrackImage_forState_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      forState,
+    );
+  }
+
+  /// setMaximumTrackTintColor:
+  set maximumTrackTintColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UISlider.setMaximumTrackTintColor:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setMaximumTrackTintColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setMaximumValue:
+  set maximumValue(double value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.setMaximumValue:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_v5hmet(_$$ref.pointer, _sel_setMaximumValue_, value);
+  }
+
+  /// setMaximumValueImage:
+  set maximumValueImage(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UISlider.setMaximumValueImage:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setMaximumValueImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setMinimumTrackImage:forState:
+  void setMinimumTrackImage(UIImage? image, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    objc.checkOsVersionInternal('UISlider.setMinimumTrackImage:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(
+      _$$ref.pointer,
+      _sel_setMinimumTrackImage_forState_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      forState,
+    );
+  }
+
+  /// setMinimumTrackTintColor:
+  set minimumTrackTintColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UISlider.setMinimumTrackTintColor:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setMinimumTrackTintColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setMinimumValue:
+  set minimumValue(double value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.setMinimumValue:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_v5hmet(_$$ref.pointer, _sel_setMinimumValue_, value);
+  }
+
+  /// setMinimumValueImage:
+  set minimumValueImage(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UISlider.setMinimumValueImage:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setMinimumValueImage_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setThumbImage:forState:
+  void setThumbImage(UIImage? image, {required int forState}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = image?.ref;
+    objc.checkOsVersionInternal('UISlider.setThumbImage:forState:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_dldayz(_$$ref.pointer, _sel_setThumbImage_forState_, _$$ref$1?.pointer ?? ffi.nullptr, forState);
+  }
+
+  /// setThumbTintColor:
+  set thumbTintColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UISlider.setThumbTintColor:', iOS: (false, (5, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setThumbTintColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setValue:
+  set value(double value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.setValue:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_v5hmet(_$$ref.pointer, _sel_setValue_, value);
+  }
+
+  /// setValue:animated:
+  void setValue(double value, {required bool animated}) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.setValue:animated:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_erqo6l(_$$ref.pointer, _sel_setValue_animated_, value, animated);
+  }
+
+  /// thumbImageForState:
+  UIImage? thumbImageForState(int state) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.thumbImageForState:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_1g2zxsx(_$$ref.pointer, _sel_thumbImageForState_, state);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// thumbRectForBounds:trackRect:value:
+  objc.CGRect thumbRectForBounds(objc.CGRect bounds, {required objc.CGRect trackRect, required double value}) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.thumbRectForBounds:trackRect:value:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1vqtrpoStret(
+            $ptr,
+            _$$ref.pointer,
+            _sel_thumbRectForBounds_trackRect_value_,
+            bounds,
+            trackRect,
+            value,
+          )
+        : $ptr.ref = _objc_msgSend_1vqtrpo(
+            _$$ref.pointer,
+            _sel_thumbRectForBounds_trackRect_value_,
+            bounds,
+            trackRect,
+            value,
+          );
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// thumbTintColor
+  UIColor? get thumbTintColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.thumbTintColor', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_thumbTintColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// trackRectForBounds:
+  objc.CGRect trackRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.trackRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_trackRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_trackRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// value
+  double get value {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UISlider.value', iOS: (false, (2, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_2cgrxlFpret(_$$ref.pointer, _sel_value)
+        : _objc_msgSend_2cgrxl(_$$ref.pointer, _sel_value);
+  }
+}
+
 /// UISnapshotting
 extension UISnapshotting on UIView {
   /// drawViewHierarchyInRect:afterScreenUpdates:
@@ -13356,6 +17166,394 @@ extension UISnapshotting on UIView {
     final $ret = _objc_msgSend_1t6aok9(_$$ref.pointer, _sel_snapshotViewAfterScreenUpdates_, afterUpdates);
     return $ret.address == 0 ? null : UIView.fromPointer($ret, retain: true, release: true);
   }
+}
+
+/// UIStackView
+extension type UIStackView._(objc.ObjCObject object$) implements objc.ObjCObject, UIView {
+  /// Constructs a [UIStackView] that points to the same underlying object as [other].
+  UIStackView.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UIStackView', iOS: (false, (9, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Constructs a [UIStackView] that wraps the given raw object pointer.
+  UIStackView.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UIStackView', iOS: (false, (9, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UIStackView].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIStackView);
+
+  /// alloc
+  static UIStackView alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIStackView, _sel_alloc);
+    return UIStackView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIStackView allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIStackView, _sel_allocWithZone_, zone);
+    return UIStackView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UIStackView appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UIStackView, _sel_appearance);
+    return UIStackView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UIStackView appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref$11 = trait.ref;
+    objc.checkOsVersionInternal('UIStackView.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_class_UIStackView, _sel_appearanceForTraitCollection_, _$$ref$11.pointer);
+    return UIStackView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UIStackView appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
+    final _$$ref$22 = trait.ref;
+    final _$$ref$23 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal('UIStackView.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIStackView,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref$22.pointer,
+      _$$ref$23?.pointer ?? ffi.nullptr,
+    );
+    return UIStackView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UIStackView appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref$22 = trait.ref;
+    final _$$ref$23 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UIStackView.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UIStackView,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref$22.pointer,
+      _$$ref$23.pointer,
+    );
+    return UIStackView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UIStackView appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref$11 = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UIStackView.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIStackView,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref$11?.pointer ?? ffi.nullptr,
+    );
+    return UIStackView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UIStackView appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref$11 = containerTypes.ref;
+    objc.checkOsVersionInternal('UIStackView.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UIStackView,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref$11.pointer,
+    );
+    return UIStackView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UIStackView.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UIStackView, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UIStackView new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UIStackView, _sel_new);
+    return UIStackView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UIStackView.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UIStackView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UIStackView.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UIStackView,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UIStackView constructed with the default `new` method.
+  UIStackView() : this.as(new$().object$);
+}
+
+extension UIStackView$Methods on UIStackView {
+  /// addArrangedSubview:
+  void addArrangedSubview(UIView view) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = view.ref;
+    objc.checkOsVersionInternal('UIStackView.addArrangedSubview:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_addArrangedSubview_, _$$ref$1.pointer);
+  }
+
+  /// alignment
+  UIStackViewAlignment get alignment {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.alignment', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_ya0jwp(_$$ref.pointer, _sel_alignment);
+    return UIStackViewAlignment.fromValue($ret);
+  }
+
+  /// arrangedSubviews
+  objc.NSArray get arrangedSubviews {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.arrangedSubviews', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_arrangedSubviews);
+    return objc.NSArray.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// axis
+  UILayoutConstraintAxis get axis {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.axis', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1qgkqvj(_$$ref.pointer, _sel_axis);
+    return UILayoutConstraintAxis.fromValue($ret);
+  }
+
+  /// customSpacingAfterView:
+  double customSpacingAfterView(UIView arrangedSubview) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = arrangedSubview.ref;
+    objc.checkOsVersionInternal('UIStackView.customSpacingAfterView:', iOS: (false, (11, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_mabicuFpret(_$$ref.pointer, _sel_customSpacingAfterView_, _$$ref$1.pointer)
+        : _objc_msgSend_mabicu(_$$ref.pointer, _sel_customSpacingAfterView_, _$$ref$1.pointer);
+  }
+
+  /// distribution
+  UIStackViewDistribution get distribution {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.distribution', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_23epm6(_$$ref.pointer, _sel_distribution);
+    return UIStackViewDistribution.fromValue($ret);
+  }
+
+  /// init
+  UIStackView init() {
+    final _$$ref$24 = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$24.retainAndReturnPointer(), _sel_init);
+    return UIStackView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithArrangedSubviews:
+  UIStackView initWithArrangedSubviews(objc.NSArray views) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = views.ref;
+    objc.checkOsVersionInternal('UIStackView.initWithArrangedSubviews:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _$$ref.retainAndReturnPointer(),
+      _sel_initWithArrangedSubviews_,
+      _$$ref$1.pointer,
+    );
+    return UIStackView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UIStackView? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$46 = object$.ref;
+    final _$$ref$47 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$46.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$47.pointer);
+    return $ret.address == 0 ? null : UIStackView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UIStackView initWithFrame(objc.CGRect frame) {
+    final _$$ref$9 = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$9.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UIStackView.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// insertArrangedSubview:atIndex:
+  void insertArrangedSubview(UIView view, {required int atIndex}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = view.ref;
+    objc.checkOsVersionInternal('UIStackView.insertArrangedSubview:atIndex:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_djsa9o(_$$ref.pointer, _sel_insertArrangedSubview_atIndex_, _$$ref$1.pointer, atIndex);
+  }
+
+  /// isBaselineRelativeArrangement
+  bool get isBaselineRelativeArrangement {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.isBaselineRelativeArrangement', iOS: (false, (9, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isBaselineRelativeArrangement);
+  }
+
+  /// isLayoutMarginsRelativeArrangement
+  bool get isLayoutMarginsRelativeArrangement {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.isLayoutMarginsRelativeArrangement', iOS: (false, (9, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isLayoutMarginsRelativeArrangement);
+  }
+
+  /// removeArrangedSubview:
+  void removeArrangedSubview(UIView view) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = view.ref;
+    objc.checkOsVersionInternal('UIStackView.removeArrangedSubview:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_removeArrangedSubview_, _$$ref$1.pointer);
+  }
+
+  /// setAlignment:
+  set alignment(UIStackViewAlignment value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.setAlignment:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_mqav8p(_$$ref.pointer, _sel_setAlignment_, value.value);
+  }
+
+  /// setAxis:
+  set axis(UILayoutConstraintAxis value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.setAxis:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_1q9f1jv(_$$ref.pointer, _sel_setAxis_, value.value);
+  }
+
+  /// setBaselineRelativeArrangement:
+  set isBaselineRelativeArrangement(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.setBaselineRelativeArrangement:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setBaselineRelativeArrangement_, value);
+  }
+
+  /// setCustomSpacing:afterView:
+  void setCustomSpacing(double spacing, {required UIView afterView}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = afterView.ref;
+    objc.checkOsVersionInternal('UIStackView.setCustomSpacing:afterView:', iOS: (false, (11, 0, 0)));
+    _objc_msgSend_130mcug(_$$ref.pointer, _sel_setCustomSpacing_afterView_, spacing, _$$ref$1.pointer);
+  }
+
+  /// setDistribution:
+  set distribution(UIStackViewDistribution value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.setDistribution:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_5d594c(_$$ref.pointer, _sel_setDistribution_, value.value);
+  }
+
+  /// setLayoutMarginsRelativeArrangement:
+  set isLayoutMarginsRelativeArrangement(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.setLayoutMarginsRelativeArrangement:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setLayoutMarginsRelativeArrangement_, value);
+  }
+
+  /// setSpacing:
+  set spacing(double value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.setSpacing:', iOS: (false, (9, 0, 0)));
+    _objc_msgSend_hwm8nu(_$$ref.pointer, _sel_setSpacing_, value);
+  }
+
+  /// spacing
+  double get spacing {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIStackView.spacing', iOS: (false, (9, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_1ukqyt8Fpret(_$$ref.pointer, _sel_spacing)
+        : _objc_msgSend_1ukqyt8(_$$ref.pointer, _sel_spacing);
+  }
+}
+
+enum UIStackViewAlignment {
+  UIStackViewAlignmentFill(0),
+  UIStackViewAlignmentLeading(1),
+  UIStackViewAlignmentFirstBaseline(2),
+  UIStackViewAlignmentCenter(3),
+  UIStackViewAlignmentTrailing(4),
+  UIStackViewAlignmentLastBaseline(5);
+
+  static const UIStackViewAlignmentTop = UIStackViewAlignmentLeading;
+  static const UIStackViewAlignmentBottom = UIStackViewAlignmentTrailing;
+
+  final int value;
+  const UIStackViewAlignment(this.value);
+
+  static UIStackViewAlignment fromValue(int value) => switch (value) {
+    0 => UIStackViewAlignmentFill,
+    1 => UIStackViewAlignmentLeading,
+    2 => UIStackViewAlignmentFirstBaseline,
+    3 => UIStackViewAlignmentCenter,
+    4 => UIStackViewAlignmentTrailing,
+    5 => UIStackViewAlignmentLastBaseline,
+    _ => throw ArgumentError('Unknown value for UIStackViewAlignment: $value'),
+  };
+
+  @override
+  String toString() {
+    if (this == UIStackViewAlignmentLeading)
+      return "UIStackViewAlignment.UIStackViewAlignmentLeading, UIStackViewAlignment.UIStackViewAlignmentTop";
+    if (this == UIStackViewAlignmentTrailing)
+      return "UIStackViewAlignment.UIStackViewAlignmentTrailing, UIStackViewAlignment.UIStackViewAlignmentBottom";
+    return super.toString();
+  }
+}
+
+enum UIStackViewDistribution {
+  UIStackViewDistributionFill(0),
+  UIStackViewDistributionFillEqually(1),
+  UIStackViewDistributionFillProportionally(2),
+  UIStackViewDistributionEqualSpacing(3),
+  UIStackViewDistributionEqualCentering(4);
+
+  final int value;
+  const UIStackViewDistribution(this.value);
+
+  static UIStackViewDistribution fromValue(int value) => switch (value) {
+    0 => UIStackViewDistributionFill,
+    1 => UIStackViewDistributionFillEqually,
+    2 => UIStackViewDistributionFillProportionally,
+    3 => UIStackViewDistributionEqualSpacing,
+    4 => UIStackViewDistributionEqualCentering,
+    _ => throw ArgumentError('Unknown value for UIStackViewDistribution: $value'),
+  };
 }
 
 /// UIStateRestoration
@@ -13631,23 +17829,23 @@ extension type UISwitch._(objc.ObjCObject object$) implements objc.ObjCObject, U
 
   /// appearanceForTraitCollection:
   static UISwitch appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$5 = trait.ref;
+    final _$$ref$12 = trait.ref;
     objc.checkOsVersionInternal('UISwitch.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UISwitch, _sel_appearanceForTraitCollection_, _$$ref$5.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UISwitch, _sel_appearanceForTraitCollection_, _$$ref$12.pointer);
     return UISwitch.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceForTraitCollection:whenContainedIn:
   @Deprecated('Deprecated')
   static UISwitch appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
-    final _$$ref$10 = trait.ref;
-    final _$$ref$11 = whenContainedIn?.ref;
+    final _$$ref$24 = trait.ref;
+    final _$$ref$25 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UISwitch.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UISwitch,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$10.pointer,
-      _$$ref$11?.pointer ?? ffi.nullptr,
+      _$$ref$24.pointer,
+      _$$ref$25?.pointer ?? ffi.nullptr,
     );
     return UISwitch.fromPointer($ret, retain: true, release: true);
   }
@@ -13657,8 +17855,8 @@ extension type UISwitch._(objc.ObjCObject object$) implements objc.ObjCObject, U
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$10 = trait.ref;
-    final _$$ref$11 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$24 = trait.ref;
+    final _$$ref$25 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UISwitch.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -13666,8 +17864,8 @@ extension type UISwitch._(objc.ObjCObject object$) implements objc.ObjCObject, U
     final $ret = _objc_msgSend_15qeuct(
       _class_UISwitch,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$10.pointer,
-      _$$ref$11.pointer,
+      _$$ref$24.pointer,
+      _$$ref$25.pointer,
     );
     return UISwitch.fromPointer($ret, retain: true, release: true);
   }
@@ -13675,24 +17873,24 @@ extension type UISwitch._(objc.ObjCObject object$) implements objc.ObjCObject, U
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UISwitch appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$5 = ContainerClass?.ref;
+    final _$$ref$12 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UISwitch.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UISwitch,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$5?.pointer ?? ffi.nullptr,
+      _$$ref$12?.pointer ?? ffi.nullptr,
     );
     return UISwitch.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UISwitch appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$5 = containerTypes.ref;
+    final _$$ref$12 = containerTypes.ref;
     objc.checkOsVersionInternal('UISwitch.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UISwitch,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$5.pointer,
+      _$$ref$12.pointer,
     );
     return UISwitch.fromPointer($ret, retain: true, release: true);
   }
@@ -13751,45 +17949,45 @@ extension type UISwitch._(objc.ObjCObject object$) implements objc.ObjCObject, U
 extension UISwitch$Methods on UISwitch {
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$24 = object$.ref;
-    final _$$ref$25 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$24.pointer, _sel_encodeWithCoder_, _$$ref$25.pointer);
+    final _$$ref$32 = object$.ref;
+    final _$$ref$33 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$32.pointer, _sel_encodeWithCoder_, _$$ref$33.pointer);
   }
 
   /// init
   UISwitch init() {
-    final _$$ref$18 = object$.ref;
+    final _$$ref$25 = object$.ref;
     objc.checkOsVersionInternal('UISwitch.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$18.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$25.retainAndReturnPointer(), _sel_init);
     return UISwitch.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UISwitch? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$32 = object$.ref;
-    final _$$ref$33 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$32.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$33.pointer);
+    final _$$ref$48 = object$.ref;
+    final _$$ref$49 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$48.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$49.pointer);
     return $ret.address == 0 ? null : UISwitch.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithFrame:
   UISwitch initWithFrame(objc.CGRect frame) {
-    final _$$ref$3 = object$.ref;
+    final _$$ref$10 = object$.ref;
     objc.checkOsVersionInternal('UISwitch.initWithFrame:', iOS: (false, (2, 0, 0)));
-    final $ret = _objc_msgSend_15yz4e6(_$$ref$3.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$10.retainAndReturnPointer(), _sel_initWithFrame_, frame);
     return UISwitch.fromPointer($ret, retain: false, release: true);
   }
 
   /// Initializes the control and adds primaryAction for the UIControlEventPrimaryActionTriggered control event. Subclasses of UIControl may alter or add behaviors around the usage of primaryAction, see subclass documentation of this initializer for additional information.
   UISwitch initWithFrame$1(objc.CGRect frame, {UIAction? primaryAction}) {
-    final _$$ref$2 = object$.ref;
-    final _$$ref$3 = primaryAction?.ref;
+    final _$$ref$8 = object$.ref;
+    final _$$ref$9 = primaryAction?.ref;
     objc.checkOsVersionInternal('UISwitch.initWithFrame:primaryAction:', iOS: (false, (14, 0, 0)));
     final $ret = _objc_msgSend_gxusyk(
-      _$$ref$2.retainAndReturnPointer(),
+      _$$ref$8.retainAndReturnPointer(),
       _sel_initWithFrame_primaryAction_,
       frame,
-      _$$ref$3?.pointer ?? ffi.nullptr,
+      _$$ref$9?.pointer ?? ffi.nullptr,
     );
     return UISwitch.fromPointer($ret, retain: false, release: true);
   }
@@ -13986,23 +18184,23 @@ extension type UITabBar._(objc.ObjCObject object$) implements objc.ObjCObject, U
 
   /// appearanceForTraitCollection:
   static UITabBar appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$6 = trait.ref;
+    final _$$ref$13 = trait.ref;
     objc.checkOsVersionInternal('UITabBar.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UITabBar, _sel_appearanceForTraitCollection_, _$$ref$6.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UITabBar, _sel_appearanceForTraitCollection_, _$$ref$13.pointer);
     return UITabBar.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceForTraitCollection:whenContainedIn:
   @Deprecated('Deprecated')
   static UITabBar appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
-    final _$$ref$12 = trait.ref;
-    final _$$ref$13 = whenContainedIn?.ref;
+    final _$$ref$26 = trait.ref;
+    final _$$ref$27 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UITabBar.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UITabBar,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$12.pointer,
-      _$$ref$13?.pointer ?? ffi.nullptr,
+      _$$ref$26.pointer,
+      _$$ref$27?.pointer ?? ffi.nullptr,
     );
     return UITabBar.fromPointer($ret, retain: true, release: true);
   }
@@ -14012,8 +18210,8 @@ extension type UITabBar._(objc.ObjCObject object$) implements objc.ObjCObject, U
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$12 = trait.ref;
-    final _$$ref$13 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$26 = trait.ref;
+    final _$$ref$27 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UITabBar.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -14021,8 +18219,8 @@ extension type UITabBar._(objc.ObjCObject object$) implements objc.ObjCObject, U
     final $ret = _objc_msgSend_15qeuct(
       _class_UITabBar,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$12.pointer,
-      _$$ref$13.pointer,
+      _$$ref$26.pointer,
+      _$$ref$27.pointer,
     );
     return UITabBar.fromPointer($ret, retain: true, release: true);
   }
@@ -14030,24 +18228,24 @@ extension type UITabBar._(objc.ObjCObject object$) implements objc.ObjCObject, U
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UITabBar appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$6 = ContainerClass?.ref;
+    final _$$ref$13 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UITabBar.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UITabBar,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$6?.pointer ?? ffi.nullptr,
+      _$$ref$13?.pointer ?? ffi.nullptr,
     );
     return UITabBar.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UITabBar appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$6 = containerTypes.ref;
+    final _$$ref$13 = containerTypes.ref;
     objc.checkOsVersionInternal('UITabBar.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UITabBar,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$6.pointer,
+      _$$ref$13.pointer,
     );
     return UITabBar.fromPointer($ret, retain: true, release: true);
   }
@@ -14151,25 +18349,25 @@ extension UITabBar$Methods on UITabBar {
 
   /// init
   UITabBar init() {
-    final _$$ref$19 = object$.ref;
+    final _$$ref$26 = object$.ref;
     objc.checkOsVersionInternal('UITabBar.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$19.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$26.retainAndReturnPointer(), _sel_init);
     return UITabBar.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UITabBar? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$34 = object$.ref;
-    final _$$ref$35 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$34.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$35.pointer);
+    final _$$ref$50 = object$.ref;
+    final _$$ref$51 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$50.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$51.pointer);
     return $ret.address == 0 ? null : UITabBar.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithFrame:
   UITabBar initWithFrame(objc.CGRect frame) {
-    final _$$ref$4 = object$.ref;
+    final _$$ref$11 = object$.ref;
     objc.checkOsVersionInternal('UITabBar.initWithFrame:', iOS: (false, (2, 0, 0)));
-    final $ret = _objc_msgSend_15yz4e6(_$$ref$4.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$11.retainAndReturnPointer(), _sel_initWithFrame_, frame);
     return UITabBar.fromPointer($ret, retain: false, release: true);
   }
 
@@ -14505,9 +18703,9 @@ extension UITabBarAppearance$Methods on UITabBarAppearance {
 
   /// init
   UITabBarAppearance init() {
-    final _$$ref$20 = object$.ref;
+    final _$$ref$27 = object$.ref;
     objc.checkOsVersionInternal('UITabBarAppearance.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$20.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$27.retainAndReturnPointer(), _sel_init);
     return UITabBarAppearance.fromPointer($ret, retain: false, release: true);
   }
 
@@ -14526,9 +18724,9 @@ extension UITabBarAppearance$Methods on UITabBarAppearance {
 
   /// initWithCoder:
   UITabBarAppearance? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$36 = object$.ref;
-    final _$$ref$37 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$36.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$37.pointer);
+    final _$$ref$52 = object$.ref;
+    final _$$ref$53 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$52.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$53.pointer);
     return $ret.address == 0 ? null : UITabBarAppearance.fromPointer($ret, retain: false, release: true);
   }
 
@@ -14729,24 +18927,24 @@ extension UITabBarController$Methods on UITabBarController {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$26 = object$.ref;
-    final _$$ref$27 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$26.pointer, _sel_encodeWithCoder_, _$$ref$27.pointer);
+    final _$$ref$34 = object$.ref;
+    final _$$ref$35 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$34.pointer, _sel_encodeWithCoder_, _$$ref$35.pointer);
   }
 
   /// init
   UITabBarController init() {
-    final _$$ref$21 = object$.ref;
+    final _$$ref$28 = object$.ref;
     objc.checkOsVersionInternal('UITabBarController.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$21.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$28.retainAndReturnPointer(), _sel_init);
     return UITabBarController.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UITabBarController? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$38 = object$.ref;
-    final _$$ref$39 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$38.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$39.pointer);
+    final _$$ref$54 = object$.ref;
+    final _$$ref$55 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$54.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$55.pointer);
     return $ret.address == 0 ? null : UITabBarController.fromPointer($ret, retain: false, release: true);
   }
 
@@ -15027,9 +19225,9 @@ extension type UITabBarItem._(objc.ObjCObject object$) implements objc.ObjCObjec
 
   /// appearanceForTraitCollection:
   static UITabBarItem appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$7 = trait.ref;
+    final _$$ref$14 = trait.ref;
     objc.checkOsVersionInternal('UITabBarItem.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UITabBarItem, _sel_appearanceForTraitCollection_, _$$ref$7.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UITabBarItem, _sel_appearanceForTraitCollection_, _$$ref$14.pointer);
     return UITabBarItem.fromPointer($ret, retain: true, release: true);
   }
 
@@ -15039,14 +19237,14 @@ extension type UITabBarItem._(objc.ObjCObject object$) implements objc.ObjCObjec
     UITraitCollection trait, {
     UIAppearanceContainer? whenContainedIn,
   }) {
-    final _$$ref$14 = trait.ref;
-    final _$$ref$15 = whenContainedIn?.ref;
+    final _$$ref$28 = trait.ref;
+    final _$$ref$29 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UITabBarItem.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UITabBarItem,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$14.pointer,
-      _$$ref$15?.pointer ?? ffi.nullptr,
+      _$$ref$28.pointer,
+      _$$ref$29?.pointer ?? ffi.nullptr,
     );
     return UITabBarItem.fromPointer($ret, retain: true, release: true);
   }
@@ -15056,8 +19254,8 @@ extension type UITabBarItem._(objc.ObjCObject object$) implements objc.ObjCObjec
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$14 = trait.ref;
-    final _$$ref$15 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$28 = trait.ref;
+    final _$$ref$29 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UITabBarItem.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -15065,8 +19263,8 @@ extension type UITabBarItem._(objc.ObjCObject object$) implements objc.ObjCObjec
     final $ret = _objc_msgSend_15qeuct(
       _class_UITabBarItem,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$14.pointer,
-      _$$ref$15.pointer,
+      _$$ref$28.pointer,
+      _$$ref$29.pointer,
     );
     return UITabBarItem.fromPointer($ret, retain: true, release: true);
   }
@@ -15074,24 +19272,24 @@ extension type UITabBarItem._(objc.ObjCObject object$) implements objc.ObjCObjec
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UITabBarItem appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$7 = ContainerClass?.ref;
+    final _$$ref$14 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UITabBarItem.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UITabBarItem,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$7?.pointer ?? ffi.nullptr,
+      _$$ref$14?.pointer ?? ffi.nullptr,
     );
     return UITabBarItem.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UITabBarItem appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$7 = containerTypes.ref;
+    final _$$ref$14 = containerTypes.ref;
     objc.checkOsVersionInternal('UITabBarItem.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UITabBarItem,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$7.pointer,
+      _$$ref$14.pointer,
     );
     return UITabBarItem.fromPointer($ret, retain: true, release: true);
   }
@@ -15151,17 +19349,17 @@ extension UITabBarItem$Methods on UITabBarItem {
 
   /// init
   UITabBarItem init() {
-    final _$$ref$22 = object$.ref;
+    final _$$ref$29 = object$.ref;
     objc.checkOsVersionInternal('UITabBarItem.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$22.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$29.retainAndReturnPointer(), _sel_init);
     return UITabBarItem.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UITabBarItem? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$40 = object$.ref;
-    final _$$ref$41 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$40.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$41.pointer);
+    final _$$ref$56 = object$.ref;
+    final _$$ref$57 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$56.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$57.pointer);
     return $ret.address == 0 ? null : UITabBarItem.fromPointer($ret, retain: false, release: true);
   }
 
@@ -15422,32 +19620,1655 @@ extension type UITapGestureRecognizer._(objc.ObjCObject object$) implements objc
   }
 }
 
-/// WARNING: UITextField is a stub. To generate bindings for this class, include
-/// UITextField in your config's objc-interfaces list.
-///
+enum UITextAlternativeStyle {
+  UITextAlternativeStyleNone(0),
+  UITextAlternativeStyleLowConfidence(1);
+
+  final int value;
+  const UITextAlternativeStyle(this.value);
+
+  static UITextAlternativeStyle fromValue(int value) => switch (value) {
+    0 => UITextAlternativeStyleNone,
+    1 => UITextAlternativeStyleLowConfidence,
+    _ => throw ArgumentError('Unknown value for UITextAlternativeStyle: $value'),
+  };
+}
+
+enum UITextAutocapitalizationType {
+  UITextAutocapitalizationTypeNone(0),
+  UITextAutocapitalizationTypeWords(1),
+  UITextAutocapitalizationTypeSentences(2),
+  UITextAutocapitalizationTypeAllCharacters(3);
+
+  final int value;
+  const UITextAutocapitalizationType(this.value);
+
+  static UITextAutocapitalizationType fromValue(int value) => switch (value) {
+    0 => UITextAutocapitalizationTypeNone,
+    1 => UITextAutocapitalizationTypeWords,
+    2 => UITextAutocapitalizationTypeSentences,
+    3 => UITextAutocapitalizationTypeAllCharacters,
+    _ => throw ArgumentError('Unknown value for UITextAutocapitalizationType: $value'),
+  };
+}
+
+enum UITextAutocorrectionType {
+  UITextAutocorrectionTypeDefault(0),
+  UITextAutocorrectionTypeNo(1),
+  UITextAutocorrectionTypeYes(2);
+
+  final int value;
+  const UITextAutocorrectionType(this.value);
+
+  static UITextAutocorrectionType fromValue(int value) => switch (value) {
+    0 => UITextAutocorrectionTypeDefault,
+    1 => UITextAutocorrectionTypeNo,
+    2 => UITextAutocorrectionTypeYes,
+    _ => throw ArgumentError('Unknown value for UITextAutocorrectionType: $value'),
+  };
+}
+
+enum UITextBorderStyle {
+  UITextBorderStyleNone(0),
+  UITextBorderStyleLine(1),
+  UITextBorderStyleBezel(2),
+  UITextBorderStyleRoundedRect(3);
+
+  final int value;
+  const UITextBorderStyle(this.value);
+
+  static UITextBorderStyle fromValue(int value) => switch (value) {
+    0 => UITextBorderStyleNone,
+    1 => UITextBorderStyleLine,
+    2 => UITextBorderStyleBezel,
+    3 => UITextBorderStyleRoundedRect,
+    _ => throw ArgumentError('Unknown value for UITextBorderStyle: $value'),
+  };
+}
+
 /// UITextField
 extension type UITextField._(objc.ObjCObject object$)
     implements objc.ObjCObject, UIControl, UITextInput, objc.NSCoding, UIContentSizeCategoryAdjusting {
   /// Constructs a [UITextField] that points to the same underlying object as [other].
   UITextField.as(objc.ObjCObject other) : object$ = other {
     objc.checkOsVersionInternal('UITextField', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
   }
 
   /// Constructs a [UITextField] that wraps the given raw object pointer.
   UITextField.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {
     objc.checkOsVersionInternal('UITextField', iOS: (false, (2, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UITextField].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UITextField);
+
+  /// alloc
+  static UITextField alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UITextField, _sel_alloc);
+    return UITextField.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UITextField allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UITextField, _sel_allocWithZone_, zone);
+    return UITextField.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// appearance
+  static UITextField appearance() {
+    final $ret = _objc_msgSend_151sglz(_class_UITextField, _sel_appearance);
+    return UITextField.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:
+  static UITextField appearanceForTraitCollection(UITraitCollection trait) {
+    final _$$ref$15 = trait.ref;
+    objc.checkOsVersionInternal('UITextField.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_class_UITextField, _sel_appearanceForTraitCollection_, _$$ref$15.pointer);
+    return UITextField.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedIn:
+  @Deprecated('Deprecated')
+  static UITextField appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
+    final _$$ref$30 = trait.ref;
+    final _$$ref$31 = whenContainedIn?.ref;
+    objc.checkOsVersionInternal('UITextField.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UITextField,
+      _sel_appearanceForTraitCollection_whenContainedIn_,
+      _$$ref$30.pointer,
+      _$$ref$31?.pointer ?? ffi.nullptr,
+    );
+    return UITextField.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceForTraitCollection:whenContainedInInstancesOfClasses:
+  static UITextField appearanceForTraitCollection$2(
+    UITraitCollection trait, {
+    required objc.NSArray whenContainedInInstancesOfClasses,
+  }) {
+    final _$$ref$30 = trait.ref;
+    final _$$ref$31 = whenContainedInInstancesOfClasses.ref;
+    objc.checkOsVersionInternal(
+      'UITextField.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_15qeuct(
+      _class_UITextField,
+      _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
+      _$$ref$30.pointer,
+      _$$ref$31.pointer,
+    );
+    return UITextField.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedIn:
+  @Deprecated('Deprecated')
+  static UITextField appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
+    final _$$ref$15 = ContainerClass?.ref;
+    objc.checkOsVersionInternal('UITextField.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UITextField,
+      _sel_appearanceWhenContainedIn_,
+      _$$ref$15?.pointer ?? ffi.nullptr,
+    );
+    return UITextField.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// appearanceWhenContainedInInstancesOfClasses:
+  static UITextField appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
+    final _$$ref$15 = containerTypes.ref;
+    objc.checkOsVersionInternal('UITextField.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(
+      _class_UITextField,
+      _sel_appearanceWhenContainedInInstancesOfClasses_,
+      _$$ref$15.pointer,
+    );
+    return UITextField.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// layerClass
+  static objc.ObjCObject getLayerClass() {
+    objc.checkOsVersionInternal('UITextField.layerClass', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_class_UITextField, _sel_layerClass);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// new
+  static UITextField new$() {
+    final $ret = _objc_msgSend_151sglz(_class_UITextField, _sel_new);
+    return UITextField.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute(
+    UISemanticContentAttribute attribute,
+  ) {
+    objc.checkOsVersionInternal(
+      'UITextField.userInterfaceLayoutDirectionForSemanticContentAttribute:',
+      iOS: (false, (9, 0, 0)),
+    );
+    final $ret = _objc_msgSend_racczx(
+      _class_UITextField,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_,
+      attribute.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:
+  static UIUserInterfaceLayoutDirection userInterfaceLayoutDirectionForSemanticContentAttribute$1(
+    UISemanticContentAttribute semanticContentAttribute, {
+    required UIUserInterfaceLayoutDirection relativeToLayoutDirection,
+  }) {
+    objc.checkOsVersionInternal(
+      'UITextField.userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:',
+      iOS: (false, (10, 0, 0)),
+    );
+    final $ret = _objc_msgSend_tz4p54(
+      _class_UITextField,
+      _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relativeToLayoutDirection_,
+      semanticContentAttribute.value,
+      relativeToLayoutDirection.value,
+    );
+    return UIUserInterfaceLayoutDirection.fromValue($ret);
+  }
+
+  /// Returns a new instance of UITextField constructed with the default `new` method.
+  UITextField() : this.as(new$().object$);
+}
+
+extension UITextField$Methods on UITextField {
+  /// adjustsFontForContentSizeCategory
+  bool get adjustsFontForContentSizeCategory {
+    final _$$ref$1 = object$.ref;
+    objc.checkOsVersionInternal('UITextField.adjustsFontForContentSizeCategory', iOS: (false, (10, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref$1.pointer, _sel_adjustsFontForContentSizeCategory);
+  }
+
+  /// adjustsFontSizeToFitWidth
+  bool get adjustsFontSizeToFitWidth {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.adjustsFontSizeToFitWidth', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_adjustsFontSizeToFitWidth);
+  }
+
+  /// allowsEditingTextAttributes
+  bool get allowsEditingTextAttributes {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.allowsEditingTextAttributes', iOS: (false, (6, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_allowsEditingTextAttributes);
+  }
+
+  /// attributedPlaceholder
+  objc.NSAttributedString? get attributedPlaceholder {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.attributedPlaceholder', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_attributedPlaceholder);
+    return $ret.address == 0 ? null : objc.NSAttributedString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// attributedText
+  objc.NSAttributedString? get attributedText {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.attributedText', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_attributedText);
+    return $ret.address == 0 ? null : objc.NSAttributedString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// autocapitalizationType
+  UITextAutocapitalizationType get autocapitalizationType {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_autocapitalizationType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'autocapitalizationType');
+    }
+    final $ret = _objc_msgSend_w4in4b(_$$ref.pointer, _sel_autocapitalizationType);
+    return UITextAutocapitalizationType.fromValue($ret);
+  }
+
+  /// autocorrectionType
+  UITextAutocorrectionType get autocorrectionType {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_autocorrectionType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'autocorrectionType');
+    }
+    final $ret = _objc_msgSend_1x3ggx3(_$$ref.pointer, _sel_autocorrectionType);
+    return UITextAutocorrectionType.fromValue($ret);
+  }
+
+  /// background
+  UIImage? get background {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.background', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_background);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// baseWritingDirectionForPosition:inDirection:
+  NSWritingDirection baseWritingDirectionForPosition(
+    UITextPosition position, {
+    required UITextStorageDirection inDirection,
+  }) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    final $ret = _objc_msgSend_oyb9im(
+      _$$ref.pointer,
+      _sel_baseWritingDirectionForPosition_inDirection_,
+      _$$ref$1.pointer,
+      inDirection.value,
+    );
+    return NSWritingDirection.fromValue($ret);
+  }
+
+  /// beginFloatingCursorAtPoint:
+  void beginFloatingCursorAtPoint(objc.CGPoint point) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.beginFloatingCursorAtPoint:', iOS: (false, (9, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_beginFloatingCursorAtPoint_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'beginFloatingCursorAtPoint:');
+    }
+    _objc_msgSend_iy8iz6(_$$ref.pointer, _sel_beginFloatingCursorAtPoint_, point);
+  }
+
+  /// beginningOfDocument
+  UITextPosition get beginningOfDocument {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_beginningOfDocument);
+    return UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// borderRectForBounds:
+  objc.CGRect borderRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.borderRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_borderRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_borderRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// borderStyle
+  UITextBorderStyle get borderStyle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.borderStyle', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_9wqsy3(_$$ref.pointer, _sel_borderStyle);
+    return UITextBorderStyle.fromValue($ret);
+  }
+
+  /// caretRectForPosition:
+  objc.CGRect caretRectForPosition(UITextPosition position) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_qrtfceStret($ptr, _$$ref.pointer, _sel_caretRectForPosition_, _$$ref$1.pointer)
+        : $ptr.ref = _objc_msgSend_qrtfce(_$$ref.pointer, _sel_caretRectForPosition_, _$$ref$1.pointer);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// characterOffsetOfPosition:withinRange:
+  int characterOffsetOfPosition(UITextPosition position, {required UITextRange withinRange}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    final _$$ref$2 = withinRange.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_characterOffsetOfPosition_withinRange_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'characterOffsetOfPosition:withinRange:');
+    }
+    return _objc_msgSend_gayyhh(
+      _$$ref.pointer,
+      _sel_characterOffsetOfPosition_withinRange_,
+      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+    );
+  }
+
+  /// characterRangeAtPoint:
+  UITextRange? characterRangeAtPoint(objc.CGPoint point) {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_wgkxx2(_$$ref.pointer, _sel_characterRangeAtPoint_, point);
+    return $ret.address == 0 ? null : UITextRange.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// characterRangeByExtendingPosition:inDirection:
+  UITextRange? characterRangeByExtendingPosition(
+    UITextPosition position, {
+    required UITextLayoutDirection inDirection,
+  }) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    final $ret = _objc_msgSend_1bi67wp(
+      _$$ref.pointer,
+      _sel_characterRangeByExtendingPosition_inDirection_,
+      _$$ref$1.pointer,
+      inDirection.value,
+    );
+    return $ret.address == 0 ? null : UITextRange.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// clearButtonMode
+  UITextFieldViewMode get clearButtonMode {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.clearButtonMode', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_nch62q(_$$ref.pointer, _sel_clearButtonMode);
+    return UITextFieldViewMode.fromValue($ret);
+  }
+
+  /// clearButtonRectForBounds:
+  objc.CGRect clearButtonRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.clearButtonRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_clearButtonRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_clearButtonRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// clearsOnBeginEditing
+  bool get clearsOnBeginEditing {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.clearsOnBeginEditing', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_clearsOnBeginEditing);
+  }
+
+  /// clearsOnInsertion
+  bool get clearsOnInsertion {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.clearsOnInsertion', iOS: (false, (6, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_clearsOnInsertion);
+  }
+
+  /// closestPositionToPoint:
+  UITextPosition? closestPositionToPoint(objc.CGPoint point) {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_wgkxx2(_$$ref.pointer, _sel_closestPositionToPoint_, point);
+    return $ret.address == 0 ? null : UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// closestPositionToPoint:withinRange:
+  UITextPosition? closestPositionToPoint$1(objc.CGPoint point, {required UITextRange withinRange}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = withinRange.ref;
+    final $ret = _objc_msgSend_u7nfz8(
+      _$$ref.pointer,
+      _sel_closestPositionToPoint_withinRange_,
+      point,
+      _$$ref$1.pointer,
+    );
+    return $ret.address == 0 ? null : UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// comparePosition:toPosition:
+  objc.NSComparisonResult comparePosition(UITextPosition position, {required UITextPosition toPosition}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    final _$$ref$2 = toPosition.ref;
+    final $ret = _objc_msgSend_17thpfy(
+      _$$ref.pointer,
+      _sel_comparePosition_toPosition_,
+      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+    );
+    return objc.NSComparisonResult.fromValue($ret);
+  }
+
+  /// defaultTextAttributes
+  objc.NSDictionary get defaultTextAttributes {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.defaultTextAttributes', iOS: (false, (7, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_defaultTextAttributes);
+    return objc.NSDictionary.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// delegate
+  UITextFieldDelegate? get delegate {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.delegate', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_delegate);
+    return $ret.address == 0 ? null : UITextFieldDelegate.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// deleteBackward
+  void deleteBackward() {
+    final _$$ref = object$.ref;
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_deleteBackward);
+  }
+
+  /// dictationRecognitionFailed
+  void dictationRecognitionFailed() {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_dictationRecognitionFailed)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'dictationRecognitionFailed');
+    }
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_dictationRecognitionFailed);
+  }
+
+  /// dictationRecordingDidEnd
+  void dictationRecordingDidEnd() {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_dictationRecordingDidEnd)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'dictationRecordingDidEnd');
+    }
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_dictationRecordingDidEnd);
+  }
+
+  /// disabledBackground
+  UIImage? get disabledBackground {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.disabledBackground', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_disabledBackground);
+    return $ret.address == 0 ? null : UIImage.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// drawPlaceholderInRect:
+  void drawPlaceholderInRect(objc.CGRect rect) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.drawPlaceholderInRect:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1okkq16(_$$ref.pointer, _sel_drawPlaceholderInRect_, rect);
+  }
+
+  /// drawTextInRect:
+  @Deprecated('This method is no longer called.')
+  void drawTextInRect(objc.CGRect rect) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.drawTextInRect:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1okkq16(_$$ref.pointer, _sel_drawTextInRect_, rect);
+  }
+
+  /// editingRectForBounds:
+  objc.CGRect editingRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.editingRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_editingRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_editingRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// enablesReturnKeyAutomatically
+  bool get enablesReturnKeyAutomatically {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_enablesReturnKeyAutomatically)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'enablesReturnKeyAutomatically');
+    }
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_enablesReturnKeyAutomatically);
+  }
+
+  /// encodeWithCoder:
+  void encodeWithCoder(objc.NSCoder coder) {
+    final _$$ref$36 = object$.ref;
+    final _$$ref$37 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$36.pointer, _sel_encodeWithCoder_, _$$ref$37.pointer);
+  }
+
+  /// endFloatingCursor
+  void endFloatingCursor() {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.endFloatingCursor', iOS: (false, (9, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_endFloatingCursor)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'endFloatingCursor');
+    }
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_endFloatingCursor);
+  }
+
+  /// endOfDocument
+  UITextPosition get endOfDocument {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_endOfDocument);
+    return UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// firstRectForRange:
+  objc.CGRect firstRectForRange(UITextRange range) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = range.ref;
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_qrtfceStret($ptr, _$$ref.pointer, _sel_firstRectForRange_, _$$ref$1.pointer)
+        : $ptr.ref = _objc_msgSend_qrtfce(_$$ref.pointer, _sel_firstRectForRange_, _$$ref$1.pointer);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// font
+  UIFont? get font {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.font', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_font);
+    return $ret.address == 0 ? null : UIFont.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// frameForDictationResultPlaceholder:
+  objc.CGRect frameForDictationResultPlaceholder(objc.ObjCObject placeholder) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = placeholder.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_frameForDictationResultPlaceholder_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'frameForDictationResultPlaceholder:');
+    }
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_qrtfceStret($ptr, _$$ref.pointer, _sel_frameForDictationResultPlaceholder_, _$$ref$1.pointer)
+        : $ptr.ref = _objc_msgSend_qrtfce(_$$ref.pointer, _sel_frameForDictationResultPlaceholder_, _$$ref$1.pointer);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// hasText
+  bool get hasText {
+    final _$$ref = object$.ref;
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_hasText);
+  }
+
+  /// init
+  UITextField init() {
+    final _$$ref$30 = object$.ref;
+    objc.checkOsVersionInternal('UITextField.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref$30.retainAndReturnPointer(), _sel_init);
+    return UITextField.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithCoder:
+  UITextField? initWithCoder(objc.NSCoder coder) {
+    final _$$ref$58 = object$.ref;
+    final _$$ref$59 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$58.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$59.pointer);
+    return $ret.address == 0 ? null : UITextField.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// initWithFrame:
+  UITextField initWithFrame(objc.CGRect frame) {
+    final _$$ref$12 = object$.ref;
+    objc.checkOsVersionInternal('UITextField.initWithFrame:', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$12.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    return UITextField.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// Initializes the control and adds primaryAction for the UIControlEventPrimaryActionTriggered control event. Subclasses of UIControl may alter or add behaviors around the usage of primaryAction, see subclass documentation of this initializer for additional information.
+  UITextField initWithFrame$1(objc.CGRect frame, {UIAction? primaryAction}) {
+    final _$$ref$10 = object$.ref;
+    final _$$ref$11 = primaryAction?.ref;
+    objc.checkOsVersionInternal('UITextField.initWithFrame:primaryAction:', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_gxusyk(
+      _$$ref$10.retainAndReturnPointer(),
+      _sel_initWithFrame_primaryAction_,
+      frame,
+      _$$ref$11?.pointer ?? ffi.nullptr,
+    );
+    return UITextField.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// inputAccessoryView
+  UIView? get inputAccessoryView {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.inputAccessoryView', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_inputAccessoryView);
+    return $ret.address == 0 ? null : UIView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// inputDelegate
+  UITextInputDelegate? get inputDelegate {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_inputDelegate);
+    return $ret.address == 0 ? null : UITextInputDelegate.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// inputView
+  UIView? get inputView {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.inputView', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_inputView);
+    return $ret.address == 0 ? null : UIView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// insertDictationResult:
+  void insertDictationResult(objc.NSArray dictationResult) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = dictationResult.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_insertDictationResult_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'insertDictationResult:');
+    }
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_insertDictationResult_, _$$ref$1.pointer);
+  }
+
+  /// insertDictationResultPlaceholder
+  objc.ObjCObject get insertDictationResultPlaceholder {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_insertDictationResultPlaceholder)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'insertDictationResultPlaceholder');
+    }
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_insertDictationResultPlaceholder);
+    return objc.ObjCObject($ret, retain: true, release: true);
+  }
+
+  /// insertText:
+  void insertText(objc.NSString text) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = text.ref;
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_insertText_, _$$ref$1.pointer);
+  }
+
+  /// insertText:alternatives:style:
+  void insertText$1(objc.NSString text, {required objc.NSArray alternatives, required UITextAlternativeStyle style}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = text.ref;
+    final _$$ref$2 = alternatives.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_insertText_alternatives_style_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'insertText:alternatives:style:');
+    }
+    _objc_msgSend_1se1nhy(
+      _$$ref.pointer,
+      _sel_insertText_alternatives_style_,
+      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+      style.value,
+    );
+  }
+
+  /// insertTextPlaceholderWithSize:
+  UITextPlaceholder insertTextPlaceholderWithSize(objc.CGSize size) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_insertTextPlaceholderWithSize_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'insertTextPlaceholderWithSize:');
+    }
+    final $ret = _objc_msgSend_1c2zpn3(_$$ref.pointer, _sel_insertTextPlaceholderWithSize_, size);
+    return UITextPlaceholder.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// isEditing
+  bool get isEditing {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.isEditing', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isEditing);
+  }
+
+  /// isSecureTextEntry
+  bool get isSecureTextEntry {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_isSecureTextEntry)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'isSecureTextEntry');
+    }
+    return _objc_msgSend_91o635(_$$ref.pointer, _sel_isSecureTextEntry);
+  }
+
+  /// keyboardAppearance
+  UIKeyboardAppearance get keyboardAppearance {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_keyboardAppearance)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'keyboardAppearance');
+    }
+    final $ret = _objc_msgSend_fjyff0(_$$ref.pointer, _sel_keyboardAppearance);
+    return UIKeyboardAppearance.fromValue($ret);
+  }
+
+  /// keyboardType
+  UIKeyboardType get keyboardType {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_keyboardType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'keyboardType');
+    }
+    final $ret = _objc_msgSend_1g7eqj2(_$$ref.pointer, _sel_keyboardType);
+    return UIKeyboardType.fromValue($ret);
+  }
+
+  /// leftView
+  UIView? get leftView {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.leftView', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_leftView);
+    return $ret.address == 0 ? null : UIView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// leftViewMode
+  UITextFieldViewMode get leftViewMode {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.leftViewMode', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_nch62q(_$$ref.pointer, _sel_leftViewMode);
+    return UITextFieldViewMode.fromValue($ret);
+  }
+
+  /// leftViewRectForBounds:
+  objc.CGRect leftViewRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.leftViewRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_leftViewRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_leftViewRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// markedTextRange
+  UITextRange? get markedTextRange {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_markedTextRange);
+    return $ret.address == 0 ? null : UITextRange.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// markedTextStyle
+  objc.NSDictionary? get markedTextStyle {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_markedTextStyle);
+    return $ret.address == 0 ? null : objc.NSDictionary.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// minimumFontSize
+  double get minimumFontSize {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.minimumFontSize', iOS: (false, (2, 0, 0)));
+    return objc.useMsgSendVariants
+        ? _objc_msgSend_1ukqyt8Fpret(_$$ref.pointer, _sel_minimumFontSize)
+        : _objc_msgSend_1ukqyt8(_$$ref.pointer, _sel_minimumFontSize);
+  }
+
+  /// offsetFromPosition:toPosition:
+  int offsetFromPosition(UITextPosition from, {required UITextPosition toPosition}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = from.ref;
+    final _$$ref$2 = toPosition.ref;
+    return _objc_msgSend_gayyhh(
+      _$$ref.pointer,
+      _sel_offsetFromPosition_toPosition_,
+      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+    );
+  }
+
+  /// passwordRules
+  UITextInputPasswordRules? get passwordRules {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.passwordRules', iOS: (false, (12, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_passwordRules)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'passwordRules');
+    }
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_passwordRules);
+    return $ret.address == 0 ? null : UITextInputPasswordRules.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// placeholder
+  objc.NSString? get placeholder {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.placeholder', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_placeholder);
+    return $ret.address == 0 ? null : objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// placeholderRectForBounds:
+  objc.CGRect placeholderRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.placeholderRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_placeholderRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_placeholderRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// positionFromPosition:inDirection:offset:
+  UITextPosition? positionFromPosition(
+    UITextPosition position, {
+    required UITextLayoutDirection inDirection,
+    required int offset,
+  }) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    final $ret = _objc_msgSend_1ye6pcb(
+      _$$ref.pointer,
+      _sel_positionFromPosition_inDirection_offset_,
+      _$$ref$1.pointer,
+      inDirection.value,
+      offset,
+    );
+    return $ret.address == 0 ? null : UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// positionFromPosition:offset:
+  UITextPosition? positionFromPosition$1(UITextPosition position, {required int offset}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    final $ret = _objc_msgSend_9slupp(_$$ref.pointer, _sel_positionFromPosition_offset_, _$$ref$1.pointer, offset);
+    return $ret.address == 0 ? null : UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// positionWithinRange:atCharacterOffset:
+  UITextPosition? positionWithinRange(UITextRange range, {required int atCharacterOffset}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = range.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_positionWithinRange_atCharacterOffset_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'positionWithinRange:atCharacterOffset:');
+    }
+    final $ret = _objc_msgSend_9slupp(
+      _$$ref.pointer,
+      _sel_positionWithinRange_atCharacterOffset_,
+      _$$ref$1.pointer,
+      atCharacterOffset,
+    );
+    return $ret.address == 0 ? null : UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// positionWithinRange:farthestInDirection:
+  UITextPosition? positionWithinRange$1(UITextRange range, {required UITextLayoutDirection farthestInDirection}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = range.ref;
+    final $ret = _objc_msgSend_1bi67wp(
+      _$$ref.pointer,
+      _sel_positionWithinRange_farthestInDirection_,
+      _$$ref$1.pointer,
+      farthestInDirection.value,
+    );
+    return $ret.address == 0 ? null : UITextPosition.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// removeDictationResultPlaceholder:willInsertResult:
+  void removeDictationResultPlaceholder(objc.ObjCObject placeholder, {required bool willInsertResult}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = placeholder.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_removeDictationResultPlaceholder_willInsertResult_)) {
+      throw objc.UnimplementedOptionalMethodException(
+        'UITextField',
+        'removeDictationResultPlaceholder:willInsertResult:',
+      );
+    }
+    _objc_msgSend_6p7ndb(
+      _$$ref.pointer,
+      _sel_removeDictationResultPlaceholder_willInsertResult_,
+      _$$ref$1.pointer,
+      willInsertResult,
+    );
+  }
+
+  /// removeTextPlaceholder:
+  void removeTextPlaceholder(UITextPlaceholder textPlaceholder) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = textPlaceholder.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_removeTextPlaceholder_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'removeTextPlaceholder:');
+    }
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_removeTextPlaceholder_, _$$ref$1.pointer);
+  }
+
+  /// replaceRange:withText:
+  void replaceRange(UITextRange range, {required objc.NSString withText}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = range.ref;
+    final _$$ref$2 = withText.ref;
+    _objc_msgSend_pfv6jd(_$$ref.pointer, _sel_replaceRange_withText_, _$$ref$1.pointer, _$$ref$2.pointer);
+  }
+
+  /// returnKeyType
+  UIReturnKeyType get returnKeyType {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_returnKeyType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'returnKeyType');
+    }
+    final $ret = _objc_msgSend_2nhbj0(_$$ref.pointer, _sel_returnKeyType);
+    return UIReturnKeyType.fromValue($ret);
+  }
+
+  /// rightView
+  UIView? get rightView {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.rightView', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_rightView);
+    return $ret.address == 0 ? null : UIView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// rightViewMode
+  UITextFieldViewMode get rightViewMode {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.rightViewMode', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_nch62q(_$$ref.pointer, _sel_rightViewMode);
+    return UITextFieldViewMode.fromValue($ret);
+  }
+
+  /// rightViewRectForBounds:
+  objc.CGRect rightViewRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.rightViewRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_rightViewRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_rightViewRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// selectedTextRange
+  UITextRange? get selectedTextRange {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_selectedTextRange);
+    return $ret.address == 0 ? null : UITextRange.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// selectionAffinity
+  UITextStorageDirection get selectionAffinity {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_selectionAffinity)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'selectionAffinity');
+    }
+    final $ret = _objc_msgSend_100f9ue(_$$ref.pointer, _sel_selectionAffinity);
+    return UITextStorageDirection.fromValue($ret);
+  }
+
+  /// selectionRectsForRange:
+  objc.NSArray selectionRectsForRange(UITextRange range) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = range.ref;
+    objc.checkOsVersionInternal('UITextField.selectionRectsForRange:', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_1sotr3r(_$$ref.pointer, _sel_selectionRectsForRange_, _$$ref$1.pointer);
+    return objc.NSArray.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// setAdjustsFontForContentSizeCategory:
+  set adjustsFontForContentSizeCategory(bool value) {
+    final _$$ref$1 = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setAdjustsFontForContentSizeCategory:', iOS: (false, (10, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref$1.pointer, _sel_setAdjustsFontForContentSizeCategory_, value);
+  }
+
+  /// setAdjustsFontSizeToFitWidth:
+  set adjustsFontSizeToFitWidth(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setAdjustsFontSizeToFitWidth:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setAdjustsFontSizeToFitWidth_, value);
+  }
+
+  /// setAllowsEditingTextAttributes:
+  set allowsEditingTextAttributes(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setAllowsEditingTextAttributes:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setAllowsEditingTextAttributes_, value);
+  }
+
+  /// setAttributedMarkedText:selectedRange:
+  void setAttributedMarkedText(objc.NSAttributedString? markedText, {required objc.NSRange selectedRange}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = markedText?.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setAttributedMarkedText_selectedRange_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setAttributedMarkedText:selectedRange:');
+    }
+    _objc_msgSend_1oteutl(
+      _$$ref.pointer,
+      _sel_setAttributedMarkedText_selectedRange_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      selectedRange,
+    );
+  }
+
+  /// setAttributedPlaceholder:
+  set attributedPlaceholder(objc.NSAttributedString? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setAttributedPlaceholder:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setAttributedPlaceholder_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setAttributedText:
+  set attributedText(objc.NSAttributedString? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setAttributedText:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setAttributedText_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setAutocapitalizationType:
+  set autocapitalizationType(UITextAutocapitalizationType value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setAutocapitalizationType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setAutocapitalizationType:');
+    }
+    _objc_msgSend_1tdcuab(_$$ref.pointer, _sel_setAutocapitalizationType_, value.value);
+  }
+
+  /// setAutocorrectionType:
+  set autocorrectionType(UITextAutocorrectionType value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setAutocorrectionType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setAutocorrectionType:');
+    }
+    _objc_msgSend_1cqdfo3(_$$ref.pointer, _sel_setAutocorrectionType_, value.value);
+  }
+
+  /// setBackground:
+  set background(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setBackground:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setBackground_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setBaseWritingDirection:forRange:
+  void setBaseWritingDirection(NSWritingDirection writingDirection, {required UITextRange forRange}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = forRange.ref;
+    _objc_msgSend_1fh5jb1(
+      _$$ref.pointer,
+      _sel_setBaseWritingDirection_forRange_,
+      writingDirection.value,
+      _$$ref$1.pointer,
+    );
+  }
+
+  /// setBorderStyle:
+  set borderStyle(UITextBorderStyle value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setBorderStyle:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_43yy3r(_$$ref.pointer, _sel_setBorderStyle_, value.value);
+  }
+
+  /// setClearButtonMode:
+  set clearButtonMode(UITextFieldViewMode value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setClearButtonMode:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_hw3g2o(_$$ref.pointer, _sel_setClearButtonMode_, value.value);
+  }
+
+  /// setClearsOnBeginEditing:
+  set clearsOnBeginEditing(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setClearsOnBeginEditing:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setClearsOnBeginEditing_, value);
+  }
+
+  /// setClearsOnInsertion:
+  set clearsOnInsertion(bool value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setClearsOnInsertion:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setClearsOnInsertion_, value);
+  }
+
+  /// setDefaultTextAttributes:
+  set defaultTextAttributes(objc.NSDictionary value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UITextField.setDefaultTextAttributes:', iOS: (false, (7, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setDefaultTextAttributes_, _$$ref$1.pointer);
+  }
+
+  /// setDelegate:
+  set delegate(UITextFieldDelegate? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setDelegate:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setDelegate_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setDisabledBackground:
+  set disabledBackground(UIImage? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setDisabledBackground:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setDisabledBackground_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setEnablesReturnKeyAutomatically:
+  set enablesReturnKeyAutomatically(bool value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setEnablesReturnKeyAutomatically_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setEnablesReturnKeyAutomatically:');
+    }
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setEnablesReturnKeyAutomatically_, value);
+  }
+
+  /// setFont:
+  set font(UIFont? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setFont:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setFont_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setInputAccessoryView:
+  set inputAccessoryView(UIView? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setInputAccessoryView:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setInputAccessoryView_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setInputDelegate:
+  set inputDelegate(UITextInputDelegate? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setInputDelegate_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setInputView:
+  set inputView(UIView? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setInputView:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setInputView_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setKeyboardAppearance:
+  set keyboardAppearance(UIKeyboardAppearance value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setKeyboardAppearance_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setKeyboardAppearance:');
+    }
+    _objc_msgSend_1owrhby(_$$ref.pointer, _sel_setKeyboardAppearance_, value.value);
+  }
+
+  /// setKeyboardType:
+  set keyboardType(UIKeyboardType value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setKeyboardType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setKeyboardType:');
+    }
+    _objc_msgSend_g3cf4w(_$$ref.pointer, _sel_setKeyboardType_, value.value);
+  }
+
+  /// setLeftView:
+  set leftView(UIView? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setLeftView:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setLeftView_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setLeftViewMode:
+  set leftViewMode(UITextFieldViewMode value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setLeftViewMode:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_hw3g2o(_$$ref.pointer, _sel_setLeftViewMode_, value.value);
+  }
+
+  /// setMarkedText:selectedRange:
+  void setMarkedText(objc.NSString? markedText, {required objc.NSRange selectedRange}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = markedText?.ref;
+    _objc_msgSend_1oteutl(
+      _$$ref.pointer,
+      _sel_setMarkedText_selectedRange_,
+      _$$ref$1?.pointer ?? ffi.nullptr,
+      selectedRange,
+    );
+  }
+
+  /// setMarkedTextStyle:
+  set markedTextStyle(objc.NSDictionary? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setMarkedTextStyle_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setMinimumFontSize:
+  set minimumFontSize(double value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setMinimumFontSize:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_hwm8nu(_$$ref.pointer, _sel_setMinimumFontSize_, value);
+  }
+
+  /// setPasswordRules:
+  set passwordRules(UITextInputPasswordRules? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setPasswordRules:', iOS: (false, (12, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setPasswordRules_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setPasswordRules:');
+    }
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setPasswordRules_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setPlaceholder:
+  set placeholder(objc.NSString? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setPlaceholder:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setPlaceholder_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setReturnKeyType:
+  set returnKeyType(UIReturnKeyType value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setReturnKeyType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setReturnKeyType:');
+    }
+    _objc_msgSend_lk6y6u(_$$ref.pointer, _sel_setReturnKeyType_, value.value);
+  }
+
+  /// setRightView:
+  set rightView(UIView? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setRightView:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setRightView_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setRightViewMode:
+  set rightViewMode(UITextFieldViewMode value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setRightViewMode:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_hw3g2o(_$$ref.pointer, _sel_setRightViewMode_, value.value);
+  }
+
+  /// setSecureTextEntry:
+  set isSecureTextEntry(bool value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setSecureTextEntry_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setSecureTextEntry:');
+    }
+    _objc_msgSend_1s56lr9(_$$ref.pointer, _sel_setSecureTextEntry_, value);
+  }
+
+  /// setSelectedTextRange:
+  set selectedTextRange(UITextRange? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setSelectedTextRange_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setSelectionAffinity:
+  set selectionAffinity(UITextStorageDirection value) {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setSelectionAffinity_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setSelectionAffinity:');
+    }
+    _objc_msgSend_x9mwm8(_$$ref.pointer, _sel_setSelectionAffinity_, value.value);
+  }
+
+  /// setSmartDashesType:
+  set smartDashesType(UITextSmartDashesType value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setSmartDashesType:', iOS: (false, (11, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setSmartDashesType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setSmartDashesType:');
+    }
+    _objc_msgSend_1dop8ih(_$$ref.pointer, _sel_setSmartDashesType_, value.value);
+  }
+
+  /// setSmartInsertDeleteType:
+  set smartInsertDeleteType(UITextSmartInsertDeleteType value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setSmartInsertDeleteType:', iOS: (false, (11, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setSmartInsertDeleteType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setSmartInsertDeleteType:');
+    }
+    _objc_msgSend_1c6gxrn(_$$ref.pointer, _sel_setSmartInsertDeleteType_, value.value);
+  }
+
+  /// setSmartQuotesType:
+  set smartQuotesType(UITextSmartQuotesType value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setSmartQuotesType:', iOS: (false, (11, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setSmartQuotesType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setSmartQuotesType:');
+    }
+    _objc_msgSend_1gdngxu(_$$ref.pointer, _sel_setSmartQuotesType_, value.value);
+  }
+
+  /// setSpellCheckingType:
+  set spellCheckingType(UITextSpellCheckingType value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setSpellCheckingType:', iOS: (false, (5, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setSpellCheckingType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setSpellCheckingType:');
+    }
+    _objc_msgSend_6019sk(_$$ref.pointer, _sel_setSpellCheckingType_, value.value);
+  }
+
+  /// setText:
+  set text(objc.NSString? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setText:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setText_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setTextAlignment:
+  set textAlignment(NSTextAlignment value) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.setTextAlignment:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_12huos(_$$ref.pointer, _sel_setTextAlignment_, value.value);
+  }
+
+  /// setTextColor:
+  set textColor(UIColor? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setTextColor:', iOS: (false, (2, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTextColor_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setTextContentType:
+  set textContentType(objc.NSString value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UITextField.setTextContentType:', iOS: (false, (10, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_setTextContentType_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'setTextContentType:');
+    }
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTextContentType_, _$$ref$1.pointer);
+  }
+
+  /// setTypingAttributes:
+  set typingAttributes(objc.NSDictionary? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UITextField.setTypingAttributes:', iOS: (false, (6, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTypingAttributes_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// shouldChangeTextInRange:replacementText:
+  bool shouldChangeTextInRange(UITextRange range, {required objc.NSString replacementText}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = range.ref;
+    final _$$ref$2 = replacementText.ref;
+    objc.checkOsVersionInternal('UITextField.shouldChangeTextInRange:replacementText:', iOS: (false, (6, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_shouldChangeTextInRange_replacementText_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'shouldChangeTextInRange:replacementText:');
+    }
+    return _objc_msgSend_1lsax7n(
+      _$$ref.pointer,
+      _sel_shouldChangeTextInRange_replacementText_,
+      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+    );
+  }
+
+  /// smartDashesType
+  UITextSmartDashesType get smartDashesType {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.smartDashesType', iOS: (false, (11, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_smartDashesType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'smartDashesType');
+    }
+    final $ret = _objc_msgSend_1whqp0d(_$$ref.pointer, _sel_smartDashesType);
+    return UITextSmartDashesType.fromValue($ret);
+  }
+
+  /// smartInsertDeleteType
+  UITextSmartInsertDeleteType get smartInsertDeleteType {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.smartInsertDeleteType', iOS: (false, (11, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_smartInsertDeleteType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'smartInsertDeleteType');
+    }
+    final $ret = _objc_msgSend_1vwl547(_$$ref.pointer, _sel_smartInsertDeleteType);
+    return UITextSmartInsertDeleteType.fromValue($ret);
+  }
+
+  /// smartQuotesType
+  UITextSmartQuotesType get smartQuotesType {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.smartQuotesType', iOS: (false, (11, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_smartQuotesType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'smartQuotesType');
+    }
+    final $ret = _objc_msgSend_10bf728(_$$ref.pointer, _sel_smartQuotesType);
+    return UITextSmartQuotesType.fromValue($ret);
+  }
+
+  /// spellCheckingType
+  UITextSpellCheckingType get spellCheckingType {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.spellCheckingType', iOS: (false, (5, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_spellCheckingType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'spellCheckingType');
+    }
+    final $ret = _objc_msgSend_i01jza(_$$ref.pointer, _sel_spellCheckingType);
+    return UITextSpellCheckingType.fromValue($ret);
+  }
+
+  /// text
+  objc.NSString? get text {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.text', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_text);
+    return $ret.address == 0 ? null : objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// textAlignment
+  NSTextAlignment get textAlignment {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.textAlignment', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_buxwfm(_$$ref.pointer, _sel_textAlignment);
+    return NSTextAlignment.fromValue($ret);
+  }
+
+  /// textColor
+  UIColor? get textColor {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.textColor', iOS: (false, (2, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_textColor);
+    return $ret.address == 0 ? null : UIColor.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// textContentType
+  objc.NSString get textContentType {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.textContentType', iOS: (false, (10, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_textContentType)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'textContentType');
+    }
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_textContentType);
+    return objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// textInRange:
+  objc.NSString? textInRange(UITextRange range) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = range.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref.pointer, _sel_textInRange_, _$$ref$1.pointer);
+    return $ret.address == 0 ? null : objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// textInputView
+  UIView get textInputView {
+    final _$$ref = object$.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_textInputView)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'textInputView');
+    }
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_textInputView);
+    return UIView.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// textRangeFromPosition:toPosition:
+  UITextRange? textRangeFromPosition(UITextPosition fromPosition, {required UITextPosition toPosition}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = fromPosition.ref;
+    final _$$ref$2 = toPosition.ref;
+    final $ret = _objc_msgSend_15qeuct(
+      _$$ref.pointer,
+      _sel_textRangeFromPosition_toPosition_,
+      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+    );
+    return $ret.address == 0 ? null : UITextRange.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// textRectForBounds:
+  objc.CGRect textRectForBounds(objc.CGRect bounds) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.textRectForBounds:', iOS: (false, (2, 0, 0)));
+    final $ptr = pkg_ffi.calloc<objc.CGRect>();
+    objc.useMsgSendVariants
+        ? _objc_msgSend_1gn1s3dStret($ptr, _$$ref.pointer, _sel_textRectForBounds_, bounds)
+        : $ptr.ref = _objc_msgSend_1gn1s3d(_$$ref.pointer, _sel_textRectForBounds_, bounds);
+    final $finalizable = $ptr.cast<ffi.Uint8>().asTypedList(
+      ffi.sizeOf<objc.CGRect>(),
+      finalizer: pkg_ffi.calloc.nativeFree,
+    );
+    return ffi.Struct.create<objc.CGRect>($finalizable);
+  }
+
+  /// textStylingAtPosition:inDirection:
+  objc.NSDictionary? textStylingAtPosition(UITextPosition position, {required UITextStorageDirection inDirection}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = position.ref;
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_textStylingAtPosition_inDirection_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'textStylingAtPosition:inDirection:');
+    }
+    final $ret = _objc_msgSend_k6m8wq(
+      _$$ref.pointer,
+      _sel_textStylingAtPosition_inDirection_,
+      _$$ref$1.pointer,
+      inDirection.value,
+    );
+    return $ret.address == 0 ? null : objc.NSDictionary.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// tokenizer
+  UITextInputTokenizer get tokenizer {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_tokenizer);
+    return UITextInputTokenizer.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// typingAttributes
+  objc.NSDictionary? get typingAttributes {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.typingAttributes', iOS: (false, (6, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_typingAttributes);
+    return $ret.address == 0 ? null : objc.NSDictionary.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// unmarkText
+  void unmarkText() {
+    final _$$ref = object$.ref;
+    _objc_msgSend_1pl9qdv(_$$ref.pointer, _sel_unmarkText);
+  }
+
+  /// updateFloatingCursorAtPoint:
+  void updateFloatingCursorAtPoint(objc.CGPoint point) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UITextField.updateFloatingCursorAtPoint:', iOS: (false, (9, 0, 0)));
+    if (!objc.respondsToSelector(_$$ref.pointer, _sel_updateFloatingCursorAtPoint_)) {
+      throw objc.UnimplementedOptionalMethodException('UITextField', 'updateFloatingCursorAtPoint:');
+    }
+    _objc_msgSend_iy8iz6(_$$ref.pointer, _sel_updateFloatingCursorAtPoint_, point);
   }
 }
 
-/// UITextField
-extension UITextField$1 on UIView {
-  /// endEditing:
-  bool endEditing(bool force) {
-    final _$$ref = object$.ref;
-    objc.checkOsVersionInternal('UIView.endEditing:', iOS: (false, (2, 0, 0)));
-    return _objc_msgSend_41h7k3(_$$ref.pointer, _sel_endEditing_, force);
-  }
+/// WARNING: UITextFieldDelegate is a stub. To generate bindings for this class, include
+/// UITextFieldDelegate in your config's objc-protocols list.
+///
+/// UITextFieldDelegate
+extension type UITextFieldDelegate._(objc.ObjCProtocol object$) implements objc.ObjCProtocol, objc.NSObjectProtocol {
+  /// Constructs a [UITextFieldDelegate] that points to the same underlying object as [other].
+  UITextFieldDelegate.as(objc.ObjCObject other) : object$ = other;
+
+  /// Constructs a [UITextFieldDelegate] that wraps the given raw object pointer.
+  UITextFieldDelegate.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
+}
+
+enum UITextFieldViewMode {
+  UITextFieldViewModeNever(0),
+  UITextFieldViewModeWhileEditing(1),
+  UITextFieldViewModeUnlessEditing(2),
+  UITextFieldViewModeAlways(3);
+
+  final int value;
+  const UITextFieldViewMode(this.value);
+
+  static UITextFieldViewMode fromValue(int value) => switch (value) {
+    0 => UITextFieldViewModeNever,
+    1 => UITextFieldViewModeWhileEditing,
+    2 => UITextFieldViewModeUnlessEditing,
+    3 => UITextFieldViewModeAlways,
+    _ => throw ArgumentError('Unknown value for UITextFieldViewMode: $value'),
+  };
 }
 
 /// WARNING: UITextInput is a stub. To generate bindings for this class, include
@@ -15483,6 +21304,19 @@ extension type UITextInputAssistantItem._(objc.ObjCObject object$) implements ob
   }
 }
 
+/// WARNING: UITextInputDelegate is a stub. To generate bindings for this class, include
+/// UITextInputDelegate in your config's objc-protocols list.
+///
+/// UITextInputDelegate
+extension type UITextInputDelegate._(objc.ObjCProtocol object$) implements objc.ObjCProtocol, objc.NSObjectProtocol {
+  /// Constructs a [UITextInputDelegate] that points to the same underlying object as [other].
+  UITextInputDelegate.as(objc.ObjCObject other) : object$ = other;
+
+  /// Constructs a [UITextInputDelegate] that wraps the given raw object pointer.
+  UITextInputDelegate.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
+}
+
 /// WARNING: UITextInputMode is a stub. To generate bindings for this class, include
 /// UITextInputMode in your config's objc-interfaces list.
 ///
@@ -15501,6 +21335,40 @@ extension type UITextInputMode._(objc.ObjCObject object$)
   }
 }
 
+/// WARNING: UITextInputPasswordRules is a stub. To generate bindings for this class, include
+/// UITextInputPasswordRules in your config's objc-interfaces list.
+///
+/// UITextInputPasswordRules
+extension type UITextInputPasswordRules._(objc.ObjCObject object$)
+    implements objc.ObjCObject, objc.NSObject, objc.NSSecureCoding, objc.NSCopying {
+  /// Constructs a [UITextInputPasswordRules] that points to the same underlying object as [other].
+  UITextInputPasswordRules.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UITextInputPasswordRules', iOS: (false, (12, 0, 0)));
+  }
+
+  /// Constructs a [UITextInputPasswordRules] that wraps the given raw object pointer.
+  UITextInputPasswordRules.fromPointer(
+    ffi.Pointer<objc.ObjCObjectImpl> other, {
+    bool retain = false,
+    bool release = false,
+  }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UITextInputPasswordRules', iOS: (false, (12, 0, 0)));
+  }
+}
+
+/// WARNING: UITextInputTokenizer is a stub. To generate bindings for this class, include
+/// UITextInputTokenizer in your config's objc-protocols list.
+///
+/// UITextInputTokenizer
+extension type UITextInputTokenizer._(objc.ObjCProtocol object$) implements objc.ObjCProtocol, objc.NSObjectProtocol {
+  /// Constructs a [UITextInputTokenizer] that points to the same underlying object as [other].
+  UITextInputTokenizer.as(objc.ObjCObject other) : object$ = other;
+
+  /// Constructs a [UITextInputTokenizer] that wraps the given raw object pointer.
+  UITextInputTokenizer.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
+}
+
 /// WARNING: UITextInputTraits is a stub. To generate bindings for this class, include
 /// UITextInputTraits in your config's objc-protocols list.
 ///
@@ -15512,6 +21380,153 @@ extension type UITextInputTraits._(objc.ObjCProtocol object$) implements objc.Ob
   /// Constructs a [UITextInputTraits] that wraps the given raw object pointer.
   UITextInputTraits.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
+}
+
+enum UITextLayoutDirection {
+  UITextLayoutDirectionRight(2),
+  UITextLayoutDirectionLeft(3),
+  UITextLayoutDirectionUp(4),
+  UITextLayoutDirectionDown(5);
+
+  final int value;
+  const UITextLayoutDirection(this.value);
+
+  static UITextLayoutDirection fromValue(int value) => switch (value) {
+    2 => UITextLayoutDirectionRight,
+    3 => UITextLayoutDirectionLeft,
+    4 => UITextLayoutDirectionUp,
+    5 => UITextLayoutDirectionDown,
+    _ => throw ArgumentError('Unknown value for UITextLayoutDirection: $value'),
+  };
+}
+
+/// WARNING: UITextPlaceholder is a stub. To generate bindings for this class, include
+/// UITextPlaceholder in your config's objc-interfaces list.
+///
+/// UITextPlaceholder
+extension type UITextPlaceholder._(objc.ObjCObject object$) implements objc.ObjCObject, objc.NSObject {
+  /// Constructs a [UITextPlaceholder] that points to the same underlying object as [other].
+  UITextPlaceholder.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UITextPlaceholder', iOS: (false, (13, 0, 0)));
+  }
+
+  /// Constructs a [UITextPlaceholder] that wraps the given raw object pointer.
+  UITextPlaceholder.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UITextPlaceholder', iOS: (false, (13, 0, 0)));
+  }
+}
+
+/// WARNING: UITextPosition is a stub. To generate bindings for this class, include
+/// UITextPosition in your config's objc-interfaces list.
+///
+/// UITextPosition
+extension type UITextPosition._(objc.ObjCObject object$) implements objc.ObjCObject, objc.NSObject {
+  /// Constructs a [UITextPosition] that points to the same underlying object as [other].
+  UITextPosition.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UITextPosition', iOS: (false, (3, 2, 0)));
+  }
+
+  /// Constructs a [UITextPosition] that wraps the given raw object pointer.
+  UITextPosition.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UITextPosition', iOS: (false, (3, 2, 0)));
+  }
+}
+
+/// WARNING: UITextRange is a stub. To generate bindings for this class, include
+/// UITextRange in your config's objc-interfaces list.
+///
+/// UITextRange
+extension type UITextRange._(objc.ObjCObject object$) implements objc.ObjCObject, objc.NSObject {
+  /// Constructs a [UITextRange] that points to the same underlying object as [other].
+  UITextRange.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UITextRange', iOS: (false, (3, 2, 0)));
+  }
+
+  /// Constructs a [UITextRange] that wraps the given raw object pointer.
+  UITextRange.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UITextRange', iOS: (false, (3, 2, 0)));
+  }
+}
+
+enum UITextSmartDashesType {
+  UITextSmartDashesTypeDefault(0),
+  UITextSmartDashesTypeNo(1),
+  UITextSmartDashesTypeYes(2);
+
+  final int value;
+  const UITextSmartDashesType(this.value);
+
+  static UITextSmartDashesType fromValue(int value) => switch (value) {
+    0 => UITextSmartDashesTypeDefault,
+    1 => UITextSmartDashesTypeNo,
+    2 => UITextSmartDashesTypeYes,
+    _ => throw ArgumentError('Unknown value for UITextSmartDashesType: $value'),
+  };
+}
+
+enum UITextSmartInsertDeleteType {
+  UITextSmartInsertDeleteTypeDefault(0),
+  UITextSmartInsertDeleteTypeNo(1),
+  UITextSmartInsertDeleteTypeYes(2);
+
+  final int value;
+  const UITextSmartInsertDeleteType(this.value);
+
+  static UITextSmartInsertDeleteType fromValue(int value) => switch (value) {
+    0 => UITextSmartInsertDeleteTypeDefault,
+    1 => UITextSmartInsertDeleteTypeNo,
+    2 => UITextSmartInsertDeleteTypeYes,
+    _ => throw ArgumentError('Unknown value for UITextSmartInsertDeleteType: $value'),
+  };
+}
+
+enum UITextSmartQuotesType {
+  UITextSmartQuotesTypeDefault(0),
+  UITextSmartQuotesTypeNo(1),
+  UITextSmartQuotesTypeYes(2);
+
+  final int value;
+  const UITextSmartQuotesType(this.value);
+
+  static UITextSmartQuotesType fromValue(int value) => switch (value) {
+    0 => UITextSmartQuotesTypeDefault,
+    1 => UITextSmartQuotesTypeNo,
+    2 => UITextSmartQuotesTypeYes,
+    _ => throw ArgumentError('Unknown value for UITextSmartQuotesType: $value'),
+  };
+}
+
+enum UITextSpellCheckingType {
+  UITextSpellCheckingTypeDefault(0),
+  UITextSpellCheckingTypeNo(1),
+  UITextSpellCheckingTypeYes(2);
+
+  final int value;
+  const UITextSpellCheckingType(this.value);
+
+  static UITextSpellCheckingType fromValue(int value) => switch (value) {
+    0 => UITextSpellCheckingTypeDefault,
+    1 => UITextSpellCheckingTypeNo,
+    2 => UITextSpellCheckingTypeYes,
+    _ => throw ArgumentError('Unknown value for UITextSpellCheckingType: $value'),
+  };
+}
+
+enum UITextStorageDirection {
+  UITextStorageDirectionForward(0),
+  UITextStorageDirectionBackward(1);
+
+  final int value;
+  const UITextStorageDirection(this.value);
+
+  static UITextStorageDirection fromValue(int value) => switch (value) {
+    0 => UITextStorageDirectionForward,
+    1 => UITextStorageDirectionBackward,
+    _ => throw ArgumentError('Unknown value for UITextStorageDirection: $value'),
+  };
 }
 
 /// UITitlebar
@@ -15562,9 +21577,9 @@ extension UITitlebar$Methods on UITitlebar {
 
   /// init
   UITitlebar init() {
-    final _$$ref$23 = object$.ref;
+    final _$$ref$31 = object$.ref;
     objc.checkOsVersionInternal('UITitlebar.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$23.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$31.retainAndReturnPointer(), _sel_init);
     return UITitlebar.fromPointer($ret, retain: false, release: true);
   }
 
@@ -15929,23 +21944,23 @@ extension type UIView._(objc.ObjCObject object$)
 
   /// appearanceForTraitCollection:
   static UIView appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$8 = trait.ref;
+    final _$$ref$16 = trait.ref;
     objc.checkOsVersionInternal('UIView.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UIView, _sel_appearanceForTraitCollection_, _$$ref$8.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UIView, _sel_appearanceForTraitCollection_, _$$ref$16.pointer);
     return UIView.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceForTraitCollection:whenContainedIn:
   @Deprecated('Deprecated')
   static UIView appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
-    final _$$ref$16 = trait.ref;
-    final _$$ref$17 = whenContainedIn?.ref;
+    final _$$ref$32 = trait.ref;
+    final _$$ref$33 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UIView.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UIView,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$16.pointer,
-      _$$ref$17?.pointer ?? ffi.nullptr,
+      _$$ref$32.pointer,
+      _$$ref$33?.pointer ?? ffi.nullptr,
     );
     return UIView.fromPointer($ret, retain: true, release: true);
   }
@@ -15955,8 +21970,8 @@ extension type UIView._(objc.ObjCObject object$)
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$16 = trait.ref;
-    final _$$ref$17 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$32 = trait.ref;
+    final _$$ref$33 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UIView.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -15964,8 +21979,8 @@ extension type UIView._(objc.ObjCObject object$)
     final $ret = _objc_msgSend_15qeuct(
       _class_UIView,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$16.pointer,
-      _$$ref$17.pointer,
+      _$$ref$32.pointer,
+      _$$ref$33.pointer,
     );
     return UIView.fromPointer($ret, retain: true, release: true);
   }
@@ -15973,24 +21988,24 @@ extension type UIView._(objc.ObjCObject object$)
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UIView appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$8 = ContainerClass?.ref;
+    final _$$ref$16 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UIView.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIView,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$8?.pointer ?? ffi.nullptr,
+      _$$ref$16?.pointer ?? ffi.nullptr,
     );
     return UIView.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UIView appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$8 = containerTypes.ref;
+    final _$$ref$16 = containerTypes.ref;
     objc.checkOsVersionInternal('UIView.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIView,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$8.pointer,
+      _$$ref$16.pointer,
     );
     return UIView.fromPointer($ret, retain: true, release: true);
   }
@@ -16278,9 +22293,9 @@ extension UIView$Methods on UIView {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$28 = object$.ref;
-    final _$$ref$29 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$28.pointer, _sel_encodeWithCoder_, _$$ref$29.pointer);
+    final _$$ref$38 = object$.ref;
+    final _$$ref$39 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$38.pointer, _sel_encodeWithCoder_, _$$ref$39.pointer);
   }
 
   /// Describes a visual effect to apply when this item is focused. If this property is nil no effect will be applied when this view becomes focused.
@@ -16340,25 +22355,25 @@ extension UIView$Methods on UIView {
 
   /// init
   UIView init() {
-    final _$$ref$24 = object$.ref;
+    final _$$ref$32 = object$.ref;
     objc.checkOsVersionInternal('UIView.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$24.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$32.retainAndReturnPointer(), _sel_init);
     return UIView.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIView? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$42 = object$.ref;
-    final _$$ref$43 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$42.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$43.pointer);
+    final _$$ref$60 = object$.ref;
+    final _$$ref$61 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$60.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$61.pointer);
     return $ret.address == 0 ? null : UIView.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithFrame:
   UIView initWithFrame(objc.CGRect frame) {
-    final _$$ref$5 = object$.ref;
+    final _$$ref$13 = object$.ref;
     objc.checkOsVersionInternal('UIView.initWithFrame:', iOS: (false, (2, 0, 0)));
-    final $ret = _objc_msgSend_15yz4e6(_$$ref$5.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$13.retainAndReturnPointer(), _sel_initWithFrame_, frame);
     return UIView.fromPointer($ret, retain: false, release: true);
   }
 
@@ -17125,9 +23140,9 @@ extension UIViewController$Methods on UIViewController {
 
   /// encodeWithCoder:
   void encodeWithCoder(objc.NSCoder coder) {
-    final _$$ref$30 = object$.ref;
-    final _$$ref$31 = coder.ref;
-    _objc_msgSend_xtuoz7(_$$ref$30.pointer, _sel_encodeWithCoder_, _$$ref$31.pointer);
+    final _$$ref$40 = object$.ref;
+    final _$$ref$41 = coder.ref;
+    _objc_msgSend_xtuoz7(_$$ref$40.pointer, _sel_encodeWithCoder_, _$$ref$41.pointer);
   }
 
   /// extendedLayoutIncludesOpaqueBars
@@ -17155,17 +23170,17 @@ extension UIViewController$Methods on UIViewController {
 
   /// init
   UIViewController init() {
-    final _$$ref$25 = object$.ref;
+    final _$$ref$33 = object$.ref;
     objc.checkOsVersionInternal('UIViewController.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$25.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$33.retainAndReturnPointer(), _sel_init);
     return UIViewController.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIViewController? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$44 = object$.ref;
-    final _$$ref$45 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$44.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$45.pointer);
+    final _$$ref$62 = object$.ref;
+    final _$$ref$63 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$62.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$63.pointer);
     return $ret.address == 0 ? null : UIViewController.fromPointer($ret, retain: false, release: true);
   }
 
@@ -19446,6 +25461,16 @@ enum UIViewTintAdjustmentMode {
   };
 }
 
+/// UITextField
+extension UIViewUITextField on UIView {
+  /// endEditing:
+  bool endEditing(bool force) {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIView.endEditing:', iOS: (false, (2, 0, 0)));
+    return _objc_msgSend_41h7k3(_$$ref.pointer, _sel_endEditing_, force);
+  }
+}
+
 /// UIWindow
 extension type UIWindow._(objc.ObjCObject object$) implements objc.ObjCObject, UIView {
   /// Constructs a [UIWindow] that points to the same underlying object as [other].
@@ -19483,23 +25508,23 @@ extension type UIWindow._(objc.ObjCObject object$) implements objc.ObjCObject, U
 
   /// appearanceForTraitCollection:
   static UIWindow appearanceForTraitCollection(UITraitCollection trait) {
-    final _$$ref$9 = trait.ref;
+    final _$$ref$17 = trait.ref;
     objc.checkOsVersionInternal('UIWindow.appearanceForTraitCollection:', iOS: (false, (8, 0, 0)));
-    final $ret = _objc_msgSend_1sotr3r(_class_UIWindow, _sel_appearanceForTraitCollection_, _$$ref$9.pointer);
+    final $ret = _objc_msgSend_1sotr3r(_class_UIWindow, _sel_appearanceForTraitCollection_, _$$ref$17.pointer);
     return UIWindow.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceForTraitCollection:whenContainedIn:
   @Deprecated('Deprecated')
   static UIWindow appearanceForTraitCollection$1(UITraitCollection trait, {UIAppearanceContainer? whenContainedIn}) {
-    final _$$ref$18 = trait.ref;
-    final _$$ref$19 = whenContainedIn?.ref;
+    final _$$ref$34 = trait.ref;
+    final _$$ref$35 = whenContainedIn?.ref;
     objc.checkOsVersionInternal('UIWindow.appearanceForTraitCollection:whenContainedIn:', iOS: (false, (8, 0, 0)));
     final $ret = _objc_msgSend_15qeuct(
       _class_UIWindow,
       _sel_appearanceForTraitCollection_whenContainedIn_,
-      _$$ref$18.pointer,
-      _$$ref$19?.pointer ?? ffi.nullptr,
+      _$$ref$34.pointer,
+      _$$ref$35?.pointer ?? ffi.nullptr,
     );
     return UIWindow.fromPointer($ret, retain: true, release: true);
   }
@@ -19509,8 +25534,8 @@ extension type UIWindow._(objc.ObjCObject object$) implements objc.ObjCObject, U
     UITraitCollection trait, {
     required objc.NSArray whenContainedInInstancesOfClasses,
   }) {
-    final _$$ref$18 = trait.ref;
-    final _$$ref$19 = whenContainedInInstancesOfClasses.ref;
+    final _$$ref$34 = trait.ref;
+    final _$$ref$35 = whenContainedInInstancesOfClasses.ref;
     objc.checkOsVersionInternal(
       'UIWindow.appearanceForTraitCollection:whenContainedInInstancesOfClasses:',
       iOS: (false, (9, 0, 0)),
@@ -19518,8 +25543,8 @@ extension type UIWindow._(objc.ObjCObject object$) implements objc.ObjCObject, U
     final $ret = _objc_msgSend_15qeuct(
       _class_UIWindow,
       _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_,
-      _$$ref$18.pointer,
-      _$$ref$19.pointer,
+      _$$ref$34.pointer,
+      _$$ref$35.pointer,
     );
     return UIWindow.fromPointer($ret, retain: true, release: true);
   }
@@ -19527,24 +25552,24 @@ extension type UIWindow._(objc.ObjCObject object$) implements objc.ObjCObject, U
   /// appearanceWhenContainedIn:
   @Deprecated('Deprecated')
   static UIWindow appearanceWhenContainedIn(UIAppearanceContainer? ContainerClass) {
-    final _$$ref$9 = ContainerClass?.ref;
+    final _$$ref$17 = ContainerClass?.ref;
     objc.checkOsVersionInternal('UIWindow.appearanceWhenContainedIn:', iOS: (false, (5, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIWindow,
       _sel_appearanceWhenContainedIn_,
-      _$$ref$9?.pointer ?? ffi.nullptr,
+      _$$ref$17?.pointer ?? ffi.nullptr,
     );
     return UIWindow.fromPointer($ret, retain: true, release: true);
   }
 
   /// appearanceWhenContainedInInstancesOfClasses:
   static UIWindow appearanceWhenContainedInInstancesOfClasses(objc.NSArray containerTypes) {
-    final _$$ref$9 = containerTypes.ref;
+    final _$$ref$17 = containerTypes.ref;
     objc.checkOsVersionInternal('UIWindow.appearanceWhenContainedInInstancesOfClasses:', iOS: (false, (9, 0, 0)));
     final $ret = _objc_msgSend_1sotr3r(
       _class_UIWindow,
       _sel_appearanceWhenContainedInInstancesOfClasses_,
-      _$$ref$9.pointer,
+      _$$ref$17.pointer,
     );
     return UIWindow.fromPointer($ret, retain: true, release: true);
   }
@@ -19731,25 +25756,25 @@ extension UIWindow$Methods on UIWindow {
 
   /// init
   UIWindow init() {
-    final _$$ref$26 = object$.ref;
+    final _$$ref$34 = object$.ref;
     objc.checkOsVersionInternal('UIWindow.init', iOS: (false, (2, 0, 0)), macOS: (false, (10, 0, 0)));
-    final $ret = _objc_msgSend_151sglz(_$$ref$26.retainAndReturnPointer(), _sel_init);
+    final $ret = _objc_msgSend_151sglz(_$$ref$34.retainAndReturnPointer(), _sel_init);
     return UIWindow.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithCoder:
   UIWindow? initWithCoder(objc.NSCoder coder) {
-    final _$$ref$46 = object$.ref;
-    final _$$ref$47 = coder.ref;
-    final $ret = _objc_msgSend_1sotr3r(_$$ref$46.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$47.pointer);
+    final _$$ref$64 = object$.ref;
+    final _$$ref$65 = coder.ref;
+    final $ret = _objc_msgSend_1sotr3r(_$$ref$64.retainAndReturnPointer(), _sel_initWithCoder_, _$$ref$65.pointer);
     return $ret.address == 0 ? null : UIWindow.fromPointer($ret, retain: false, release: true);
   }
 
   /// initWithFrame:
   UIWindow initWithFrame(objc.CGRect frame) {
-    final _$$ref$6 = object$.ref;
+    final _$$ref$14 = object$.ref;
     objc.checkOsVersionInternal('UIWindow.initWithFrame:', iOS: (false, (2, 0, 0)));
-    final $ret = _objc_msgSend_15yz4e6(_$$ref$6.retainAndReturnPointer(), _sel_initWithFrame_, frame);
+    final $ret = _objc_msgSend_15yz4e6(_$$ref$14.retainAndReturnPointer(), _sel_initWithFrame_, frame);
     return UIWindow.fromPointer($ret, retain: false, release: true);
   }
 
@@ -19954,6 +25979,31 @@ extension _BlockArgs_7bsu1e$Methods on _BlockArgs_7bsu1e {
   }
 }
 
+extension type _BlockArgs_8ceibm._(objc.ObjCObject object$) implements objc.ObjCObject {
+  /// Constructs a [_BlockArgs_8ceibm] that points to the same underlying object as [other].
+  _BlockArgs_8ceibm.as(objc.ObjCObject other) : object$ = other {
+    assert(isA(object$));
+  }
+
+  /// Constructs a [_BlockArgs_8ceibm] that wraps the given raw object pointer.
+  _BlockArgs_8ceibm.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [_BlockArgs_8ceibm].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class__BlockArgs_8ceibm);
+}
+
+extension _BlockArgs_8ceibm$Methods on _BlockArgs_8ceibm {
+  UIButton get arg0 {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_arg0);
+    return UIButton.fromPointer($ret, retain: true, release: true);
+  }
+}
+
 extension type _BlockArgs_b9s2kt._(objc.ObjCObject object$) implements objc.ObjCObject {
   /// Constructs a [_BlockArgs_b9s2kt] that points to the same underlying object as [other].
   _BlockArgs_b9s2kt.as(objc.ObjCObject other) : object$ = other {
@@ -20124,11 +26174,48 @@ extension _BlockArgs_y40f0l$Methods on _BlockArgs_y40f0l {
   }
 }
 
+extension type _BlockArgs_yr7fp0._(objc.ObjCObject object$) implements objc.ObjCObject {
+  /// Constructs a [_BlockArgs_yr7fp0] that points to the same underlying object as [other].
+  _BlockArgs_yr7fp0.as(objc.ObjCObject other) : object$ = other {
+    assert(isA(object$));
+  }
+
+  /// Constructs a [_BlockArgs_yr7fp0] that wraps the given raw object pointer.
+  _BlockArgs_yr7fp0.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [_BlockArgs_yr7fp0].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class__BlockArgs_yr7fp0);
+}
+
+extension _BlockArgs_yr7fp0$Methods on _BlockArgs_yr7fp0 {
+  UIAction get arg0 {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_arg0);
+    return UIAction.fromPointer($ret, retain: true, release: true);
+  }
+}
+
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_NSLayoutConstraint')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_NSLayoutConstraint_raw;
 final _class_NSLayoutConstraint = objc.getClass(
   "NSLayoutConstraint",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_NSLayoutConstraint_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIAction')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIAction_raw;
+final _class_UIAction = objc.getClass(
+  "UIAction",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIAction_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIActivityIndicatorView')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIActivityIndicatorView_raw;
+final _class_UIActivityIndicatorView = objc.getClass(
+  "UIActivityIndicatorView",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIActivityIndicatorView_raw).cast(),
 );
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIAlertAction')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_UIAlertAction_raw;
@@ -20178,6 +26265,12 @@ final _class_UIBarItem = objc.getClass(
   "UIBarItem",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIBarItem_raw).cast(),
 );
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIButton')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIButton_raw;
+final _class_UIButton = objc.getClass(
+  "UIButton",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIButton_raw).cast(),
+);
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIColor')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_UIColor_raw;
 final _class_UIColor = objc.getClass(
@@ -20201,6 +26294,12 @@ external ffi.Pointer<objc.ObjCObjectImpl> _class_UIImage_raw;
 final _class_UIImage = objc.getClass(
   "UIImage",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIImage_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIImageView')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIImageView_raw;
+final _class_UIImageView = objc.getClass(
+  "UIImageView",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIImageView_raw).cast(),
 );
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UILabel')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_UILabel_raw;
@@ -20238,6 +26337,18 @@ final _class_UINavigationItem = objc.getClass(
   "UINavigationItem",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UINavigationItem_raw).cast(),
 );
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIPageControl')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIPageControl_raw;
+final _class_UIPageControl = objc.getClass(
+  "UIPageControl",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIPageControl_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIProgressView')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIProgressView_raw;
+final _class_UIProgressView = objc.getClass(
+  "UIProgressView",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIProgressView_raw).cast(),
+);
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIResponder')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_UIResponder_raw;
 final _class_UIResponder = objc.getClass(
@@ -20255,6 +26366,18 @@ external ffi.Pointer<objc.ObjCObjectImpl> _class_UIScrollView_raw;
 final _class_UIScrollView = objc.getClass(
   "UIScrollView",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIScrollView_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UISlider')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UISlider_raw;
+final _class_UISlider = objc.getClass(
+  "UISlider",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UISlider_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIStackView')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIStackView_raw;
+final _class_UIStackView = objc.getClass(
+  "UIStackView",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIStackView_raw).cast(),
 );
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UISwitch')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_UISwitch_raw;
@@ -20286,6 +26409,12 @@ final _class_UITabBarItem = objc.getClass(
   "UITabBarItem",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UITabBarItem_raw).cast(),
 );
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UITextField')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UITextField_raw;
+final _class_UITextField = objc.getClass(
+  "UITextField",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UITextField_raw).cast(),
+);
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UITitlebar')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_UITitlebar_raw;
 final _class_UITitlebar = objc.getClass(
@@ -20310,54 +26439,69 @@ final _class_UIWindow = objc.getClass(
   "UIWindow",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIWindow_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_117e0ww_raw;
 final _class__BlockArgs_117e0ww = objc.getClass(
-  "_1prk8yq_BlockArgs_xtuoz7",
+  "_nmrybb_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_117e0ww_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_7bsu1e_raw;
 final _class__BlockArgs_7bsu1e = objc.getClass(
-  "_1prk8yq_BlockArgs_xtuoz7",
+  "_nmrybb_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_7bsu1e_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_8ceibm_raw;
+final _class__BlockArgs_8ceibm = objc.getClass(
+  "_nmrybb_BlockArgs_xtuoz7",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_8ceibm_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_b9s2kt_raw;
 final _class__BlockArgs_b9s2kt = objc.getClass(
-  "_1prk8yq_BlockArgs_xtuoz7",
+  "_nmrybb_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_b9s2kt_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_1pl9qdv')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_1pl9qdv')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_ii17hk_raw;
 final _class__BlockArgs_ii17hk = objc.getClass(
-  "_1prk8yq_BlockArgs_1pl9qdv",
+  "_nmrybb_BlockArgs_1pl9qdv",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_ii17hk_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_1s56lr9')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_1s56lr9')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_k4je64_raw;
 final _class__BlockArgs_k4je64 = objc.getClass(
-  "_1prk8yq_BlockArgs_1s56lr9",
+  "_nmrybb_BlockArgs_1s56lr9",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_k4je64_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_1cxqo1i')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_1cxqo1i')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_owfgvk_raw;
 final _class__BlockArgs_owfgvk = objc.getClass(
-  "_1prk8yq_BlockArgs_1cxqo1i",
+  "_nmrybb_BlockArgs_1cxqo1i",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_owfgvk_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_pfv6jd')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_pfv6jd')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_x5cg0_raw;
 final _class__BlockArgs_x5cg0 = objc.getClass(
-  "_1prk8yq_BlockArgs_pfv6jd",
+  "_nmrybb_BlockArgs_pfv6jd",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_x5cg0_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__1prk8yq_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_y40f0l_raw;
 final _class__BlockArgs_y40f0l = objc.getClass(
-  "_1prk8yq_BlockArgs_xtuoz7",
+  "_nmrybb_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_y40f0l_raw).cast(),
 );
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_yr7fp0_raw;
+final _class__BlockArgs_yr7fp0 = objc.getClass(
+  "_nmrybb_BlockArgs_xtuoz7",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_yr7fp0_raw).cast(),
+);
+final _objc_msgSend_100f9ue = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_10736wn = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -20377,7 +26521,13 @@ final _objc_msgSend_10736wn = objc.msgSendPointer
         int,
       )
     >();
+final _objc_msgSend_10bf728 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_10bx5wy = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_10enjte = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_10eov2d = objc.msgSendPointer
@@ -20487,6 +26637,25 @@ final _objc_msgSend_12yjd2mStret = objc.msgSendStretPointer
         ffi.Pointer<objc.ObjCSelector>,
       )
     >();
+final _objc_msgSend_130mcug = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Double,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        double,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
 final _objc_msgSend_1369ey = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -20512,6 +26681,9 @@ final _objc_msgSend_13lgpwz = objc.msgSendPointer
       >
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, objc.CGSize)>();
+final _objc_msgSend_13oxpc5 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_13sbrg9 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -20629,6 +26801,27 @@ final _objc_msgSend_15kz3t6 = objc.msgSendPointer
         int,
         int,
         int,
+      )
+    >();
+final _objc_msgSend_15l7zzi = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
       )
     >();
 final _objc_msgSend_15pfzxv = objc.msgSendPointer
@@ -20805,9 +26998,56 @@ final _objc_msgSend_17amj0z = objc.msgSendPointer
 final _objc_msgSend_17t73u4 = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_17thpfy = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Long Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      int Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
+final _objc_msgSend_17w0i2j = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        objc.CGSize Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)
+      >
+    >()
+    .asFunction<objc.CGSize Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_17w0i2jStret = objc.msgSendStretPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.CGSize>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(ffi.Pointer<objc.CGSize>, ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)
+    >();
 final _objc_msgSend_18109rm = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_18kcki9 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.UnsignedLong)
+      >
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_18lulgh = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -20850,6 +27090,19 @@ final _objc_msgSend_18qun1e = objc.msgSendPointer
         ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
+final _objc_msgSend_199pueo = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)
+    >();
 final _objc_msgSend_19ljaqg = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -20880,7 +27133,51 @@ final _objc_msgSend_1as6oil = objc.msgSendPointer
       ffi.NativeFunction<ffi.UnsignedLong Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>
     >()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1bi67wp = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        int,
+      )
+    >();
 final _objc_msgSend_1bkwtnu = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_1bq77wb = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1c2zpn3 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          objc.CGSize,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        objc.CGSize,
+      )
+    >();
+final _objc_msgSend_1c6gxrn = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
     >()
@@ -20890,6 +27187,24 @@ final _objc_msgSend_1c75p8t = objc.msgSendPointer
       ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_1cqdfo3 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_1cvrsvj = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)
+    >();
 final _objc_msgSend_1cwp428 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -20912,6 +27227,11 @@ final _objc_msgSend_1cz0z8u = objc.msgSendPointer
       ffi.NativeFunction<ffi.UnsignedLong Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>
     >()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1cz3vdv = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_1d97k9n = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -20951,6 +27271,11 @@ final _objc_msgSend_1d9e4oe = objc.msgSendPointer
       void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Pointer<objc.ObjCSelector>)
     >();
 final _objc_msgSend_1ddnfsg = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_1dop8ih = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
     >()
@@ -21024,6 +27349,25 @@ final _objc_msgSend_1f28exy = objc.msgSendPointer
     .asFunction<
       ffi.Pointer<objc.ObjCObjectImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)
     >();
+final _objc_msgSend_1fh5jb1 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Long,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        int,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
 final _objc_msgSend_1ftk3d5 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21061,6 +27405,9 @@ final _objc_msgSend_1g2zxsx = objc.msgSendPointer
     .asFunction<
       ffi.Pointer<objc.ObjCObjectImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)
     >();
+final _objc_msgSend_1g7eqj2 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_1g8fos5 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21068,6 +27415,11 @@ final _objc_msgSend_1g8fos5 = objc.msgSendPointer
       >
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, UIEdgeInsets)>();
+final _objc_msgSend_1gdngxu = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_1ggt4c3 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21545,6 +27897,25 @@ final _objc_msgSend_1omnhmhStret = objc.msgSendStretPointer
     .asFunction<
       void Function(ffi.Pointer<UIOffset>, ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)
     >();
+final _objc_msgSend_1oteutl = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          objc.NSRange,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        objc.NSRange,
+      )
+    >();
 final _objc_msgSend_1ovaulg = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21554,6 +27925,11 @@ final _objc_msgSend_1ovaulg = objc.msgSendPointer
     .asFunction<
       ffi.Pointer<objc.ObjCSelector> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)
     >();
+final _objc_msgSend_1owrhby = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_1owrp3b = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21613,9 +27989,27 @@ final _objc_msgSend_1pforg = objc.msgSendPointer
         ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
+final _objc_msgSend_1pkp524 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_1pl9qdv = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1q9f1jv = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_1qgkqvj = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1qgnjih = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_1rsocyz = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21652,6 +28046,27 @@ final _objc_msgSend_1sbro63 = objc.msgSendPointer
       >
     >()
     .asFunction<ffi.Pointer<ffi.Bool> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1se1nhy = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        int,
+      )
+    >();
 final _objc_msgSend_1sfhlx6 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21689,6 +28104,11 @@ final _objc_msgSend_1t6aok9 = objc.msgSendPointer
     .asFunction<
       ffi.Pointer<objc.ObjCObjectImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, bool)
     >();
+final _objc_msgSend_1tdcuab = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_1tj22xm = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21711,6 +28131,9 @@ final _objc_msgSend_1tj22xm = objc.msgSendPointer
       )
     >();
 final _objc_msgSend_1tlsbkb = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1tyzyde = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_1ubvjfk = objc.msgSendPointer
@@ -21771,6 +28194,53 @@ final _objc_msgSend_1vdfkenStret = objc.msgSendStretPointer
 final _objc_msgSend_1vmqitm = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1vqtrpo = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        objc.CGRect Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          objc.CGRect,
+          objc.CGRect,
+          ffi.Float,
+        )
+      >
+    >()
+    .asFunction<
+      objc.CGRect Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        objc.CGRect,
+        objc.CGRect,
+        double,
+      )
+    >();
+final _objc_msgSend_1vqtrpoStret = objc.msgSendStretPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.CGRect>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          objc.CGRect,
+          objc.CGRect,
+          ffi.Float,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(
+        ffi.Pointer<objc.CGRect>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        objc.CGRect,
+        objc.CGRect,
+        double,
+      )
+    >();
+final _objc_msgSend_1vwl547 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_1w5k0al = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -21781,7 +28251,13 @@ final _objc_msgSend_1w5k0al = objc.msgSendPointer
 final _objc_msgSend_1w8h4wm = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1whqp0d = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_1wyriot = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_1x3ggx3 = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_1xy78x6 = objc.msgSendPointer
@@ -21791,10 +28267,34 @@ final _objc_msgSend_1xy78x6 = objc.msgSendPointer
       >
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_1ye6pcb = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Long,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        int,
+        int,
+      )
+    >();
 final _objc_msgSend_1yyvh1k = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.UnsignedLong Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>
     >()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_23epm6 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_25drz7 = objc.msgSendPointer
     .cast<
@@ -21857,6 +28357,9 @@ final _objc_msgSend_2fdtmz = objc.msgSendPointer
         ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
+final _objc_msgSend_2nhbj0 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_2olghr = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22048,11 +28551,19 @@ final _objc_msgSend_3l1tu1Stret = objc.msgSendStretPointer
         ffi.Pointer<objc.ObjCObjectImpl>,
       )
     >();
+final _objc_msgSend_3xs6mv = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_41h7k3 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.Bool Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Bool)>
     >()
     .asFunction<bool Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, bool)>();
+final _objc_msgSend_43yy3r = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_46qpcw = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22061,6 +28572,11 @@ final _objc_msgSend_46qpcw = objc.msgSendPointer
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_4sp4xj = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_5d594c = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
     >()
@@ -22097,6 +28613,25 @@ final _objc_msgSend_5qswvjStret = objc.msgSendStretPointer
     .asFunction<
       void Function(ffi.Pointer<CGAffineTransform>, ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)
     >();
+final _objc_msgSend_5qxa61 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Long,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        int,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
 final _objc_msgSend_5swr7b = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22113,6 +28648,11 @@ final _objc_msgSend_5swr7b = objc.msgSendPointer
 final _objc_msgSend_5tja1h = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_6019sk = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_61dbeh = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.UnsignedLong Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>
@@ -22177,6 +28717,24 @@ final _objc_msgSend_6plvbo = objc.msgSendPointer
         double,
       )
     >();
+final _objc_msgSend_7jvzkb = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_905zir = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)
+    >();
 final _objc_msgSend_91112w = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
@@ -22190,6 +28748,28 @@ final _objc_msgSend_96rhcc = objc.msgSendPointer
       ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_9slupp = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        int,
+      )
+    >();
+final _objc_msgSend_9wqsy3 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_a4xp11 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22233,6 +28813,32 @@ final _objc_msgSend_apdtkn = objc.msgSendPointer
         ffi.Pointer<objc.ObjCSelector>,
         int,
         int,
+      )
+    >();
+final _objc_msgSend_b4nw88 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_bpwlds = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCBlockImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
 final _objc_msgSend_bu1hbw = objc.msgSendPointer
@@ -22360,6 +28966,25 @@ final _objc_msgSend_dhwtpp = objc.msgSendPointer
       >
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, UIOffset, int)>();
+final _objc_msgSend_djsa9o = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.UnsignedLong,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        int,
+      )
+    >();
 final _objc_msgSend_dldayz = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22379,6 +29004,13 @@ final _objc_msgSend_dldayz = objc.msgSendPointer
         int,
       )
     >();
+final _objc_msgSend_erqo6l = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Float, ffi.Bool)
+      >
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, double, bool)>();
 final _objc_msgSend_f167m6 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22396,6 +29028,9 @@ final _objc_msgSend_fcsyxu = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.UnsignedLong Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>
     >()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_fjyff0 = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_fkvhxy = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
@@ -22423,6 +29058,30 @@ final _objc_msgSend_fqrtz5 = objc.msgSendPointer
         int,
         ffi.Pointer<objc.ObjCBlockImpl>,
         ffi.Pointer<objc.ObjCBlockImpl>,
+      )
+    >();
+final _objc_msgSend_g3cf4w = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
+final _objc_msgSend_gayyhh = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Long Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      int Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
       )
     >();
 final _objc_msgSend_ghxo7e = objc.msgSendPointer
@@ -22496,6 +29155,11 @@ final _objc_msgSend_gxusyk = objc.msgSendPointer
         ffi.Pointer<objc.ObjCObjectImpl>,
       )
     >();
+final _objc_msgSend_hw3g2o = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_hwm8nu = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22503,6 +29167,9 @@ final _objc_msgSend_hwm8nu = objc.msgSendPointer
       >
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, double)>();
+final _objc_msgSend_i01jza = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_i2u4x4 = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
@@ -22556,6 +29223,25 @@ final _objc_msgSend_jkkt9d = objc.msgSendPointer
         ffi.Pointer<objc.ObjCSelector>,
         ffi.Pointer<objc.ObjCObjectImpl>,
         ffi.Pointer<objc.ObjCBlockImpl>,
+      )
+    >();
+final _objc_msgSend_k6m8wq = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        int,
       )
     >();
 final _objc_msgSend_k8qzn7 = objc.msgSendPointer
@@ -22622,6 +29308,16 @@ final _objc_msgSend_kh1gvt = objc.msgSendPointer
 final _objc_msgSend_knxebs = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_kzdfm1 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.UnsignedLong Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>
+    >()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_lk6y6u = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_lxcnyc = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22687,6 +29383,45 @@ final _objc_msgSend_m7tls4 = objc.msgSendPointer
         ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
+final _objc_msgSend_mabicu = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Double Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      double Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
+final _objc_msgSend_mabicuFpret = objc.msgSendFpretPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Double Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      double Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
+final _objc_msgSend_mqav8p = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_n08htp = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22715,6 +29450,9 @@ final _objc_msgSend_na2nx0 = objc.msgSendPointer
         ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
+final _objc_msgSend_nch62q = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_nnxkei = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22735,6 +29473,11 @@ final _objc_msgSend_nnxkei = objc.msgSendPointer
 final _objc_msgSend_nqfjlo = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_nurrlg = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_nxk2e9 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -22820,6 +29563,25 @@ final _objc_msgSend_oa8mke = objc.msgSendPointer
         ffi.Pointer<objc.ObjCObjectImpl>,
         ffi.Pointer<objc.ObjCSelector>,
         double,
+      )
+    >();
+final _objc_msgSend_oyb9im = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Long Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Long,
+        )
+      >
+    >()
+    .asFunction<
+      int Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        int,
       )
     >();
 final _objc_msgSend_pfv6jd = objc.msgSendPointer
@@ -22947,6 +29709,42 @@ final _objc_msgSend_qrqu1s = objc.msgSendPointer
       ffi.NativeFunction<ffi.UnsignedLong Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>
     >()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_qrtfce = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        objc.CGRect Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      objc.CGRect Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
+final _objc_msgSend_qrtfceStret = objc.msgSendStretPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Void Function(
+          ffi.Pointer<objc.CGRect>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          ffi.Pointer<objc.ObjCObjectImpl>,
+        )
+      >
+    >()
+    .asFunction<
+      void Function(
+        ffi.Pointer<objc.CGRect>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        ffi.Pointer<objc.ObjCObjectImpl>,
+      )
+    >();
 final _objc_msgSend_qugqlf = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -23019,6 +29817,9 @@ final _objc_msgSend_r0bo0s = objc.msgSendPointer
         ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
+final _objc_msgSend_r1iyqz = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_r4l13g = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -23141,6 +29942,15 @@ final _objc_msgSend_up32gn = objc.msgSendPointer
 final _objc_msgSend_utwjq8 = objc.msgSendPointer
     .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
     .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_uwvaik = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)
+    >();
 final _objc_msgSend_uyhzs2 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -23160,6 +29970,9 @@ final _objc_msgSend_vscdhh = objc.msgSendPointer
       >
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int, double)>();
+final _objc_msgSend_w4in4b = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_wd7esz = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -23167,6 +29980,28 @@ final _objc_msgSend_wd7esz = objc.msgSendPointer
       >
     >()
     .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, double, int)>();
+final _objc_msgSend_wgkxx2 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<
+        ffi.Pointer<objc.ObjCObjectImpl> Function(
+          ffi.Pointer<objc.ObjCObjectImpl>,
+          ffi.Pointer<objc.ObjCSelector>,
+          objc.CGPoint,
+        )
+      >
+    >()
+    .asFunction<
+      ffi.Pointer<objc.ObjCObjectImpl> Function(
+        ffi.Pointer<objc.ObjCObjectImpl>,
+        ffi.Pointer<objc.ObjCSelector>,
+        objc.CGPoint,
+      )
+    >();
+final _objc_msgSend_x9mwm8 = objc.msgSendPointer
+    .cast<
+      ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
+    >()
+    .asFunction<void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, int)>();
 final _objc_msgSend_xmvde7 = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -23255,6 +30090,9 @@ final _objc_msgSend_y1izi1 = objc.msgSendPointer
       >
     >()
     .asFunction<ffi.Pointer<CGImage> Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
+final _objc_msgSend_ya0jwp = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_ya159h = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>, ffi.Long)>
@@ -23338,13 +30176,19 @@ late final _sel_CIColor = objc.registerName("CIColor");
 late final _sel_CIImage = objc.registerName("CIImage");
 late final _sel_action = objc.registerName("action");
 late final _sel_actionForLayer_forKey_ = objc.registerName("actionForLayer:forKey:");
+late final _sel_actionWithHandler_ = objc.registerName("actionWithHandler:");
+late final _sel_actionWithTitle_image_identifier_handler_ = objc.registerName(
+  "actionWithTitle:image:identifier:handler:",
+);
 late final _sel_actionWithTitle_style_handler_ = objc.registerName("actionWithTitle:style:handler:");
 late final _sel_actions = objc.registerName("actions");
 late final _sel_actionsForTarget_forControlEvent_ = objc.registerName("actionsForTarget:forControlEvent:");
 late final _sel_actionsImage = objc.registerName("actionsImage");
 late final _sel_activateConstraints_ = objc.registerName("activateConstraints:");
+late final _sel_activityIndicatorViewStyle = objc.registerName("activityIndicatorViewStyle");
 late final _sel_addAction_ = objc.registerName("addAction:");
 late final _sel_addAction_forControlEvents_ = objc.registerName("addAction:forControlEvents:");
+late final _sel_addArrangedSubview_ = objc.registerName("addArrangedSubview:");
 late final _sel_addChildViewController_ = objc.registerName("addChildViewController:");
 late final _sel_addConstraint_ = objc.registerName("addConstraint:");
 late final _sel_addConstraints_ = objc.registerName("addConstraints:");
@@ -23365,10 +30209,14 @@ late final _sel_adjustedContentInset = objc.registerName("adjustedContentInset")
 late final _sel_adjustedContentInsetDidChange = objc.registerName("adjustedContentInsetDidChange");
 late final _sel_adjustsFontForContentSizeCategory = objc.registerName("adjustsFontForContentSizeCategory");
 late final _sel_adjustsFontSizeToFitWidth = objc.registerName("adjustsFontSizeToFitWidth");
+late final _sel_adjustsImageWhenAncestorFocused = objc.registerName("adjustsImageWhenAncestorFocused");
+late final _sel_adjustsImageWhenDisabled = objc.registerName("adjustsImageWhenDisabled");
+late final _sel_adjustsImageWhenHighlighted = objc.registerName("adjustsImageWhenHighlighted");
 late final _sel_adjustsLetterSpacingToFitWidth = objc.registerName("adjustsLetterSpacingToFitWidth");
 late final _sel_alertControllerWithTitle_message_preferredStyle_ = objc.registerName(
   "alertControllerWithTitle:message:preferredStyle:",
 );
+late final _sel_alignment = objc.registerName("alignment");
 late final _sel_alignmentRectForFrame_ = objc.registerName("alignmentRectForFrame:");
 late final _sel_alignmentRectInsets = objc.registerName("alignmentRectInsets");
 late final _sel_allControlEvents = objc.registerName("allControlEvents");
@@ -23378,7 +30226,9 @@ late final _sel_allocWithZone_ = objc.registerName("allocWithZone:");
 late final _sel_allowedChildViewControllersForUnwindingFromSource_ = objc.registerName(
   "allowedChildViewControllersForUnwindingFromSource:",
 );
+late final _sel_allowsContinuousInteraction = objc.registerName("allowsContinuousInteraction");
 late final _sel_allowsDefaultTighteningForTruncation = objc.registerName("allowsDefaultTighteningForTruncation");
+late final _sel_allowsEditingTextAttributes = objc.registerName("allowsEditingTextAttributes");
 late final _sel_alpha = objc.registerName("alpha");
 late final _sel_alternateIconName = objc.registerName("alternateIconName");
 late final _sel_alwaysBounceHorizontal = objc.registerName("alwaysBounceHorizontal");
@@ -23405,6 +30255,9 @@ late final _sel_animatedResizableImageNamed_capInsets_duration_ = objc.registerN
 late final _sel_animatedResizableImageNamed_capInsets_resizingMode_duration_ = objc.registerName(
   "animatedResizableImageNamed:capInsets:resizingMode:duration:",
 );
+late final _sel_animationDuration = objc.registerName("animationDuration");
+late final _sel_animationImages = objc.registerName("animationImages");
+late final _sel_animationRepeatCount = objc.registerName("animationRepeatCount");
 late final _sel_appearance = objc.registerName("appearance");
 late final _sel_appearanceForTraitCollection_ = objc.registerName("appearanceForTraitCollection:");
 late final _sel_appearanceForTraitCollection_whenContainedInInstancesOfClasses_ = objc.registerName(
@@ -23430,10 +30283,16 @@ late final _sel_arg1 = objc.registerName("arg1");
 late final _sel_arg2 = objc.registerName("arg2");
 late final _sel_arg3 = objc.registerName("arg3");
 late final _sel_arg4 = objc.registerName("arg4");
+late final _sel_arrangedSubviews = objc.registerName("arrangedSubviews");
 late final _sel_ascender = objc.registerName("ascender");
 late final _sel_attemptRotationToDeviceOrientation = objc.registerName("attemptRotationToDeviceOrientation");
+late final _sel_attributedPlaceholder = objc.registerName("attributedPlaceholder");
 late final _sel_attributedText = objc.registerName("attributedText");
+late final _sel_attributedTitleForState_ = objc.registerName("attributedTitleForState:");
+late final _sel_attributes = objc.registerName("attributes");
 late final _sel_autoHidesToolbarInFullScreen = objc.registerName("autoHidesToolbarInFullScreen");
+late final _sel_autocapitalizationType = objc.registerName("autocapitalizationType");
+late final _sel_autocorrectionType = objc.registerName("autocorrectionType");
 late final _sel_automaticallyAdjustsScrollIndicatorInsets = objc.registerName(
   "automaticallyAdjustsScrollIndicatorInsets",
 );
@@ -23441,8 +30300,10 @@ late final _sel_automaticallyAdjustsScrollViewInsets = objc.registerName("automa
 late final _sel_automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers = objc.registerName(
   "automaticallyForwardAppearanceAndRotationMethodsToChildViewControllers",
 );
+late final _sel_automaticallyUpdatesConfiguration = objc.registerName("automaticallyUpdatesConfiguration");
 late final _sel_autoresizesSubviews = objc.registerName("autoresizesSubviews");
 late final _sel_autoresizingMask = objc.registerName("autoresizingMask");
+late final _sel_axis = objc.registerName("axis");
 late final _sel_backBarButtonItem = objc.registerName("backBarButtonItem");
 late final _sel_backButtonBackgroundImageForState_barMetrics_ = objc.registerName(
   "backButtonBackgroundImageForState:barMetrics:",
@@ -23455,15 +30316,19 @@ late final _sel_backButtonTitle = objc.registerName("backButtonTitle");
 late final _sel_backButtonTitlePositionAdjustmentForBarMetrics_ = objc.registerName(
   "backButtonTitlePositionAdjustmentForBarMetrics:",
 );
+late final _sel_background = objc.registerName("background");
 late final _sel_backgroundColor = objc.registerName("backgroundColor");
 late final _sel_backgroundEffect = objc.registerName("backgroundEffect");
 late final _sel_backgroundImage = objc.registerName("backgroundImage");
 late final _sel_backgroundImageContentMode = objc.registerName("backgroundImageContentMode");
+late final _sel_backgroundImageForState_ = objc.registerName("backgroundImageForState:");
 late final _sel_backgroundImageForState_barMetrics_ = objc.registerName("backgroundImageForState:barMetrics:");
 late final _sel_backgroundImageForState_style_barMetrics_ = objc.registerName(
   "backgroundImageForState:style:barMetrics:",
 );
+late final _sel_backgroundRectForBounds_ = objc.registerName("backgroundRectForBounds:");
 late final _sel_backgroundRefreshStatus = objc.registerName("backgroundRefreshStatus");
+late final _sel_backgroundStyle = objc.registerName("backgroundStyle");
 late final _sel_backgroundTimeRemaining = objc.registerName("backgroundTimeRemaining");
 late final _sel_backgroundVerticalPositionAdjustmentForBarMetrics_ = objc.registerName(
   "backgroundVerticalPositionAdjustmentForBarMetrics:",
@@ -23476,6 +30341,9 @@ late final _sel_barHideOnSwipeGestureRecognizer = objc.registerName("barHideOnSw
 late final _sel_barHideOnTapGestureRecognizer = objc.registerName("barHideOnTapGestureRecognizer");
 late final _sel_barStyle = objc.registerName("barStyle");
 late final _sel_barTintColor = objc.registerName("barTintColor");
+late final _sel_baseWritingDirectionForPosition_inDirection_ = objc.registerName(
+  "baseWritingDirectionForPosition:inDirection:",
+);
 late final _sel_baselineAdjustment = objc.registerName("baselineAdjustment");
 late final _sel_baselineOffsetFromBottom = objc.registerName("baselineOffsetFromBottom");
 late final _sel_becomeFirstResponder = objc.registerName("becomeFirstResponder");
@@ -23489,13 +30357,17 @@ late final _sel_beginBackgroundTaskWithName_expirationHandler_ = objc.registerNa
   "beginBackgroundTaskWithName:expirationHandler:",
 );
 late final _sel_beginCustomizingItems_ = objc.registerName("beginCustomizingItems:");
+late final _sel_beginFloatingCursorAtPoint_ = objc.registerName("beginFloatingCursorAtPoint:");
 late final _sel_beginIgnoringInteractionEvents = objc.registerName("beginIgnoringInteractionEvents");
 late final _sel_beginReceivingRemoteControlEvents = objc.registerName("beginReceivingRemoteControlEvents");
 late final _sel_beginRequestWithExtensionContext_ = objc.registerName("beginRequestWithExtensionContext:");
 late final _sel_beginTrackingWithTouch_withEvent_ = objc.registerName("beginTrackingWithTouch:withEvent:");
+late final _sel_beginningOfDocument = objc.registerName("beginningOfDocument");
 late final _sel_blackColor = objc.registerName("blackColor");
 late final _sel_blueColor = objc.registerName("blueColor");
 late final _sel_boldSystemFontOfSize_ = objc.registerName("boldSystemFontOfSize:");
+late final _sel_borderRectForBounds_ = objc.registerName("borderRectForBounds:");
+late final _sel_borderStyle = objc.registerName("borderStyle");
 late final _sel_bottomAnchor = objc.registerName("bottomAnchor");
 late final _sel_bottomLayoutGuide = objc.registerName("bottomLayoutGuide");
 late final _sel_bounces = objc.registerName("bounces");
@@ -23506,6 +30378,10 @@ late final _sel_brownColor = objc.registerName("brownColor");
 late final _sel_buildMenuWithBuilder_ = objc.registerName("buildMenuWithBuilder:");
 late final _sel_buttonFontSize = objc.registerName("buttonFontSize");
 late final _sel_buttonGroup = objc.registerName("buttonGroup");
+late final _sel_buttonType = objc.registerName("buttonType");
+late final _sel_buttonWithConfiguration_primaryAction_ = objc.registerName("buttonWithConfiguration:primaryAction:");
+late final _sel_buttonWithType_ = objc.registerName("buttonWithType:");
+late final _sel_buttonWithType_primaryAction_ = objc.registerName("buttonWithType:primaryAction:");
 late final _sel_canBecomeFirstResponder = objc.registerName("canBecomeFirstResponder");
 late final _sel_canBecomeFocused = objc.registerName("canBecomeFocused");
 late final _sel_canBecomeKeyWindow = objc.registerName("canBecomeKeyWindow");
@@ -23525,11 +30401,20 @@ late final _sel_cancelLocalNotification_ = objc.registerName("cancelLocalNotific
 late final _sel_cancelTrackingWithEvent_ = objc.registerName("cancelTrackingWithEvent:");
 late final _sel_capHeight = objc.registerName("capHeight");
 late final _sel_capInsets = objc.registerName("capInsets");
+late final _sel_captureTextFromCameraActionForResponder_identifier_ = objc.registerName(
+  "captureTextFromCameraActionForResponder:identifier:",
+);
 late final _sel_captureTextFromCamera_ = objc.registerName("captureTextFromCamera:");
+late final _sel_caretRectForPosition_ = objc.registerName("caretRectForPosition:");
 late final _sel_center = objc.registerName("center");
 late final _sel_centerXAnchor = objc.registerName("centerXAnchor");
 late final _sel_centerYAnchor = objc.registerName("centerYAnchor");
 late final _sel_changesSelectionAsPrimaryAction = objc.registerName("changesSelectionAsPrimaryAction");
+late final _sel_characterOffsetOfPosition_withinRange_ = objc.registerName("characterOffsetOfPosition:withinRange:");
+late final _sel_characterRangeAtPoint_ = objc.registerName("characterRangeAtPoint:");
+late final _sel_characterRangeByExtendingPosition_inDirection_ = objc.registerName(
+  "characterRangeByExtendingPosition:inDirection:",
+);
 late final _sel_checkmarkImage = objc.registerName("checkmarkImage");
 late final _sel_childViewControllerContainingSegueSource_ = objc.registerName(
   "childViewControllerContainingSegueSource:",
@@ -23548,13 +30433,20 @@ late final _sel_childViewControllerForUserInterfaceStyle = objc.registerName(
 );
 late final _sel_childViewControllers = objc.registerName("childViewControllers");
 late final _sel_children = objc.registerName("children");
+late final _sel_clearButtonMode = objc.registerName("clearButtonMode");
+late final _sel_clearButtonRectForBounds_ = objc.registerName("clearButtonRectForBounds:");
 late final _sel_clearColor = objc.registerName("clearColor");
 late final _sel_clearKeepAliveTimeout = objc.registerName("clearKeepAliveTimeout");
 late final _sel_clearTextInputContextIdentifier_ = objc.registerName("clearTextInputContextIdentifier:");
 late final _sel_clearsContextBeforeDrawing = objc.registerName("clearsContextBeforeDrawing");
+late final _sel_clearsOnBeginEditing = objc.registerName("clearsOnBeginEditing");
+late final _sel_clearsOnInsertion = objc.registerName("clearsOnInsertion");
 late final _sel_clipsToBounds = objc.registerName("clipsToBounds");
+late final _sel_closestPositionToPoint_ = objc.registerName("closestPositionToPoint:");
+late final _sel_closestPositionToPoint_withinRange_ = objc.registerName("closestPositionToPoint:withinRange:");
 late final _sel_collisionBoundingPath = objc.registerName("collisionBoundingPath");
 late final _sel_collisionBoundsType = objc.registerName("collisionBoundsType");
+late final _sel_color = objc.registerName("color");
 late final _sel_colorNamed_ = objc.registerName("colorNamed:");
 late final _sel_colorNamed_inBundle_compatibleWithTraitCollection_ = objc.registerName(
   "colorNamed:inBundle:compatibleWithTraitCollection:",
@@ -23574,8 +30466,10 @@ late final _sel_commitAnimations = objc.registerName("commitAnimations");
 late final _sel_compactAppearance = objc.registerName("compactAppearance");
 late final _sel_compactInlineLayoutAppearance = objc.registerName("compactInlineLayoutAppearance");
 late final _sel_compactScrollEdgeAppearance = objc.registerName("compactScrollEdgeAppearance");
+late final _sel_comparePosition_toPosition_ = objc.registerName("comparePosition:toPosition:");
 late final _sel_completeStateRestoration = objc.registerName("completeStateRestoration");
 late final _sel_configuration = objc.registerName("configuration");
+late final _sel_configurationUpdateHandler = objc.registerName("configurationUpdateHandler");
 late final _sel_configureWithDefaultBackground = objc.registerName("configureWithDefaultBackground");
 late final _sel_configureWithDefaultForStyle_ = objc.registerName("configureWithDefaultForStyle:");
 late final _sel_configureWithOpaqueBackground = objc.registerName("configureWithOpaqueBackground");
@@ -23593,6 +30487,7 @@ late final _sel_constraintsWithVisualFormat_options_metrics_views_ = objc.regist
 late final _sel_contentCompressionResistancePriorityForAxis_ = objc.registerName(
   "contentCompressionResistancePriorityForAxis:",
 );
+late final _sel_contentEdgeInsets = objc.registerName("contentEdgeInsets");
 late final _sel_contentHorizontalAlignment = objc.registerName("contentHorizontalAlignment");
 late final _sel_contentHuggingPriorityForAxis_ = objc.registerName("contentHuggingPriorityForAxis:");
 late final _sel_contentInset = objc.registerName("contentInset");
@@ -23600,6 +30495,7 @@ late final _sel_contentInsetAdjustmentBehavior = objc.registerName("contentInset
 late final _sel_contentLayoutGuide = objc.registerName("contentLayoutGuide");
 late final _sel_contentMode = objc.registerName("contentMode");
 late final _sel_contentOffset = objc.registerName("contentOffset");
+late final _sel_contentRectForBounds_ = objc.registerName("contentRectForBounds:");
 late final _sel_contentScaleFactor = objc.registerName("contentScaleFactor");
 late final _sel_contentScrollViewForEdge_ = objc.registerName("contentScrollViewForEdge:");
 late final _sel_contentSize = objc.registerName("contentSize");
@@ -23622,7 +30518,20 @@ late final _sel_convertRect_toWindow_ = objc.registerName("convertRect:toWindow:
 late final _sel_coordinateSpace = objc.registerName("coordinateSpace");
 late final _sel_copy = objc.registerName("copy");
 late final _sel_copy_ = objc.registerName("copy:");
+late final _sel_currentAttributedTitle = objc.registerName("currentAttributedTitle");
+late final _sel_currentBackgroundImage = objc.registerName("currentBackgroundImage");
+late final _sel_currentImage = objc.registerName("currentImage");
+late final _sel_currentMaximumTrackImage = objc.registerName("currentMaximumTrackImage");
+late final _sel_currentMinimumTrackImage = objc.registerName("currentMinimumTrackImage");
+late final _sel_currentPage = objc.registerName("currentPage");
+late final _sel_currentPageIndicatorTintColor = objc.registerName("currentPageIndicatorTintColor");
+late final _sel_currentPreferredSymbolConfiguration = objc.registerName("currentPreferredSymbolConfiguration");
+late final _sel_currentThumbImage = objc.registerName("currentThumbImage");
+late final _sel_currentTitle = objc.registerName("currentTitle");
+late final _sel_currentTitleColor = objc.registerName("currentTitleColor");
+late final _sel_currentTitleShadowColor = objc.registerName("currentTitleShadowColor");
 late final _sel_currentUserNotificationSettings = objc.registerName("currentUserNotificationSettings");
+late final _sel_customSpacingAfterView_ = objc.registerName("customSpacingAfterView:");
 late final _sel_customView = objc.registerName("customView");
 late final _sel_customizableViewControllers = objc.registerName("customizableViewControllers");
 late final _sel_cut_ = objc.registerName("cut:");
@@ -23634,11 +30543,16 @@ late final _sel_decelerationRate = objc.registerName("decelerationRate");
 late final _sel_decodeRestorableStateWithCoder_ = objc.registerName("decodeRestorableStateWithCoder:");
 late final _sel_decreaseSize_ = objc.registerName("decreaseSize:");
 late final _sel_defaultFontSize = objc.registerName("defaultFontSize");
+late final _sel_defaultTextAttributes = objc.registerName("defaultTextAttributes");
+late final _sel_defersCurrentPageDisplay = objc.registerName("defersCurrentPageDisplay");
 late final _sel_definesPresentationContext = objc.registerName("definesPresentationContext");
 late final _sel_delaysContentTouches = objc.registerName("delaysContentTouches");
 late final _sel_delegate = objc.registerName("delegate");
+late final _sel_deleteBackward = objc.registerName("deleteBackward");
 late final _sel_delete_ = objc.registerName("delete:");
 late final _sel_descender = objc.registerName("descender");
+late final _sel_dictationRecognitionFailed = objc.registerName("dictationRecognitionFailed");
+late final _sel_dictationRecordingDidEnd = objc.registerName("dictationRecordingDidEnd");
 late final _sel_didAddSubview_ = objc.registerName("didAddSubview:");
 late final _sel_didAnimateFirstHalfOfRotationToInterfaceOrientation_ = objc.registerName(
   "didAnimateFirstHalfOfRotationToInterfaceOrientation:",
@@ -23655,18 +30569,22 @@ late final _sel_didUpdateFocusInContext_withAnimationCoordinator_ = objc.registe
 late final _sel_directionalLayoutMargins = objc.registerName("directionalLayoutMargins");
 late final _sel_directionalPressGestureRecognizer = objc.registerName("directionalPressGestureRecognizer");
 late final _sel_disabled = objc.registerName("disabled");
+late final _sel_disabledBackground = objc.registerName("disabledBackground");
 late final _sel_disablesAutomaticKeyboardDismissal = objc.registerName("disablesAutomaticKeyboardDismissal");
+late final _sel_discoverabilityTitle = objc.registerName("discoverabilityTitle");
 late final _sel_dismissModalViewControllerAnimated_ = objc.registerName("dismissModalViewControllerAnimated:");
 late final _sel_dismissViewControllerAnimated_completion_ = objc.registerName(
   "dismissViewControllerAnimated:completion:",
 );
 late final _sel_displayLayer_ = objc.registerName("displayLayer:");
+late final _sel_distribution = objc.registerName("distribution");
 late final _sel_drawAsPatternInRect_ = objc.registerName("drawAsPatternInRect:");
 late final _sel_drawAtPoint_ = objc.registerName("drawAtPoint:");
 late final _sel_drawAtPoint_blendMode_alpha_ = objc.registerName("drawAtPoint:blendMode:alpha:");
 late final _sel_drawInRect_ = objc.registerName("drawInRect:");
 late final _sel_drawInRect_blendMode_alpha_ = objc.registerName("drawInRect:blendMode:alpha:");
 late final _sel_drawLayer_inContext_ = objc.registerName("drawLayer:inContext:");
+late final _sel_drawPlaceholderInRect_ = objc.registerName("drawPlaceholderInRect:");
 late final _sel_drawRect_ = objc.registerName("drawRect:");
 late final _sel_drawTextInRect_ = objc.registerName("drawTextInRect:");
 late final _sel_drawViewHierarchyInRect_afterScreenUpdates_ = objc.registerName(
@@ -23676,17 +30594,21 @@ late final _sel_duration = objc.registerName("duration");
 late final _sel_edgesForExtendedLayout = objc.registerName("edgesForExtendedLayout");
 late final _sel_editButtonItem = objc.registerName("editButtonItem");
 late final _sel_editingInteractionConfiguration = objc.registerName("editingInteractionConfiguration");
+late final _sel_editingRectForBounds_ = objc.registerName("editingRectForBounds:");
 late final _sel_effectiveContentHorizontalAlignment = objc.registerName("effectiveContentHorizontalAlignment");
 late final _sel_effectiveUserInterfaceLayoutDirection = objc.registerName("effectiveUserInterfaceLayoutDirection");
 late final _sel_enabledRemoteNotificationTypes = objc.registerName("enabledRemoteNotificationTypes");
 late final _sel_enablesMarqueeWhenAncestorFocused = objc.registerName("enablesMarqueeWhenAncestorFocused");
+late final _sel_enablesReturnKeyAutomatically = objc.registerName("enablesReturnKeyAutomatically");
 late final _sel_encodeRestorableStateWithCoder_ = objc.registerName("encodeRestorableStateWithCoder:");
 late final _sel_encodeWithCoder_ = objc.registerName("encodeWithCoder:");
 late final _sel_endAppearanceTransition = objc.registerName("endAppearanceTransition");
 late final _sel_endBackgroundTask_ = objc.registerName("endBackgroundTask:");
 late final _sel_endCustomizingAnimated_ = objc.registerName("endCustomizingAnimated:");
 late final _sel_endEditing_ = objc.registerName("endEditing:");
+late final _sel_endFloatingCursor = objc.registerName("endFloatingCursor");
 late final _sel_endIgnoringInteractionEvents = objc.registerName("endIgnoringInteractionEvents");
+late final _sel_endOfDocument = objc.registerName("endOfDocument");
 late final _sel_endReceivingRemoteControlEvents = objc.registerName("endReceivingRemoteControlEvents");
 late final _sel_endTrackingWithTouch_withEvent_ = objc.registerName("endTrackingWithTouch:withEvent:");
 late final _sel_enumerateEventHandlers_ = objc.registerName("enumerateEventHandlers:");
@@ -23705,6 +30627,7 @@ late final _sel_firstAnchor = objc.registerName("firstAnchor");
 late final _sel_firstAttribute = objc.registerName("firstAttribute");
 late final _sel_firstBaselineAnchor = objc.registerName("firstBaselineAnchor");
 late final _sel_firstItem = objc.registerName("firstItem");
+late final _sel_firstRectForRange_ = objc.registerName("firstRectForRange:");
 late final _sel_fixedSpaceItemOfWidth_ = objc.registerName("fixedSpaceItemOfWidth:");
 late final _sel_flashScrollIndicators = objc.registerName("flashScrollIndicators");
 late final _sel_flexibleSpaceItem = objc.registerName("flexibleSpaceItem");
@@ -23715,6 +30638,7 @@ late final _sel_focusGroupPriority = objc.registerName("focusGroupPriority");
 late final _sel_focusItemContainer = objc.registerName("focusItemContainer");
 late final _sel_focusItemsInRect_ = objc.registerName("focusItemsInRect:");
 late final _sel_focused = objc.registerName("focused");
+late final _sel_focusedFrameGuide = objc.registerName("focusedFrameGuide");
 late final _sel_font = objc.registerName("font");
 late final _sel_fontDescriptor = objc.registerName("fontDescriptor");
 late final _sel_fontName = objc.registerName("fontName");
@@ -23724,6 +30648,7 @@ late final _sel_fontWithName_size_ = objc.registerName("fontWithName:size:");
 late final _sel_fontWithSize_ = objc.registerName("fontWithSize:");
 late final _sel_frame = objc.registerName("frame");
 late final _sel_frameForAlignmentRect_ = objc.registerName("frameForAlignmentRect:");
+late final _sel_frameForDictationResultPlaceholder_ = objc.registerName("frameForDictationResultPlaceholder:");
 late final _sel_frameLayoutGuide = objc.registerName("frameLayoutGuide");
 late final _sel_gestureRecognizerShouldBegin_ = objc.registerName("gestureRecognizerShouldBegin:");
 late final _sel_gestureRecognizers = objc.registerName("gestureRecognizers");
@@ -23735,6 +30660,7 @@ late final _sel_greenColor = objc.registerName("greenColor");
 late final _sel_groupTableViewBackgroundColor = objc.registerName("groupTableViewBackgroundColor");
 late final _sel_hasAmbiguousLayout = objc.registerName("hasAmbiguousLayout");
 late final _sel_hasBaseline = objc.registerName("hasBaseline");
+late final _sel_hasText = objc.registerName("hasText");
 late final _sel_heightAnchor = objc.registerName("heightAnchor");
 late final _sel_hidesBackButton = objc.registerName("hidesBackButton");
 late final _sel_hidesBarsOnSwipe = objc.registerName("hidesBarsOnSwipe");
@@ -23742,8 +30668,12 @@ late final _sel_hidesBarsOnTap = objc.registerName("hidesBarsOnTap");
 late final _sel_hidesBarsWhenKeyboardAppears = objc.registerName("hidesBarsWhenKeyboardAppears");
 late final _sel_hidesBarsWhenVerticallyCompact = objc.registerName("hidesBarsWhenVerticallyCompact");
 late final _sel_hidesBottomBarWhenPushed = objc.registerName("hidesBottomBarWhenPushed");
+late final _sel_hidesForSinglePage = objc.registerName("hidesForSinglePage");
 late final _sel_hidesSearchBarWhenScrolling = objc.registerName("hidesSearchBarWhenScrolling");
+late final _sel_hidesWhenStopped = objc.registerName("hidesWhenStopped");
 late final _sel_highlighted = objc.registerName("highlighted");
+late final _sel_highlightedAnimationImages = objc.registerName("highlightedAnimationImages");
+late final _sel_highlightedImage = objc.registerName("highlightedImage");
 late final _sel_highlightedTextColor = objc.registerName("highlightedTextColor");
 late final _sel_hitTest_withEvent_ = objc.registerName("hitTest:withEvent:");
 late final _sel_horizontalScrollIndicatorInsets = objc.registerName("horizontalScrollIndicatorInsets");
@@ -23752,13 +30682,17 @@ late final _sel_idiom = objc.registerName("idiom");
 late final _sel_ignoreSnapshotOnNextApplicationLaunch = objc.registerName("ignoreSnapshotOnNextApplicationLaunch");
 late final _sel_image = objc.registerName("image");
 late final _sel_imageByApplyingSymbolConfiguration_ = objc.registerName("imageByApplyingSymbolConfiguration:");
+late final _sel_imageEdgeInsets = objc.registerName("imageEdgeInsets");
 late final _sel_imageFlippedForRightToLeftLayoutDirection = objc.registerName(
   "imageFlippedForRightToLeftLayoutDirection",
 );
+late final _sel_imageForState_ = objc.registerName("imageForState:");
 late final _sel_imageInsets = objc.registerName("imageInsets");
 late final _sel_imageNamed_ = objc.registerName("imageNamed:");
 late final _sel_imageNamed_inBundle_withConfiguration_ = objc.registerName("imageNamed:inBundle:withConfiguration:");
 late final _sel_imageOrientation = objc.registerName("imageOrientation");
+late final _sel_imageRectForContentRect_ = objc.registerName("imageRectForContentRect:");
+late final _sel_imageView = objc.registerName("imageView");
 late final _sel_imageWithAlignmentRectInsets_ = objc.registerName("imageWithAlignmentRectInsets:");
 late final _sel_imageWithBaselineOffsetFromBottom_ = objc.registerName("imageWithBaselineOffsetFromBottom:");
 late final _sel_imageWithCGImage_ = objc.registerName("imageWithCGImage:");
@@ -23777,9 +30711,12 @@ late final _sel_imageWithoutBaseline = objc.registerName("imageWithoutBaseline")
 late final _sel_images = objc.registerName("images");
 late final _sel_increaseSize_ = objc.registerName("increaseSize:");
 late final _sel_indexDisplayMode = objc.registerName("indexDisplayMode");
+late final _sel_indicatorImageForPage_ = objc.registerName("indicatorImageForPage:");
 late final _sel_indicatorStyle = objc.registerName("indicatorStyle");
 late final _sel_inheritedAnimationDuration = objc.registerName("inheritedAnimationDuration");
 late final _sel_init = objc.registerName("init");
+late final _sel_initWithActivityIndicatorStyle_ = objc.registerName("initWithActivityIndicatorStyle:");
+late final _sel_initWithArrangedSubviews_ = objc.registerName("initWithArrangedSubviews:");
 late final _sel_initWithBarAppearance_ = objc.registerName("initWithBarAppearance:");
 late final _sel_initWithBarButtonItems_representativeItem_ = objc.registerName(
   "initWithBarButtonItems:representativeItem:",
@@ -23810,6 +30747,8 @@ late final _sel_initWithHue_saturation_brightness_alpha_ = objc.registerName(
   "initWithHue:saturation:brightness:alpha:",
 );
 late final _sel_initWithIdiom_ = objc.registerName("initWithIdiom:");
+late final _sel_initWithImage_ = objc.registerName("initWithImage:");
+late final _sel_initWithImage_highlightedImage_ = objc.registerName("initWithImage:highlightedImage:");
 late final _sel_initWithImage_landscapeImagePhone_style_target_action_ = objc.registerName(
   "initWithImage:landscapeImagePhone:style:target:action:",
 );
@@ -23821,6 +30760,7 @@ late final _sel_initWithNavigationBarClass_toolbarClass_ = objc.registerName(
 late final _sel_initWithNibName_bundle_ = objc.registerName("initWithNibName:bundle:");
 late final _sel_initWithPatternImage_ = objc.registerName("initWithPatternImage:");
 late final _sel_initWithPrimaryAction_ = objc.registerName("initWithPrimaryAction:");
+late final _sel_initWithProgressViewStyle_ = objc.registerName("initWithProgressViewStyle:");
 late final _sel_initWithRed_green_blue_alpha_ = objc.registerName("initWithRed:green:blue:alpha:");
 late final _sel_initWithRootViewController_ = objc.registerName("initWithRootViewController:");
 late final _sel_initWithStyle_ = objc.registerName("initWithStyle:");
@@ -23836,21 +30776,32 @@ late final _sel_inlineLayoutAppearance = objc.registerName("inlineLayoutAppearan
 late final _sel_inputAccessoryView = objc.registerName("inputAccessoryView");
 late final _sel_inputAccessoryViewController = objc.registerName("inputAccessoryViewController");
 late final _sel_inputAssistantItem = objc.registerName("inputAssistantItem");
+late final _sel_inputDelegate = objc.registerName("inputDelegate");
 late final _sel_inputView = objc.registerName("inputView");
 late final _sel_inputViewController = objc.registerName("inputViewController");
+late final _sel_insertArrangedSubview_atIndex_ = objc.registerName("insertArrangedSubview:atIndex:");
+late final _sel_insertDictationResultPlaceholder = objc.registerName("insertDictationResultPlaceholder");
+late final _sel_insertDictationResult_ = objc.registerName("insertDictationResult:");
 late final _sel_insertSubview_aboveSubview_ = objc.registerName("insertSubview:aboveSubview:");
 late final _sel_insertSubview_atIndex_ = objc.registerName("insertSubview:atIndex:");
 late final _sel_insertSubview_belowSubview_ = objc.registerName("insertSubview:belowSubview:");
+late final _sel_insertTextPlaceholderWithSize_ = objc.registerName("insertTextPlaceholderWithSize:");
+late final _sel_insertText_ = objc.registerName("insertText:");
+late final _sel_insertText_alternatives_style_ = objc.registerName("insertText:alternatives:style:");
 late final _sel_insetsLayoutMarginsFromSafeArea = objc.registerName("insetsLayoutMarginsFromSafeArea");
+late final _sel_interactionState = objc.registerName("interactionState");
 late final _sel_interactions = objc.registerName("interactions");
 late final _sel_interactivePopGestureRecognizer = objc.registerName("interactivePopGestureRecognizer");
 late final _sel_interfaceOrientation = objc.registerName("interfaceOrientation");
 late final _sel_intrinsicContentSize = objc.registerName("intrinsicContentSize");
 late final _sel_invalidateIntrinsicContentSize = objc.registerName("invalidateIntrinsicContentSize");
 late final _sel_isActive = objc.registerName("isActive");
+late final _sel_isAnimating = objc.registerName("isAnimating");
+late final _sel_isBaselineRelativeArrangement = objc.registerName("isBaselineRelativeArrangement");
 late final _sel_isBeingDismissed = objc.registerName("isBeingDismissed");
 late final _sel_isBeingPresented = objc.registerName("isBeingPresented");
 late final _sel_isContextMenuInteractionEnabled = objc.registerName("isContextMenuInteractionEnabled");
+late final _sel_isContinuous = objc.registerName("isContinuous");
 late final _sel_isCustomizing = objc.registerName("isCustomizing");
 late final _sel_isDecelerating = objc.registerName("isDecelerating");
 late final _sel_isDescendantOfView_ = objc.registerName("isDescendantOfView:");
@@ -23862,12 +30813,15 @@ late final _sel_isEnabled = objc.registerName("isEnabled");
 late final _sel_isExclusiveTouch = objc.registerName("isExclusiveTouch");
 late final _sel_isFirstResponder = objc.registerName("isFirstResponder");
 late final _sel_isFocused = objc.registerName("isFocused");
+late final _sel_isHeld = objc.registerName("isHeld");
 late final _sel_isHidden = objc.registerName("isHidden");
 late final _sel_isHighlighted = objc.registerName("isHighlighted");
+late final _sel_isHovered = objc.registerName("isHovered");
 late final _sel_isIdleTimerDisabled = objc.registerName("isIdleTimerDisabled");
 late final _sel_isIgnoringInteractionEvents = objc.registerName("isIgnoringInteractionEvents");
 late final _sel_isKeyWindow = objc.registerName("isKeyWindow");
 late final _sel_isKindOfClass_ = objc.registerName("isKindOfClass:");
+late final _sel_isLayoutMarginsRelativeArrangement = objc.registerName("isLayoutMarginsRelativeArrangement");
 late final _sel_isModalInPresentation = objc.registerName("isModalInPresentation");
 late final _sel_isMovingFromParentViewController = objc.registerName("isMovingFromParentViewController");
 late final _sel_isMovingToParentViewController = objc.registerName("isMovingToParentViewController");
@@ -23877,10 +30831,12 @@ late final _sel_isNetworkActivityIndicatorVisible = objc.registerName("isNetwork
 late final _sel_isOn = objc.registerName("isOn");
 late final _sel_isOpaque = objc.registerName("isOpaque");
 late final _sel_isPagingEnabled = objc.registerName("isPagingEnabled");
+late final _sel_isPointerInteractionEnabled = objc.registerName("isPointerInteractionEnabled");
 late final _sel_isProtectedDataAvailable = objc.registerName("isProtectedDataAvailable");
 late final _sel_isProximitySensingEnabled = objc.registerName("isProximitySensingEnabled");
 late final _sel_isRegisteredForRemoteNotifications = objc.registerName("isRegisteredForRemoteNotifications");
 late final _sel_isScrollEnabled = objc.registerName("isScrollEnabled");
+late final _sel_isSecureTextEntry = objc.registerName("isSecureTextEntry");
 late final _sel_isSelected = objc.registerName("isSelected");
 late final _sel_isStatusBarHidden = objc.registerName("isStatusBarHidden");
 late final _sel_isSymbolImage = objc.registerName("isSymbolImage");
@@ -23903,8 +30859,10 @@ late final _sel_itemWidth = objc.registerName("itemWidth");
 late final _sel_items = objc.registerName("items");
 late final _sel_keyCommands = objc.registerName("keyCommands");
 late final _sel_keyWindow = objc.registerName("keyWindow");
+late final _sel_keyboardAppearance = objc.registerName("keyboardAppearance");
 late final _sel_keyboardDismissMode = objc.registerName("keyboardDismissMode");
 late final _sel_keyboardLayoutGuide = objc.registerName("keyboardLayoutGuide");
+late final _sel_keyboardType = objc.registerName("keyboardType");
 late final _sel_labelColor = objc.registerName("labelColor");
 late final _sel_labelFontSize = objc.registerName("labelFontSize");
 late final _sel_landscapeImagePhone = objc.registerName("landscapeImagePhone");
@@ -23931,6 +30889,9 @@ late final _sel_leftBarButtonItem = objc.registerName("leftBarButtonItem");
 late final _sel_leftBarButtonItems = objc.registerName("leftBarButtonItems");
 late final _sel_leftCapWidth = objc.registerName("leftCapWidth");
 late final _sel_leftItemsSupplementBackButton = objc.registerName("leftItemsSupplementBackButton");
+late final _sel_leftView = objc.registerName("leftView");
+late final _sel_leftViewMode = objc.registerName("leftViewMode");
+late final _sel_leftViewRectForBounds_ = objc.registerName("leftViewRectForBounds:");
 late final _sel_lightGrayColor = objc.registerName("lightGrayColor");
 late final _sel_lightTextColor = objc.registerName("lightTextColor");
 late final _sel_lineBreakMode = objc.registerName("lineBreakMode");
@@ -23947,8 +30908,16 @@ late final _sel_makeKeyAndVisible = objc.registerName("makeKeyAndVisible");
 late final _sel_makeKeyWindow = objc.registerName("makeKeyWindow");
 late final _sel_makeTextWritingDirectionLeftToRight_ = objc.registerName("makeTextWritingDirectionLeftToRight:");
 late final _sel_makeTextWritingDirectionRightToLeft_ = objc.registerName("makeTextWritingDirectionRightToLeft:");
+late final _sel_markedTextRange = objc.registerName("markedTextRange");
+late final _sel_markedTextStyle = objc.registerName("markedTextStyle");
 late final _sel_maskView = objc.registerName("maskView");
+late final _sel_masksFocusEffectToContents = objc.registerName("masksFocusEffectToContents");
 late final _sel_maximumContentSizeCategory = objc.registerName("maximumContentSizeCategory");
+late final _sel_maximumTrackImageForState_ = objc.registerName("maximumTrackImageForState:");
+late final _sel_maximumTrackTintColor = objc.registerName("maximumTrackTintColor");
+late final _sel_maximumValue = objc.registerName("maximumValue");
+late final _sel_maximumValueImage = objc.registerName("maximumValueImage");
+late final _sel_maximumValueImageRectForBounds_ = objc.registerName("maximumValueImageRectForBounds:");
 late final _sel_maximumZoomScale = objc.registerName("maximumZoomScale");
 late final _sel_menu = objc.registerName("menu");
 late final _sel_menuAttachmentPointForConfiguration_ = objc.registerName("menuAttachmentPointForConfiguration:");
@@ -23962,6 +30931,11 @@ late final _sel_message = objc.registerName("message");
 late final _sel_minimumContentSizeCategory = objc.registerName("minimumContentSizeCategory");
 late final _sel_minimumFontSize = objc.registerName("minimumFontSize");
 late final _sel_minimumScaleFactor = objc.registerName("minimumScaleFactor");
+late final _sel_minimumTrackImageForState_ = objc.registerName("minimumTrackImageForState:");
+late final _sel_minimumTrackTintColor = objc.registerName("minimumTrackTintColor");
+late final _sel_minimumValue = objc.registerName("minimumValue");
+late final _sel_minimumValueImage = objc.registerName("minimumValueImage");
+late final _sel_minimumValueImageRectForBounds_ = objc.registerName("minimumValueImageRectForBounds:");
 late final _sel_minimumZoomScale = objc.registerName("minimumZoomScale");
 late final _sel_modalPresentationCapturesStatusBarAppearance = objc.registerName(
   "modalPresentationCapturesStatusBarAppearance",
@@ -23990,7 +30964,10 @@ late final _sel_nibBundle = objc.registerName("nibBundle");
 late final _sel_nibName = objc.registerName("nibName");
 late final _sel_normal = objc.registerName("normal");
 late final _sel_numberOfLines = objc.registerName("numberOfLines");
+late final _sel_numberOfPages = objc.registerName("numberOfPages");
+late final _sel_observedProgress = objc.registerName("observedProgress");
 late final _sel_offImage = objc.registerName("offImage");
+late final _sel_offsetFromPosition_toPosition_ = objc.registerName("offsetFromPosition:toPosition:");
 late final _sel_onImage = objc.registerName("onImage");
 late final _sel_onTintColor = objc.registerName("onTintColor");
 late final _sel_opaqueSeparatorColor = objc.registerName("opaqueSeparatorColor");
@@ -23999,13 +30976,16 @@ late final _sel_openURL_ = objc.registerName("openURL:");
 late final _sel_openURL_options_completionHandler_ = objc.registerName("openURL:options:completionHandler:");
 late final _sel_options = objc.registerName("options");
 late final _sel_orangeColor = objc.registerName("orangeColor");
+late final _sel_overlayContentView = objc.registerName("overlayContentView");
 late final _sel_overrideTraitCollectionForChildViewController_ = objc.registerName(
   "overrideTraitCollectionForChildViewController:",
 );
 late final _sel_overrideUserInterfaceStyle = objc.registerName("overrideUserInterfaceStyle");
+late final _sel_pageIndicatorTintColor = objc.registerName("pageIndicatorTintColor");
 late final _sel_panGestureRecognizer = objc.registerName("panGestureRecognizer");
 late final _sel_parentFocusEnvironment = objc.registerName("parentFocusEnvironment");
 late final _sel_parentViewController = objc.registerName("parentViewController");
+late final _sel_passwordRules = objc.registerName("passwordRules");
 late final _sel_pasteAndGo_ = objc.registerName("pasteAndGo:");
 late final _sel_pasteAndMatchStyle_ = objc.registerName("pasteAndMatchStyle:");
 late final _sel_pasteAndSearch_ = objc.registerName("pasteAndSearch:");
@@ -24017,13 +30997,24 @@ late final _sel_performSystemAnimation_onViews_options_animations_completion_ = 
 late final _sel_performWithoutAnimation_ = objc.registerName("performWithoutAnimation:");
 late final _sel_performsActionsWhilePresentingModally = objc.registerName("performsActionsWhilePresentingModally");
 late final _sel_pinchGestureRecognizer = objc.registerName("pinchGestureRecognizer");
+late final _sel_placeholder = objc.registerName("placeholder");
+late final _sel_placeholderRectForBounds_ = objc.registerName("placeholderRectForBounds:");
 late final _sel_placeholderTextColor = objc.registerName("placeholderTextColor");
 late final _sel_pointInside_withEvent_ = objc.registerName("pointInside:withEvent:");
 late final _sel_pointSize = objc.registerName("pointSize");
+late final _sel_pointerStyleProvider = objc.registerName("pointerStyleProvider");
 late final _sel_popToRootViewControllerAnimated_ = objc.registerName("popToRootViewControllerAnimated:");
 late final _sel_popToViewController_animated_ = objc.registerName("popToViewController:animated:");
 late final _sel_popViewControllerAnimated_ = objc.registerName("popViewControllerAnimated:");
 late final _sel_popoverPresentationController = objc.registerName("popoverPresentationController");
+late final _sel_positionFromPosition_inDirection_offset_ = objc.registerName(
+  "positionFromPosition:inDirection:offset:",
+);
+late final _sel_positionFromPosition_offset_ = objc.registerName("positionFromPosition:offset:");
+late final _sel_positionWithinRange_atCharacterOffset_ = objc.registerName("positionWithinRange:atCharacterOffset:");
+late final _sel_positionWithinRange_farthestInDirection_ = objc.registerName(
+  "positionWithinRange:farthestInDirection:",
+);
 late final _sel_possibleTitles = objc.registerName("possibleTitles");
 late final _sel_preferredAction = objc.registerName("preferredAction");
 late final _sel_preferredContentSize = objc.registerName("preferredContentSize");
@@ -24037,6 +31028,7 @@ late final _sel_preferredFontForTextStyle_ = objc.registerName("preferredFontFor
 late final _sel_preferredFontForTextStyle_compatibleWithTraitCollection_ = objc.registerName(
   "preferredFontForTextStyle:compatibleWithTraitCollection:",
 );
+late final _sel_preferredIndicatorImage = objc.registerName("preferredIndicatorImage");
 late final _sel_preferredInterfaceOrientationForPresentation = objc.registerName(
   "preferredInterfaceOrientationForPresentation",
 );
@@ -24047,6 +31039,10 @@ late final _sel_preferredScreenEdgesDeferringSystemGestures = objc.registerName(
 late final _sel_preferredStatusBarStyle = objc.registerName("preferredStatusBarStyle");
 late final _sel_preferredStatusBarUpdateAnimation = objc.registerName("preferredStatusBarUpdateAnimation");
 late final _sel_preferredStyle = objc.registerName("preferredStyle");
+late final _sel_preferredSymbolConfiguration = objc.registerName("preferredSymbolConfiguration");
+late final _sel_preferredSymbolConfigurationForImageInState_ = objc.registerName(
+  "preferredSymbolConfigurationForImageInState:",
+);
 late final _sel_preferredUserInterfaceStyle = objc.registerName("preferredUserInterfaceStyle");
 late final _sel_prefersHomeIndicatorAutoHidden = objc.registerName("prefersHomeIndicatorAutoHidden");
 late final _sel_prefersPointerLocked = objc.registerName("prefersPointerLocked");
@@ -24069,6 +31065,10 @@ late final _sel_previewActionItems = objc.registerName("previewActionItems");
 late final _sel_primaryAction = objc.registerName("primaryAction");
 late final _sel_print_ = objc.registerName("print:");
 late final _sel_priority = objc.registerName("priority");
+late final _sel_progress = objc.registerName("progress");
+late final _sel_progressImage = objc.registerName("progressImage");
+late final _sel_progressTintColor = objc.registerName("progressTintColor");
+late final _sel_progressViewStyle = objc.registerName("progressViewStyle");
 late final _sel_prompt = objc.registerName("prompt");
 late final _sel_providesPresentationContextTransitionStyle = objc.registerName(
   "providesPresentationContextTransitionStyle",
@@ -24097,8 +31097,12 @@ late final _sel_removeActionForIdentifier_forControlEvents_ = objc.registerName(
   "removeActionForIdentifier:forControlEvents:",
 );
 late final _sel_removeAction_forControlEvents_ = objc.registerName("removeAction:forControlEvents:");
+late final _sel_removeArrangedSubview_ = objc.registerName("removeArrangedSubview:");
 late final _sel_removeConstraint_ = objc.registerName("removeConstraint:");
 late final _sel_removeConstraints_ = objc.registerName("removeConstraints:");
+late final _sel_removeDictationResultPlaceholder_willInsertResult_ = objc.registerName(
+  "removeDictationResultPlaceholder:willInsertResult:",
+);
 late final _sel_removeFromParentViewController = objc.registerName("removeFromParentViewController");
 late final _sel_removeFromSuperview = objc.registerName("removeFromSuperview");
 late final _sel_removeGestureRecognizer_ = objc.registerName("removeGestureRecognizer:");
@@ -24108,7 +31112,9 @@ late final _sel_removeKeyCommand_ = objc.registerName("removeKeyCommand:");
 late final _sel_removeLayoutGuide_ = objc.registerName("removeLayoutGuide:");
 late final _sel_removeMotionEffect_ = objc.registerName("removeMotionEffect:");
 late final _sel_removeTarget_action_forControlEvents_ = objc.registerName("removeTarget:action:forControlEvents:");
+late final _sel_removeTextPlaceholder_ = objc.registerName("removeTextPlaceholder:");
 late final _sel_renderingMode = objc.registerName("renderingMode");
+late final _sel_replaceRange_withText_ = objc.registerName("replaceRange:withText:");
 late final _sel_representativeItem = objc.registerName("representativeItem");
 late final _sel_representedURL = objc.registerName("representedURL");
 late final _sel_requestSceneSessionActivation_userActivity_options_errorHandler_ = objc.registerName(
@@ -24134,9 +31140,15 @@ late final _sel_restorationClass = objc.registerName("restorationClass");
 late final _sel_restorationIdentifier = objc.registerName("restorationIdentifier");
 late final _sel_restoreUserActivityState_ = objc.registerName("restoreUserActivityState:");
 late final _sel_restoresFocusAfterTransition = objc.registerName("restoresFocusAfterTransition");
+late final _sel_returnKeyType = objc.registerName("returnKeyType");
+late final _sel_reversesTitleShadowWhenHighlighted = objc.registerName("reversesTitleShadowWhenHighlighted");
 late final _sel_rightAnchor = objc.registerName("rightAnchor");
 late final _sel_rightBarButtonItem = objc.registerName("rightBarButtonItem");
 late final _sel_rightBarButtonItems = objc.registerName("rightBarButtonItems");
+late final _sel_rightView = objc.registerName("rightView");
+late final _sel_rightViewMode = objc.registerName("rightViewMode");
+late final _sel_rightViewRectForBounds_ = objc.registerName("rightViewRectForBounds:");
+late final _sel_role = objc.registerName("role");
 late final _sel_rootViewController = objc.registerName("rootViewController");
 late final _sel_rotatingFooterView = objc.registerName("rotatingFooterView");
 late final _sel_rotatingHeaderView = objc.registerName("rotatingHeaderView");
@@ -24171,9 +31183,12 @@ late final _sel_selectedImage = objc.registerName("selectedImage");
 late final _sel_selectedImageTintColor = objc.registerName("selectedImageTintColor");
 late final _sel_selectedIndex = objc.registerName("selectedIndex");
 late final _sel_selectedItem = objc.registerName("selectedItem");
+late final _sel_selectedTextRange = objc.registerName("selectedTextRange");
 late final _sel_selectedViewController = objc.registerName("selectedViewController");
+late final _sel_selectionAffinity = objc.registerName("selectionAffinity");
 late final _sel_selectionIndicatorImage = objc.registerName("selectionIndicatorImage");
 late final _sel_selectionIndicatorTintColor = objc.registerName("selectionIndicatorTintColor");
+late final _sel_selectionRectsForRange_ = objc.registerName("selectionRectsForRange:");
 late final _sel_semanticContentAttribute = objc.registerName("semanticContentAttribute");
 late final _sel_sendAction_ = objc.registerName("sendAction:");
 late final _sel_sendAction_to_forEvent_ = objc.registerName("sendAction:to:forEvent:");
@@ -24181,18 +31196,26 @@ late final _sel_sendAction_to_from_forEvent_ = objc.registerName("sendAction:to:
 late final _sel_sendActionsForControlEvents_ = objc.registerName("sendActionsForControlEvents:");
 late final _sel_sendEvent_ = objc.registerName("sendEvent:");
 late final _sel_sendSubviewToBack_ = objc.registerName("sendSubviewToBack:");
+late final _sel_sender = objc.registerName("sender");
 late final _sel_separatorColor = objc.registerName("separatorColor");
 late final _sel_separatorStyle = objc.registerName("separatorStyle");
 late final _sel_set = objc.registerName("set");
 late final _sel_setAction_ = objc.registerName("setAction:");
 late final _sel_setActive_ = objc.registerName("setActive:");
+late final _sel_setActivityIndicatorViewStyle_ = objc.registerName("setActivityIndicatorViewStyle:");
 late final _sel_setAdditionalSafeAreaInsets_ = objc.registerName("setAdditionalSafeAreaInsets:");
 late final _sel_setAdjustsFontForContentSizeCategory_ = objc.registerName("setAdjustsFontForContentSizeCategory:");
 late final _sel_setAdjustsFontSizeToFitWidth_ = objc.registerName("setAdjustsFontSizeToFitWidth:");
+late final _sel_setAdjustsImageWhenAncestorFocused_ = objc.registerName("setAdjustsImageWhenAncestorFocused:");
+late final _sel_setAdjustsImageWhenDisabled_ = objc.registerName("setAdjustsImageWhenDisabled:");
+late final _sel_setAdjustsImageWhenHighlighted_ = objc.registerName("setAdjustsImageWhenHighlighted:");
 late final _sel_setAdjustsLetterSpacingToFitWidth_ = objc.registerName("setAdjustsLetterSpacingToFitWidth:");
+late final _sel_setAlignment_ = objc.registerName("setAlignment:");
+late final _sel_setAllowsContinuousInteraction_ = objc.registerName("setAllowsContinuousInteraction:");
 late final _sel_setAllowsDefaultTighteningForTruncation_ = objc.registerName(
   "setAllowsDefaultTighteningForTruncation:",
 );
+late final _sel_setAllowsEditingTextAttributes_ = objc.registerName("setAllowsEditingTextAttributes:");
 late final _sel_setAlpha_ = objc.registerName("setAlpha:");
 late final _sel_setAlternateIconName_completionHandler_ = objc.registerName("setAlternateIconName:completionHandler:");
 late final _sel_setAlwaysBounceHorizontal_ = objc.registerName("setAlwaysBounceHorizontal:");
@@ -24203,6 +31226,7 @@ late final _sel_setAnimationDelay_ = objc.registerName("setAnimationDelay:");
 late final _sel_setAnimationDelegate_ = objc.registerName("setAnimationDelegate:");
 late final _sel_setAnimationDidStopSelector_ = objc.registerName("setAnimationDidStopSelector:");
 late final _sel_setAnimationDuration_ = objc.registerName("setAnimationDuration:");
+late final _sel_setAnimationImages_ = objc.registerName("setAnimationImages:");
 late final _sel_setAnimationRepeatAutoreverses_ = objc.registerName("setAnimationRepeatAutoreverses:");
 late final _sel_setAnimationRepeatCount_ = objc.registerName("setAnimationRepeatCount:");
 late final _sel_setAnimationStartDate_ = objc.registerName("setAnimationStartDate:");
@@ -24211,16 +31235,24 @@ late final _sel_setAnimationWillStartSelector_ = objc.registerName("setAnimation
 late final _sel_setAnimationsEnabled_ = objc.registerName("setAnimationsEnabled:");
 late final _sel_setApplicationIconBadgeNumber_ = objc.registerName("setApplicationIconBadgeNumber:");
 late final _sel_setApplicationSupportsShakeToEdit_ = objc.registerName("setApplicationSupportsShakeToEdit:");
+late final _sel_setAttributedMarkedText_selectedRange_ = objc.registerName("setAttributedMarkedText:selectedRange:");
+late final _sel_setAttributedPlaceholder_ = objc.registerName("setAttributedPlaceholder:");
 late final _sel_setAttributedText_ = objc.registerName("setAttributedText:");
+late final _sel_setAttributedTitle_forState_ = objc.registerName("setAttributedTitle:forState:");
+late final _sel_setAttributes_ = objc.registerName("setAttributes:");
 late final _sel_setAutoHidesToolbarInFullScreen_ = objc.registerName("setAutoHidesToolbarInFullScreen:");
+late final _sel_setAutocapitalizationType_ = objc.registerName("setAutocapitalizationType:");
+late final _sel_setAutocorrectionType_ = objc.registerName("setAutocorrectionType:");
 late final _sel_setAutomaticallyAdjustsScrollIndicatorInsets_ = objc.registerName(
   "setAutomaticallyAdjustsScrollIndicatorInsets:",
 );
 late final _sel_setAutomaticallyAdjustsScrollViewInsets_ = objc.registerName(
   "setAutomaticallyAdjustsScrollViewInsets:",
 );
+late final _sel_setAutomaticallyUpdatesConfiguration_ = objc.registerName("setAutomaticallyUpdatesConfiguration:");
 late final _sel_setAutoresizesSubviews_ = objc.registerName("setAutoresizesSubviews:");
 late final _sel_setAutoresizingMask_ = objc.registerName("setAutoresizingMask:");
+late final _sel_setAxis_ = objc.registerName("setAxis:");
 late final _sel_setBackBarButtonItem_ = objc.registerName("setBackBarButtonItem:");
 late final _sel_setBackButtonBackgroundImage_forState_barMetrics_ = objc.registerName(
   "setBackButtonBackgroundImage:forState:barMetrics:",
@@ -24237,20 +31269,26 @@ late final _sel_setBackgroundColor_ = objc.registerName("setBackgroundColor:");
 late final _sel_setBackgroundEffect_ = objc.registerName("setBackgroundEffect:");
 late final _sel_setBackgroundImageContentMode_ = objc.registerName("setBackgroundImageContentMode:");
 late final _sel_setBackgroundImage_ = objc.registerName("setBackgroundImage:");
+late final _sel_setBackgroundImage_forState_ = objc.registerName("setBackgroundImage:forState:");
 late final _sel_setBackgroundImage_forState_barMetrics_ = objc.registerName("setBackgroundImage:forState:barMetrics:");
 late final _sel_setBackgroundImage_forState_style_barMetrics_ = objc.registerName(
   "setBackgroundImage:forState:style:barMetrics:",
 );
+late final _sel_setBackgroundStyle_ = objc.registerName("setBackgroundStyle:");
 late final _sel_setBackgroundVerticalPositionAdjustment_forBarMetrics_ = objc.registerName(
   "setBackgroundVerticalPositionAdjustment:forBarMetrics:",
 );
+late final _sel_setBackground_ = objc.registerName("setBackground:");
 late final _sel_setBadgeColor_ = objc.registerName("setBadgeColor:");
 late final _sel_setBadgeTextAttributes_forState_ = objc.registerName("setBadgeTextAttributes:forState:");
 late final _sel_setBadgeValue_ = objc.registerName("setBadgeValue:");
 late final _sel_setBarButtonItems_ = objc.registerName("setBarButtonItems:");
 late final _sel_setBarStyle_ = objc.registerName("setBarStyle:");
 late final _sel_setBarTintColor_ = objc.registerName("setBarTintColor:");
+late final _sel_setBaseWritingDirection_forRange_ = objc.registerName("setBaseWritingDirection:forRange:");
 late final _sel_setBaselineAdjustment_ = objc.registerName("setBaselineAdjustment:");
+late final _sel_setBaselineRelativeArrangement_ = objc.registerName("setBaselineRelativeArrangement:");
+late final _sel_setBorderStyle_ = objc.registerName("setBorderStyle:");
 late final _sel_setBouncesZoom_ = objc.registerName("setBouncesZoom:");
 late final _sel_setBounces_ = objc.registerName("setBounces:");
 late final _sel_setBounds_ = objc.registerName("setBounds:");
@@ -24258,15 +31296,22 @@ late final _sel_setCanCancelContentTouches_ = objc.registerName("setCanCancelCon
 late final _sel_setCanResizeToFitContent_ = objc.registerName("setCanResizeToFitContent:");
 late final _sel_setCenter_ = objc.registerName("setCenter:");
 late final _sel_setChangesSelectionAsPrimaryAction_ = objc.registerName("setChangesSelectionAsPrimaryAction:");
+late final _sel_setClearButtonMode_ = objc.registerName("setClearButtonMode:");
 late final _sel_setClearsContextBeforeDrawing_ = objc.registerName("setClearsContextBeforeDrawing:");
+late final _sel_setClearsOnBeginEditing_ = objc.registerName("setClearsOnBeginEditing:");
+late final _sel_setClearsOnInsertion_ = objc.registerName("setClearsOnInsertion:");
 late final _sel_setClipsToBounds_ = objc.registerName("setClipsToBounds:");
+late final _sel_setColor_ = objc.registerName("setColor:");
 late final _sel_setCompactAppearance_ = objc.registerName("setCompactAppearance:");
 late final _sel_setCompactInlineLayoutAppearance_ = objc.registerName("setCompactInlineLayoutAppearance:");
 late final _sel_setCompactScrollEdgeAppearance_ = objc.registerName("setCompactScrollEdgeAppearance:");
+late final _sel_setConfigurationUpdateHandler_ = objc.registerName("setConfigurationUpdateHandler:");
+late final _sel_setConfiguration_ = objc.registerName("setConfiguration:");
 late final _sel_setConstant_ = objc.registerName("setConstant:");
 late final _sel_setContentCompressionResistancePriority_forAxis_ = objc.registerName(
   "setContentCompressionResistancePriority:forAxis:",
 );
+late final _sel_setContentEdgeInsets_ = objc.registerName("setContentEdgeInsets:");
 late final _sel_setContentHorizontalAlignment_ = objc.registerName("setContentHorizontalAlignment:");
 late final _sel_setContentHuggingPriority_forAxis_ = objc.registerName("setContentHuggingPriority:forAxis:");
 late final _sel_setContentInsetAdjustmentBehavior_ = objc.registerName("setContentInsetAdjustmentBehavior:");
@@ -24280,19 +31325,29 @@ late final _sel_setContentSize_ = objc.registerName("setContentSize:");
 late final _sel_setContentStretch_ = objc.registerName("setContentStretch:");
 late final _sel_setContentVerticalAlignment_ = objc.registerName("setContentVerticalAlignment:");
 late final _sel_setContextMenuInteractionEnabled_ = objc.registerName("setContextMenuInteractionEnabled:");
+late final _sel_setContinuous_ = objc.registerName("setContinuous:");
+late final _sel_setCurrentPageIndicatorTintColor_ = objc.registerName("setCurrentPageIndicatorTintColor:");
+late final _sel_setCurrentPage_ = objc.registerName("setCurrentPage:");
+late final _sel_setCustomSpacing_afterView_ = objc.registerName("setCustomSpacing:afterView:");
 late final _sel_setCustomView_ = objc.registerName("setCustomView:");
 late final _sel_setCustomizableViewControllers_ = objc.registerName("setCustomizableViewControllers:");
 late final _sel_setDecelerationRate_ = objc.registerName("setDecelerationRate:");
+late final _sel_setDefaultTextAttributes_ = objc.registerName("setDefaultTextAttributes:");
+late final _sel_setDefersCurrentPageDisplay_ = objc.registerName("setDefersCurrentPageDisplay:");
 late final _sel_setDefinesPresentationContext_ = objc.registerName("setDefinesPresentationContext:");
 late final _sel_setDelaysContentTouches_ = objc.registerName("setDelaysContentTouches:");
 late final _sel_setDelegate_ = objc.registerName("setDelegate:");
 late final _sel_setDirectionalLayoutMargins_ = objc.registerName("setDirectionalLayoutMargins:");
 late final _sel_setDirectionalLockEnabled_ = objc.registerName("setDirectionalLockEnabled:");
+late final _sel_setDisabledBackground_ = objc.registerName("setDisabledBackground:");
+late final _sel_setDiscoverabilityTitle_ = objc.registerName("setDiscoverabilityTitle:");
+late final _sel_setDistribution_ = objc.registerName("setDistribution:");
 late final _sel_setEdgesForExtendedLayout_ = objc.registerName("setEdgesForExtendedLayout:");
 late final _sel_setEditing_ = objc.registerName("setEditing:");
 late final _sel_setEditing_animated_ = objc.registerName("setEditing:animated:");
 late final _sel_setEnabled_ = objc.registerName("setEnabled:");
 late final _sel_setEnablesMarqueeWhenAncestorFocused_ = objc.registerName("setEnablesMarqueeWhenAncestorFocused:");
+late final _sel_setEnablesReturnKeyAutomatically_ = objc.registerName("setEnablesReturnKeyAutomatically:");
 late final _sel_setExclusiveTouch_ = objc.registerName("setExclusiveTouch:");
 late final _sel_setExtendedLayoutIncludesOpaqueBars_ = objc.registerName("setExtendedLayoutIncludesOpaqueBars:");
 late final _sel_setFill = objc.registerName("setFill");
@@ -24313,18 +31368,29 @@ late final _sel_setHidesBarsOnTap_ = objc.registerName("setHidesBarsOnTap:");
 late final _sel_setHidesBarsWhenKeyboardAppears_ = objc.registerName("setHidesBarsWhenKeyboardAppears:");
 late final _sel_setHidesBarsWhenVerticallyCompact_ = objc.registerName("setHidesBarsWhenVerticallyCompact:");
 late final _sel_setHidesBottomBarWhenPushed_ = objc.registerName("setHidesBottomBarWhenPushed:");
+late final _sel_setHidesForSinglePage_ = objc.registerName("setHidesForSinglePage:");
 late final _sel_setHidesSearchBarWhenScrolling_ = objc.registerName("setHidesSearchBarWhenScrolling:");
+late final _sel_setHidesWhenStopped_ = objc.registerName("setHidesWhenStopped:");
+late final _sel_setHighlightedAnimationImages_ = objc.registerName("setHighlightedAnimationImages:");
+late final _sel_setHighlightedImage_ = objc.registerName("setHighlightedImage:");
 late final _sel_setHighlightedTextColor_ = objc.registerName("setHighlightedTextColor:");
 late final _sel_setHighlighted_ = objc.registerName("setHighlighted:");
 late final _sel_setHorizontalScrollIndicatorInsets_ = objc.registerName("setHorizontalScrollIndicatorInsets:");
 late final _sel_setIdentifier_ = objc.registerName("setIdentifier:");
 late final _sel_setIdleTimerDisabled_ = objc.registerName("setIdleTimerDisabled:");
+late final _sel_setImageEdgeInsets_ = objc.registerName("setImageEdgeInsets:");
 late final _sel_setImageInsets_ = objc.registerName("setImageInsets:");
 late final _sel_setImage_ = objc.registerName("setImage:");
+late final _sel_setImage_forState_ = objc.registerName("setImage:forState:");
 late final _sel_setIndexDisplayMode_ = objc.registerName("setIndexDisplayMode:");
+late final _sel_setIndicatorImage_forPage_ = objc.registerName("setIndicatorImage:forPage:");
 late final _sel_setIndicatorStyle_ = objc.registerName("setIndicatorStyle:");
 late final _sel_setInlineLayoutAppearance_ = objc.registerName("setInlineLayoutAppearance:");
+late final _sel_setInputAccessoryView_ = objc.registerName("setInputAccessoryView:");
+late final _sel_setInputDelegate_ = objc.registerName("setInputDelegate:");
+late final _sel_setInputView_ = objc.registerName("setInputView:");
 late final _sel_setInsetsLayoutMarginsFromSafeArea_ = objc.registerName("setInsetsLayoutMarginsFromSafeArea:");
+late final _sel_setInteractionState_ = objc.registerName("setInteractionState:");
 late final _sel_setInteractions_ = objc.registerName("setInteractions:");
 late final _sel_setItemPositioning_ = objc.registerName("setItemPositioning:");
 late final _sel_setItemSpacing_ = objc.registerName("setItemSpacing:");
@@ -24332,22 +31398,34 @@ late final _sel_setItemWidth_ = objc.registerName("setItemWidth:");
 late final _sel_setItems_ = objc.registerName("setItems:");
 late final _sel_setItems_animated_ = objc.registerName("setItems:animated:");
 late final _sel_setKeepAliveTimeout_handler_ = objc.registerName("setKeepAliveTimeout:handler:");
+late final _sel_setKeyboardAppearance_ = objc.registerName("setKeyboardAppearance:");
 late final _sel_setKeyboardDismissMode_ = objc.registerName("setKeyboardDismissMode:");
+late final _sel_setKeyboardType_ = objc.registerName("setKeyboardType:");
 late final _sel_setLandscapeImagePhoneInsets_ = objc.registerName("setLandscapeImagePhoneInsets:");
 late final _sel_setLandscapeImagePhone_ = objc.registerName("setLandscapeImagePhone:");
 late final _sel_setLargeContentSizeImageInsets_ = objc.registerName("setLargeContentSizeImageInsets:");
 late final _sel_setLargeContentSizeImage_ = objc.registerName("setLargeContentSizeImage:");
 late final _sel_setLargeTitleDisplayMode_ = objc.registerName("setLargeTitleDisplayMode:");
+late final _sel_setLayoutMarginsRelativeArrangement_ = objc.registerName("setLayoutMarginsRelativeArrangement:");
 late final _sel_setLayoutMargins_ = objc.registerName("setLayoutMargins:");
 late final _sel_setLeftBarButtonItem_ = objc.registerName("setLeftBarButtonItem:");
 late final _sel_setLeftBarButtonItem_animated_ = objc.registerName("setLeftBarButtonItem:animated:");
 late final _sel_setLeftBarButtonItems_ = objc.registerName("setLeftBarButtonItems:");
 late final _sel_setLeftBarButtonItems_animated_ = objc.registerName("setLeftBarButtonItems:animated:");
 late final _sel_setLeftItemsSupplementBackButton_ = objc.registerName("setLeftItemsSupplementBackButton:");
+late final _sel_setLeftViewMode_ = objc.registerName("setLeftViewMode:");
+late final _sel_setLeftView_ = objc.registerName("setLeftView:");
 late final _sel_setLineBreakMode_ = objc.registerName("setLineBreakMode:");
 late final _sel_setLineBreakStrategy_ = objc.registerName("setLineBreakStrategy:");
+late final _sel_setMarkedTextStyle_ = objc.registerName("setMarkedTextStyle:");
+late final _sel_setMarkedText_selectedRange_ = objc.registerName("setMarkedText:selectedRange:");
 late final _sel_setMaskView_ = objc.registerName("setMaskView:");
+late final _sel_setMasksFocusEffectToContents_ = objc.registerName("setMasksFocusEffectToContents:");
 late final _sel_setMaximumContentSizeCategory_ = objc.registerName("setMaximumContentSizeCategory:");
+late final _sel_setMaximumTrackImage_forState_ = objc.registerName("setMaximumTrackImage:forState:");
+late final _sel_setMaximumTrackTintColor_ = objc.registerName("setMaximumTrackTintColor:");
+late final _sel_setMaximumValueImage_ = objc.registerName("setMaximumValueImage:");
+late final _sel_setMaximumValue_ = objc.registerName("setMaximumValue:");
 late final _sel_setMaximumZoomScale_ = objc.registerName("setMaximumZoomScale:");
 late final _sel_setMenu_ = objc.registerName("setMenu:");
 late final _sel_setMessage_ = objc.registerName("setMessage:");
@@ -24355,6 +31433,10 @@ late final _sel_setMinimumBackgroundFetchInterval_ = objc.registerName("setMinim
 late final _sel_setMinimumContentSizeCategory_ = objc.registerName("setMinimumContentSizeCategory:");
 late final _sel_setMinimumFontSize_ = objc.registerName("setMinimumFontSize:");
 late final _sel_setMinimumScaleFactor_ = objc.registerName("setMinimumScaleFactor:");
+late final _sel_setMinimumTrackImage_forState_ = objc.registerName("setMinimumTrackImage:forState:");
+late final _sel_setMinimumTrackTintColor_ = objc.registerName("setMinimumTrackTintColor:");
+late final _sel_setMinimumValueImage_ = objc.registerName("setMinimumValueImage:");
+late final _sel_setMinimumValue_ = objc.registerName("setMinimumValue:");
 late final _sel_setMinimumZoomScale_ = objc.registerName("setMinimumZoomScale:");
 late final _sel_setModalInPresentation_ = objc.registerName("setModalInPresentation:");
 late final _sel_setModalPresentationCapturesStatusBarAppearance_ = objc.registerName(
@@ -24371,6 +31453,7 @@ late final _sel_setNeedsDisplayInRect_ = objc.registerName("setNeedsDisplayInRec
 late final _sel_setNeedsFocusUpdate = objc.registerName("setNeedsFocusUpdate");
 late final _sel_setNeedsLayout = objc.registerName("setNeedsLayout");
 late final _sel_setNeedsStatusBarAppearanceUpdate = objc.registerName("setNeedsStatusBarAppearanceUpdate");
+late final _sel_setNeedsUpdateConfiguration = objc.registerName("setNeedsUpdateConfiguration");
 late final _sel_setNeedsUpdateConstraints = objc.registerName("setNeedsUpdateConstraints");
 late final _sel_setNeedsUpdateOfHomeIndicatorAutoHidden = objc.registerName("setNeedsUpdateOfHomeIndicatorAutoHidden");
 late final _sel_setNeedsUpdateOfPrefersPointerLocked = objc.registerName("setNeedsUpdateOfPrefersPointerLocked");
@@ -24381,6 +31464,8 @@ late final _sel_setNeedsUserInterfaceAppearanceUpdate = objc.registerName("setNe
 late final _sel_setNetworkActivityIndicatorVisible_ = objc.registerName("setNetworkActivityIndicatorVisible:");
 late final _sel_setNewsstandIconImage_ = objc.registerName("setNewsstandIconImage:");
 late final _sel_setNumberOfLines_ = objc.registerName("setNumberOfLines:");
+late final _sel_setNumberOfPages_ = objc.registerName("setNumberOfPages:");
+late final _sel_setObservedProgress_ = objc.registerName("setObservedProgress:");
 late final _sel_setOffImage_ = objc.registerName("setOffImage:");
 late final _sel_setOnImage_ = objc.registerName("setOnImage:");
 late final _sel_setOnTintColor_ = objc.registerName("setOnTintColor:");
@@ -24391,15 +31476,30 @@ late final _sel_setOverrideTraitCollection_forChildViewController_ = objc.regist
   "setOverrideTraitCollection:forChildViewController:",
 );
 late final _sel_setOverrideUserInterfaceStyle_ = objc.registerName("setOverrideUserInterfaceStyle:");
+late final _sel_setPageIndicatorTintColor_ = objc.registerName("setPageIndicatorTintColor:");
 late final _sel_setPagingEnabled_ = objc.registerName("setPagingEnabled:");
+late final _sel_setPasswordRules_ = objc.registerName("setPasswordRules:");
+late final _sel_setPlaceholder_ = objc.registerName("setPlaceholder:");
+late final _sel_setPointerInteractionEnabled_ = objc.registerName("setPointerInteractionEnabled:");
+late final _sel_setPointerStyleProvider_ = objc.registerName("setPointerStyleProvider:");
 late final _sel_setPossibleTitles_ = objc.registerName("setPossibleTitles:");
 late final _sel_setPreferredAction_ = objc.registerName("setPreferredAction:");
 late final _sel_setPreferredContentSize_ = objc.registerName("setPreferredContentSize:");
+late final _sel_setPreferredIndicatorImage_ = objc.registerName("setPreferredIndicatorImage:");
 late final _sel_setPreferredMaxLayoutWidth_ = objc.registerName("setPreferredMaxLayoutWidth:");
 late final _sel_setPreferredStyle_ = objc.registerName("setPreferredStyle:");
+late final _sel_setPreferredSymbolConfiguration_ = objc.registerName("setPreferredSymbolConfiguration:");
+late final _sel_setPreferredSymbolConfiguration_forImageInState_ = objc.registerName(
+  "setPreferredSymbolConfiguration:forImageInState:",
+);
 late final _sel_setPreservesSuperviewLayoutMargins_ = objc.registerName("setPreservesSuperviewLayoutMargins:");
 late final _sel_setPrimaryAction_ = objc.registerName("setPrimaryAction:");
 late final _sel_setPriority_ = objc.registerName("setPriority:");
+late final _sel_setProgressImage_ = objc.registerName("setProgressImage:");
+late final _sel_setProgressTintColor_ = objc.registerName("setProgressTintColor:");
+late final _sel_setProgressViewStyle_ = objc.registerName("setProgressViewStyle:");
+late final _sel_setProgress_ = objc.registerName("setProgress:");
+late final _sel_setProgress_animated_ = objc.registerName("setProgress:animated:");
 late final _sel_setPrompt_ = objc.registerName("setPrompt:");
 late final _sel_setProvidesPresentationContextTransitionStyle_ = objc.registerName(
   "setProvidesPresentationContextTransitionStyle:",
@@ -24411,10 +31511,15 @@ late final _sel_setRepresentedURL_ = objc.registerName("setRepresentedURL:");
 late final _sel_setRestorationClass_ = objc.registerName("setRestorationClass:");
 late final _sel_setRestorationIdentifier_ = objc.registerName("setRestorationIdentifier:");
 late final _sel_setRestoresFocusAfterTransition_ = objc.registerName("setRestoresFocusAfterTransition:");
+late final _sel_setReturnKeyType_ = objc.registerName("setReturnKeyType:");
+late final _sel_setReversesTitleShadowWhenHighlighted_ = objc.registerName("setReversesTitleShadowWhenHighlighted:");
 late final _sel_setRightBarButtonItem_ = objc.registerName("setRightBarButtonItem:");
 late final _sel_setRightBarButtonItem_animated_ = objc.registerName("setRightBarButtonItem:animated:");
 late final _sel_setRightBarButtonItems_ = objc.registerName("setRightBarButtonItems:");
 late final _sel_setRightBarButtonItems_animated_ = objc.registerName("setRightBarButtonItems:animated:");
+late final _sel_setRightViewMode_ = objc.registerName("setRightViewMode:");
+late final _sel_setRightView_ = objc.registerName("setRightView:");
+late final _sel_setRole_ = objc.registerName("setRole:");
 late final _sel_setRootViewController_ = objc.registerName("setRootViewController:");
 late final _sel_setScheduledLocalNotifications_ = objc.registerName("setScheduledLocalNotifications:");
 late final _sel_setScreen_ = objc.registerName("setScreen:");
@@ -24423,12 +31528,15 @@ late final _sel_setScrollEnabled_ = objc.registerName("setScrollEnabled:");
 late final _sel_setScrollIndicatorInsets_ = objc.registerName("setScrollIndicatorInsets:");
 late final _sel_setScrollsToTop_ = objc.registerName("setScrollsToTop:");
 late final _sel_setSearchController_ = objc.registerName("setSearchController:");
+late final _sel_setSecureTextEntry_ = objc.registerName("setSecureTextEntry:");
 late final _sel_setSelectedImageTintColor_ = objc.registerName("setSelectedImageTintColor:");
 late final _sel_setSelectedImage_ = objc.registerName("setSelectedImage:");
 late final _sel_setSelectedIndex_ = objc.registerName("setSelectedIndex:");
 late final _sel_setSelectedItem_ = objc.registerName("setSelectedItem:");
+late final _sel_setSelectedTextRange_ = objc.registerName("setSelectedTextRange:");
 late final _sel_setSelectedViewController_ = objc.registerName("setSelectedViewController:");
 late final _sel_setSelected_ = objc.registerName("setSelected:");
+late final _sel_setSelectionAffinity_ = objc.registerName("setSelectionAffinity:");
 late final _sel_setSelectionIndicatorImage_ = objc.registerName("setSelectionIndicatorImage:");
 late final _sel_setSelectionIndicatorTintColor_ = objc.registerName("setSelectionIndicatorTintColor:");
 late final _sel_setSemanticContentAttribute_ = objc.registerName("setSemanticContentAttribute:");
@@ -24441,12 +31549,19 @@ late final _sel_setShouldBeArchived_ = objc.registerName("setShouldBeArchived:")
 late final _sel_setShowsExpansionTextWhenTruncated_ = objc.registerName("setShowsExpansionTextWhenTruncated:");
 late final _sel_setShowsHorizontalScrollIndicator_ = objc.registerName("setShowsHorizontalScrollIndicator:");
 late final _sel_setShowsMenuAsPrimaryAction_ = objc.registerName("setShowsMenuAsPrimaryAction:");
+late final _sel_setShowsTouchWhenHighlighted_ = objc.registerName("setShowsTouchWhenHighlighted:");
 late final _sel_setShowsVerticalScrollIndicator_ = objc.registerName("setShowsVerticalScrollIndicator:");
+late final _sel_setSmartDashesType_ = objc.registerName("setSmartDashesType:");
+late final _sel_setSmartInsertDeleteType_ = objc.registerName("setSmartInsertDeleteType:");
+late final _sel_setSmartQuotesType_ = objc.registerName("setSmartQuotesType:");
+late final _sel_setSpacing_ = objc.registerName("setSpacing:");
+late final _sel_setSpellCheckingType_ = objc.registerName("setSpellCheckingType:");
 late final _sel_setStackedItemPositioning_ = objc.registerName("setStackedItemPositioning:");
 late final _sel_setStackedItemSpacing_ = objc.registerName("setStackedItemSpacing:");
 late final _sel_setStackedItemWidth_ = objc.registerName("setStackedItemWidth:");
 late final _sel_setStackedLayoutAppearance_ = objc.registerName("setStackedLayoutAppearance:");
 late final _sel_setStandardAppearance_ = objc.registerName("setStandardAppearance:");
+late final _sel_setState_ = objc.registerName("setState:");
 late final _sel_setStatusBarHidden_ = objc.registerName("setStatusBarHidden:");
 late final _sel_setStatusBarHidden_animated_ = objc.registerName("setStatusBarHidden:animated:");
 late final _sel_setStatusBarHidden_withAnimation_ = objc.registerName("setStatusBarHidden:withAnimation:");
@@ -24463,18 +31578,25 @@ late final _sel_setTag_ = objc.registerName("setTag:");
 late final _sel_setTarget_ = objc.registerName("setTarget:");
 late final _sel_setTextAlignment_ = objc.registerName("setTextAlignment:");
 late final _sel_setTextColor_ = objc.registerName("setTextColor:");
+late final _sel_setTextContentType_ = objc.registerName("setTextContentType:");
 late final _sel_setText_ = objc.registerName("setText:");
+late final _sel_setThumbImage_forState_ = objc.registerName("setThumbImage:forState:");
 late final _sel_setThumbTintColor_ = objc.registerName("setThumbTintColor:");
 late final _sel_setTintAdjustmentMode_ = objc.registerName("setTintAdjustmentMode:");
 late final _sel_setTintColor_ = objc.registerName("setTintColor:");
+late final _sel_setTitleColor_forState_ = objc.registerName("setTitleColor:forState:");
+late final _sel_setTitleEdgeInsets_ = objc.registerName("setTitleEdgeInsets:");
 late final _sel_setTitlePositionAdjustment_ = objc.registerName("setTitlePositionAdjustment:");
 late final _sel_setTitlePositionAdjustment_forBarMetrics_ = objc.registerName(
   "setTitlePositionAdjustment:forBarMetrics:",
 );
+late final _sel_setTitleShadowColor_forState_ = objc.registerName("setTitleShadowColor:forState:");
+late final _sel_setTitleShadowOffset_ = objc.registerName("setTitleShadowOffset:");
 late final _sel_setTitleTextAttributes_forState_ = objc.registerName("setTitleTextAttributes:forState:");
 late final _sel_setTitleView_ = objc.registerName("setTitleView:");
 late final _sel_setTitleVisibility_ = objc.registerName("setTitleVisibility:");
 late final _sel_setTitle_ = objc.registerName("setTitle:");
+late final _sel_setTitle_forState_ = objc.registerName("setTitle:forState:");
 late final _sel_setToolTip_ = objc.registerName("setToolTip:");
 late final _sel_setToolbarHidden_ = objc.registerName("setToolbarHidden:");
 late final _sel_setToolbarHidden_animated_ = objc.registerName("setToolbarHidden:animated:");
@@ -24482,6 +31604,8 @@ late final _sel_setToolbarItems_ = objc.registerName("setToolbarItems:");
 late final _sel_setToolbarItems_animated_ = objc.registerName("setToolbarItems:animated:");
 late final _sel_setToolbarStyle_ = objc.registerName("setToolbarStyle:");
 late final _sel_setToolbar_ = objc.registerName("setToolbar:");
+late final _sel_setTrackImage_ = objc.registerName("setTrackImage:");
+late final _sel_setTrackTintColor_ = objc.registerName("setTrackTintColor:");
 late final _sel_setTransform3D_ = objc.registerName("setTransform3D:");
 late final _sel_setTransform_ = objc.registerName("setTransform:");
 late final _sel_setTransitioningDelegate_ = objc.registerName("setTransitioningDelegate:");
@@ -24489,9 +31613,12 @@ late final _sel_setTranslatesAutoresizingMaskIntoConstraints_ = objc.registerNam
   "setTranslatesAutoresizingMaskIntoConstraints:",
 );
 late final _sel_setTranslucent_ = objc.registerName("setTranslucent:");
+late final _sel_setTypingAttributes_ = objc.registerName("setTypingAttributes:");
 late final _sel_setUnselectedItemTintColor_ = objc.registerName("setUnselectedItemTintColor:");
 late final _sel_setUserActivity_ = objc.registerName("setUserActivity:");
 late final _sel_setUserInteractionEnabled_ = objc.registerName("setUserInteractionEnabled:");
+late final _sel_setValue_ = objc.registerName("setValue:");
+late final _sel_setValue_animated_ = objc.registerName("setValue:animated:");
 late final _sel_setVerticalScrollIndicatorInsets_ = objc.registerName("setVerticalScrollIndicatorInsets:");
 late final _sel_setViewControllers_ = objc.registerName("setViewControllers:");
 late final _sel_setViewControllers_animated_ = objc.registerName("setViewControllers:animated:");
@@ -24520,6 +31647,9 @@ late final _sel_shouldAutomaticallyForwardRotationMethods = objc.registerName(
 late final _sel_shouldAutorotate = objc.registerName("shouldAutorotate");
 late final _sel_shouldAutorotateToInterfaceOrientation_ = objc.registerName("shouldAutorotateToInterfaceOrientation:");
 late final _sel_shouldBeArchived = objc.registerName("shouldBeArchived");
+late final _sel_shouldChangeTextInRange_replacementText_ = objc.registerName(
+  "shouldChangeTextInRange:replacementText:",
+);
 late final _sel_shouldPerformSegueWithIdentifier_sender_ = objc.registerName(
   "shouldPerformSegueWithIdentifier:sender:",
 );
@@ -24529,26 +31659,35 @@ late final _sel_showViewController_sender_ = objc.registerName("showViewControll
 late final _sel_showsExpansionTextWhenTruncated = objc.registerName("showsExpansionTextWhenTruncated");
 late final _sel_showsHorizontalScrollIndicator = objc.registerName("showsHorizontalScrollIndicator");
 late final _sel_showsMenuAsPrimaryAction = objc.registerName("showsMenuAsPrimaryAction");
+late final _sel_showsTouchWhenHighlighted = objc.registerName("showsTouchWhenHighlighted");
 late final _sel_showsVerticalScrollIndicator = objc.registerName("showsVerticalScrollIndicator");
 late final _sel_size = objc.registerName("size");
 late final _sel_sizeForChildContentContainer_withParentContainerSize_ = objc.registerName(
   "sizeForChildContentContainer:withParentContainerSize:",
 );
+late final _sel_sizeForNumberOfPages_ = objc.registerName("sizeForNumberOfPages:");
 late final _sel_sizeThatFits_ = objc.registerName("sizeThatFits:");
 late final _sel_sizeToFit = objc.registerName("sizeToFit");
 late final _sel_smallSystemFontSize = objc.registerName("smallSystemFontSize");
+late final _sel_smartDashesType = objc.registerName("smartDashesType");
+late final _sel_smartInsertDeleteType = objc.registerName("smartInsertDeleteType");
+late final _sel_smartQuotesType = objc.registerName("smartQuotesType");
 late final _sel_snapshotViewAfterScreenUpdates_ = objc.registerName("snapshotViewAfterScreenUpdates:");
 late final _sel_soundIdentifierForFocusUpdateInContext_ = objc.registerName("soundIdentifierForFocusUpdateInContext:");
+late final _sel_spacing = objc.registerName("spacing");
+late final _sel_spellCheckingType = objc.registerName("spellCheckingType");
 late final _sel_stackedItemPositioning = objc.registerName("stackedItemPositioning");
 late final _sel_stackedItemSpacing = objc.registerName("stackedItemSpacing");
 late final _sel_stackedItemWidth = objc.registerName("stackedItemWidth");
 late final _sel_stackedLayoutAppearance = objc.registerName("stackedLayoutAppearance");
 late final _sel_standardAppearance = objc.registerName("standardAppearance");
+late final _sel_startAnimating = objc.registerName("startAnimating");
 late final _sel_state = objc.registerName("state");
 late final _sel_statusBarFrame = objc.registerName("statusBarFrame");
 late final _sel_statusBarOrientation = objc.registerName("statusBarOrientation");
 late final _sel_statusBarOrientationAnimationDuration = objc.registerName("statusBarOrientationAnimationDuration");
 late final _sel_statusBarStyle = objc.registerName("statusBarStyle");
+late final _sel_stopAnimating = objc.registerName("stopAnimating");
 late final _sel_storyboard = objc.registerName("storyboard");
 late final _sel_stretchableImageWithLeftCapWidth_topCapHeight_ = objc.registerName(
   "stretchableImageWithLeftCapWidth:topCapHeight:",
@@ -24556,6 +31695,7 @@ late final _sel_stretchableImageWithLeftCapWidth_topCapHeight_ = objc.registerNa
 late final _sel_strokedCheckmarkImage = objc.registerName("strokedCheckmarkImage");
 late final _sel_style = objc.registerName("style");
 late final _sel_subtitle = objc.registerName("subtitle");
+late final _sel_subtitleLabel = objc.registerName("subtitleLabel");
 late final _sel_subviews = objc.registerName("subviews");
 late final _sel_superview = objc.registerName("superview");
 late final _sel_supportedInterfaceOrientations = objc.registerName("supportedInterfaceOrientations");
@@ -24569,6 +31709,8 @@ late final _sel_symbolConfiguration = objc.registerName("symbolConfiguration");
 late final _sel_systemBackgroundColor = objc.registerName("systemBackgroundColor");
 late final _sel_systemBlueColor = objc.registerName("systemBlueColor");
 late final _sel_systemBrownColor = objc.registerName("systemBrownColor");
+late final _sel_systemButtonWithImage_target_action_ = objc.registerName("systemButtonWithImage:target:action:");
+late final _sel_systemButtonWithPrimaryAction_ = objc.registerName("systemButtonWithPrimaryAction:");
 late final _sel_systemCyanColor = objc.registerName("systemCyanColor");
 late final _sel_systemFillColor = objc.registerName("systemFillColor");
 late final _sel_systemFontOfSize_ = objc.registerName("systemFontOfSize:");
@@ -24621,25 +31763,41 @@ late final _sel_tertiarySystemGroupedBackgroundColor = objc.registerName("tertia
 late final _sel_text = objc.registerName("text");
 late final _sel_textAlignment = objc.registerName("textAlignment");
 late final _sel_textColor = objc.registerName("textColor");
+late final _sel_textContentType = objc.registerName("textContentType");
 late final _sel_textFields = objc.registerName("textFields");
+late final _sel_textInRange_ = objc.registerName("textInRange:");
 late final _sel_textInputContextIdentifier = objc.registerName("textInputContextIdentifier");
 late final _sel_textInputMode = objc.registerName("textInputMode");
+late final _sel_textInputView = objc.registerName("textInputView");
+late final _sel_textRangeFromPosition_toPosition_ = objc.registerName("textRangeFromPosition:toPosition:");
+late final _sel_textRectForBounds_ = objc.registerName("textRectForBounds:");
 late final _sel_textRectForBounds_limitedToNumberOfLines_ = objc.registerName(
   "textRectForBounds:limitedToNumberOfLines:",
 );
+late final _sel_textStylingAtPosition_inDirection_ = objc.registerName("textStylingAtPosition:inDirection:");
+late final _sel_thumbImageForState_ = objc.registerName("thumbImageForState:");
+late final _sel_thumbRectForBounds_trackRect_value_ = objc.registerName("thumbRectForBounds:trackRect:value:");
 late final _sel_thumbTintColor = objc.registerName("thumbTintColor");
 late final _sel_tintAdjustmentMode = objc.registerName("tintAdjustmentMode");
 late final _sel_tintColor = objc.registerName("tintColor");
 late final _sel_tintColorDidChange = objc.registerName("tintColorDidChange");
 late final _sel_title = objc.registerName("title");
+late final _sel_titleColorForState_ = objc.registerName("titleColorForState:");
+late final _sel_titleEdgeInsets = objc.registerName("titleEdgeInsets");
+late final _sel_titleForState_ = objc.registerName("titleForState:");
+late final _sel_titleLabel = objc.registerName("titleLabel");
 late final _sel_titlePositionAdjustment = objc.registerName("titlePositionAdjustment");
 late final _sel_titlePositionAdjustmentForBarMetrics_ = objc.registerName("titlePositionAdjustmentForBarMetrics:");
+late final _sel_titleRectForContentRect_ = objc.registerName("titleRectForContentRect:");
+late final _sel_titleShadowColorForState_ = objc.registerName("titleShadowColorForState:");
+late final _sel_titleShadowOffset = objc.registerName("titleShadowOffset");
 late final _sel_titleTextAttributesForState_ = objc.registerName("titleTextAttributesForState:");
 late final _sel_titleView = objc.registerName("titleView");
 late final _sel_titleVisibility = objc.registerName("titleVisibility");
 late final _sel_toggleBoldface_ = objc.registerName("toggleBoldface:");
 late final _sel_toggleItalics_ = objc.registerName("toggleItalics:");
 late final _sel_toggleUnderline_ = objc.registerName("toggleUnderline:");
+late final _sel_tokenizer = objc.registerName("tokenizer");
 late final _sel_toolTip = objc.registerName("toolTip");
 late final _sel_toolTipInteraction = objc.registerName("toolTipInteraction");
 late final _sel_toolbar = objc.registerName("toolbar");
@@ -24658,6 +31816,9 @@ late final _sel_touchesShouldBegin_withEvent_inContentView_ = objc.registerName(
   "touchesShouldBegin:withEvent:inContentView:",
 );
 late final _sel_touchesShouldCancelInContentView_ = objc.registerName("touchesShouldCancelInContentView:");
+late final _sel_trackImage = objc.registerName("trackImage");
+late final _sel_trackRectForBounds_ = objc.registerName("trackRectForBounds:");
+late final _sel_trackTintColor = objc.registerName("trackTintColor");
 late final _sel_trailingAccessoryView = objc.registerName("trailingAccessoryView");
 late final _sel_trailingAnchor = objc.registerName("trailingAnchor");
 late final _sel_traitCollection = objc.registerName("traitCollection");
@@ -24677,14 +31838,19 @@ late final _sel_transitioningDelegate = objc.registerName("transitioningDelegate
 late final _sel_translatesAutoresizingMaskIntoConstraints = objc.registerName(
   "translatesAutoresizingMaskIntoConstraints",
 );
+late final _sel_typingAttributes = objc.registerName("typingAttributes");
 late final _sel_underPageBackgroundColor = objc.registerName("underPageBackgroundColor");
 late final _sel_undoManager = objc.registerName("undoManager");
+late final _sel_unmarkText = objc.registerName("unmarkText");
 late final _sel_unregisterForPreviewingWithContext_ = objc.registerName("unregisterForPreviewingWithContext:");
 late final _sel_unregisterForRemoteNotifications = objc.registerName("unregisterForRemoteNotifications");
 late final _sel_unselectedItemTintColor = objc.registerName("unselectedItemTintColor");
 late final _sel_unwindForSegue_towardsViewController_ = objc.registerName("unwindForSegue:towardsViewController:");
+late final _sel_updateConfiguration = objc.registerName("updateConfiguration");
 late final _sel_updateConstraints = objc.registerName("updateConstraints");
 late final _sel_updateConstraintsIfNeeded = objc.registerName("updateConstraintsIfNeeded");
+late final _sel_updateCurrentPageDisplay = objc.registerName("updateCurrentPageDisplay");
+late final _sel_updateFloatingCursorAtPoint_ = objc.registerName("updateFloatingCursorAtPoint:");
 late final _sel_updateFocusIfNeeded = objc.registerName("updateFocusIfNeeded");
 late final _sel_updateTextAttributesWithConversionHandler_ = objc.registerName(
   "updateTextAttributesWithConversionHandler:",
@@ -24700,6 +31866,7 @@ late final _sel_userInterfaceLayoutDirectionForSemanticContentAttribute_relative
   "userInterfaceLayoutDirectionForSemanticContentAttribute:relativeToLayoutDirection:",
 );
 late final _sel_validateCommand_ = objc.registerName("validateCommand:");
+late final _sel_value = objc.registerName("value");
 late final _sel_verticalScrollIndicatorInsets = objc.registerName("verticalScrollIndicatorInsets");
 late final _sel_view = objc.registerName("view");
 late final _sel_viewControllerForUnwindSegueAction_fromViewController_withSender_ = objc.registerName(
@@ -24766,3 +31933,6 @@ typedef Dartinstancetype = objc.ObjCObject;
 
 ///
 extension unnamed on UIViewController {}
+
+///
+extension unnamed$1 on UIButton {}

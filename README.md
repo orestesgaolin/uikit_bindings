@@ -11,6 +11,8 @@ This is experimental plugin and currently only limited number of components are 
 
 ## Available UIKit Components
 
+<img src="doc/components.png" alt="Native UIKit components running in the iOS Simulator" width="390">
+
 The following table shows the UIKit components that are available through the bindings:
 
 | Component                         | Status       |
@@ -18,12 +20,13 @@ The following table shows the UIKit components that are available through the bi
 | `NSLayoutAttribute`               | ✅ Available |
 | `NSLayoutConstraint`              | ✅ Available |
 | `NSTextAlignment`                 | ✅ Available |
-| `UIAction`                        | ⚠️ WIP       |
+| `UIAction`                        | ✅ Available |
+| `UIActivityIndicatorView`         | ✅ Available |
 | `UIAlertController`               | ✅ Available |
 | `UIApplication`                   | ✅ Available |
 | `UIBarButtonItem`                 | ✅ Available |
 | `UIBezierPath`                    | ⚠️ WIP       |
-| `UIButton`                        | ⚠️ WIP       |
+| `UIButton`                        | ✅ Available |
 | `UIColor`                         | ✅ Available |
 | `UICommand`                       | ⚠️ WIP       |
 | `UIContextMenuConfiguration`      | ⚠️ WIP       |
@@ -37,6 +40,7 @@ The following table shows the UIKit components that are available through the bi
 | `UIFontDescriptor`                | ⚠️ WIP       |
 | `UIGestureRecognizer`             | ⚠️ WIP       |
 | `UIImage`                         | ⚠️ WIP       |
+| `UIImageView`                     | ✅ Available |
 | `UIInputViewController`           | ⚠️ WIP       |
 | `UIKeyboardLayoutGuide`           | ⚠️ WIP       |
 | `UIKeyCommand`                    | ⚠️ WIP       |
@@ -49,9 +53,11 @@ The following table shows the UIKit components that are available through the bi
 | `UINavigationController`          | ✅ Available |
 | `UINavigationItem`                | ✅ Available |
 | `UIPanGestureRecognizer`          | ⚠️ WIP       |
+| `UIPageControl`                   | ✅ Available |
 | `UIPinchGestureRecognizer`        | ⚠️ WIP       |
 | `UIPopoverPresentationController` | ⚠️ WIP       |
 | `UIPresentationController`        | ⚠️ WIP       |
+| `UIProgressView`                  | ✅ Available |
 | `UIPressesEvent`                  | ⚠️ WIP       |
 | `UIRefreshControl`                | ⚠️ WIP       |
 | `UIScene`                         | ⚠️ WIP       |
@@ -59,11 +65,13 @@ The following table shows the UIKit components that are available through the bi
 | `UISearchController`              | ⚠️ WIP       |
 | `UISearchDisplayController`       | ⚠️ WIP       |
 | `UISheetPresentationController`   | ⚠️ WIP       |
+| `UISlider`                        | ✅ Available |
+| `UIStackView`                     | ✅ Available |
 | `UIStoryboard`                    | ⚠️ WIP       |
 | `UIStoryboardSegue`               | ⚠️ WIP       |
 | `UISwitch`                        | ⚠️ WIP       |
 | `UITapGestureRecognizer`          | ⚠️ WIP       |
-| `UITextField`                     | ⚠️ WIP       |
+| `UITextField`                     | ✅ Available |
 | `UITextInputAssistantItem`        | ⚠️ WIP       |
 | `UITextInputMode`                 | ⚠️ WIP       |
 | `UIToolbar`                       | ⚠️ WIP       |
@@ -99,6 +107,4 @@ This project uses Dart-API to use ffigen. To regenerate the bindings, run:
 dart run tool/ffigen.dart
 ```
 
-## Known issues:
-
-- classes like `UISwitch`, `UIScrollView` don't get default constructor, see https://github.com/dart-lang/native/issues/2655
+`UIAction`-based control callbacks require iOS 14 or later.

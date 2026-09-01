@@ -4,6 +4,7 @@ import 'package:objective_c/objective_c.dart';
 
 import 'package:uikit_bindings/uikit.dart';
 import 'package:uikit_example/auto_layout_page.dart';
+import 'package:uikit_example/components_page.dart';
 import 'package:uikit_example/ui_tab_bar.dart';
 
 void main() {
@@ -162,6 +163,14 @@ class _MyAppState extends State<MyApp> {
                   showAutoLayoutViewController();
                 },
                 child: const Text('Show Auto Layout Example'),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  showUIKitComponents(
+                    screenWidth: MediaQuery.sizeOf(context).width,
+                  );
+                },
+                child: const Text('Show UIKit Components'),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,

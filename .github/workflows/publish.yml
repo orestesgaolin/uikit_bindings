@@ -42,6 +42,9 @@ jobs:
       - name: Check tag commit is on main
         run: git merge-base --is-ancestor "$GITHUB_SHA" origin/main
 
+      - name: Check package
+        run: dart pub publish --dry-run
+
       - name: Resolve dependencies
         run: flutter pub get
 
@@ -50,9 +53,6 @@ jobs:
 
       - name: Analyze example
         run: flutter analyze --no-fatal-infos
-
-      - name: Check package
-        run: dart pub publish --dry-run
 
       - name: Build example for iOS Simulator
         working-directory: example

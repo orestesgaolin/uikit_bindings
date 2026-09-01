@@ -5,6 +5,7 @@ import 'package:objective_c/objective_c.dart';
 import 'package:uikit_bindings/uikit.dart';
 import 'package:uikit_example/auto_layout_page.dart';
 import 'package:uikit_example/components_page.dart';
+import 'package:uikit_example/native_dashboard.dart';
 import 'package:uikit_example/ui_tab_bar.dart';
 
 void main() {
@@ -20,6 +21,15 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   UITabBar? uiTabBar;
+  final dashboardModel = DashboardModel();
+  NativeDashboardSession? dashboardSession;
+
+  @override
+  void dispose() {
+    dashboardSession?.dispose();
+    dashboardModel.dispose();
+    super.dispose();
+  }
 
   void showAlert() {
     try {
@@ -171,6 +181,22 @@ class _MyAppState extends State<MyApp> {
                   );
                 },
                 child: const Text('Show UIKit Components'),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  dashboardSession?.dispose();
+                  final size = MediaQuery.sizeOf(context);
+                  dashboardSession = showNativeDashboard(
+                    model: dashboardModel,
+                    screenWidth: size.width,
+                    screenHeight: size.height,
+                    onDismissed: () {
+                      dashboardSession?.dispose();
+                      dashboardSession = null;
+                    },
+                  );
+                },
+                child: const Text('Show Native Dashboard'),
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,

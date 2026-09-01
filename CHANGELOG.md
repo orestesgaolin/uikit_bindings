@@ -1,3 +1,10 @@
+## Unreleased
+
+- Added generated bindings and example usage for `UISwitch`, `UIMenu`,
+  `UINavigationBar`, and `UIToolbar`.
+- Added a native UIKit dashboard driven by a Flutter `ChangeNotifier`, with iOS
+  integration coverage for model updates, native control callbacks, and cleanup.
+
 ## 0.0.4
 
 - Added bindings and an interactive example for buttons, text fields, sliders,

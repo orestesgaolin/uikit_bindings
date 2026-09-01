@@ -13,6 +13,12 @@ This is experimental plugin and currently only limited number of components are 
 
 <img src="doc/components.png" alt="Native UIKit components running in the iOS Simulator" width="390">
 
+The example also includes a native dashboard whose state is owned by a Flutter
+`ChangeNotifier`. UIKit actions update the Dart model, and model notifications
+render the new state into the native controls.
+
+<img src="doc/native_dashboard.png" alt="Flutter ChangeNotifier driving a native UIKit dashboard" width="390">
+
 The following table shows the UIKit components that are available through the bindings:
 
 | Component                         | Status       |
@@ -47,9 +53,9 @@ The following table shows the UIKit components that are available through the bi
 | `UILabel`                         | ✅ Available |
 | `UILayoutGuide`                   | ⚠️ WIP       |
 | `UILocalNotification`             | ⚠️ WIP       |
-| `UIMenu`                          | ⚠️ WIP       |
-| `UIMenuElement`                   | ⚠️ WIP       |
-| `UINavigationBar`                 | ⚠️ WIP       |
+| `UIMenu`                          | ✅ Available |
+| `UIMenuElement`                   | ✅ Available |
+| `UINavigationBar`                 | ✅ Available |
 | `UINavigationController`          | ✅ Available |
 | `UINavigationItem`                | ✅ Available |
 | `UIPanGestureRecognizer`          | ⚠️ WIP       |
@@ -69,12 +75,12 @@ The following table shows the UIKit components that are available through the bi
 | `UIStackView`                     | ✅ Available |
 | `UIStoryboard`                    | ⚠️ WIP       |
 | `UIStoryboardSegue`               | ⚠️ WIP       |
-| `UISwitch`                        | ⚠️ WIP       |
+| `UISwitch`                        | ✅ Available |
 | `UITapGestureRecognizer`          | ⚠️ WIP       |
 | `UITextField`                     | ✅ Available |
 | `UITextInputAssistantItem`        | ⚠️ WIP       |
 | `UITextInputMode`                 | ⚠️ WIP       |
-| `UIToolbar`                       | ⚠️ WIP       |
+| `UIToolbar`                       | ✅ Available |
 | `UITouch`                         | ⚠️ WIP       |
 | `UIUserNotificationSettings`      | ⚠️ WIP       |
 | `UIView`                          | ✅ Available |

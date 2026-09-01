@@ -16,7 +16,7 @@ const _$objcVersionCheck = objc.ObjCVersionCheck(9, 5);
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1cxqo1i(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapBlockingBlock_1cxqo1i(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -29,7 +29,7 @@ external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1cxqo1i(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1pl9qdv(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapBlockingBlock_1pl9qdv(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -42,7 +42,7 @@ external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1pl9qdv(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1s56lr9(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapBlockingBlock_1s56lr9(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -55,7 +55,7 @@ external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_1s56lr9(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_pfv6jd(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapBlockingBlock_pfv6jd(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
@@ -68,38 +68,38 @@ external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_pfv6jd(
     ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>>,
   )
 >(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapBlockingBlock_xtuoz7(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapBlockingBlock_xtuoz7(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
   ffi.Pointer<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCObjectImpl> args)>> directInvoke,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_1cxqo1i(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapListenerBlock_1cxqo1i(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_1pl9qdv(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapListenerBlock_1pl9qdv(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_1s56lr9(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapListenerBlock_1s56lr9(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_pfv6jd(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapListenerBlock_pfv6jd(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
 
 @ffi.Native<ffi.Pointer<objc.ObjCBlockImpl> Function(ffi.Int64, ffi.Pointer<objc.DOBJC_Context>)>(isLeaf: true)
-external ffi.Pointer<objc.ObjCBlockImpl> _nmrybb_wrapListenerBlock_xtuoz7(
+external ffi.Pointer<objc.ObjCBlockImpl> _pxr1fj_wrapListenerBlock_xtuoz7(
   int port,
   ffi.Pointer<objc.DOBJC_Context> context,
 );
@@ -1311,6 +1311,16 @@ extension type NSToolbar._(objc.ObjCObject object$) implements objc.ObjCObject, 
   }
 }
 
+/// NSToolbarAdditions
+extension NSToolbarAdditions on UIWindowScene {
+  /// titlebar
+  UITitlebar? get titlebar {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_titlebar);
+    return $ret.address == 0 ? null : UITitlebar.fromPointer($ret, retain: true, release: true);
+  }
+}
+
 /// WARNING: NSUndoManager is a stub. To generate bindings for this class, include
 /// NSUndoManager in your config's objc-interfaces list.
 ///
@@ -1766,7 +1776,7 @@ abstract final class ObjCBlock_ffiVoid {
   static objc.ObjCBlock<ffi.Void Function()> listener(void Function() fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function()>(
       objc.newBlockPort(
-        _nmrybb_wrapListenerBlock_1pl9qdv,
+        _pxr1fj_wrapListenerBlock_1pl9qdv,
         (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) => fn(),
         keepIsolateAlive,
       ),
@@ -1788,7 +1798,7 @@ abstract final class ObjCBlock_ffiVoid {
   static objc.ObjCBlock<ffi.Void Function()> blocking(void Function() fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function()>(
       objc.newBlockingBlockPort(
-        _nmrybb_wrapBlockingBlock_1pl9qdv,
+        _pxr1fj_wrapBlockingBlock_1pl9qdv,
         (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) => fn(),
         keepIsolateAlive,
       ),
@@ -1885,7 +1895,7 @@ abstract final class ObjCBlock_ffiVoid_NSData_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSData?, objc.NSError?)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_x5cg0.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1);
@@ -1910,7 +1920,7 @@ abstract final class ObjCBlock_ffiVoid_NSData_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSData?, objc.NSError?)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_pfv6jd, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_x5cg0.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1);
@@ -2038,7 +2048,7 @@ abstract final class ObjCBlock_ffiVoid_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_b9s2kt.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2063,7 +2073,7 @@ abstract final class ObjCBlock_ffiVoid_NSError {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_b9s2kt.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2161,7 +2171,7 @@ abstract final class ObjCBlock_ffiVoid_NSError$1 {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError?)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_117e0ww.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2186,7 +2196,7 @@ abstract final class ObjCBlock_ffiVoid_NSError$1 {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(objc.NSError?)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_117e0ww.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2284,7 +2294,7 @@ abstract final class ObjCBlock_ffiVoid_UIAction {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIAction)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_yr7fp0.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2309,7 +2319,7 @@ abstract final class ObjCBlock_ffiVoid_UIAction {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIAction)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_yr7fp0.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2493,7 +2503,7 @@ abstract final class ObjCBlock_ffiVoid_UIAction_objcObjCObjectImpl_objcObjCSelec
         ffi.Pointer<ffi.Bool>,
       )
     >(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_owfgvk.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1, args.arg2, args.arg3, args.arg4);
@@ -2535,7 +2545,7 @@ abstract final class ObjCBlock_ffiVoid_UIAction_objcObjCObjectImpl_objcObjCSelec
         ffi.Pointer<ffi.Bool>,
       )
     >(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_1cxqo1i, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_owfgvk.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0, args.arg1, args.arg2, args.arg3, args.arg4);
@@ -2716,7 +2726,7 @@ abstract final class ObjCBlock_ffiVoid_UIAlertAction {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIAlertAction)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_7bsu1e.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2741,7 +2751,7 @@ abstract final class ObjCBlock_ffiVoid_UIAlertAction {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIAlertAction)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_7bsu1e.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2839,7 +2849,7 @@ abstract final class ObjCBlock_ffiVoid_UIButton {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIButton)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_8ceibm.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2864,7 +2874,7 @@ abstract final class ObjCBlock_ffiVoid_UIButton {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UIButton)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_8ceibm.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2962,7 +2972,7 @@ abstract final class ObjCBlock_ffiVoid_UITextField {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UITextField)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_y40f0l.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -2987,7 +2997,7 @@ abstract final class ObjCBlock_ffiVoid_UITextField {
     bool keepIsolateAlive = true,
   }) {
     return objc.ObjCBlock<ffi.Void Function(UITextField)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_xtuoz7, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_y40f0l.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -3082,7 +3092,7 @@ abstract final class ObjCBlock_ffiVoid_bool {
   /// until it is garbage collected by both Dart and ObjC.
   static objc.ObjCBlock<ffi.Void Function(ffi.Bool)> listener(void Function(bool) fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function(ffi.Bool)>(
-      objc.newBlockPort(_nmrybb_wrapListenerBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockPort(_pxr1fj_wrapListenerBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_k4je64.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -3104,7 +3114,7 @@ abstract final class ObjCBlock_ffiVoid_bool {
   /// indefinitely, or have other undefined behavior.
   static objc.ObjCBlock<ffi.Void Function(ffi.Bool)> blocking(void Function(bool) fn, {bool keepIsolateAlive = true}) {
     return objc.ObjCBlock<ffi.Void Function(ffi.Bool)>(
-      objc.newBlockingBlockPort(_nmrybb_wrapBlockingBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
+      objc.newBlockingBlockPort(_pxr1fj_wrapBlockingBlock_1s56lr9, (ffi.Pointer<objc.ObjCObjectImpl> rawArgs) {
         final args = _BlockArgs_k4je64.fromPointer(rawArgs, retain: false, release: false);
 
         fn(args.arg0);
@@ -3131,6 +3141,17 @@ extension ObjCBlock_ffiVoid_bool$CallExtension on objc.ObjCBlock<ffi.Void Functi
     return ref.pointer.ref.invoke
         .cast<ffi.NativeFunction<ffi.Void Function(ffi.Pointer<objc.ObjCBlockImpl> block, ffi.Bool arg0)>>()
         .asFunction<void Function(ffi.Pointer<objc.ObjCBlockImpl>, bool)>()(ref.pointer, arg0);
+  }
+}
+
+/// PointerLockState
+extension PointerLockState on UIScene {
+  /// pointerLockState
+  UIPointerLockState? get pointerLockState {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIScene.pointerLockState', iOS: (false, (14, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_pointerLockState);
+    return $ret.address == 0 ? null : UIPointerLockState.fromPointer($ret, retain: true, release: true);
   }
 }
 
@@ -3679,6 +3700,23 @@ enum UIActivityIndicatorViewStyle {
     2 => UIActivityIndicatorViewStyleGray,
     _ => throw ArgumentError('Unknown value for UIActivityIndicatorViewStyle: $value'),
   };
+}
+
+/// WARNING: UIActivityItemsConfigurationProviding is a stub. To generate bindings for this class, include
+/// UIActivityItemsConfigurationProviding in your config's objc-protocols list.
+///
+/// Protocol adopted by classes that can provide activity items configurations
+extension type UIActivityItemsConfigurationProviding._(objc.ObjCProtocol object$)
+    implements objc.ObjCProtocol, objc.NSObjectProtocol {
+  /// Constructs a [UIActivityItemsConfigurationProviding] that points to the same underlying object as [other].
+  UIActivityItemsConfigurationProviding.as(objc.ObjCObject other) : object$ = other;
+
+  /// Constructs a [UIActivityItemsConfigurationProviding] that wraps the given raw object pointer.
+  UIActivityItemsConfigurationProviding.fromPointer(
+    ffi.Pointer<objc.ObjCObjectImpl> other, {
+    bool retain = false,
+    bool release = false,
+  }) : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
 }
 
 /// UIAlertAction
@@ -14256,6 +14294,23 @@ extension type UIPointerEffect._(objc.ObjCObject object$) implements objc.ObjCOb
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
 }
 
+/// WARNING: UIPointerLockState is a stub. To generate bindings for this class, include
+/// UIPointerLockState in your config's objc-interfaces list.
+///
+/// UIPointerLockState
+extension type UIPointerLockState._(objc.ObjCObject object$) implements objc.ObjCObject, objc.NSObject {
+  /// Constructs a [UIPointerLockState] that points to the same underlying object as [other].
+  UIPointerLockState.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UIPointerLockState', iOS: (false, (14, 0, 0)));
+  }
+
+  /// Constructs a [UIPointerLockState] that wraps the given raw object pointer.
+  UIPointerLockState.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UIPointerLockState', iOS: (false, (14, 0, 0)));
+  }
+}
+
 /// UIPointerLockSupport
 extension UIPointerLockSupport on UIViewController {
   /// childViewControllerForPointerLock
@@ -15475,21 +15530,169 @@ enum UIReturnKeyType {
   };
 }
 
-/// WARNING: UIScene is a stub. To generate bindings for this class, include
-/// UIScene in your config's objc-interfaces list.
-///
 /// UIScene
 extension type UIScene._(objc.ObjCObject object$) implements objc.ObjCObject, UIResponder {
   /// Constructs a [UIScene] that points to the same underlying object as [other].
   UIScene.as(objc.ObjCObject other) : object$ = other {
     objc.checkOsVersionInternal('UIScene', iOS: (false, (13, 0, 0)));
+    assert(isA(object$));
   }
 
   /// Constructs a [UIScene] that wraps the given raw object pointer.
   UIScene.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {
     objc.checkOsVersionInternal('UIScene', iOS: (false, (13, 0, 0)));
+    assert(isA(object$));
   }
+
+  /// Returns whether [obj] is an instance of [UIScene].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIScene);
+
+  /// alloc
+  static UIScene alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIScene, _sel_alloc);
+    return UIScene.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIScene allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIScene, _sel_allocWithZone_, zone);
+    return UIScene.fromPointer($ret, retain: false, release: true);
+  }
+}
+
+extension UIScene$Methods on UIScene {
+  /// activationConditions
+  UISceneActivationConditions get activationConditions {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIScene.activationConditions', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_activationConditions);
+    return UISceneActivationConditions.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// activationState
+  UISceneActivationState get activationState {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIScene.activationState', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_ma5inq(_$$ref.pointer, _sel_activationState);
+    return UISceneActivationState.fromValue($ret);
+  }
+
+  /// delegate
+  UISceneDelegate? get delegate {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIScene.delegate', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_delegate);
+    return $ret.address == 0 ? null : UISceneDelegate.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// initWithSession:connectionOptions:
+  UIScene initWithSession(UISceneSession session, {required UISceneConnectionOptions connectionOptions}) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = session.ref;
+    final _$$ref$2 = connectionOptions.ref;
+    objc.checkOsVersionInternal('UIScene.initWithSession:connectionOptions:', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _$$ref.retainAndReturnPointer(),
+      _sel_initWithSession_connectionOptions_,
+      _$$ref$1.pointer,
+      _$$ref$2.pointer,
+    );
+    return UIScene.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// openURL:options:completionHandler:
+  void openURL(
+    objc.NSURL url, {
+    UISceneOpenExternalURLOptions? options,
+    objc.ObjCBlock<ffi.Void Function(ffi.Bool)>? completionHandler,
+  }) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = url.ref;
+    final _$$ref$2 = options?.ref;
+    final _$$ref$3 = completionHandler?.ref;
+    objc.checkOsVersionInternal('UIScene.openURL:options:completionHandler:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_18qun1e(
+      _$$ref.pointer,
+      _sel_openURL_options_completionHandler_,
+      _$$ref$1.pointer,
+      _$$ref$2?.pointer ?? ffi.nullptr,
+      _$$ref$3?.pointer ?? ffi.nullptr,
+    );
+  }
+
+  /// session
+  UISceneSession get session {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIScene.session', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_session);
+    return UISceneSession.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// setActivationConditions:
+  set activationConditions(UISceneActivationConditions value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIScene.setActivationConditions:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setActivationConditions_, _$$ref$1.pointer);
+  }
+
+  /// setDelegate:
+  set delegate(UISceneDelegate? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIScene.setDelegate:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setDelegate_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// setSubtitle:
+  set subtitle(objc.NSString value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIScene.setSubtitle:', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setSubtitle_, _$$ref$1.pointer);
+  }
+
+  /// setTitle:
+  set title(objc.NSString value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value.ref;
+    objc.checkOsVersionInternal('UIScene.setTitle:', iOS: (false, (13, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setTitle_, _$$ref$1.pointer);
+  }
+
+  /// subtitle
+  objc.NSString get subtitle {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIScene.subtitle', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_subtitle);
+    return objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// title
+  objc.NSString get title {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIScene.title', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_title);
+    return objc.NSString.fromPointer($ret, retain: true, release: true);
+  }
+}
+
+/// WARNING: UISceneActivationConditions is a stub. To generate bindings for this class, include
+/// UISceneActivationConditions in your config's objc-interfaces list.
+///
+/// UISceneActivationConditions
+extension type UISceneActivationConditions._(objc.ObjCObject object$) implements objc.ObjCObject {
+  /// Constructs a [UISceneActivationConditions] that points to the same underlying object as [other].
+  UISceneActivationConditions.as(objc.ObjCObject other) : object$ = other {}
+
+  /// Constructs a [UISceneActivationConditions] that wraps the given raw object pointer.
+  UISceneActivationConditions.fromPointer(
+    ffi.Pointer<objc.ObjCObjectImpl> other, {
+    bool retain = false,
+    bool release = false,
+  }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
 }
 
 /// WARNING: UISceneActivationRequestOptions is a stub. To generate bindings for this class, include
@@ -15512,6 +15715,57 @@ extension type UISceneActivationRequestOptions._(objc.ObjCObject object$) implem
   }
 }
 
+enum UISceneActivationState {
+  UISceneActivationStateUnattached(-1),
+  UISceneActivationStateForegroundActive(0),
+  UISceneActivationStateForegroundInactive(1),
+  UISceneActivationStateBackground(2);
+
+  final int value;
+  const UISceneActivationState(this.value);
+
+  static UISceneActivationState fromValue(int value) => switch (value) {
+    -1 => UISceneActivationStateUnattached,
+    0 => UISceneActivationStateForegroundActive,
+    1 => UISceneActivationStateForegroundInactive,
+    2 => UISceneActivationStateBackground,
+    _ => throw ArgumentError('Unknown value for UISceneActivationState: $value'),
+  };
+}
+
+/// WARNING: UISceneConnectionOptions is a stub. To generate bindings for this class, include
+/// UISceneConnectionOptions in your config's objc-interfaces list.
+///
+/// UISceneConnectionOptions
+extension type UISceneConnectionOptions._(objc.ObjCObject object$) implements objc.ObjCObject, objc.NSObject {
+  /// Constructs a [UISceneConnectionOptions] that points to the same underlying object as [other].
+  UISceneConnectionOptions.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UISceneConnectionOptions', iOS: (false, (13, 0, 0)));
+  }
+
+  /// Constructs a [UISceneConnectionOptions] that wraps the given raw object pointer.
+  UISceneConnectionOptions.fromPointer(
+    ffi.Pointer<objc.ObjCObjectImpl> other, {
+    bool retain = false,
+    bool release = false,
+  }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UISceneConnectionOptions', iOS: (false, (13, 0, 0)));
+  }
+}
+
+/// WARNING: UISceneDelegate is a stub. To generate bindings for this class, include
+/// UISceneDelegate in your config's objc-protocols list.
+///
+/// UISceneDelegate
+extension type UISceneDelegate._(objc.ObjCProtocol object$) implements objc.ObjCProtocol, objc.NSObjectProtocol {
+  /// Constructs a [UISceneDelegate] that points to the same underlying object as [other].
+  UISceneDelegate.as(objc.ObjCObject other) : object$ = other;
+
+  /// Constructs a [UISceneDelegate] that wraps the given raw object pointer.
+  UISceneDelegate.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
+    : object$ = objc.ObjCProtocol(other, retain: retain, release: release);
+}
+
 /// WARNING: UISceneDestructionRequestOptions is a stub. To generate bindings for this class, include
 /// UISceneDestructionRequestOptions in your config's objc-interfaces list.
 ///
@@ -15532,6 +15786,26 @@ extension type UISceneDestructionRequestOptions._(objc.ObjCObject object$) imple
   }
 }
 
+/// WARNING: UISceneOpenExternalURLOptions is a stub. To generate bindings for this class, include
+/// UISceneOpenExternalURLOptions in your config's objc-interfaces list.
+///
+/// UISceneOpenExternalURLOptions
+extension type UISceneOpenExternalURLOptions._(objc.ObjCObject object$) implements objc.ObjCObject, objc.NSObject {
+  /// Constructs a [UISceneOpenExternalURLOptions] that points to the same underlying object as [other].
+  UISceneOpenExternalURLOptions.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UISceneOpenExternalURLOptions', iOS: (false, (13, 0, 0)));
+  }
+
+  /// Constructs a [UISceneOpenExternalURLOptions] that wraps the given raw object pointer.
+  UISceneOpenExternalURLOptions.fromPointer(
+    ffi.Pointer<objc.ObjCObjectImpl> other, {
+    bool retain = false,
+    bool release = false,
+  }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UISceneOpenExternalURLOptions', iOS: (false, (13, 0, 0)));
+  }
+}
+
 /// WARNING: UISceneSession is a stub. To generate bindings for this class, include
 /// UISceneSession in your config's objc-interfaces list.
 ///
@@ -15543,6 +15817,26 @@ extension type UISceneSession._(objc.ObjCObject object$) implements objc.ObjCObj
   /// Constructs a [UISceneSession] that wraps the given raw object pointer.
   UISceneSession.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {}
+}
+
+/// WARNING: UISceneSizeRestrictions is a stub. To generate bindings for this class, include
+/// UISceneSizeRestrictions in your config's objc-interfaces list.
+///
+/// UISceneSizeRestrictions
+extension type UISceneSizeRestrictions._(objc.ObjCObject object$) implements objc.ObjCObject, objc.NSObject {
+  /// Constructs a [UISceneSizeRestrictions] that points to the same underlying object as [other].
+  UISceneSizeRestrictions.as(objc.ObjCObject other) : object$ = other {
+    objc.checkOsVersionInternal('UISceneSizeRestrictions', iOS: (false, (13, 0, 0)));
+  }
+
+  /// Constructs a [UISceneSizeRestrictions] that wraps the given raw object pointer.
+  UISceneSizeRestrictions.fromPointer(
+    ffi.Pointer<objc.ObjCObjectImpl> other, {
+    bool retain = false,
+    bool release = false,
+  }) : object$ = objc.ObjCObject(other, retain: retain, release: release) {
+    objc.checkOsVersionInternal('UISceneSizeRestrictions', iOS: (false, (13, 0, 0)));
+  }
 }
 
 /// UIScreen
@@ -25894,20 +26188,131 @@ extension UIWindow$Methods on UIWindow {
   }
 }
 
-/// WARNING: UIWindowScene is a stub. To generate bindings for this class, include
-/// UIWindowScene in your config's objc-interfaces list.
-///
 /// UIWindowScene
 extension type UIWindowScene._(objc.ObjCObject object$) implements objc.ObjCObject, UIScene {
   /// Constructs a [UIWindowScene] that points to the same underlying object as [other].
   UIWindowScene.as(objc.ObjCObject other) : object$ = other {
     objc.checkOsVersionInternal('UIWindowScene', iOS: (false, (13, 0, 0)));
+    assert(isA(object$));
   }
 
   /// Constructs a [UIWindowScene] that wraps the given raw object pointer.
   UIWindowScene.fromPointer(ffi.Pointer<objc.ObjCObjectImpl> other, {bool retain = false, bool release = false})
     : object$ = objc.ObjCObject(other, retain: retain, release: release) {
     objc.checkOsVersionInternal('UIWindowScene', iOS: (false, (13, 0, 0)));
+    assert(isA(object$));
+  }
+
+  /// Returns whether [obj] is an instance of [UIWindowScene].
+  static bool isA(objc.ObjCObject? obj) =>
+      obj == null ? false : _objc_msgSend_19nvye5(obj.ref.pointer, _sel_isKindOfClass_, _class_UIWindowScene);
+
+  /// alloc
+  static UIWindowScene alloc() {
+    final $ret = _objc_msgSend_151sglz(_class_UIWindowScene, _sel_alloc);
+    return UIWindowScene.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// allocWithZone:
+  static UIWindowScene allocWithZone(ffi.Pointer<objc.NSZone> zone) {
+    final $ret = _objc_msgSend_1cwp428(_class_UIWindowScene, _sel_allocWithZone_, zone);
+    return UIWindowScene.fromPointer($ret, retain: false, release: true);
+  }
+}
+
+extension UIWindowScene$Methods on UIWindowScene {
+  /// An optional object used as a source of scene-level activity items configuration
+  ///
+  /// If this property returns @c nil, the @c activityItemsConfiguration property of the most-presented view controller
+  /// of the scene's key window will be used for scene-level sharing and activities.
+  UIActivityItemsConfigurationProviding? get activityItemsConfigurationSource {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIWindowScene.activityItemsConfigurationSource', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_activityItemsConfigurationSource);
+    return $ret.address == 0
+        ? null
+        : UIActivityItemsConfigurationProviding.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// coordinateSpace
+  UICoordinateSpace get coordinateSpace {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIWindowScene.coordinateSpace', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_coordinateSpace);
+    return UICoordinateSpace.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// initWithSession:connectionOptions:
+  UIWindowScene initWithSession(UISceneSession session, {required UISceneConnectionOptions connectionOptions}) {
+    final _$$ref$3 = object$.ref;
+    final _$$ref$4 = session.ref;
+    final _$$ref$5 = connectionOptions.ref;
+    objc.checkOsVersionInternal('UIWindowScene.initWithSession:connectionOptions:', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_15qeuct(
+      _$$ref$3.retainAndReturnPointer(),
+      _sel_initWithSession_connectionOptions_,
+      _$$ref$4.pointer,
+      _$$ref$5.pointer,
+    );
+    return UIWindowScene.fromPointer($ret, retain: false, release: true);
+  }
+
+  /// interfaceOrientation
+  UIInterfaceOrientation get interfaceOrientation {
+    final _$$ref = object$.ref;
+    final $ret = _objc_msgSend_14s25dk(_$$ref.pointer, _sel_interfaceOrientation);
+    return UIInterfaceOrientation.fromValue($ret);
+  }
+
+  /// keyWindow
+  UIWindow? get keyWindow {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIWindowScene.keyWindow', iOS: (false, (15, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_keyWindow);
+    return $ret.address == 0 ? null : UIWindow.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// screen
+  UIScreen get screen {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIWindowScene.screen', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_screen);
+    return UIScreen.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// An optional object used as a source of scene-level activity items configuration
+  ///
+  /// If this property returns @c nil, the @c activityItemsConfiguration property of the most-presented view controller
+  /// of the scene's key window will be used for scene-level sharing and activities.
+  set activityItemsConfigurationSource(UIActivityItemsConfigurationProviding? value) {
+    final _$$ref = object$.ref;
+    final _$$ref$1 = value?.ref;
+    objc.checkOsVersionInternal('UIWindowScene.setActivityItemsConfigurationSource:', iOS: (false, (15, 0, 0)));
+    _objc_msgSend_xtuoz7(_$$ref.pointer, _sel_setActivityItemsConfigurationSource_, _$$ref$1?.pointer ?? ffi.nullptr);
+  }
+
+  /// sizeRestrictions
+  UISceneSizeRestrictions? get sizeRestrictions {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIWindowScene.sizeRestrictions', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_sizeRestrictions);
+    return $ret.address == 0 ? null : UISceneSizeRestrictions.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// traitCollection
+  UITraitCollection get traitCollection {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIWindowScene.traitCollection', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_traitCollection);
+    return UITraitCollection.fromPointer($ret, retain: true, release: true);
+  }
+
+  /// windows
+  objc.NSArray get windows {
+    final _$$ref = object$.ref;
+    objc.checkOsVersionInternal('UIWindowScene.windows', iOS: (false, (13, 0, 0)));
+    final $ret = _objc_msgSend_151sglz(_$$ref.pointer, _sel_windows);
+    return objc.NSArray.fromPointer($ret, retain: true, release: true);
   }
 }
 
@@ -26355,6 +26760,12 @@ final _class_UIResponder = objc.getClass(
   "UIResponder",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIResponder_raw).cast(),
 );
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIScene')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIScene_raw;
+final _class_UIScene = objc.getClass(
+  "UIScene",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIScene_raw).cast(),
+);
 @ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIScreen')
 external ffi.Pointer<objc.ObjCObjectImpl> _class_UIScreen_raw;
 final _class_UIScreen = objc.getClass(
@@ -26439,64 +26850,70 @@ final _class_UIWindow = objc.getClass(
   "UIWindow",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIWindow_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$_UIWindowScene')
+external ffi.Pointer<objc.ObjCObjectImpl> _class_UIWindowScene_raw;
+final _class_UIWindowScene = objc.getClass(
+  "UIWindowScene",
+  () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class_UIWindowScene_raw).cast(),
+);
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_117e0ww_raw;
 final _class__BlockArgs_117e0ww = objc.getClass(
-  "_nmrybb_BlockArgs_xtuoz7",
+  "_pxr1fj_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_117e0ww_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_7bsu1e_raw;
 final _class__BlockArgs_7bsu1e = objc.getClass(
-  "_nmrybb_BlockArgs_xtuoz7",
+  "_pxr1fj_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_7bsu1e_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_8ceibm_raw;
 final _class__BlockArgs_8ceibm = objc.getClass(
-  "_nmrybb_BlockArgs_xtuoz7",
+  "_pxr1fj_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_8ceibm_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_b9s2kt_raw;
 final _class__BlockArgs_b9s2kt = objc.getClass(
-  "_nmrybb_BlockArgs_xtuoz7",
+  "_pxr1fj_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_b9s2kt_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_1pl9qdv')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_1pl9qdv')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_ii17hk_raw;
 final _class__BlockArgs_ii17hk = objc.getClass(
-  "_nmrybb_BlockArgs_1pl9qdv",
+  "_pxr1fj_BlockArgs_1pl9qdv",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_ii17hk_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_1s56lr9')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_1s56lr9')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_k4je64_raw;
 final _class__BlockArgs_k4je64 = objc.getClass(
-  "_nmrybb_BlockArgs_1s56lr9",
+  "_pxr1fj_BlockArgs_1s56lr9",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_k4je64_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_1cxqo1i')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_1cxqo1i')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_owfgvk_raw;
 final _class__BlockArgs_owfgvk = objc.getClass(
-  "_nmrybb_BlockArgs_1cxqo1i",
+  "_pxr1fj_BlockArgs_1cxqo1i",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_owfgvk_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_pfv6jd')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_pfv6jd')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_x5cg0_raw;
 final _class__BlockArgs_x5cg0 = objc.getClass(
-  "_nmrybb_BlockArgs_pfv6jd",
+  "_pxr1fj_BlockArgs_pfv6jd",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_x5cg0_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_y40f0l_raw;
 final _class__BlockArgs_y40f0l = objc.getClass(
-  "_nmrybb_BlockArgs_xtuoz7",
+  "_pxr1fj_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_y40f0l_raw).cast(),
 );
-@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__nmrybb_BlockArgs_xtuoz7')
+@ffi.Native<ffi.Pointer<objc.ObjCObjectImpl>>(symbol: 'OBJC_CLASS_\$__pxr1fj_BlockArgs_xtuoz7')
 external ffi.Pointer<objc.ObjCObjectImpl> _class__BlockArgs_yr7fp0_raw;
 final _class__BlockArgs_yr7fp0 = objc.getClass(
-  "_nmrybb_BlockArgs_xtuoz7",
+  "_pxr1fj_BlockArgs_xtuoz7",
   () => ffi.Native.addressOf<ffi.Pointer<objc.ObjCObjectImpl>>(_class__BlockArgs_yr7fp0_raw).cast(),
 );
 final _objc_msgSend_100f9ue = objc.msgSendPointer
@@ -29383,6 +29800,9 @@ final _objc_msgSend_m7tls4 = objc.msgSendPointer
         ffi.Pointer<objc.ObjCBlockImpl>,
       )
     >();
+final _objc_msgSend_ma5inq = objc.msgSendPointer
+    .cast<ffi.NativeFunction<ffi.Long Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>>()
+    .asFunction<int Function(ffi.Pointer<objc.ObjCObjectImpl>, ffi.Pointer<objc.ObjCSelector>)>();
 final _objc_msgSend_mabicu = objc.msgSendPointer
     .cast<
       ffi.NativeFunction<
@@ -30185,7 +30605,10 @@ late final _sel_actions = objc.registerName("actions");
 late final _sel_actionsForTarget_forControlEvent_ = objc.registerName("actionsForTarget:forControlEvent:");
 late final _sel_actionsImage = objc.registerName("actionsImage");
 late final _sel_activateConstraints_ = objc.registerName("activateConstraints:");
+late final _sel_activationConditions = objc.registerName("activationConditions");
+late final _sel_activationState = objc.registerName("activationState");
 late final _sel_activityIndicatorViewStyle = objc.registerName("activityIndicatorViewStyle");
+late final _sel_activityItemsConfigurationSource = objc.registerName("activityItemsConfigurationSource");
 late final _sel_addAction_ = objc.registerName("addAction:");
 late final _sel_addAction_forControlEvents_ = objc.registerName("addAction:forControlEvents:");
 late final _sel_addArrangedSubview_ = objc.registerName("addArrangedSubview:");
@@ -30763,6 +31186,7 @@ late final _sel_initWithPrimaryAction_ = objc.registerName("initWithPrimaryActio
 late final _sel_initWithProgressViewStyle_ = objc.registerName("initWithProgressViewStyle:");
 late final _sel_initWithRed_green_blue_alpha_ = objc.registerName("initWithRed:green:blue:alpha:");
 late final _sel_initWithRootViewController_ = objc.registerName("initWithRootViewController:");
+late final _sel_initWithSession_connectionOptions_ = objc.registerName("initWithSession:connectionOptions:");
 late final _sel_initWithStyle_ = objc.registerName("initWithStyle:");
 late final _sel_initWithTabBarSystemItem_tag_ = objc.registerName("initWithTabBarSystemItem:tag:");
 late final _sel_initWithTitle_ = objc.registerName("initWithTitle:");
@@ -31002,6 +31426,7 @@ late final _sel_placeholderRectForBounds_ = objc.registerName("placeholderRectFo
 late final _sel_placeholderTextColor = objc.registerName("placeholderTextColor");
 late final _sel_pointInside_withEvent_ = objc.registerName("pointInside:withEvent:");
 late final _sel_pointSize = objc.registerName("pointSize");
+late final _sel_pointerLockState = objc.registerName("pointerLockState");
 late final _sel_pointerStyleProvider = objc.registerName("pointerStyleProvider");
 late final _sel_popToRootViewControllerAnimated_ = objc.registerName("popToRootViewControllerAnimated:");
 late final _sel_popToViewController_animated_ = objc.registerName("popToViewController:animated:");
@@ -31199,10 +31624,13 @@ late final _sel_sendSubviewToBack_ = objc.registerName("sendSubviewToBack:");
 late final _sel_sender = objc.registerName("sender");
 late final _sel_separatorColor = objc.registerName("separatorColor");
 late final _sel_separatorStyle = objc.registerName("separatorStyle");
+late final _sel_session = objc.registerName("session");
 late final _sel_set = objc.registerName("set");
 late final _sel_setAction_ = objc.registerName("setAction:");
+late final _sel_setActivationConditions_ = objc.registerName("setActivationConditions:");
 late final _sel_setActive_ = objc.registerName("setActive:");
 late final _sel_setActivityIndicatorViewStyle_ = objc.registerName("setActivityIndicatorViewStyle:");
+late final _sel_setActivityItemsConfigurationSource_ = objc.registerName("setActivityItemsConfigurationSource:");
 late final _sel_setAdditionalSafeAreaInsets_ = objc.registerName("setAdditionalSafeAreaInsets:");
 late final _sel_setAdjustsFontForContentSizeCategory_ = objc.registerName("setAdjustsFontForContentSizeCategory:");
 late final _sel_setAdjustsFontSizeToFitWidth_ = objc.registerName("setAdjustsFontSizeToFitWidth:");
@@ -31666,6 +32094,7 @@ late final _sel_sizeForChildContentContainer_withParentContainerSize_ = objc.reg
   "sizeForChildContentContainer:withParentContainerSize:",
 );
 late final _sel_sizeForNumberOfPages_ = objc.registerName("sizeForNumberOfPages:");
+late final _sel_sizeRestrictions = objc.registerName("sizeRestrictions");
 late final _sel_sizeThatFits_ = objc.registerName("sizeThatFits:");
 late final _sel_sizeToFit = objc.registerName("sizeToFit");
 late final _sel_smallSystemFontSize = objc.registerName("smallSystemFontSize");
@@ -31794,6 +32223,7 @@ late final _sel_titleShadowOffset = objc.registerName("titleShadowOffset");
 late final _sel_titleTextAttributesForState_ = objc.registerName("titleTextAttributesForState:");
 late final _sel_titleView = objc.registerName("titleView");
 late final _sel_titleVisibility = objc.registerName("titleVisibility");
+late final _sel_titlebar = objc.registerName("titlebar");
 late final _sel_toggleBoldface_ = objc.registerName("toggleBoldface:");
 late final _sel_toggleItalics_ = objc.registerName("toggleItalics:");
 late final _sel_toggleUnderline_ = objc.registerName("toggleUnderline:");

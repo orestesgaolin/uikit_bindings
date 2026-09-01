@@ -55,7 +55,7 @@ class _MyAppState extends State<MyApp> {
         ),
       );
 
-      UIApplication.getSharedApplication().keyWindow?.rootViewController?.presentViewController(
+      getKeyWindow()?.rootViewController?.presentViewController(
         controller,
         animated: true,
         completion: completion,
@@ -95,7 +95,7 @@ class _MyAppState extends State<MyApp> {
       label.sizeToFit();
       newViewController.view = view;
       newViewController.view.backgroundColor = Colors.amber.toUIColor();
-      UIApplication.getSharedApplication().keyWindow?.rootViewController?.presentViewController(
+      getKeyWindow()?.rootViewController?.presentViewController(
         newViewController,
         animated: true,
         completion: completion,

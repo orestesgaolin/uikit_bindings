@@ -38,6 +38,7 @@ void main() {
         packageRoot.resolve("Headers/UIProgressView.h"),
         packageRoot.resolve("Headers/UIResponder.h"),
         packageRoot.resolve("Headers/UIScrollView.h"),
+        packageRoot.resolve("Headers/UIScene.h"),
         packageRoot.resolve("Headers/UISlider.h"),
         packageRoot.resolve("Headers/UISpringLoadedInteractionSupporting.h"),
         packageRoot.resolve("Headers/UIStackView.h"),
@@ -50,6 +51,7 @@ void main() {
         packageRoot.resolve("Headers/UIView.h"),
         packageRoot.resolve("Headers/UIViewController.h"),
         packageRoot.resolve("Headers/UIWindow.h"),
+        packageRoot.resolve("Headers/UIWindowScene.h"),
       ],
     ),
     objectiveC: ObjectiveC(
@@ -90,6 +92,7 @@ void main() {
             "UIProgressView",
             "UIScreen",
             "UIScrollView",
+            "UIScene",
             "UISearchTextField",
             "UISlider",
             "UIStackView",
@@ -102,6 +105,7 @@ void main() {
             "UITextField",
             "UIViewController",
             "UIWindow",
+            "UIWindowScene",
           ].contains(decl.originalName);
         },
         // renameMember: (declaration, member) {

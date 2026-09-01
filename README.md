@@ -60,7 +60,7 @@ The following table shows the UIKit components that are available through the bi
 | `UIProgressView`                  | ✅ Available |
 | `UIPressesEvent`                  | ⚠️ WIP       |
 | `UIRefreshControl`                | ⚠️ WIP       |
-| `UIScene`                         | ⚠️ WIP       |
+| `UIScene`                         | ✅ Available |
 | `UIScrollView`                    | ⚠️ WIP       |
 | `UISearchController`              | ⚠️ WIP       |
 | `UISearchDisplayController`       | ⚠️ WIP       |
@@ -81,7 +81,7 @@ The following table shows the UIKit components that are available through the bi
 | `UIViewController`                | ✅ Available |
 | `UIViewGeometry`                  | ✅ Available |
 | `UIWindow`                        | ⚠️ WIP       |
-| `UIWindowScene`                   | ⚠️ WIP       |
+| `UIWindowScene`                   | ✅ Available |
 
 ### Legend
 
@@ -98,6 +98,7 @@ The library also provides several helper functions and extensions:
 | `UIKitColorExtension.toUIColor()` | Convert Flutter Color to UIColor   |
 | `createCGRect()`                  | Helper to create CGRect structures |
 | `createCGSize()`                  | Helper to create CGSize structures |
+| `getKeyWindow()`                  | Find the key window for the active scene |
 
 ## Regenerating bindings
 

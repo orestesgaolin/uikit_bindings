@@ -12,6 +12,14 @@ void main() {
     app.main();
     await tester.pumpAndSettle();
 
+    final keyWindow = getKeyWindow();
+    expect(keyWindow, isNotNull);
+    expect(keyWindow!.windowScene, isNotNull);
+    expect(
+      keyWindow.windowScene!.activationState,
+      UISceneActivationState.UISceneActivationStateForegroundActive,
+    );
+
     final session = showUIKitComponents(screenWidth: 390);
     await tester.pumpAndSettle();
 

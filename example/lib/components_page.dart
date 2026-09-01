@@ -203,7 +203,7 @@ UIKitComponentsSession showUIKitComponents({required double screenWidth}) {
     ],
   );
   _activeComponentSession = session;
-  UIApplication.getSharedApplication().keyWindow?.rootViewController?.presentViewController(
+  getKeyWindow()?.rootViewController?.presentViewController(
     controller,
     animated: true,
     completion: completion,

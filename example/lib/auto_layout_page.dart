@@ -69,7 +69,7 @@ void showAutoLayoutViewController() {
     viewController.title = 'Auto Layout'.toNSString();
 
     // Present the view controller
-    UIApplication.getSharedApplication().keyWindow?.rootViewController?.presentViewController(
+    getKeyWindow()?.rootViewController?.presentViewController(
       navController,
       animated: true,
       completion: completion,

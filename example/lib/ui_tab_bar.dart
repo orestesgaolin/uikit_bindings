@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:objective_c/objective_c.dart';
-import 'package:uikit_bindings/uikit_bindings.g.dart';
+import 'package:uikit_bindings/uikit.dart';
 
 class TabBarItem {
   TabBarItem({
@@ -25,7 +25,7 @@ UITabBar? addUiTabBar(List<TabBarItem> options) {
 
   final uiTabBar = UITabBar();
   uiTabBar.items = items.toNSArray();
-  final rootController = UIApplication.getSharedApplication().keyWindow?.rootViewController;
+  final rootController = getKeyWindow()?.rootViewController;
 
   if (rootController == null) {
     if (kDebugMode) {

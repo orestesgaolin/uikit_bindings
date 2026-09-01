@@ -1,4 +1,4 @@
-## Unreleased
+## 0.0.5
 
 - Added generated bindings and example usage for `UISwitch`, `UIMenu`,
   `UINavigationBar`, and `UIToolbar`.

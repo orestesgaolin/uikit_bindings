@@ -1,3 +1,13 @@
+## 0.0.4
+
+- Added bindings and an interactive example for buttons, text fields, sliders,
+  activity indicators, image views, stack views, progress views, and page
+  controls.
+- Added full `UIScene` and `UIWindowScene` bindings with scene-aware key window
+  resolution.
+- Added iOS integration coverage for active scene selection and native control
+  callbacks.
+
 ## 0.0.3
 
 - Updated FFIgen to 21.0.0 and regenerated the UIKit bindings.
